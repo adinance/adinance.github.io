@@ -10,6 +10,7 @@ body {
   font-size: 4.8rem;
 }
 .display-2 {
+  /* font-family: 'GothamBook'; */
   font-family: 'GothamBook';
   font-size: 1.5rem;
   font-display: swap;
