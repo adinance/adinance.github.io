@@ -267,7 +267,8 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #062937;
+  /* border-color: #062937; */
+  border-color: #0F6D94;
   color: #062937;
 }
 .btn-primary-outline:hover,
@@ -618,13 +619,15 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-tcF73SHxOs .navbar {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #000000;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-tcF73SHxOs .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #000000;
 }
 .cid-tcF73SHxOs a {
   font-style: normal;
