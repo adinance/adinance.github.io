@@ -1936,8 +1936,8 @@
     width: auto;
   }
 } .u-section-10 {
-  background-image: url("images/bg-contact-us.png");
-  background-position: 50% 50%;
+  background-image: url("images/bg-contact-us2.png");
+  background-position: 100% 100%;
 }
 
 .u-section-10 .u-sheet-1 {
@@ -1956,6 +1956,7 @@
   font-weight: 700;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   margin: 571px auto 0 0;
+  margin-left: -190px;
 }
 
 .u-section-10 .u-text-2 {
