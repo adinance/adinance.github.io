@@ -1,0 +1,347 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&amp;display=swap">
+
+
+
+<style>
+    * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(32, 32, 32);
+	overflow: hidden;
+	cursor: none;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	height: 200px;
+	width: 300px;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+
+	.links {
+		@include flex-center();
+
+		.link {
+			--color: rgba(255, 255, 255, 0.5);
+
+			position: relative;
+			font-size: 0.95rem;
+			font-family: "Sainte Colombe";
+			text-decoration: none;
+			color: var(--color);
+			margin: 2rem;
+			cursor: none;
+			transition: color 300ms ease;
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				height: 1px;
+				background: rgb(255, 255, 255);
+				transform-origin: right;
+				transform: scaleX(0);
+				transition: transform 300ms ease;
+			}
+
+			&:hover {
+				--color: rgb(255, 255, 255);
+				&::after {
+					transform-origin: left;
+					transform: scaleX(1);
+				}
+			}
+		}
+	}
+	.socials {
+		@include flex-center();
+
+		.social {
+			--icon-size: 40px;
+			width: var(--icon-size);
+			height: var(--icon-size);
+			@include flex-center();
+			border-radius: 0.5rem;
+			margin: 1.5rem;
+			color: #fff;
+			background: var(--bg);
+
+			&.codepen {
+				--bg: #000;
+			}
+			&.youtube {
+				--bg: #c4302b;
+			}
+			&.dribbble {
+				--bg: #ea4c89;
+			}
+			&.twitter {
+				--bg: #00acee;
+			}
+		}
+	}
+}
+
+.cursor {
+	.cursor--small,
+	.cursor--large,
+	.cursor--text {
+		position: fixed;
+		left: 0;
+		top: 0;
+		transform: translate(-50%, -50%);
+		border-radius: 50%;
+		width: var(--cursor-size);
+		height: var(--cursor-size);
+		mix-blend-mode: difference;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	.cursor--text {
+		--cursor-size: fit-content;
+		font-size: 0.75rem;
+		color: #fff;
+		opacity: 0;
+		.text {
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+	}
+
+	.cursor--small {
+		--cursor-size: 20px;
+		background: #fff;
+	}
+
+	.cursor--large {
+		--cursor-size: 60px;
+		border: 2px solid #fff;
+	}
+}
+
+.support {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+	display: flex;
+	a {
+		margin: 0 15px;
+		color: #fff;
+		font-size: 1.8rem;
+		backface-visibility: hidden;
+		transition: all 150ms ease;
+		mix-blend-mode: difference;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+
+</style>
+
+
+<main>
+	<div class="links">
+		<a class="link cursor-hover-item" href="#" data-cursor-text="GO HERE!" data-cursor-text-repeat="4">Link.</a>
+		<a class="link cursor-hover-item" href="#" data-cursor-text="LEARN MORE!" data-cursor-text-repeat="3">Read
+			More.</a>
+	</div>
+
+	<div class="socials">
+		<div class="social cursor-hover-item codepen" data-cursor-text="CODEPEN" data-cursor-text-repeat="4">
+			<ion-icon name="logo-codepen"></ion-icon>
+		</div>
+		<div class="social cursor-hover-item youtube" data-cursor-text="YOUTUBE" data-cursor-text-repeat="4">
+			<ion-icon name="logo-youtube"></ion-icon>
+		</div>
+		<div class="social cursor-hover-item dribbble" data-cursor-text="DRIBBBLE" data-cursor-text-repeat="4">
+			<ion-icon name="logo-dribbble"></ion-icon>
+		</div>
+		<div class="social cursor-hover-item twitter" data-cursor-text="TWITTER" data-cursor-text-repeat="4">
+			<ion-icon name="logo-twitter"></ion-icon>
+		</div>
+	</div>
+</main>
+
+<div class="cursor">
+	<div class="cursor--small"></div>
+	<div class="cursor--large"></div>
+	<div class="cursor--text">
+		<div class="text">GO HERE! GO HERE! GO HERE! GO HERE!</div>
+	</div>
+</div>
+
+<div class="support">
+	<a class="cursor-hover-item" data-cursor-text="Follow Me!" data-cursor-text-repeat="4" href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+	<a class="cursor-hover-item" data-cursor-text="Follow Me!" data-cursor-text-repeat="4" href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+
+<script>
+    console.clear();
+
+const { gsap, CircleType } = window;
+
+const cursorOuter = document.querySelector(".cursor--large");
+const cursorInner = document.querySelector(".cursor--small");
+const cursorTextContainerEl = document.querySelector(".cursor--text");
+const cursorTextEl = cursorTextContainerEl.querySelector(".text");
+
+const hoverItems = document.querySelectorAll(".cursor-hover-item");
+const hoverEffectDuration = 0.3;
+let isHovered = false;
+let initialCursorHeight;
+
+const cursorRotationDuration = 8;
+
+let circleType = new CircleType(cursorTextEl);
+circleType.radius(50);
+
+setTimeout(() => {
+	initialCursorHeight = circleType.container.style.getPropertyValue("height");
+	console.log(initialCursorHeight);
+}, 50);
+
+hoverItems.forEach((item) => {
+	item.addEventListener("pointerenter", handlePointerEnter);
+	item.addEventListener("pointerleave", handlePointerLeave);
+});
+
+let mouse = {
+	x: -100,
+	y: -100
+};
+
+document.body.addEventListener("pointermove", updateCursorPosition);
+
+function updateCursorPosition(e) {
+	mouse.x = e.pageX;
+	mouse.y = e.pageY;
+}
+
+function updateCursor() {
+	gsap.set([cursorInner, cursorTextContainerEl], {
+		x: mouse.x,
+		y: mouse.y
+	});
+
+	gsap.to(cursorOuter, {
+		duration: 0.15,
+		x: mouse.x,
+		y: mouse.y
+	});
+
+	if (!isHovered) {
+		gsap.to(cursorTextContainerEl, hoverEffectDuration * 0.5, {
+			opacity: 0
+		});
+		gsap.set(cursorTextContainerEl, {
+			rotate: 0
+		});
+	}
+
+	requestAnimationFrame(updateCursor);
+}
+
+updateCursor();
+
+function handlePointerEnter(e) {
+	isHovered = true;
+
+	const target = e.currentTarget;
+	updateCursorText(target);
+
+	gsap.set([cursorTextContainerEl, cursorTextEl], {
+		height: initialCursorHeight,
+		width: initialCursorHeight
+	});
+
+	gsap.fromTo(
+		cursorTextContainerEl,
+		{
+			rotate: 0
+		},
+		{
+			duration: cursorRotationDuration,
+			rotate: 360,
+			ease: "none",
+			repeat: -1
+		}
+	);
+
+	gsap.to(cursorInner, hoverEffectDuration, {
+		scale: 2
+	});
+
+	gsap.fromTo(
+		cursorTextContainerEl,
+		hoverEffectDuration,
+		{
+			scale: 1.2,
+			opacity: 0
+		},
+		{
+			delay: hoverEffectDuration * 0.75,
+			scale: 1,
+			opacity: 1
+		}
+	);
+	gsap.to(cursorOuter, hoverEffectDuration, {
+		scale: 1.2,
+		opacity: 0
+	});
+}
+
+function handlePointerLeave() {
+	isHovered = false;
+	gsap.to([cursorInner, cursorOuter], hoverEffectDuration, {
+		scale: 1,
+		opacity: 1
+	});
+}
+
+function updateCursorText(textEl) {
+	const cursorTextRepeatTimes = textEl.getAttribute("data-cursor-text-repeat");
+	const cursorText = returnMultipleString(
+		textEl.getAttribute("data-cursor-text"),
+		cursorTextRepeatTimes
+	);
+
+	circleType.destroy();
+
+	cursorTextEl.innerHTML = cursorText;
+	circleType = new CircleType(cursorTextEl);
+}
+
+function returnMultipleString(string, count) {
+	let s = "";
+	for (let i = 0; i < count; i++) {
+		s += ` ${string} `;
+	}
+	return s;
+}
+
+</script>
