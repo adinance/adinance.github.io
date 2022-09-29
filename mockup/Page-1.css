@@ -1937,12 +1937,15 @@
   }
 } .u-section-10 {
   background-image: url("images/bg-contact-us2.png");
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
 }
 
-.u-section-10 .u-sheet-1 {
+/*.u-section-10 .u-sheet-1 {
   min-height: 1080px;
-}
+}*/
 
 .u-section-10 .u-icon-1 {
   width: 161px;
@@ -1957,6 +1960,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   margin: 571px auto 0 0;
   margin-left: 0px;
+  
 }
 
 .u-section-10 .u-text-2 {
@@ -2061,7 +2065,7 @@
   padding: 0;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1599px) {  /*จากเดิม 1399px*/
   .u-section-10 .u-sheet-1 {
     min-height: 855px;
   }
