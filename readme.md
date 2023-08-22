@@ -1,62 +1,9 @@
-# Markdown Cheat Sheet
+### Resources
 
-Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
+`php7.4` , `mySQL` 
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
+![alt text]([https://www.markdownguide.org/assets/images/tux.png](https://scontent-kul2-2.xx.fbcdn.net/v/t39.30808-6/274707267_10160339571874298_5699557155789884071_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFDEu-oLzrnUbGmwzX7g6Mpbr_MgOmqfEhuv8yA6ap8SL5rZgf14IS0W1XV-63lbA8&_nc_ohc=mAVlidloE0IAX_iMkFY&_nc_ht=scontent-kul2-2.xx&oh=00_AfD1nbA1wHDI_SMu3Qs0q6fHNNpMfgyOCaWeC7pe9dcutA&oe=64E8F343))
 
-## Basic Syntax
-
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
-
-### Heading
-
-# H1
-## H2
-### H3
-
-### Bold
-
-**bold text**
-
-### Italic
-
-*italicized text*
-
-### Blockquote
-
-> blockquote
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- First item
-- Second item
-- Third item
-
-### Code
-
-`code`
-
-### Horizontal Rule
-
----
-
-### Link
-
-[Markdown Guide](https://www.markdownguide.org)
-
-### Image
-
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
-
-## Extended Syntax
-
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
 ### Table
 
@@ -65,7 +12,18 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | Header | Title |
 | Paragraph | Text |
 
-### Fenced Code Block
+
+### Task List
+
+- [x] Create repository
+- [x] Get Resources
+- [ ] Create HTML mockup
+
+## Demo URL
+
+[Click](https://www.cmo-group.com/demo))
+
+### API Format
 
 ```
 {
@@ -74,46 +32,3 @@ These elements extend the basic syntax by adding additional features. Not all Ma
   "age": 25
 }
 ```
-
-### Footnote
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
-### Strikethrough
-
-~~The world is flat.~~
-
-### Task List
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-### Emoji
-
-That is so funny! :joy:
-
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
-
-### Subscript
-
-H~2~O
-
-### Superscript
-
-X^2^
