@@ -1,0 +1,74 @@
+
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.carousel {
+    width: 1150px;
+    margin: 30px auto;
+}
+
+.carousel h1 {
+
+    margin: 0px 0px 30px 0px;
+
+}
+
+.carousel .box {
+    float: left;
+    width: 33%;
+    
+}
+
+.carousel .box p {
+
+    color: black;
+    text-align: left;
+    margin: 0;
+    padding: 10%;
+   
+}
+
+.carousel .box p img {
+    margin-bottom: 10px;
+    margin: auto;
+    height: 200px;
+    
+}
+
+.slick-prev, .slick-next {
+    background: url(/assets/images/arrows.png);
+    width: 22px;
+    height: 33px;
+    position: absolute;
+    top: 30%;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 100;
+}
+
+.slick-prev {
+    background-position: 0px;
+    left: 0px;
+}
+
+.slick-next {
+    background-position: -22px;
+    right: 0px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .carousel {
+        width: 90%;
+    }
+}
