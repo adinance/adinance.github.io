@@ -10,7 +10,7 @@
 
 ## Demo URL
 
-[https://www.cmo-group.com/demo](https://www.cmo-group.com/demo))
+[https://www.cmo-group.com/demo](https://www.cmo-group.com/demo)
 
 ### API Format
 
