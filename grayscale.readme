@@ -1,4 +1,4 @@
-    <!--<style>
+<style>
 html {
   filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -6,4 +6,4 @@ html {
   -webkit-filter: grayscale(100%);
   filter: gray;
 }
-</style>-->
+</style>
