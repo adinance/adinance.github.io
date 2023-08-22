@@ -12,12 +12,4 @@
 
 [https://www.cmo-group.com/demo](https://www.cmo-group.com/demo)
 
-### API Format
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
