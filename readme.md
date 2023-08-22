@@ -2,15 +2,6 @@
 
 `php7.4` `mySQL` 
 
-
-### Table
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-
 ### Task List
 
 - [x] Create repository
@@ -19,7 +10,7 @@
 
 ## Demo URL
 
-[Click](https://www.cmo-group.com/demo))
+[https://www.cmo-group.com/demo](https://www.cmo-group.com/demo))
 
 ### API Format
 
