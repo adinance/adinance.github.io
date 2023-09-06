@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css" />
   <link rel="stylesheet" href="assets/slick/css/style.css">
   <link rel="stylesheet" href="assets/slick/css/slick.css">
+
 </head>
 
 <body>
@@ -43,10 +44,10 @@
 
 
 
-    <nav class=" navbar navbar-dropdown bg-color transparent" style="padding-top: 2%;">
+    <nav class=" navbar navbar-dropdown bg-color transparent" style="padding-top: 1%;text-shadow: 4px 4px 6px #000000; ">
 
 
-      <div class="container-ex col-12" style="gap: 1rem; justify-content: flex-end; padding-right: 10%;">
+      <div class="container " style="gap: 1rem; justify-content: flex-end; ">
         <li>
           <a><a style="color: #0083c9;">CMO:10.00 THB</a>/+0.17(+13.60%)</a>
         </li>
@@ -55,42 +56,52 @@
         </li>
       </div>
 
-      <div class="container " id="myMenu" >
-        <li >
-          <a>HOME</a>
-        </li>
-        <li >
-          <a>ABOUT</a>
+      <div class="container " id="myMenu" style="color: white;" >
+        <li>
+          <a style="color: white;">HOME</a>
         </li>
         <li >
-          <a>BUSINESSES</a>
+          <a style="color: white;">ABOUT</a>
+        </li>
+        <li >
+          <a style="color: white;">BUSINESSES</a>
         </li>
         <li>
-          <a>NEWS</a>
+          <a style="color: white;" >NEWS</a>
         </li>
-        <img  src="assets/images/cmo-white-164x62.png"/>
+        <div ="logo"><img  src="assets/images/cmo-white-164x62.png" /></div>
         <li>
-          <a>INVESTOR RELATIONS</a>
-        </li>
-        <li>
-          <a>SPACE RENTAL</a>
+          <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" style="color: white;">INVESTOR</a>
         </li>
         <li>
-          <a>CAREERS</a>
+          <a href="https://cmo-group.com/creative-play-ground.html" style="color: white;">SPACE RENTAL</a>
         </li>
         <li>
-          <a>CONTACT US</a>
+          <a href="https://career.cmo-group.com/" style="color: white;">CAREERS</a>
+        </li>
+        <li>
+          <a>CONTACT</a>
         </li>
       </div>
 
 
 
+      <div class="container " style="gap: .25rem; justify-content: flex-end;text-shadow: 4px 4px 6px #000000;">
+        <img class="icon" href="https://www.facebook.com/CMOGroupTH/"  ><img style="width: 22px;height: 22px;" src="assets/images/icon/Icon-FB.png"></img>
+        <img class="icon"><img style="width: 22px;height: 22px;" src="assets/images/icon/Icon-IG.png"></img>
+        <img class="icon"><img style="width: 22px;height: 22px;" src="assets/images/icon/Icon itter.png"></img>
+        <img class="icon"><img style="width: 22px;height: 22px;" src="assets/images/icon/Icon-Tiktok.png"></img>
+        <img class="icon"><img style="width: 22px;height: 22px;" src="assets/images/icon/Icon.png"></img>
+      </div>
 
+
+
+<!-- 
       <div class=" ham-menu col-12" onclick="toggleham(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
-      </div>
+      </div> -->
 
 
 
@@ -103,29 +114,25 @@
   </section>
 
 
-  
 
 
 
-
-  <section class="engine">
-    <a href="https://mobirise.info/b">how to create a website</a>
-  </section>
+<section>
 
 
-  <section class="cid-tMkgOMFxLf mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=Ytw-brlgwls"
-    id="header2-5">
-    <div class="container align-center">
-      <div class="row justify-content-md-center">
-        <div class="mbr-white col-md-10"></div>
-      </div>
-    </div>
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-      <a href="#next">
-        <i class="mbri-down mbr-iconfont"></i>
-      </a>
-    </div>
-  </section>
+  <div id="video-container">
+    <video id="video" autoplay muted loop>
+      <source src="assets/video/CMO_SHOWREEL2023.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- <div id="video-controls">
+      <button id="playPauseButton">Play/Pause</button>
+      <button id="muteButton">Mute</button>
+      <button id="unmuteButton">Unmute</button>
+    </div> -->
+  </div>
+</section>
+
 
   <section class="header1 cid-tMkhPAhgOQ mbr-fullscreen mbr-parallax-background" id="header1-i">
     <div class="container">
@@ -148,6 +155,9 @@
     </div>
   </section>
 
+
+
+  
   <section class="cid-tMkgOwYZIa mbr-fullscreen mbr-parallax-background" id="header2-4">
     <div class="container align-center">
       <div class="row justify-content-md-center">
@@ -201,8 +211,8 @@
         <div class="card col-12 col-md-6 p-3 col-lg-4">
           <div class="card-wrapper">
             <div class="card-box">
-              <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                37
+              <h1 id="number1" class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                1
               </h1>
               <p class="mbr-text mbr-fonts-style mbr-bold display-5" style="text-align: center; color: black">
                 Years of Expertise
@@ -219,8 +229,8 @@
             ">
           <div class="card-wrapper">
             <div class="card-box">
-              <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                600
+              <h1 id="number2" class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                570
               </h1>
               <p class="mbr-text align-center mbr-fonts-style mbr-bold display-5"
                 style="text-align: center; color: black">
@@ -234,8 +244,8 @@
         <div class="card align-center col-12 col-md-6 p-3 col-lg-4 last-child">
           <div class="card-wrapper">
             <div class="card-box">
-              <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
-                20,000
+              <h1 id="number3" class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                19970
               </h1>
               <p class="mbr-text mbr-fonts-style mbr-bold display-5" style="text-align: center; color: black">
                 Creative Experiences
@@ -247,6 +257,9 @@
         <!--Card-4-->
       </div>
     </div>
+
+
+
   </section>
 
   <section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
@@ -428,8 +441,8 @@
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4 col-sm-4 col-xs-4  " style="padding-left: 0%; padding-right: 0%;">
             <div class="card-wrapper">
-              <div class="card">
-                <img src="assets/images/IMG-1.png" alt="Mobirise" />
+              <div class="card" style="color: white;">
+                <img src="assets/images/IMG-1.png" alt="Mobirise"/>Investor Relation
               </div>
             </div>
           </div>
@@ -462,19 +475,27 @@
           <div class="col-12 col-md-5 mbr-fonts-style display-7">
             <p class="mbr-text">
               <a>
-                <img src="assets/images/cmo-white-164x62.png" title="" style="height: 5rem; padding: 6%" />
+                <img src="assets/images/cmo-white-164x62.png" title="" style="height: 60px; padding-left: 0%; "/>
               </a>
-              <br /><br />
+              <br/>
             <h4 class="mbr-bold">CMO PUBLIC CPMPANY LIMITED</h4>
-            <br />
-            <br />4/18-19 Soi Nuanchan 56, Nuanchan, Buengkum, Bangkok 10230
-            Thailand
-            <br />
-            <br />
-            <br />Tel : (662) 088-3888 <br />Fax: (662) 088-3848
-            <br />Email: cmo@cmo-group.com <br /><br />
+            <ul style="padding: 1%;">
+            <li style="padding: 0;list-style-type: none;">
+              <!-- <img style="width:auto;height: 32px;" src="assets/images/icon/Icon-6Location.png"></img>  -->
+              4/18-19 Soi Nuanchan 56, Nuanchan, Buengkum, Bangkok 10230 Thailand</li>
+            <li style="padding: 0;list-style-type: none;"><img style="width:auto;height: 32px;" src="assets/images/icon/Icon-Tel.png"></img>&nbsp;<a href="tel:6620883888" style="color: white;">(662) 088-3888</a></li>
+            <li style="padding: 0;list-style-type: none;"><img style="width:auto;height: 32px;" src="assets/images/icon/Icon-Fax.png"></img>&nbsp;<a href="tel:+6620883848" style="color: white;">(662) 088-3848</a></li>
+            <li style="padding: 0;list-style-type: none;"><img style="width:auto;height: 32px;" src="assets/images/icon/Icon-Mail.png"></img>&nbsp;<a href="mailto:cmo@cmo-group.com" style="color: white;">cmo@cmo-group.com</a></li>
+            </ul>
             <strong>CONNECT WITH US</strong>
-            <br />
+            <br/>
+            <div class="container " style="gap: .25rem; justify-content: flex-end;">
+              <img style="width: 32px;height: 32px;" src="assets/images/icon/Icon-FB.png"></img>
+              <img style="width: 32px;height: 32px;" src="assets/images/icon/Icon-IG.png"></img>
+              <img style="width: 32px;height: 32px;" src="assets/images/icon/Icon itter.png"></img>
+              <img style="width: 32px;height: 32px;" src="assets/images/icon/Icon-Tiktok.png"></img>
+              <img style="width: 32px;height: 32px;" src="assets/images/icon/Icon.png"></img>
+            </div>
             <div class="container-fluid">
               <div class="col-sm-1 fas fa-cloud"><i></i></div>
             </div>
@@ -484,8 +505,18 @@
 
           <div class="col-12 col-md-7">
             <div class="google-map">
-              <iframe frameborder="0" style="border: 0" src="https://goo.gl/maps/hGthJZUfcvpfkTrJ9"
+              <iframe frameborder="0" style="border: 0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.080862604369!2d100.64243347509174!3d13.83418278656632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29dc9767897f7%3A0x987841f7b23921c3!2sCMO%20Group%20%2F%20Experience-Tech%20Creator!5e0!3m2!1sen!2sth!4v1693987639829!5m2!1sen!2sth"
                 allowfullscreen=""></iframe>
+              
+                <h4 class="mbr-bold" style="font-size: 12px; font-weight: lighter; padding-top:3% ;font-family: 'GothamBook';">OUR BRANDS</h4>
+                <div class="container " style="justify-content: space-between;">
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-PM(white).png"></img>
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-Nerve(white).png"></img>
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-Muse(white).png"></img>
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-momentums(white).png"></img>
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-CM-Live(white).png"></img>
+                  <img class="icon"><img style="width: auto;height: 36px;" src="assets/images/cpn.icon/Logo-expo(white) - Copy.png"></img>
+                </div>
             </div>
           </div>
         </div>
@@ -497,7 +528,7 @@
           </div>
           <div class="container mbr-white">
             <div class="col-sm-6 " style="text-align: start;font: size 5px;">
-              <p class="display-7">
+              <p class="display-7" style="font-size: 10px;">
                 Privacy Policy. © Cmo Publice Company Limited - All Rights Reserved
               </p>
             </div>
@@ -585,8 +616,68 @@
 
   <!-- hamburger script end -->
 
+  <!-- runnumber script start  -->
+  <script>
+    const number1Element = document.getElementById("number1");
+    const number2Element = document.getElementById("number2");
+    const number3Element = document.getElementById("number3");
 
+    function updateNumber(element, startValue, endValue) {
+      let currentValue = startValue;
+      const increment = startValue < endValue ? 1 : -1;
 
+      const interval = setInterval(() => {
+        if (currentValue === endValue) {
+          clearInterval(interval); // หยุด setInterval ทันที่เมื่อค่าถึงค่าสุดท้าย
+        }
+        element.textContent = currentValue;
+        currentValue += increment;
+      }, 130); // ปรับความเร็วของการเปลี่ยนค่าตรงนี้ (ค่าน้อย = เร็ว)
+
+    }
+
+    // เรียกใช้ฟังก์ชันเพื่อเริ่ม animation
+    updateNumber(number1Element, 1, 31);
+    updateNumber(number2Element, 570, 600);
+    updateNumber(number3Element, 19970, 20000);
+  </script>
+    <!-- runnumber script end  -->
+  
+
+<!-- bg -->
+
+<script>const video = document.getElementById('video');
+  const playPauseButton = document.getElementById('playPauseButton');
+  const muteButton = document.getElementById('muteButton');
+  const unmuteButton = document.getElementById('unmuteButton');
+
+  playPauseButton.addEventListener('click', togglePlayPause);
+  muteButton.addEventListener('click', muteVideo);
+  unmuteButton.addEventListener('click', unmuteVideo);
+
+  function togglePlayPause() {
+    if (video.paused) {
+      video.play();
+      playPauseButton.textContent = 'Pause';
+    } else {
+      video.pause();
+      playPauseButton.textContent = 'Play';
+    }
+  }
+
+  function muteVideo() {
+    video.muted = true;
+    muteButton.style.display = 'none';
+    unmuteButton.style.display = 'inline-block';
+  }
+
+  function unmuteVideo() {
+    video.muted = false;
+    muteButton.style.display = 'inline-block';
+    unmuteButton.style.display = 'none';
+  }</script>
+
+<!-- bg -->
 </body>
 
 </html>

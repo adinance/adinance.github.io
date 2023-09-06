@@ -1205,8 +1205,15 @@ section.lazy-placeholder:after {
 }
 
 .menu nav  {
-  padding-top: 30px;
-  justify-content: space-between;
+  /* padding-top: 30px;
+  justify-content: space-between; */
+
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background: #eee;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -1217,8 +1224,13 @@ section.lazy-placeholder:after {
 
 }
 
+#logo{
+  width: 200px;
+  height: 100%;
+  
+}
 
-.menu nav li{
+.menu nav div li{
   
   height: 24.5px;
   grid-template-columns: repeat(auto-fit,60px);
@@ -1226,18 +1238,14 @@ section.lazy-placeholder:after {
 
 }
 
-.menu nav li a {
 
-  text-decoration: none;
-  font-family: 'GothamBook';
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
-  text-shadow: #000000;
-  vertical-align: bottom;
+
+.menu nav div  a {
+
+
 }
 
-.menu nav li a:hover {
+.menu nav div li a:hover {
   color:  #149dcc; 
   transition: background-color 0.3s, transform 0.2s;
   transform: scale(2);
@@ -1245,7 +1253,7 @@ section.lazy-placeholder:after {
 
 @media only screen and (max-width:1199px ){
 
-.menu nav li {
+.menu nav div li {
     display: none;
   }
   .menu nav{
@@ -1302,3 +1310,88 @@ section.lazy-placeholder:after {
 }
 /* hamburger end */
 
+
+/* video bg start */
+/* ตั้งค่าพื้นหลังของหน้าเว็บเป็นแบบเต็มจอ */
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* วางวิดีโอไว้ด้านหลังของเนื้อหาอื่น ๆ */
+}
+
+.video-container video {
+  object-fit: cover; /* ปกคลุมบริเวณทั้งหมดของคอนเทนเนอร์ด้วยวิดีโอ */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* video bg end */
+
+
+
+/* runnumber start */
+.runnumber-container {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.runnumber {
+  display: inline-block;
+  animation: runnumber-animation 3s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes runnumber-animation {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10%, 90% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+}
+/* runnumber end */
+
+
+
+/* bg */
+  #video-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    /* #video-controls {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+    } */
+
+
+/* bg */
