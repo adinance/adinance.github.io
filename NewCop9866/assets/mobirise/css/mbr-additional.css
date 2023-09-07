@@ -1395,3 +1395,15 @@ section.lazy-placeholder:after {
 
 
 /* bg */
+
+
+
+/* 3ct */
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังของข้อความ */
+  color: #fff; /* สีข้อความ */
+  padding: 10px; /* การเพิ่มขอบข้อความ */
+}
+/* 3ct */
