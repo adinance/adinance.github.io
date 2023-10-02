@@ -1604,7 +1604,6 @@ section.lazy-placeholder:after {
 	background-size: cover;
 	top: 0;
 	left: 0;
-
 }
 
 .servicespala h1 {
@@ -1615,39 +1614,47 @@ section.lazy-placeholder:after {
 	text-shadow: 4px 4px 6px #000000;
 	padding-top: 8%;
 	text-align: center;
-	padding-bottom: 15%;
+	padding-bottom: 7%;
 }
 
 .servicescont {
-	padding: 5%;
+
+	padding-top: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
 	color: #fff;
 	display: flex;
 	background-color: rgba(0, 35, 59, 0.8);
 	margin-left: 3%;
 	margin-right: 3%;
-	position: relative;
-	
+
 }
-.services_1row{
+.services_1row {
 	display: flex;
 	justify-content: space-between;
-	top: -70%;
-	z-index: 1;
-	position: absolute;
-	left: 0;
-
+	text-align: left;
+	padding: 3%;
 }
-.services_2row{
+
+
+.services_columns{
+	float: left;
+	width: 50%;
+}
+
+
+.services_2row {
 	display: flex;
 	justify-content: space-between;
-
+	text-align: left;
+	padding: 3%;
 }
 
-.services_box{
+.services_box {
 	padding: 1%;
 	width: 30%;
 	font-family: "GothamBook";
-
 }
 
 .services_box p {
@@ -1656,9 +1663,6 @@ section.lazy-placeholder:after {
 
 .services_box p img {
 	width: 100%;
-	
-
 }
-
 
 /* services end */
