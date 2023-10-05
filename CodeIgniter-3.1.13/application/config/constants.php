@@ -87,6 +87,8 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 define('BASE_URL','//localhost/adinance.github.io/CodeIgniter-3.1.13/');
 
+// define('BASE_URL','//https://dev.cmo-group.com/demo/');
+
 // defind title.
 define('WEBSITE_TITLE','CMO GROUP / Experience-Tech Creator');
 define('IR_TITLE','CMO GROUP / Experience-Tech Creator');

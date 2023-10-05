@@ -1421,12 +1421,33 @@ section.lazy-placeholder:after {
 	padding-top: 3%;
 	text-shadow: 4px 4px 6px #000000;
 }
+
+
+
+
 .work_menu {
-	color: #fff;
+	
 	padding-left: 5%;
 	padding-right: 5%;
 	display: flex;
 	justify-content: space-between;
+}
+
+.work_menu a {
+    color: #fff; /* สีเริ่มต้น (สีดำ) */
+
+}
+
+
+
+
+.work_menu li.active a {
+	color: #2196f3; 
+}
+
+
+.work_menu li:hover a {
+	color: rgba(43, 85, 241, 0.4); 
 }
 
 .workpala {

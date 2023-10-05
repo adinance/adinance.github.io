@@ -8,7 +8,7 @@
           </h1>
 
           <p class="mbr-text align-left pb-3 mbr-fonts-style display-7" style="text-shadow: 2px 2px 4px #000000">
-            <a style="color: #0083c9;">CMO GROUP </a>is a public listed company established in 1986. The
+            <a style="color:#00c8fa ;">CMO GROUP </a>is a public listed company established in 1986. The
             company explores all aspect of creative experience covering event
             management , marketing communications, entertainment services,
             lifestyle and digital event. As well as equipment rental,
@@ -27,7 +27,7 @@
             Our experience business pillars are:
           </p>
           <p class="mbr-text align-left pb-3 mbr-fonts-style display-7"
-            style="color: #0083c9; text-shadow: 2px 2px 4px #000000">
+            style="color:#00c8fa ; text-shadow: 2px 2px 4px #000000">
             ● Events ● Equipments ● Entertainment ● Technology ● Museum
             Creator
           </p>
