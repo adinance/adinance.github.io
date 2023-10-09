@@ -1216,6 +1216,7 @@ section.lazy-placeholder:after {
 .menu nav {
 	padding-top: 30px;
 	justify-content: space-between;
+	
 
 	display: flex;
 	width: 100%;
@@ -1234,6 +1235,10 @@ section.lazy-placeholder:after {
 #logo {
 	width: 200px;
 	height: 80%;
+}
+
+.menu nav div a{
+	justify-content: center;
 }
 
 .menu nav div li {
@@ -1687,3 +1692,36 @@ section.lazy-placeholder:after {
 }
 
 /* services end */
+
+
+/* About-1 start */
+.about1pala {
+	background-image: url("../../../assets/images/About-Page.png"); /* ระบุ URL ของรูปภาพพื้นหลัง */
+
+	min-height: 800px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+}
+
+.about1pala h1 {
+	font-family: "GothamBook";
+	font-size: 90px;
+	font-weight: 1000;
+	color: #fff;
+	text-shadow: 4px 4px 6px #000000;
+	padding-top: 30%;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
+
+
+
+/* About-1 end */
+
+
+

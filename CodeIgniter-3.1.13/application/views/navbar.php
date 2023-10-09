@@ -16,7 +16,7 @@
 
     <div class="container " id="myMenu" style="color: white;">
       <li>
-        <a href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/Home" style="color: white;">ABOUT</a>
+        <a href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/About" style="color: white;">ABOUT</a>
       </li>
       <li>
         <a href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/Services" style="color: white;">SERVICES</a>
@@ -27,7 +27,7 @@
       <li>
         <a href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/News" style="color: white;">NEWS</a>
       </li>
-      <center><div id="logo" href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/Home"><img style="height: 40px;" src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png" target="_blank" /></div></center>
+      <a id="logo" style="text-align: center;justify-content: ;" href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/Home"><img style="height: 40px;" src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png" target="_blank" /></a></center>
       <li>
         <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" style="color: white;" target="_blank">INVESTORS</a>
       </li>
