@@ -1,4 +1,4 @@
-  <section class="header1 cid-tMkhPAhgOQ mbr-fullscreen mbr-parallax-background" id="header1-i">
+  <section class="parallax-intro-bg mbr-fullscreen mbr-parallax-background" id="header1-i">
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="mbr-white col-md-10">

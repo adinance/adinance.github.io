@@ -1,6 +1,6 @@
 <section>
     <div class="work_header">
-        <h1>OUR WORK</h1>
+        <h1 style="font-size:44px;">OUR WORK</h1>
         <p>Let's Enjoy Creative Experiences</p>
     </div>
 </section>

@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/animatecss/animate.min.css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/dropdown/css/style.css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/theme/css/style.css" >
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/fonts/style.css"  >
+  <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/fonts/style.css"  >
   <link rel="preload"    href="<?php echo BASE_URL;?>assets/mobirise/css/mbr-additional.css" as="style" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/mobirise/css/mbr-additional.css" type="text/css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/slick/css/style.css">
