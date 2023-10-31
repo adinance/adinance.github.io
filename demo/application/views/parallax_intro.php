@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="mbr-white col-md-10">
-          <h4 class="display-2" style="text-align: center; text-shadow: 2px 2px 4px #000000">
+          <h4 class="display-2" style="text-align: center; text-shadow: 2px 2px 4px #000000; font-size: 44px; ">
             WORLD CLASS<br />
             EXPERIENCE-TECH CREATOR
           </h4>

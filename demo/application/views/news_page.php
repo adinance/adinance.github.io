@@ -1,7 +1,7 @@
 <section>
   <div class="news_header">
-    <h1>OUR NEWS</h1>
-    <p>Here you can update the latest our news</p>
+    <h1 style="font-size: 44px; padding-top:5%;">OUR NEWS</h1>
+    
   </div>
 </section>
 

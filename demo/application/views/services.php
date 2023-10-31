@@ -1,6 +1,6 @@
 <section class="servicespala">
 
-    <h1>OUR SERVICES</h1>
+    <h1 style="padding-top: 12%;font-size: 44px;sakdinan.">OUR SERVICES</h1>
 
     <div class="servicescont">
 
@@ -12,7 +12,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-1.png">
                     <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">EVENTS</h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">EVENTS</h3> -->
                     <h5 style="font-weight: 600; padding-top:5%;">
                     Let's Enjoy<br>Creative Experiences
                     </h5>
@@ -38,7 +38,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-2.png">
                 <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">EQUIPMENTS</h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">EQUIPMENTS</h3> -->
                     <h5 style="font-weight: 600; padding-top:5%;">
                     Word Class Production <br>Audio Visual & Lighting Experiences 
                     </h5>
@@ -60,7 +60,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-3.png">
                 <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">ENTERTAINMENT</h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">ENTERTAINMENT</h3> -->
                     <h5 style="font-weight: 600; padding-top:5%;">
                     INNOVATIVE GLOBAL <br>PHENOMENON
                     </h5>
@@ -88,7 +88,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-4.png">
                 <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">TECHNOLOGY</h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">TECHNOLOGY</h3> -->
                     <a style="font-size: 13px;">Digital and Technology Solutions is a new business of the company.  We use digital technology to create new dimension of event management and new experience to customers.</a>
                     <div class="container" style="height:100px ; padding-top:5%;font-size: 10px;">
                     <div class="services_columns"style="text-align: left;">
@@ -110,7 +110,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-5.png">
                 <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">MUSEUM CREATOR</h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">MUSEUM CREATOR</h3> -->
                     <h5 style="font-weight: 600; padding-top:5%;">
                     360° Innovation <br>Knowledge Experience.
                     </h5>
@@ -125,7 +125,7 @@
             <div class="services_box">
                 <p><img src="<?php echo BASE_URL; ?>assets/images/services/Img-6-6.png">
                 <br>
-                    <h3 style="color:#00c8fa ;font-weight:600;">SPACE FOR RENT </h3>
+                    <!-- <h3 style="color:#00c8fa ;font-weight:600;">SPACE FOR RENT </h3> -->
                     <h5 style="font-weight: 600; padding-top:5%;">
                     Play With Creative Space 
                     </h5>

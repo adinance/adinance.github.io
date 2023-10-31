@@ -8,6 +8,9 @@
 
 
 <section>
+
+
+
     <div class="workpala">
 
         <nav class="work_navbar">
@@ -48,7 +51,7 @@
 
 
         <div id="cat_work1" class="cat-work" style="color: #fff;">
-          
+
             <div class="workcont">
 
 
@@ -135,7 +138,7 @@
 
 
         <div id="cat_work2" class="cat-work" style="display: none;color: #fff;">
-        
+
             <div class="workcont">
                 <div class=" row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
@@ -218,7 +221,7 @@
 
 
         <div id="cat_work3" class="cat-work" style="display: none;color: #fff;">
-        
+
             <div class="workcont">
                 <div class=" row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
@@ -301,7 +304,7 @@
 
 
         <div id="cat_work4" class="cat-work" style="display: none;color: #fff;">
-   
+
             <div class="workcont">
 
 
@@ -389,30 +392,30 @@
 
         <div id="cat_work5" class="cat-work" style="display: none;color: #fff;">
             เนื้อหาของ cat_work5
-            
+
         </div>
 
 
         <div id="cat_work6" class="cat-work" style="display: none;color: #fff;">
             เนื้อหาของ cat_work6
-            
+
         </div>
 
 
         <div id="cat_work7" class="cat-work" style="display: none;color: #fff;">
             เนื้อหาของ cat_work7
-            
+
         </div>
 
 
         <div id="cat_work8" class="cat-work" style="display: none;color: #fff;">
             เนื้อหาของ cat_work8
-           
+
         </div>
 
         <div id="cat_work9" class="cat-work" style="display: none;color: #fff;">
             เนื้อหาของ cat_work9
-            
+
         </div>
 
         <!--debug test -->
@@ -425,28 +428,27 @@
 
 
 <script>
-function showCatWork(catId) {
-    // ซ่อนทุก cat work ก่อนหน้า
-    let catWorks = document.querySelectorAll('.cat-work');
-    catWorks.forEach(function(catWork) {
-        catWork.style.display = 'none';
-    });
+    function showCatWork(catId) {
+        // ซ่อนทุก cat work ก่อนหน้า
+        let catWorks = document.querySelectorAll('.cat-work');
+        catWorks.forEach(function(catWork) {
+            catWork.style.display = 'none';
+        });
 
-    // แสดง cat work ที่ตรงกับ ID ที่รับมา
-    let selectedCatWork = document.getElementById(`cat_work${catId}`);
-    if (selectedCatWork) {
-        selectedCatWork.style.display = 'block';
+        // แสดง cat work ที่ตรงกับ ID ที่รับมา
+        let selectedCatWork = document.getElementById(`cat_work${catId}`);
+        if (selectedCatWork) {
+            selectedCatWork.style.display = 'block';
+        }
+
+        // ลบคลาส "active" จากปุ่มเมนูทั้งหมด
+        let menuItems = document.querySelectorAll('.work_menu li');
+        menuItems.forEach(function(menuItem) {
+            menuItem.classList.remove('active');
+        });
+
+        // เพิ่มคลาส "active" ให้กับปุ่มที่ถูกคลิก
+        let clickedMenuItem = document.querySelector(`.work_menu li:nth-child(${catId})`);
+        clickedMenuItem.classList.add('active');
     }
-
-    // ลบคลาส "active" จากปุ่มเมนูทั้งหมด
-    let menuItems = document.querySelectorAll('.work_menu li');
-    menuItems.forEach(function(menuItem) {
-        menuItem.classList.remove('active');
-    });
-
-    // เพิ่มคลาส "active" ให้กับปุ่มที่ถูกคลิก
-    let clickedMenuItem = document.querySelector(`.work_menu li:nth-child(${catId})`);
-    clickedMenuItem.classList.add('active');
-}
 </script>
-
