@@ -54,7 +54,7 @@
 
         <div id="cat_work1" class="cat-work" style="color: #fff;">
 
-            <div class="new-workcont">
+            <div class="workcont">
 
 
 
@@ -436,24 +436,10 @@
 
                 <div class="mySlides">
                     <div class="numbertext">1 / 4</div>
-                    <img src="img_nature_wide.jpg" style="width:100%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:30%">
                 </div>
 
-                <div class="mySlides">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="img_snow_wide.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="img_mountains_wide.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="img_lights_wide.jpg" style="width:100%">
-                </div>
-
+                
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -463,17 +449,9 @@
 
 
                 <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png"style="width:10%"  onclick="currentSlide(1)" alt="Nature and sunrise">
                 </div>
-                <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                </div>
+                
             </div>
         </div>
         <!-- images modal end -->

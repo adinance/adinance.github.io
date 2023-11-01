@@ -762,9 +762,6 @@ section.lazy-placeholder:after {
 
 .newnavbar {
 	overflow: hidden;
-
-	padding-left: 2%;
-	padding-right: 2%;
 	padding-top: 1%;
 }
 
@@ -774,7 +771,8 @@ section.lazy-placeholder:after {
 }
 
 .newnavbar .icon-container {
-	align-items: end;
+	text-align: end;
+
 }
 
 #logo {
@@ -1172,7 +1170,8 @@ section.lazy-placeholder:after {
 /* Modal Content */
 .modal-content {
 
-	background-color: #fefefe;
+	background-color: #fff;
+	justify-content: center;
 
 }
 
@@ -1180,7 +1179,7 @@ section.lazy-placeholder:after {
 .close {
 	color: white;
 	position: absolute;
-	top: 10px;
+	top: 30px;
 	right: 25px;
 	font-size: 35px;
 	font-weight: bold;
@@ -1210,7 +1209,7 @@ section.lazy-placeholder:after {
 	width: auto;
 	padding: 16px;
 	margin-top: -50px;
-	color: white;
+	color:#2196f3;
 	font-weight: bold;
 	font-size: 20px;
 	transition: 0.6s ease;
@@ -1241,7 +1240,7 @@ section.lazy-placeholder:after {
 }
 
 img {
-	margin-bottom: -4px;
+	margin-bottom: 1px;
 }
 
 .caption-container {
