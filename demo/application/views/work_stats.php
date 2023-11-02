@@ -63,3 +63,31 @@
 
 
   </section>
+
+
+<!-- runnumber script start  -->
+<script>
+    const number1Element = document.getElementById("number1");
+    const number2Element = document.getElementById("number2");
+    const number3Element = document.getElementById("number3");
+
+    function updateNumber(element, startValue, endValue) {
+        let currentValue = startValue;
+        const increment = startValue < endValue ? 1 : -1;
+
+        const interval = setInterval(() => {
+            if (currentValue === endValue) {
+                clearInterval(interval); // หยุด setInterval ทันที่เมื่อค่าถึงค่าสุดท้าย
+            }
+            element.textContent = currentValue;
+            currentValue += increment;
+        }, 70); // ปรับความเร็วของการเปลี่ยนค่าตรงนี้ (ค่าน้อย = เร็ว)
+
+    }
+
+    // เรียกใช้ฟังก์ชันเพื่อเริ่ม animation
+    updateNumber(number1Element, 7, 37);
+    updateNumber(number2Element, 470, 500);
+    updateNumber(number3Element, 29970, 30000);
+</script>
+<!-- runnumber script end  -->
