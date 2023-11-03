@@ -1,6 +1,6 @@
 <section class="servicespala">
 
-    <h1 style="padding-top: 12%;font-size: 44px;sakdinan.">OUR SERVICES</h1>
+    <h1 style="padding-top: 15%;font-size: 44px;sakdinan.">OUR SERVICES</h1>
 
     <div class="servicescont">
 

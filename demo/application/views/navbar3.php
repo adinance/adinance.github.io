@@ -18,7 +18,7 @@
                   <i class="fas fa-chevron-down"></i>
                 </span>
               </a>
-              <div class="sub-menu">
+              <div class="sub-menu w3-animate-opacity">
                 <!-- item -->
                 <div class="sub-menu-item"><br>
                   <!-- <h4>top categories</h4> -->
@@ -56,7 +56,7 @@
                 <!-- end of item -->
                 <!-- item -->
                 <div class="sub-menu-item">
-                  <img src="images/car.png" alt="product image" />
+                  <img src="<?php echo BASE_URL; ?>assets/images/about-subnav.png" />
                 </div>
                 <!-- end of item -->
               </div>

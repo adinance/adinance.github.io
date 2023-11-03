@@ -1,46 +1,46 @@
 <section class="new-workpala">
 
-    <h1 style="padding-top: 12%;font-size: 44px;">OUR WORK</h1>
+    <h1 style="padding-top: 15%;font-size: 44px;">OUR WORK</h1>
 
     <div class="new-workcont">
 
         <nav class="new-work_navbar">
-            <div class="new-work_menu" id="myMenu" style="color: white;">
+            <div class="new-work_menu" id="myMenu">
 
 
 
                 <li onclick="showCatWork(1)">
-                    <center><a style="color: white;">BRAND ACTIVATION</a>
+                    <center><a>BRAND ACTIVATION</a>
                 </li>
                 <li onclick="showCatWork(2)">
-                    <center><a style="color: white;">CONFERENCE & SEMIMAR</a>
+                    <center><a>CONFERENCE & SEMIMAR</a>
                 </li>
                 <li onclick="showCatWork(3)">
-                    <center><a style="color: white;">MUSIC & ENTERTAINMENT</a>
+                    <center><a>MUSIC & ENTERTAINMENT</a>
                 </li>
                 <li onclick="showCatWork(4)">
-                    <center><a style="color: white;">AUDIO VISUAL & LIGHTING SOLUTION</a>
+                    <center><a>AUDIO VISUAL & LIGHTING SOLUTION</a>
                 </li>
             </div>
 
 
 
 
-            <div class="new-work_menu" id="myMenu" style="color: white;">
+            <div class="new-work_menu" id="myMenu">
                 <li onclick="showCatWork(5)">
-                    <center><a style="color: white;">EXHIBITION MANAGEMENT</a>
+                    <center><a>EXHIBITION MANAGEMENT</a>
                 </li>
                 <li onclick="showCatWork(6)">
-                    <center><a style="color: white;">INNOVATION MESEUM</a>
+                    <center><a>INNOVATION MESEUM</a>
                 </li>
                 <li onclick="showCatWork(7)">
-                    <center><a style="color: white;">MICE & PCO</a>
+                    <center><a>MICE & PCO</a>
                 </li>
                 <li onclick="showCatWork(8)">
-                    <center><a style="color: white;">SPECAIL EVENTS</a>
+                    <center><a>SPECAIL EVENTS</a>
                 </li>
                 <li onclick="showCatWork(9)">
-                    <center><a style="color: white;">VISUAL CREATOR</a>
+                    <center><a>VISUAL CREATOR</a>
                 </li>
             </div>
         </nav>
@@ -52,19 +52,21 @@
         <!--debug test -->
 
 
-        <div id="cat_work1" class="cat-work" style="color: #fff;">
+        <div id="cat_work1" class="cat-work w3-animate-opacity" style="color: #fff;">
 
             <div class="workcont">
 
 
 
 
-                <div class=" row" style="padding: 1%;">
+                <div class="row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  " onclick="openModal();currentSlide(1)">
                         <div class="card-wrapper">
                             <div class="card" style="color: white; ">
                                 <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                                <a class="mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="text">John Doe</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +141,7 @@
         </div>
 
 
-        <div id="cat_work2" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work2" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
 
             <div class="workcont">
                 <div class=" row" style="padding: 1%;">
@@ -222,7 +224,7 @@
         </div>
 
 
-        <div id="cat_work3" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work3" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
 
             <div class="workcont">
                 <div class=" row" style="padding: 1%;">
@@ -305,7 +307,7 @@
         </div>
 
 
-        <div id="cat_work4" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work4" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
 
             <div class="workcont">
 
@@ -392,30 +394,30 @@
         </div>
 
 
-        <div id="cat_work5" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work5" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
             เนื้อหาของ cat_work5
 
         </div>
 
 
-        <div id="cat_work6" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work6" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
             เนื้อหาของ cat_work6
 
         </div>
 
 
-        <div id="cat_work7" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work7" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
             เนื้อหาของ cat_work7
 
         </div>
 
 
-        <div id="cat_work8" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work8" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
             เนื้อหาของ cat_work8
 
         </div>
 
-        <div id="cat_work9" class="cat-work" style="display: none;color: #fff;">
+        <div id="cat_work9" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
             เนื้อหาของ cat_work9
 
         </div>
@@ -439,7 +441,7 @@
                     <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:30%">
                 </div>
 
-                
+
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -449,9 +451,9 @@
 
 
                 <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png"style="width:10%"  onclick="currentSlide(1)" alt="Nature and sunrise">
+                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:10%" onclick="currentSlide(1)" alt="Nature and sunrise">
                 </div>
-                
+
             </div>
         </div>
         <!-- images modal end -->
@@ -501,40 +503,44 @@
 
 
 <script>
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
+    function openModal() {
+        document.getElementById("myModal").style.display = "block";
+    }
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+    }
 
-var slideIndex = 1;
-showSlides(slideIndex);
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
 </script>
