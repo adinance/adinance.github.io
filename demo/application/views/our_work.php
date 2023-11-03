@@ -52,20 +52,20 @@
         <!--debug test -->
 
 
-        <div id="cat_work1" class="cat-work w3-animate-opacity" style="color: #fff;">
+        <div id="cat_work1" class="cat-work w3-animate-opacity">
 
-            <div class="workcont">
-
-
+            <div class="new-workcont">
 
 
-                <div class="row" style="padding: 1%;">
+
+
+                <div class="row">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  " onclick="openModal();currentSlide(1)">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" />
-                                <a class="mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="text">John Doe</div>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" / >
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
                                 </a>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="padding: 1%;">
+                <div class="row">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
                             <div class="card" style="color: white; ">
@@ -544,3 +544,8 @@
         captionText.innerHTML = dots[slideIndex - 1].alt;
     }
 </script>
+
+
+
+
+fu
