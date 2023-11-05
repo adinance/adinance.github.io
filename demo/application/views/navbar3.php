@@ -1,9 +1,10 @@
 <section>
-<body>
-<div class="main-wrapper">
+
+  <body>
+    <div class="main-wrapper">
       <nav class="navbar3 ">
         <div class="brand-and-icon">
-          <a  href="http://localhost/adinance.github.io/demo/index.php/Home"><img src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png"  /></a>
+          <a href="http://localhost/adinance.github.io/demo/index.php/Home"><img src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png" /></a>
           <button type="button" class="navbar3-toggler">
             <i class="fas fa-bars"></i>
           </button>
@@ -27,7 +28,7 @@
                     <li><a href="#" style="font-weight: bold;">Vision/Mission and Cor Value</a></li>
                     <li><a href="#" style="font-weight: bold;">History and Milestones</a></li>
                     <li><a href="#" style="font-weight: bold;">Business Overview</a></li>
-                    
+
                   </ul>
                 </div>
                 <!-- end of item -->
@@ -95,48 +96,48 @@
 
 
 <script>
-$(document).ready(function(){
-    $('.navbar3-toggler').click(function(){
-        $('.navbar3-collapse').slideToggle(300);
+  $(document).ready(function() {
+    $('.navbar3-toggler').click(function() {
+      $('.navbar3-collapse').slideToggle(300);
     });
-    
+
     smallScreenMenu();
     let temp;
-    function resizeEnd(){
-        smallScreenMenu();
+
+    function resizeEnd() {
+      smallScreenMenu();
     }
 
-    $(window).resize(function(){
-        clearTimeout(temp);
-        temp = setTimeout(resizeEnd, 100);
-        resetMenu();
+    $(window).resize(function() {
+      clearTimeout(temp);
+      temp = setTimeout(resizeEnd, 100);
+      resetMenu();
     });
-});
+  });
 
 
-const subMenus = $('.sub-menu');
-const menuLinks = $('.menu-link');
+  const subMenus = $('.sub-menu');
+  const menuLinks = $('.menu-link');
 
-function smallScreenMenu(){
-    if($(window).innerWidth() <= 992){
-        menuLinks.each(function(item){
-            $(this).click(function(){
-                $(this).next().slideToggle();
-            });
+  function smallScreenMenu() {
+    if ($(window).innerWidth() <= 992) {
+      menuLinks.each(function(item) {
+        $(this).click(function() {
+          $(this).next().slideToggle();
         });
+      });
     } else {
-        menuLinks.each(function(item){
-            $(this).off('click');
-        });
+      menuLinks.each(function(item) {
+        $(this).off('click');
+      });
     }
-}
+  }
 
-function resetMenu(){
-    if($(window).innerWidth() > 992){
-        subMenus.each(function(item){
-            $(this).css('display', 'none');
-        });
+  function resetMenu() {
+    if ($(window).innerWidth() > 992) {
+      subMenus.each(function(item) {
+        $(this).css('display', 'none');
+      });
     }
-}
+  }
 </script>
-  

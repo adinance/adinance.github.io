@@ -60,10 +60,56 @@
 
 
                 <div class="row">
-                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  " onclick="openModal();currentSlide(1)">
+                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
                             <div class="card">
-                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" / >
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" />
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor" onclick="openModal();currentSlide(1)">MU SKIN</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-1.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-2.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-3.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
+                        <div class="card-wrapper">
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-6.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">MU SKIN</div>
                                 </a>
@@ -73,65 +119,33 @@
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-1.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-7.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-2.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-8.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-3.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
-                        <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-6.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                        <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-7.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                        <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-8.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                        <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-4.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-4.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -147,36 +161,44 @@
                 <div class=" row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-1.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-1.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-2.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-2.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-3.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-3.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-4.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-4.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -185,36 +207,44 @@
                 <div class="row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-5.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-5.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-6.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-6.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-7.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-7.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-8.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-8.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -230,36 +260,44 @@
                 <div class=" row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-1.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-1.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">GO WET FESTIVAL</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-2.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-2.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">KINNPORCHE</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-3.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-3.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-4.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-4.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -268,36 +306,44 @@
                 <div class="row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-5.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-5.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-6.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-6.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-7.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-7.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-8.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-8.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -317,36 +363,44 @@
                 <div class=" row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-1.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-1.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-2.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-2.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-3.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-3.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-4.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-4.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -355,36 +409,44 @@
                 <div class="row" style="padding: 1%;">
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3  ">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-5.png" />
-                                <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-5.png" />
+                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-6.png" />
-                                <a href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; "></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-6.png" />
+                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-7.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-7.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="card-wrapper">
-                            <div class="card" style="color: white; ">
-                                <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-8.png" />
-                                <a href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;"></a>
+                            <div class="card">
+                                <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-8.png" />
+                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">MU SKIN</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -432,28 +494,50 @@
 
 
         <!-- images modal start -->
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
+        <div id="work-modal" class="work-modal">
+            <span class="work-modal-close cursor" onclick="closeModal()">&times;</span>
+            <div class="work-modal-content">
 
-                <div class="mySlides">
+                <div class="work-modal-Slides">
                     <div class="numbertext">1 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:30%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                </div>
+
+                <div class="work-modal-Slides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                </div>
+
+                <div class="work-modal-Slides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                </div>
+
+                <div class="work-modal-Slides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                </div>
+
+                <a class="work-modal-prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="work-modal-next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="work-modal-caption-container">
+                    <p id="work-modal-caption"></p>
                 </div>
 
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                    <p id="caption"></p>
+                <div class="work-moldal-column">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(1)" alt="MU SKIN1">
                 </div>
-
-
-                <div class="column">
-                    <img class="demo cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:10%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                <div class="work-moldal-column">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(2)" alt="MU SKIN2">
                 </div>
-
+                <div class="work-moldal-column">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(3)" alt="MU SKIN3">
+                </div>
+                <div class="work-moldal-column">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(4)" alt="MU SKIN4">
+                </div>
             </div>
         </div>
         <!-- images modal end -->
@@ -502,13 +586,16 @@
 </script>
 
 
+
+
+<!-- work modal script start -->
 <script>
     function openModal() {
-        document.getElementById("myModal").style.display = "block";
+        document.getElementById("work-modal").style.display = "block";
     }
 
     function closeModal() {
-        document.getElementById("myModal").style.display = "none";
+        document.getElementById("work-modal").style.display = "none";
     }
 
     var slideIndex = 1;
@@ -524,9 +611,9 @@
 
     function showSlides(n) {
         var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
+        var slides = document.getElementsByClassName("work-modal-Slides");
+        var dots = document.getElementsByClassName("work-modal-demo");
+        var captionText = document.getElementById("work-modal-caption");
         if (n > slides.length) {
             slideIndex = 1
         }
@@ -545,7 +632,4 @@
     }
 </script>
 
-
-
-
-fu
+<!-- work modal script end -->
