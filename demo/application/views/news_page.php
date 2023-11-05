@@ -5,7 +5,7 @@
   </div>
 </section>
 
-
+<section>
 <div class="newspala">
   <div class="newscont">
 
@@ -34,7 +34,7 @@
             CMO ปรับโครงสร้างธุรกิจสู่ Experience Tech Creator
             เป้าสิ้นปีแตะ 2 พันล้าน
           </span>
-          <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+          <br><br><a class="news-modal-trigger" data-modal="news-modal-name"  >Read More</a>
         </p>
       </div>
 
@@ -128,3 +128,54 @@
 
   </div>
 </div>
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="news-modal" id="news-modal-name">
+  <div class="modal-sandbox"></div>
+  <div class="news-modal-box">
+    <div class="news-modal-header">
+      <div class="news-close-modal">&#10006;</div> 
+      <h1>Simple modal box</h1>
+    </div>
+    <div class="news-modal-body">
+      <p><img src="<?php echo BASE_URL; ?>assets/images/news/IMG-New-1.jpg"></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta saepe, atque, iure quidem maiores non dolores, fuga eaque voluptatibus corporis accusantium quas. Eligendi velit eum fugiat eius? Distinctio reiciendis sint error, repellat ut soluta doloremque, accusamus vitae placeat?</p>
+      <p>Laboriosam voluptas, iure rem provident laborum culpa atque fugit inventore sit. Corrupti dolore architecto inventore officia, odit totam voluptatem laboriosam tempore reiciendis, et neque, consequuntur. Non, tenetur? Tempore reprehenderit tenetur nemo asperiores alias commodi assumenda architecto minima numquam repellendus debitis nulla, rerum officia itaque, sunt nihil sequi quod perspiciatis, animi quas voluptates velit aperiam voluptatem.</p>
+      <br />
+      <button class="news-close-modal">Close!</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- news modal end -->
+
+
+
+
+<script>
+  $(".news-modal-trigger").click(function(e){
+  e.preventDefault();
+  dataModal = $(this).attr("data-modal");
+  $("#" + dataModal).css({"display":"block"});
+  // $("news-modal-body").css({"overflow-y": "hidden"}); //Prevent double scrollbar.
+});
+
+$(".news-close-modal, .news-modal-sandbox").click(function(){
+  $(".news-modal").css({"display":"none"});
+  // $("news-modal-body").css({"overflow-y": "auto"}); //Prevent double scrollbar.
+});
+</script>
+
+
+
+
+</section>
+
+
