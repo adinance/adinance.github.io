@@ -499,23 +499,23 @@
             <div class="work-modal-content">
 
                 <div class="work-modal-Slides">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                    <div class="numbertext">&nbsp;1 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-1.jpg" style="width:100%">
                 </div>
 
                 <div class="work-modal-Slides">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                    <div class="numbertext">&nbsp;2 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-2.jpg" style="width:100%">
                 </div>
 
                 <div class="work-modal-Slides">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                    <div class="numbertext">&nbsp;3 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-3.jpg" style="width:100%">
                 </div>
 
                 <div class="work-modal-Slides">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%">
+                    <div class="numbertext">&nbsp;4 / 4</div>
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-4.jpg" style="width:100%">
                 </div>
 
                 <a class="work-modal-prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -527,16 +527,16 @@
 
 
                 <div class="work-moldal-column">
-                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(1)" alt="MU SKIN1">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="MU SKIN1">
                 </div>
                 <div class="work-moldal-column">
-                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(2)" alt="MU SKIN2">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="MU SKIN2">
                 </div>
                 <div class="work-moldal-column">
-                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(3)" alt="MU SKIN3">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="MU SKIN3">
                 </div>
                 <div class="work-moldal-column">
-                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" style="width:100%" onclick="currentSlide(4)" alt="MU SKIN4">
+                    <img class="work-modal-demo work-modal-cursor" src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-4.jpg" style="width:100%" onclick="currentSlide(4)" alt="MU SKIN4">
                 </div>
             </div>
         </div>

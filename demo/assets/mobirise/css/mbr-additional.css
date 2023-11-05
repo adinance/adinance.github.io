@@ -1242,7 +1242,7 @@ section.lazy-placeholder:after {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	padding-top: 5%;
+	padding-top: 10%;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -1323,6 +1323,7 @@ section.lazy-placeholder:after {
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
+	font-family: "GothamBook";
 }
 
 .work-modal-img {
@@ -1334,6 +1335,7 @@ section.lazy-placeholder:after {
 	background-color: black;
 	padding: 2px 16px;
 	color: white;
+	font-family: "GothamBook";
 }
 
 .work-modal-demo {
