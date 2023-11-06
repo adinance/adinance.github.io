@@ -1313,7 +1313,7 @@ section.lazy-placeholder:after {
 /* On hover, add a black background color with a little bit see-through */
 .work-modal-prev:hover,
 .work-modal-next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 35, 59, 0.8);
 }
 
 /* Number text (1/3 etc) */
@@ -1324,6 +1324,7 @@ section.lazy-placeholder:after {
 	position: absolute;
 	top: 0;
 	font-family: "GothamBook";
+	font-weight: bold;
 }
 
 .work-modal-img {
@@ -1336,6 +1337,7 @@ section.lazy-placeholder:after {
 	padding: 2px 16px;
 	color: white;
 	font-family: "GothamBook";
+	font-weight: bold;
 }
 
 .work-modal-demo {
