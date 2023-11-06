@@ -75,8 +75,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-1.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">Seacret Forest Cleansing x BamBam</div>
                                 </a>
                             </div>
                         </div>
@@ -86,8 +86,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-2.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">LANCÔME</div>
                                 </a>
                             </div>
                         </div>
@@ -97,8 +97,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-3.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">Siblingth</div>
                                 </a>
                             </div>
                         </div>
@@ -110,8 +110,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-6.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">SKII x WhiteRabbit</div>
                                 </a>
                             </div>
                         </div>
@@ -121,8 +121,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-7.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">GrabThumbsUp</div>
                                 </a>
                             </div>
                         </div>
@@ -132,8 +132,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-8.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">InnisFree</div>
                                 </a>
                             </div>
                         </div>
@@ -143,8 +143,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-4.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor">เกมเศรษฐี</div>
                                 </a>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-1.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                    <div class="card-text">ADFEST 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -174,8 +174,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-2.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">ASA International Forum 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -185,8 +185,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-3.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Castrol Distributor Conference 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -196,8 +196,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-4.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">CRC Forum 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-5.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                    <div class="card-text">HOOK 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -220,8 +220,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-6.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">Nissan Supplier Conference 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -231,8 +231,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-7.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Shell APAC Lubricants ELT Summit 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -242,8 +242,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-8.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Thailand Huawei Ads Summit 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -273,8 +273,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-2.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">KINNPORCHE</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">KINNPORSCHE THE SERIES WORLD TOUR 2022 BANGKOK</div>
                                 </a>
                             </div>
                         </div>
@@ -284,8 +284,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-3.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">SEEN</div>
                                 </a>
                             </div>
                         </div>
@@ -295,8 +295,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-4.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Sound Check Festival 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-5.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                    <div class="card-text">THE WAY FIRST CONCERT</div>
                                 </a>
                             </div>
                         </div>
@@ -319,8 +319,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-6.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">TiffanyYoung Fanmeeting in Bangkok 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -330,8 +330,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-7.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Y2K Confest</div>
                                 </a>
                             </div>
                         </div>
@@ -341,8 +341,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-8.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">안녕BANGKOK ARENAK 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -355,6 +355,12 @@
 
         <div id="cat_work4" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
 
+            เนื้อหาของ cat_work4
+        </div>
+
+
+        <div id="cat_work5" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
+
             <div class="workcont">
 
 
@@ -366,7 +372,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-1.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                    <div class="card-text">BandaiNamco Booth in ThailandGameShow 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -376,8 +382,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-2.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">BangkokBank in MoneyExpo 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -387,8 +393,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-3.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">HONDA Booth in MOTOR SHOW 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -398,8 +404,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-4.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">NISSAN Booth in BIG MOTOR SALE 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -412,7 +418,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-5.png" />
                                 <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                    <div class="card-text">PTTEP Booth in ADIPEC 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -422,8 +428,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-6.png" />
-                                <a class="card-mid" href="https://career.cmo-group.com/" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px; color: white; ">
+                                    <div class="card-text">PTTEP Booth in EnergyAsia 2023</div>
                                 </a>
                             </div>
                         </div>
@@ -433,8 +439,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-7.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">Rama Production Booth in Food Ingredient Asia 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -444,8 +450,8 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-8.png" />
-                                <a class="card-mid" href="http://www.expotech.co.th/home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
-                                    <div class="card-text">MU SKIN</div>
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 24px;color: white;">
+                                    <div class="card-text">ThaiBev Expo 2022</div>
                                 </a>
                             </div>
                         </div>
@@ -453,11 +459,6 @@
                 </div>
 
             </div>
-        </div>
-
-
-        <div id="cat_work5" class="cat-work w3-animate-opacity" style="display: none;color: #fff;">
-            เนื้อหาของ cat_work5
 
         </div>
 
