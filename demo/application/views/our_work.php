@@ -163,7 +163,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-1.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">ADFEST 2023</div>
                                 </a>
                             </div>
@@ -209,7 +209,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work2/Png Thumbnail-5.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid"  target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">HOOK 2022</div>
                                 </a>
                             </div>
@@ -262,7 +262,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-1.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid"  target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">GO WET FESTIVAL</div>
                                 </a>
                             </div>
@@ -308,7 +308,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work3/Thumbnail-5.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid"  target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">THE WAY FIRST CONCERT</div>
                                 </a>
                             </div>
@@ -371,7 +371,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-1.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid"  target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">BandaiNamco Booth in ThailandGameShow 2022</div>
                                 </a>
                             </div>
@@ -417,7 +417,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work4/Png Thumbnail-5.png" />
-                                <a class="card-mid" href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid"  target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
                                     <div class="card-text">PTTEP Booth in ADIPEC 2022</div>
                                 </a>
                             </div>
