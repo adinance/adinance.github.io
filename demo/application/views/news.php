@@ -90,7 +90,7 @@
       </div><!-- carousel-view -->
 
       <div style="padding-top:5%;">
-        <center><button href="http://localhost/adinance.github.io/CodeIgniter-3.1.13/index.php/News" class="explore-button display-7">Explore more</button></center>
+        <center><a href="http://localhost/adinance.github.io/demo/index.php/News" class="news-modal-trigger">Explore more</a></center>
       </div>
 
     </div>

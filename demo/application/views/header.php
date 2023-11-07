@@ -26,6 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/mobirise/css/mbr-additional.css" type="text/css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/slick/css/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/slick/css/slick.css">
+  
 
 </head>
 

@@ -1356,6 +1356,34 @@ section.lazy-placeholder:after {
 .work-modal-hover-shadow:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.modal.modal-fullscreen .modal-dialog {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	max-width: none;
+}
+
+.modal.modal-fullscreen .modal-content {
+	height: auto;
+	height: 100vh;
+	border-radius: 0;
+	border: none;
+}
+
+.modal.modal-fullscreen .modal-body {
+	overflow-y: auto;
+}
+.loading {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: #060606d1;
+	z-index: 9999;
+}
 /* work modal end */
 
 /* work end*/
@@ -1652,6 +1680,7 @@ section.lazy-placeholder:after {
 }
 
 .news-modal-sandbox {
+
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -1663,8 +1692,6 @@ section.lazy-placeholder:after {
 .news-modal {
 	display: none;
 	position: fixed;
-	width: 100%;
-	height: 100%;
 	left: 0;
 	top: 0;
 	background: rgb(0, 0, 0);
@@ -1676,16 +1703,19 @@ section.lazy-placeholder:after {
 	position: relative;
 	width: 80%;
 	max-width: 920px;
-	margin: 100px auto;
+	margin: 12% auto;
 	animation-name: modalbox;
-	animation-duration: 0.4s;
-	animation-timing-function: cubic-bezier(0, 0, 0.3, 1.6);
-}
+	animation-duration: .4s;
+	animation-timing-function: cubic-bezier(0,0,.3,1.6);
+  }
 
 .news-modal-header {
-	padding: 20px 40px;
-	background: #546e7a;
-	color: #ffffff;
+	padding: 60px 40px;
+	background-image: url("../../../assets/images/CMO-NEW-1-2.png");
+	background-position: center;
+	color: white;
+	text-shadow: 4px 4px 6px #000000;
+	font-size: 1rem;
 }
 
 .news-modal-body {
@@ -1722,16 +1752,15 @@ section.lazy-placeholder:after {
 	}
 }
 
-
-
 .news-modal-trigger,
 button {
-
 	padding: 2px 4px;
 	background: transparent;
-	color: #2196f3;
-	border: 1px solid #2196f3;
+	color: #fff;
+	border: 1px;
 	text-decoration: none;
+	border-radius: 4rem;
+	background-color: #004e76;
 }
 
 .news-modal-trigger {
@@ -1740,15 +1769,11 @@ button {
 	-o-transform: translate(-30%, -30%);
 	transform: translate(-30%, -30%);
 	transition: ease 0.2s;
-	font-weight: bold;
-
-
 }
 
 button {
-	border: 1px solid #2196f3;
+	border: 1px;
 	outline: none;
-	color: #2196f3;
 }
 
 .news-modal-trigger:hover {

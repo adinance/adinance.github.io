@@ -47,11 +47,11 @@
                 <!-- item -->
                 <div class="sub-menu-item" style="margin: 0%;"><br>
                   <ul>
-                    <li><a href="#" style="font-weight: bold;">Company Structure</a></li>
-                    <li><a href="#" style="font-weight: bold;">Board of Directors</a></li>
-                    <li><a href="#" style="font-weight: bold;">Mseeage frome the Chairman</a></li>
-                    <li><a href="#" style="font-weight: bold;">Board of Directors</a></li>
-                    <li><a href="#" style="font-weight: bold;">Sub Committees</a></li>
+                    <li><a href="#" style="font-weight: bold;">Management Team</a></li>
+                    <li><a href="#" style="font-weight: bold;">Organizaion Structure</a></li>
+                    <li><a href="#" style="font-weight: bold;">Important Informaion On the</a></li>
+                    <li><a href="#" style="font-weight: bold;">Company's Employees</a></li>
+                    <li><a href="#" style="font-weight: bold;">Award</a></li>
                   </ul>
                 </div>
                 <!-- end of item -->
