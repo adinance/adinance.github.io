@@ -1675,10 +1675,6 @@ section.lazy-placeholder:after {
 
 /* news modal start */
 .news-modal,
-.news-modal-box {
-	z-index: 900;
-}
-
 .news-modal-sandbox {
 
 	position: fixed;
@@ -1687,6 +1683,7 @@ section.lazy-placeholder:after {
 	top: 0;
 	left: 0;
 	background: transparent;
+	font-family: "GothamBook";
 }
 
 .news-modal {
@@ -1705,7 +1702,7 @@ section.lazy-placeholder:after {
 	position: relative;
 	width: 80%;
 	max-width: 920px;
-	margin: 100px auto;
+	margin: 10%;
 	/* animation-name: modalbox; */
 	/* animation-duration: .4s;
 	animation-timing-function: cubic-bezier(0,0,.3,1.6); */
@@ -1721,6 +1718,10 @@ section.lazy-placeholder:after {
 	font-size: 1rem;
 }
 
+.news-modal-header h1{
+	padding: 1%;
+}
+
 .news-modal-body {
 	background: #eceff1;
 	padding: 60px 40px;
@@ -1728,9 +1729,24 @@ section.lazy-placeholder:after {
 
 /* Close Button */
 .news-close-modal {
-	text-align: right;
+
 	cursor: pointer;
+	padding-top:5% ;
+	text-align: end;
 }
+
+
+.news-close-modal:hover {
+
+	text-shadow: 4px 4px 6px  #A9A9A9;
+	cursor: pointer;
+	font-size: larger;
+	transition: ease 0.2s;
+
+	
+}
+
+
 
 /* Animation */
 /* @-webkit-keyframes modalbox {
@@ -1800,6 +1816,7 @@ button {
 	text-shadow: 4px 4px 6px  #A9A9A9;
 	cursor: pointer;
 	font-size: larger;
+	transition: ease 0.2s;
 }
 /* news modal end */
 
