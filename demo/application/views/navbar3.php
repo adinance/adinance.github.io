@@ -1,6 +1,6 @@
 <section>
 
-  <body>
+
     <div class="main-wrapper">
       <nav class="navbar3 ">
         <div class="brand-and-icon">
@@ -82,15 +82,16 @@
               <a href="https://career.cmo-group.com/" target="_blank">CAREERS</a>
             </li>
             <li>
-              <a href="#">CONTACT US</a>
+              <a href="#footer2-l">CONTACT US</a>
             </li>
+            <a style="color:#fff;font-size: 12px !important;">TH</a>
           </ul>
         </div>
       </nav>
     </div>
 
 </section>
-</body>
+
 
 
 

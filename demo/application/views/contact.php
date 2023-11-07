@@ -76,6 +76,8 @@
                 allowfullscreen=""></iframe>
               
                 <h4 class="mbr-bold" style="font-size: 12px; font-weight: lighter; padding-top:3% ;font-family: 'GothamBook';">OUR BRANDS</h4>
+                
+                
                 <div class="container " style="justify-content: space-between;">
                   <a href="https://www.pmcenter.co.th/" target="_blank"><img style="width: auto;height: 36px; padding:1%;" src="<?php echo BASE_URL;?>assets/images/cpn.icon/PM.png"></img>
                   <a href="https://nervecreative.co.th/" target="_blank"><img style="width: auto;height: 36px; padding:1%;" src="<?php echo BASE_URL;?>assets/images/cpn.icon/Nerve.png"></img>
@@ -84,13 +86,15 @@
                   <a href="https://www.facebook.com/CMLiveThailand/" target="_blank"><img style="width: auto;height: 36px; padding:1%;" src="<?php echo BASE_URL;?>assets/images/cpn.icon/CM-Live.png"></img>
                   <a href="http://www.expotech.co.th/?fbclid=IwAR1zmaYGJupBjxIP75kaSjFmX6rhaKRaROO6gXbWOm7TJs0yWsvHh_HdLWI" target="_blank"><img style="width: auto;height: 36px; padding:1%;" src="<?php echo BASE_URL;?>assets/images/cpn.icon/Expo-tech.png"></img>
                 </div>
+
+                
             </div>
           </div>
         </div>
         <div class="footer-lower">
           <div class="media-container-row">
             <div class="col-sm-12">
-              <hr />
+
             </div>
           </div>
           <div class="container mbr-white">
