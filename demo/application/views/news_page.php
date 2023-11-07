@@ -1,3 +1,7 @@
+
+
+
+
 <section>
   <div class="news_header">
     <h1 style="font-size: 44px; padding-top:5%;">OUR NEWS</h1>
@@ -34,8 +38,7 @@
               CMO ปรับโครงสร้างธุรกิจสู่ Experience Tech Creator
               เป้าสิ้นปีแตะ 2 พันล้าน
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
-            <!-- <br><br><a  class="news-modal-trigger" data-modal="news-modal-name">Read More</a> -->
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -48,7 +51,7 @@
               จัดเต็มแฟนมีตติ้งส่งมอบความสุขเพื่อยองวอนไทย
 
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -58,7 +61,7 @@
             <span>
               K-Pop superstars GOT7 ready to entertain Thai fans via live stream
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -69,7 +72,7 @@
             <span>
               ซีเอ็มโอ เปิดตัว HOOK2022 การประชุมนานาชาติเพื่อผู้บริหารสายการตลาด จัดเต็ม 2 วัน 25 หัวข้อ Performance Marketing จับเทรนด์ไทยและอาเซียนโดยมืออาชีพจากทั่วโลก
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -84,7 +87,7 @@
               CMO ปรับโครงสร้างธุรกิจสู่ Experience Tech Creator
               เป้าสิ้นปีแตะ 2 พันล้าน
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -97,7 +100,7 @@
               จัดเต็มแฟนมีตติ้งส่งมอบความสุขเพื่อยองวอนไทย
 
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -107,7 +110,7 @@
             <span>
               K-Pop superstars GOT7 ready to entertain Thai fans via live stream
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -118,7 +121,7 @@
             <span>
               ซีเอ็มโอ เปิดตัว HOOK2022 การประชุมนานาชาติเพื่อผู้บริหารสายการตลาด จัดเต็ม 2 วัน 25 หัวข้อ Performance Marketing จับเทรนด์ไทยและอาเซียนโดยมืออาชีพจากทั่วโลก
             </span>
-            <br><br><a href="#" style="font-weight: bold; padding-top:10%;">Read More</a>
+            <br><br><button onclick="openModalNews()" class="news-modal-trigger" >Read More</button>
           </p>
         </div>
 
@@ -149,23 +152,25 @@
 
 
 <!-- Modal -->
-<div class="news-modal" id="news-modal-name">
+<div class="news-modal" id="news-modal">
   <div class="modal-sandbox"></div>
   <div class="news-modal-box">
     <div class="news-modal-header">
-      <div class="news-close-modal">&#10006;</div> 
+      <div class="news-close-modal" onclick="closeModalNews()"></div> 
       <h1>CMO ปรับโครงสร้างธุรกิจ</h1>
     </div>
   
     <div class="news-modal-body row">
-    <img   src="<?php echo BASE_URL; ?>assets/images/news/IMG-New-1.jpg" class="col-md-6"  >
+      
+    <img height="10%" style="vertical-align: middle;" src="<?php echo BASE_URL; ?>assets/images/news/IMG-New-1.jpg" class="col-md-6"  >
       <div class="col-md-6" style="padding: 3%;">
+      <h3>CMO ปรับโครงสร้างธุรกิจ</h3>
+      <br>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta saepe, atque, iure quidem maiores non dolores, fuga eaque voluptatibus corporis accusantium quas. Eligendi velit eum fugiat eius? Distinctio reiciendis sint error, repellat ut soluta doloremque, accusamus vitae placeat?</p>
-      <p>Laboriosam voluptas, iure rem provident laborum culpa atque fugit inventore sit. Corrupti dolore architecto inventore officia, odit totam voluptatem laboriosam tempore reiciendis, et neque, consequuntur. Non, tenetur? Tempore reprehenderit tenetur nemo asperiores alias commodi assumenda architecto minima numquam repellendus debitis nulla, rerum officia itaque, sunt nihil sequi quod perspiciatis, animi quas voluptates velit aperiam voluptatem.</p>
-      <br />
-      <button class="news-close-modal">Close!</button>
-      </div>
+      
+  <button class="news-close-modal" onclick="closeModalNews()">Close</button>
     </div>
+
   </div>
 </div>
 
@@ -195,17 +200,15 @@
   <script>
     
 
-$(".news-modal-trigger").click(function(e){
-  e.preventDefault();
-  dataModal = $(this).attr("data-modal");
-  $("#" + dataModal).css({"display":"block"});
-  // $("body").css({"overflow-y": "hidden"}); //Prevent double scrollbar.
-});
+    function openModalNews() {
+        document.getElementById("news-modal").style.display = "block";
+        $("body").css({"overflow-y": "hidden"});
+    }
 
-$(".news-close-modal, .news-modal-sandbox").click(function(){
-  $(".news-modal").css({"display":"none"});
-  // $("body").css({"overflow-y": "auto"}); //Prevent double scrollbar.
-});
+    function closeModalNews() {
+        document.getElementById("news-modal").style.display = "none";
+        $("body").css({"overflow-y": "auto"});
+    }
   </script>
 
   <!-- news modal end -->

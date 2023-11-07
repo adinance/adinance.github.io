@@ -65,7 +65,7 @@
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" />
                                 <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
-                                    <div class="card-text work-modal-hover-shadow work-modal-cursor" onclick="openModal();currentSlide(1)">MU SKIN</div>
+                                    <div class="card-text work-modal-hover-shadow work-modal-cursor" onclick="openModalWork();currentSlide(1)">MU SKIN</div>
                                 </a>
                             </div>
                         </div>
@@ -496,7 +496,7 @@
 
         <!-- images modal start -->
         <div id="work-modal" class="work-modal">
-            <span class="work-modal-close cursor" onclick="closeModal()">&times;</span>
+            <span class="work-modal-close cursor" onclick="closeModalWork()">&times;</span>
             <div class="work-modal-content">
 
                 <div class="work-modal-Slides">
@@ -591,12 +591,14 @@
 
 <!-- work modal script start -->
 <script>
-    function openModal() {
+    function openModalWork() {
         document.getElementById("work-modal").style.display = "block";
+        $("body").css({"overflow-y": "hidden"});
     }
 
-    function closeModal() {
+    function closeModalWork() {
         document.getElementById("work-modal").style.display = "none";
+        $("body").css({"overflow-y": "auto"});
     }
 
     var slideIndex = 1;

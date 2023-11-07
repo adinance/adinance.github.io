@@ -1692,6 +1692,8 @@ section.lazy-placeholder:after {
 .news-modal {
 	display: none;
 	position: fixed;
+	width: 100%;
+	height: 100%;
 	left: 0;
 	top: 0;
 	background: rgb(0, 0, 0);
@@ -1703,15 +1705,16 @@ section.lazy-placeholder:after {
 	position: relative;
 	width: 80%;
 	max-width: 920px;
-	margin: 12% auto;
-	animation-name: modalbox;
-	animation-duration: .4s;
-	animation-timing-function: cubic-bezier(0,0,.3,1.6);
+	margin: 100px auto;
+	/* animation-name: modalbox; */
+	/* animation-duration: .4s;
+	animation-timing-function: cubic-bezier(0,0,.3,1.6); */
   }
 
 .news-modal-header {
-	padding: 60px 40px;
+	padding: 20px 40px;
 	background-image: url("../../../assets/images/CMO-NEW-1-2.png");
+	
 	background-position: center;
 	color: white;
 	text-shadow: 4px 4px 6px #000000;
@@ -1730,7 +1733,7 @@ section.lazy-placeholder:after {
 }
 
 /* Animation */
-@-webkit-keyframes modalbox {
+/* @-webkit-keyframes modalbox {
 	0% {
 		top: -250px;
 		opacity: 0;
@@ -1739,9 +1742,9 @@ section.lazy-placeholder:after {
 		top: 0;
 		opacity: 1;
 	}
-}
+} */
 
-@keyframes modalbox {
+/* @keyframes modalbox {
 	0% {
 		top: -250px;
 		opacity: 0;
@@ -1750,17 +1753,32 @@ section.lazy-placeholder:after {
 		top: 0;
 		opacity: 1;
 	}
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .news-modal-trigger,
 button {
-	padding: 2px 4px;
+	padding-left: 15%;
 	background: transparent;
-	color: #fff;
+	font-weight: bold;
+	color: #2196f3;
 	border: 1px;
 	text-decoration: none;
 	border-radius: 4rem;
-	background-color: #004e76;
+	
 }
 
 .news-modal-trigger {
@@ -1769,6 +1787,7 @@ button {
 	-o-transform: translate(-30%, -30%);
 	transform: translate(-30%, -30%);
 	transition: ease 0.2s;
+	
 }
 
 button {
@@ -1778,6 +1797,9 @@ button {
 
 .news-modal-trigger:hover {
 	padding: 20px 60px;
+	text-shadow: 4px 4px 6px  #A9A9A9;
+	cursor: pointer;
+	font-size: larger;
 }
 /* news modal end */
 
