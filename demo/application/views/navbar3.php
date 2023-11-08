@@ -25,7 +25,7 @@
                 <!-- <h4>top categories</h4> -->
                 <ul>
                   <li><a href="http://localhost/adinance.github.io/demo/index.php/About" style="font-weight: bold;">Who We Are</a></li>
-                  <li><a href="#" style="font-weight: bold;">Vision/Mission and Cor Value</a></li>
+                  <li><a href="#" style="font-weight: bold;">Vision/Mission and Core Value</a></li>
                   <li><a href="#" style="font-weight: bold;">History and Milestones</a></li>
                   <li><a href="#" style="font-weight: bold;">Business Overview</a></li>
 
@@ -38,9 +38,9 @@
                 <ul>
                   <li><a href="#" style="font-weight: bold;">Company Structure</a></li>
                   <li><a href="#" style="font-weight: bold;">Board of Directors</a></li>
-                  <li><a href="#">- Message frome the Chairman</a></li>
-                  <li><a href="#">- Board of Directors</a></li>
-                  <li><a href="#">- Sub Committees</a></li>
+                  <li><a href="#" style="font-size: 0.5rem important!;">- Message frome the Chairman</a></li>
+                  <li><a href="#" style="font-size: 0.5rem important!;">- Board of Directors</a></li>
+                  <li><a href="#" style="font-size: 0.5rem important!;">- Sub Committees</a></li>
                 </ul>
               </div>
               <!-- end of item -->
@@ -67,16 +67,16 @@
             <a href="http://localhost/adinance.github.io/demo/index.php/Services">SERVICES</a>
           </li>
           <li>
-            <a href="http://localhost/adinance.github.io/demo/index.php/Work">WORK</a>
+            <a href="http://localhost/adinance.github.io/demo/index.php/Work">WORKS</a>
           </li>
           <li>
             <a href="http://localhost/adinance.github.io/demo/index.php/News">NEWS</a>
           </li>
           <li>
-            <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank">INVESTOR RELATIONS</a>
+            <a href="https://cmo-group.com/ir/index.php?lang=en&menu=home" target="_blank">INVESTORS</a>
           </li>
           <li>
-            <a href="https://cmo-group.com/creative-play-ground.html" target="_blank">SPACERENTAL</a>
+            <a href="https://cmo-group.com/creative-play-ground.html" target="_blank">SPACE RENTAL</a>
           </li>
           <li>
             <a href="https://career.cmo-group.com/" target="_blank">CAREERS</a>

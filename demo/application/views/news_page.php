@@ -152,7 +152,7 @@
     <div class="modal-sandbox">
       <div class="news-modal-header">
         <div class="news-close-modal" onclick="closeModalNews()">X</div>
-        <h1>CMO ปรับโครงสร้างธุรกิจ</h1>
+        <!-- <h1>CMO ปรับโครงสร้างธุรกิจ</h1> -->
       </div>
 
       <div class="news-modal-body row">

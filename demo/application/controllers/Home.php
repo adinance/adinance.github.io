@@ -10,7 +10,7 @@ class Home extends CI_Controller {
 		$this->load->view('video_intro');
 		$this->load->view('parallax_intro');
 		$this->load->view('about_us');
-		$this->load->view('work_stats');
+		// $this->load->view('work_stats');
 		$this->load->view('events');
 		$this->load->view('entertainment');
 		$this->load->view('equipments');

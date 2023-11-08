@@ -31,13 +31,13 @@
                     <center><a>EXHIBITION MANAGEMENT</a>
                 </li>
                 <li onclick="showCatWork(6)">
-                    <center><a>INNOVATION MESEUM</a>
+                    <center><a>INNOVATION MUSEUM</a>
                 </li>
                 <li onclick="showCatWork(7)">
                     <center><a>MICE & PCO</a>
                 </li>
                 <li onclick="showCatWork(8)">
-                    <center><a>SPECAIL EVENTS</a>
+                    <center><a>SPECIAL EVENTS</a>
                 </li>
                 <li onclick="showCatWork(9)">
                     <center><a>VISUAL CREATOR</a>
@@ -64,7 +64,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <img class=card-img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/IMG-5.png" />
-                                <a class="card-mid" target="_blank" style="position:absolute; font-family: 'GothamBook';font-weight: bold; text-shadow: 2px 2px 4px #000000; top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 24px; color: white;">
+                                <a class="card-mid" target="_blank">
                                     <div class="card-text work-modal-hover-shadow work-modal-cursor" onclick="openModalWork();currentSlide(1)">MU SKIN</div>
                                 </a>
                             </div>
@@ -501,22 +501,22 @@
 
                 <div class="work-modal-Slides">
                     <div class="numbertext">&nbsp;1 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-1.jpg" style="width:100%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-1.jpg" style="width:100%" alt="MU SKIN1">
                 </div>
 
                 <div class="work-modal-Slides">
                     <div class="numbertext">&nbsp;2 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-2.jpg" style="width:100%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-2.jpg" style="width:100%"  alt="MU SKIN2">
                 </div>
 
                 <div class="work-modal-Slides">
                     <div class="numbertext">&nbsp;3 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-3.jpg" style="width:100%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-3.jpg" style="width:100%" alt="MU SKIN3">
                 </div>
 
                 <div class="work-modal-Slides">
                     <div class="numbertext">&nbsp;4 / 4</div>
-                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-4.jpg" style="width:100%">
+                    <img src="<?php echo BASE_URL; ?>assets/images/work/work_tum/cat_work1/MU-SKIN/MU-SKIN-4.jpg" style="width:100%" alt="MU SKIN4">
                 </div>
 
                 <a class="work-modal-prev" onclick="plusSlides(-1)">&#10094;</a>

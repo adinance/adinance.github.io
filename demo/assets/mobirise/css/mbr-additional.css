@@ -869,8 +869,6 @@ section.lazy-placeholder:after {
 
 /* navbar3 start */
 
-
-
 .main-wrapper img {
 	padding-top: 1%;
 	width: 100%;
@@ -928,7 +926,6 @@ section.lazy-placeholder:after {
 	display: none;
 }
 
-
 .navbar3-nav > li > a {
 	text-transform: uppercase;
 	font-size: 1.1rem;
@@ -970,6 +967,7 @@ section.lazy-placeholder:after {
 .sub-menu ul li a:hover {
 	padding-left: 14px;
 	opacity: 0.9;
+	color: #149dcc;
 }
 .sub-menu {
 	display: none;
@@ -1046,7 +1044,7 @@ section.lazy-placeholder:after {
 		padding: 0 5rem;
 	}
 	.navbar3-nav > li {
-		border-bottom: 2px solid transparent;
+		/* border-bottom: 2px solid transparent;   เส้นเมนู */ 
 		transition: border-bottom 0.4s ease;
 	}
 	.navbar3-nav > li:hover {
@@ -1386,8 +1384,6 @@ section.lazy-placeholder:after {
 }
 /* work modal end */
 
-/* work end*/
-
 /* new work page start______________________________________________________________________________________________________________________________________________ */
 
 .new-workpala {
@@ -1514,6 +1510,7 @@ section.lazy-placeholder:after {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
+
 }
 
 .card:hover .card-img {
@@ -1526,7 +1523,15 @@ section.lazy-placeholder:after {
 
 .card-text {
 	color: white;
-	font-size: rem;
+	font-size: 1rem;
+	position: absolute;
+	font-family: "GothamBook";
+	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
 }
 
 /* new work page end */
@@ -1676,7 +1681,6 @@ section.lazy-placeholder:after {
 /* news modal start */
 .news-modal,
 .news-modal-sandbox {
-
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -1706,19 +1710,19 @@ section.lazy-placeholder:after {
 	/* animation-name: modalbox; */
 	/* animation-duration: .4s;
 	animation-timing-function: cubic-bezier(0,0,.3,1.6); */
-  }
+}
 
 .news-modal-header {
 	padding: 20px 40px;
 	background-image: url("../../../assets/images/CMO-NEW-1-2.png");
-	
+
 	background-position: center;
 	color: white;
 	text-shadow: 4px 4px 6px #000000;
 	font-size: 1rem;
 }
 
-.news-modal-header h1{
+.news-modal-header h1 {
 	padding: 1%;
 }
 
@@ -1729,24 +1733,17 @@ section.lazy-placeholder:after {
 
 /* Close Button */
 .news-close-modal {
-
 	cursor: pointer;
-	padding-top:5% ;
+	padding-top: 5%;
 	text-align: end;
 }
 
-
 .news-close-modal:hover {
-
-	text-shadow: 4px 4px 6px  #A9A9A9;
+	text-shadow: 4px 4px 6px #a9a9a9;
 	cursor: pointer;
 	font-size: larger;
 	transition: ease 0.2s;
-
-	
 }
-
-
 
 /* Animation */
 /* @-webkit-keyframes modalbox {
@@ -1771,20 +1768,6 @@ section.lazy-placeholder:after {
 	}
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .news-modal-trigger,
 button {
 	padding-left: 15%;
@@ -1794,7 +1777,6 @@ button {
 	border: 1px;
 	text-decoration: none;
 	border-radius: 4rem;
-	
 }
 
 .news-modal-trigger {
@@ -1803,7 +1785,6 @@ button {
 	-o-transform: translate(-30%, -30%);
 	transform: translate(-30%, -30%);
 	transition: ease 0.2s;
-	
 }
 
 button {
@@ -1813,7 +1794,7 @@ button {
 
 .news-modal-trigger:hover {
 	padding: 20px 60px;
-	text-shadow: 4px 4px 6px  #A9A9A9;
+	text-shadow: 4px 4px 6px #a9a9a9;
 	cursor: pointer;
 	font-size: larger;
 	transition: ease 0.2s;
