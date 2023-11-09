@@ -896,8 +896,14 @@ section.lazy-placeholder:after {
 	transform: translate(0%, 190%);
 	margin-top: -8%;
 }
-.brand-and-icon {
+
+.logo-container {
 	display: flex;
+	text-shadow: 4px 4px 6px #000000;
+	justify-content: flex-end;
+	gap: 0.25rem;
+}
+.brand-and-icon {
 	justify-content: space-between;
 	padding: 1rem 0;
 	border-bottom: 1px solid #ddd;
@@ -1044,7 +1050,7 @@ section.lazy-placeholder:after {
 		padding: 0 5rem;
 	}
 	.navbar3-nav > li {
-		/* border-bottom: 2px solid transparent;   เส้นเมนู */ 
+		/* border-bottom: 2px solid transparent;   เส้นเมนู */
 		transition: border-bottom 0.4s ease;
 	}
 	.navbar3-nav > li:hover {
@@ -1510,7 +1516,6 @@ section.lazy-placeholder:after {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-
 }
 
 .card:hover .card-img {
@@ -1531,7 +1536,6 @@ section.lazy-placeholder:after {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
 }
 
 /* new work page end */
