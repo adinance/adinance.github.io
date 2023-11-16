@@ -1,16 +1,13 @@
-<section>
+
+
+  <!-- for localhost start -->
 
 
   <div class="main-wrapper">
-
-
-
-
-
     <nav class="navbar3">
 
 
-      <div class="row">
+      <!-- <div class="row">
         <div class=" logo-container " style="display:flex ;justify-content: flex-end ; gap: .25rem;">
           <a href="https://www.facebook.com/CMOGroupTH/" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-FB.png"></img></a>
           <a href="https://www.instagram.com/cmogroupth/" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-IG.png"></img></a>
@@ -20,7 +17,7 @@
           <a href="https://page.line.me/798nqsnv" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Line.png"></img></a>
           <a href="https://www.youtube.com/@cmo-group" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Youtube.png"></img></a>
         </div>
-      </div>
+      </div> -->
 
 
 
@@ -28,7 +25,7 @@
 
 
 
-      <div class="row">
+     
 
 
         <div class="brand-and-icon">
@@ -121,14 +118,17 @@
 
 
 
-      </div>
+     
     </nav>
-
-
-
   </div>
 
-</section>
+  <!-- for localhost end -->
+
+
+
+
+
+
 
 
 

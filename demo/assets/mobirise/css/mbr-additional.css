@@ -1,10 +1,59 @@
-* {
+
+
+
+/* Full Screen Vertical Scroll Snap start */
+
+html,
+body,
+section {
+	/* block-size: 100%; */
 	box-sizing: border-box;
 }
+
+html {
+	scroll-snap-type: y mandatory;
+}
+
+section {
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+
+}
+
+
 
 body {
 	font-family: "GothamMedium";
 }
+
+/* Full Screen Vertical Scroll Snap end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .display-1 {
 	font-family: "GothamBold";
 	font-size: 3.5rem;
