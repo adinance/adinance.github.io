@@ -1,4 +1,4 @@
-<section>
+<section  class="FullScreenVerticalScroll">
   <div class="home-5pala">
 
 

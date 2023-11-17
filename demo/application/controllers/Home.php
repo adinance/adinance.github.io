@@ -17,7 +17,7 @@ class Home extends CI_Controller {
 		$this->load->view('technology');
 		$this->load->view('museum');
 		$this->load->view('news');
-		$this->load->view('contact');
+		$this->load->view('contract');
 		$this->load->view('footer');
 
 	}

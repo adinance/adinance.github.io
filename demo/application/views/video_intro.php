@@ -1,5 +1,5 @@
-<section>
 
+<section class="FullScreenVerticalScroll">
 
   <div id="video-container">
     <video id="video" autoplay muted loop>

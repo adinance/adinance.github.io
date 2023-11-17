@@ -2,19 +2,18 @@
 
 html,
 body,
-section {
-	block-size: 100%;
-	/* box-sizing: border-box; */
-	scroll-snap-type: y mandatory;
-}
+
 
 /* html {
 	scroll-snap-type: y mandatory;
 } */
 
-section {
-	scroll-snap-align: center;
+.FullScreenVerticalScroll {
 	scroll-snap-stop: always;
+	scroll-snap-align: center none;
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+	block-size: 100%;
 }
 
 body {
@@ -22,97 +21,6 @@ body {
 }
 
 /* Full Screen Vertical Scroll Snap end */
-
-.display-1 {
-	font-family: "GothamBold";
-	font-size: 3.5rem;
-	font-display: swap;
-}
-.display-1 > .mbr-iconfont {
-	font-size: 5.6rem;
-}
-.display-2 {
-	font-family: "GothamMedium";
-	font-size: 2rem;
-	font-display: swap;
-}
-.display-2 > .mbr-iconfont {
-	font-size: 3.2rem;
-	font-family: "GothamMedium";
-}
-.display-4 {
-	font-family: "GothamBook";
-	font-size: 0.8rem;
-	font-display: swap;
-}
-.display-4 > .mbr-iconfont {
-	font-size: 1.28rem;
-}
-.display-5 {
-	font-family: "GothamMedium";
-	font-size: 1.5rem;
-	font-display: swap;
-}
-.display-5 > .mbr-iconfont {
-	font-size: 2.4rem;
-}
-.display-7 {
-	font-family: "GothamLight";
-	font-size: 1rem;
-	font-display: swap;
-}
-.display-7 > .mbr-iconfont {
-	font-size: 1.6rem;
-	font-family: "GothamMedium";
-}
-/* ---- Fluid typography for mobile devices ---- */
-/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
-/* 100vw - current viewport width */
-/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
-/* 0.65 - min scale variable, may vary */
-@media (max-width: 768px) {
-	.display-1 {
-		font-size: 2.8rem;
-		font-size: calc(1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
-		line-height: calc(
-			1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)))
-		);
-	}
-	.display-2 {
-		font-size: 1.6rem;
-		font-size: calc(1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-		line-height: calc(
-			1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)))
-		);
-	}
-	.display-4 {
-		font-size: 0.64rem;
-		font-size: calc(0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-		line-height: calc(
-			1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)))
-		);
-	}
-	.display-5 {
-		font-size: 1.2rem;
-		font-size: calc(1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-		line-height: calc(
-			1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)))
-		);
-	}
-}
-
-/* Scroll to top button start*/
-
-.form-control {
-	font-family: "GothamLight";
-	font-size: 1rem;
-	font-display: swap;
-}
-.form-control > .mbr-iconfont {
-	font-size: 1.6rem;
-}
-
-/* Scroll to top button start end*/
 
 /* edit css  start ********************************************************************************** */
 
@@ -134,7 +42,6 @@ body {
 }
 .navbar3 {
 	background: transparent;
-	padding: 0 1rem;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -145,7 +52,7 @@ body {
 	flex-direction: column;
 	z-index: 1000;
 	transform: translate(0%, 190%);
-	margin-top: -6%;
+	margin-top: -7%;
 }
 
 .logo-container {
@@ -154,11 +61,29 @@ body {
 	justify-content: flex-end;
 	gap: 0.25rem;
 }
-.brand-and-icon {
-	justify-content: space-between;
-	padding: 1rem 0;
+
+
+.LOGO {
+	justify-content: left;
+	padding: 5rem 0;
 	border-bottom: 1px solid #ddd;
+	justify-content: left;
 }
+
+.emsp{
+	justify-content: space-between;
+}
+
+.navTH{
+	justify-content: right;
+	font-size: 12px;
+
+
+}
+
+
+
+
 .navbar3-brand {
 	font-size: 1rem;
 	letter-spacing: 3px;
@@ -183,9 +108,21 @@ body {
 	display: none;
 }
 
-.navbar3-nav > li > a {
+
+
+.navbar3-nav {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+
+}
+
+
+
+
+.navbar3-nav > li >a {
 	text-transform: uppercase;
-	font-size: 1.1rem;
+	font-size: 3rem;
 	font-weight: 700;
 	display: block;
 	padding: 0.6rem 0;
@@ -195,6 +132,7 @@ body {
 	position: relative;
 	transition: all 0.4s ease;
 	color: #fff;
+
 }
 .drop-icon {
 	position: absolute;
@@ -257,41 +195,66 @@ body {
 @media screen and (max-width: 1600px) {
 	.navbar3 {
 		margin-top: -10%;
+
+
+	}
+
+
+	.navbar3-nav > li >a {
+		text-transform: uppercase;
+		font-size: 3rem;
+
+	
 	}
 }
 
 @media screen and (min-width: 992px) {
+
 	.navbar3 {
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
-		padding: 0 5rem;
+		padding: 0;
 		position: relative;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.navbar3-toggler {
 		display: none;
 	}
-	.brand-and-icon {
+
+
+	.LOGO {
 		flex: 0 0 6%;
 		border-bottom: none;
 		padding: 0;
 	}
+	
+	.navTH{
+		flex: 0 0 6%;
+		border-bottom: none;
+		padding: 0;
+	}
+
+
+
+
+
+
 	.navbar3-collapse {
 		display: block !important;
 		overflow-y: hidden;
 		flex: 1 0 auto;
 	}
 	.navbar3-nav {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+
 		margin-top: 0%;
 		margin-bottom: 0%;
 	}
 	.navbar3-nav > li > a {
 		border-bottom: none;
 		margin: 0 0.4rem;
-		padding: 1.7rem 0rem 1.7rem 1.8rem;
+		padding: 1.7rem 1rem 1.7rem 1rem;
 		font-size: 0.6rem;
 	}
 	.sub-menu {
@@ -422,18 +385,13 @@ body {
 	padding: 1%;
 }
 
-
-
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1600px) {
 	.about_uscont {
 		padding-left: 25%;
 		padding-right: 25%;
 		padding-top: 7%;
-	}	
+	}
 }
-	
-
-
 
 @media screen and (max-width: 920px) {
 	.about_uscont {
@@ -450,11 +408,6 @@ body {
 		font-size: 12px;
 	}
 }
-
-
-
-
-
 
 /* about_us (home-3) end */
 
@@ -527,12 +480,6 @@ body {
 }
 /* home-5 end */
 
-
-
-
-
-
-
 /* home-6 start */
 .home-6pala {
 	background-image: url("../../../assets/images/web-cmonew-8-2000x1125.png"); /* ระบุ URL ของรูปภาพพื้นหลัง */
@@ -565,11 +512,6 @@ body {
 	}
 }
 /* home-6 end */
-
-
-
-
-
 
 /* home-7 start */
 .home-7pala {
@@ -604,9 +546,6 @@ body {
 }
 /* home-7 end */
 
-
-
-
 /* home-8 start */
 .home-8pala {
 	background-image: url("../../../assets/images/web-cmonew-11-2000x1125.png"); /* ระบุ URL ของรูปภาพพื้นหลัง */
@@ -639,12 +578,6 @@ body {
 	}
 }
 /* home-8 end */
-
-
-
-
-
-
 
 /* home-9 start */
 .home-9pala {
@@ -679,17 +612,7 @@ body {
 }
 /* home-9 end */
 
-
-
-
-
-
 /* news (home-10) start____________________________________________________________________________________________________________________________________________ */
-
-
-
-
-
 
 .news-h10pala {
 	background-image: url("../../../assets/images/web-cmonew-9-2000x1120.png"); /* ระบุ URL ของรูปภาพพื้นหลัง */
@@ -708,7 +631,6 @@ body {
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-top: 8%;
-
 }
 
 .news-h10cont h1 {
@@ -717,7 +639,6 @@ body {
 	font-weight: 600;
 	padding: 1%;
 	text-align: center;
-	
 }
 .news-h10cont h4 {
 	font-family: "GothamBook";
@@ -733,11 +654,9 @@ body {
 	padding: 1%;
 }
 
-
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1600px) {
 	.news-h10cont {
 		padding-top: 3%;
-	
 	}
 }
 
@@ -754,28 +673,14 @@ body {
 
 	.news-h10cont h4 {
 		font-size: 16px;
-
 	}
 	.news-h10cont p {
 		font-size: 12px;
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Explore more btn  */
 .explore-button {
-	
 	background-color: #004e76;
 	color: white;
 	border: none;
@@ -783,7 +688,6 @@ body {
 	padding: 3px 15px;
 	cursor: pointer;
 	transition: background-color 0.3s, transform 0.2s;
-	
 }
 
 .explore-button:hover {
@@ -797,17 +701,9 @@ body {
 
 /* news (home-10) end */
 
+/* contract (home-11) start */
 
-
-
-
-
-
-
-
-/* contact (home-11) start */
-
-.contactpala {
+.contractpala {
 	background-image: url("../../../assets/images/web-cmonew-10-2000x1120.png"); /* ระบุ URL ของรูปภาพพื้นหลัง */
 	height: 100%;
 	background-attachment: fixed;
@@ -816,94 +712,164 @@ body {
 	background-size: cover;
 }
 
-.contactcont {
-	font-family: "GothamBook";
-	text-align: center;
-	vertical-align: middle;
-	color: #000;
+.contractcont {
+	color: #fff;
 	padding-left: 2%;
 	padding-right: 2%;
-	padding-top: 8%;
-
+	padding-top: 5%;
 }
 
-
-.contactrow3b {
-
+.contractrow3b {
 	display: flex;
-	padding: 0%;
 	margin: 0%;
-	grid-gap: 0% ;
+	grid-gap: 0%;
 	justify-content: center;
-
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 2%;
 }
-
 
 .google-map {
+	height: 90%;
+	position: relative;
+}
+
+.google-map [data-state-details] {
+	color: #6b6763;
+	font-family: "GothamBook";
+	height: 1.5em;
+	margin-top: -0.75em;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	position: absolute;
+	text-align: center;
+	top: 50%;
 	width: 100%;
 }
 
+.google-map iframe {
+	height: 100%;
+	width: 100%;
+}
 
+.google-map[data-state] {
+	background: #e9e5dc;
+}
 
-.contactcont h3 {
+.cid-tMkml1Z8MV .google-map[data-state="loading"] [data-state-details] {
+	display: none;
+}
+
+.controw {
+	display: flex;
+}
+
+.contractdetail h3 {
+	font-family: "GothamBold";
+	font-size: 40px;
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+h4 {
 	font-family: "GothamBook";
 	font-size: 20px;
-	font-weight: 400;
-
 	text-align: left;
+	font-weight: bold;
 }
 
-.contactcont p {
+ul {
+	padding-inline-start: 0;
+}
+li {
+	text-align: left;
+	list-style-type: none;
+	font-size: 18px;
+	font-family: "GothamBook";
+}
+
+.contlogo img {
+	height: 50px;
+	padding-left: 0%;
+}
+
+a {
+	color: #fff;
+}
+
+h5 {
 	font-size: 16px;
-	text-align: left;
-	padding: 1%;
+	padding-top: 5%;
 }
 
+.contractpoly {
+	font-size: 10px;
+}
 
-@media screen and (max-width: 1600px){
-	.contactcont {
+@media screen and (max-width: 1600px) {
+	.contractcont {
 		padding-top: 3%;
-	
 	}
+	.contlogo img {
+		height: 30px;
+	}
+	h3 {
+		font-family: "GothamBold";
+		font-size: 26px;
+	}
+	li {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	h5 {
+		font-size: 14px;
+	}
+	.contractpoly {
+		font-size: 8px;
+	}
+}
+
+.google-map {
+	height: 70%;
 }
 
 @media screen and (max-width: 920px) {
-	.contactcont {
-		padding-left: 2%;
-		padding-right: 2%;
+	.contractcont {
+		padding-left: 3%;
+		padding-right: 3%;
 		padding-top: 5%;
 	}
 
-	.contactrow3b {
-
-display: none;
-	
+	.contractrow3b {
+		display: none;
 	}
 
-
-	.contactcont h3 {
-		font-size: 16px;
-
+	.google-map {
+		height: 30%;
 	}
-	.contactcont p {
+
+	h3 {
+		font-family: "GothamBold";
+		font-size: 20px;
+	}
+	li {
 		font-size: 12px;
+	}
+	h4 {
+		font-size: 10px;
+	}
+	h5 {
+		font-size: 8px;
+	}
+	.contractpoly {
+		font-size: 6px;
 	}
 }
 
-
-/* contact (home-11) end */
-
-
-
-
-
-
-
-
-
-
-
-
+/* contract (home-11) end */
 
 /* workpage start_________________________________________________________________________________________________________________________________________________________________ */
 .work_header {
@@ -1274,17 +1240,6 @@ display: none;
 
 /* new work page end */
 
-
-
-
-
-
-
-
-
-
-
-
 /* newspage start________________________________________________________________________________________________________________________________________________________________________ */
 .news_header {
 	padding: 120px;
@@ -1551,7 +1506,6 @@ button {
 /* news modal end */
 
 /* newspage end */
-
 
 /* servicespage start______________________________________________________________________________________________________________________________________________________________________________________________ */
 .servicespala {

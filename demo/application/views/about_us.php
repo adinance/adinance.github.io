@@ -1,4 +1,5 @@
-<section class="about_uspala" >
+<section   class="FullScreenVerticalScroll  about_uspala" >
+
     <div class="about_uscont">
       
         
@@ -32,4 +33,5 @@
      
       
     </div>
+ 
   </section>

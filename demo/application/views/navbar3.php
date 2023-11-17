@@ -3,6 +3,8 @@
   <!-- for localhost start -->
 
 
+  <section>
+
   <div class="main-wrapper">
     <nav class="navbar3">
 
@@ -21,14 +23,7 @@
 
 
 
-
-
-
-
-     
-
-
-        <div class="brand-and-icon">
+      <div class="LOGO">
           <a href="http://localhost/adinance.github.io/demo/index.php/Home"><img src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png" /></a>
           <button type="button" class="navbar3-toggler">
             <i class="fas fa-bars"></i>
@@ -37,6 +32,18 @@
 
         <div class="navbar3-collapse">
           <ul class="navbar3-nav">
+
+
+          <!-- <div class="LOGO">
+          <a href="http://localhost/adinance.github.io/demo/index.php/Home"><img src="<?php echo BASE_URL; ?>assets/images/cmo-white-164x62.png" /></a>
+          <button type="button" class="navbar3-toggler">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div> -->
+
+
+
+
             <li>
               <a href="#" class="menu-link">
                 ABOUT
@@ -109,10 +116,17 @@
             <li>
               <a href="#footer2-l">CONTACT US</a>
             </li>
+            <li>
+              <a href="#footer2-l">TH</a>
+            </li>
 
           </ul>
+
+
+
+
         </div>
-        <div class="brand-and-icon"><a style="color:#fff;font-size: 12px !important; ">TH</a></div>
+
 
 
 
@@ -125,7 +139,7 @@
   <!-- for localhost end -->
 
 
-
+</section>
 
 
 

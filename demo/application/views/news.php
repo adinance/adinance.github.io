@@ -1,4 +1,4 @@
-<section>
+<section  class="FullScreenVerticalScroll">
 
   <div class="news-h10pala">
     <div class="news-h10cont">

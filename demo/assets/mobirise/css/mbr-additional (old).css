@@ -1089,10 +1089,8 @@ section.lazy-placeholder:after {
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
-		padding: 0 5rem;
+		padding: 0 ;
 		position: relative;
-
-
 
 
 		
