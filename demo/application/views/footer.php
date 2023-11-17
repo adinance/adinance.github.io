@@ -14,7 +14,7 @@
 <script src="<?php echo BASE_URL; ?>assets/touchswipe/jquery.touch-swipe.min.js"></script>
 <script src="<?php echo BASE_URL; ?>assets/parallax/jarallax.min.js"></script>
 <script src="<?php echo BASE_URL; ?>assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-<script src="<?php echo BASE_URL; ?>assets/theme/js/script.js"></script>
+<!-- <script src="<?php echo BASE_URL; ?>assets/theme/js/script.js"></script> -->
 
 <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
     <a style="text-align: center"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a>

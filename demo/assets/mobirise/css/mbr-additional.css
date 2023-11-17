@@ -285,6 +285,18 @@ body {
 	}
 }
 
+
+@media screen and (max-width: 430px) {
+
+
+	.navbar3-nav > li >a {
+		text-transform: uppercase;
+		font-size: 1rem;
+
+	
+	}
+}
+
 /* navbar3 end */
 
 /*  navbar end */
@@ -348,6 +360,14 @@ body {
 	}
 }
 
+@media screen and (max-width: 430px) {
+
+	.parallax-intropala h4 {
+		font-size: 20px;
+		padding-top: 70%;
+	}
+}
+
 /* parallax-intro (home-2) end */
 
 /* about_us (home-3) start___________________________________________________________________________________________________________________________________________________________________________ */
@@ -406,6 +426,15 @@ body {
 
 	.about_uscont p {
 		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 430px) {
+
+	.about_uscont {
+
+		padding-top: 30%;
 	}
 }
 
@@ -478,6 +507,15 @@ body {
 		font-size: 40px;
 	}
 }
+
+
+@media screen and (max-width: 430px) {
+
+	.home-5pala {
+
+		padding-top: 60%;
+	}
+}
 /* home-5 end */
 
 /* home-6 start */
@@ -509,6 +547,14 @@ body {
 
 	.home-6pala h1 {
 		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	.home-6pala {
+
+		padding-top: 60%;
 	}
 }
 /* home-6 end */
@@ -544,6 +590,14 @@ body {
 		font-size: 40px;
 	}
 }
+
+@media screen and (max-width: 430px) {
+
+	.home-7pala {
+
+		padding-top: 60%;
+	}
+}
 /* home-7 end */
 
 /* home-8 start */
@@ -577,6 +631,14 @@ body {
 		font-size: 40px;
 	}
 }
+
+@media screen and (max-width: 430px) {
+
+	.home-8pala {
+
+		padding-top: 60%;
+	}
+}
 /* home-8 end */
 
 /* home-9 start */
@@ -608,6 +670,14 @@ body {
 
 	.home-9pala h1 {
 		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	.home-9pala {
+
+		padding-top: 60%;
 	}
 }
 /* home-9 end */
@@ -654,6 +724,22 @@ body {
 	padding: 1%;
 }
 
+
+.readbtn {
+	font-weight: bold; 
+	padding-top:10%;
+	color: #2196f3;
+
+}
+
+.readbtn :hover {
+	
+	font-weight: 600;
+	color: aqua;
+
+}
+
+
 @media screen and (max-width: 1600px) {
 	.news-h10cont {
 		padding-top: 3%;
@@ -676,6 +762,14 @@ body {
 	}
 	.news-h10cont p {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	.news-h10cont {
+
+		padding-top: 15%;
 	}
 }
 
@@ -866,6 +960,15 @@ h5 {
 	}
 	.contractpoly {
 		font-size: 6px;
+	}
+}
+
+
+@media screen and (max-width: 430px) {
+
+	.contractcont {
+
+		padding-top: 15%;
 	}
 }
 
