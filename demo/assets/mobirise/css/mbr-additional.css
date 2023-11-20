@@ -62,7 +62,6 @@ body {
 	gap: 0.25rem;
 }
 
-
 .LOGO {
 	justify-content: left;
 	padding: 5rem 0;
@@ -70,19 +69,14 @@ body {
 	justify-content: left;
 }
 
-.emsp{
+.emsp {
 	justify-content: space-between;
 }
 
-.navTH{
+.navTH {
 	justify-content: right;
 	font-size: 12px;
-
-
 }
-
-
-
 
 .navbar3-brand {
 	font-size: 1rem;
@@ -108,19 +102,13 @@ body {
 	display: none;
 }
 
-
-
 .navbar3-nav {
 	display: flex;
 	align-items: center;
 	justify-content: right;
-
 }
 
-
-
-
-.navbar3-nav > li >a {
+.navbar3-nav > li > a {
 	text-transform: uppercase;
 	font-size: 3rem;
 	font-weight: 700;
@@ -132,7 +120,6 @@ body {
 	position: relative;
 	transition: all 0.4s ease;
 	color: #fff;
-
 }
 .drop-icon {
 	position: absolute;
@@ -195,21 +182,15 @@ body {
 @media screen and (max-width: 1600px) {
 	.navbar3 {
 		margin-top: -10%;
-
-
 	}
 
-
-	.navbar3-nav > li >a {
+	.navbar3-nav > li > a {
 		text-transform: uppercase;
 		font-size: 3rem;
-
-	
 	}
 }
 
 @media screen and (min-width: 992px) {
-
 	.navbar3 {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -223,23 +204,17 @@ body {
 		display: none;
 	}
 
-
 	.LOGO {
 		flex: 0 0 6%;
 		border-bottom: none;
 		padding: 0;
 	}
-	
-	.navTH{
+
+	.navTH {
 		flex: 0 0 6%;
 		border-bottom: none;
 		padding: 0;
 	}
-
-
-
-
-
 
 	.navbar3-collapse {
 		display: block !important;
@@ -247,7 +222,6 @@ body {
 		flex: 1 0 auto;
 	}
 	.navbar3-nav {
-
 		margin-top: 0%;
 		margin-bottom: 0%;
 	}
@@ -285,15 +259,10 @@ body {
 	}
 }
 
-
 @media screen and (max-width: 430px) {
-
-
-	.navbar3-nav > li >a {
+	.navbar3-nav > li > a {
 		text-transform: uppercase;
 		font-size: 1rem;
-
-	
 	}
 }
 
@@ -303,20 +272,31 @@ body {
 
 /* video bg (home-1) start_________________________________________________________________________________________________________________ */
 /* ตั้งค่าพื้นหลังของหน้าเว็บเป็นแบบเต็มจอ */
+
+
 #video-container {
 	position: relative;
-	width: 100vw;
-	height: 100vh;
+	/* width: 100vw;
+	height: 100vh; */
 	overflow: hidden;
 	block-size: 100%;
+	/* margin-top: 7%; */
 }
 
 #video {
-	width: 100%;
-	height: 100%;
+	/* width: 100%;
+	height: 100%; */
 	object-fit: cover;
 	object-position: center;
 }
+
+/* @media screen and (max-width: 1600px) {
+	#video-container {
+		margin-top: 10%;
+	}
+} */
+
+
 
 /* #video-controls {
       position: absolute;
@@ -361,7 +341,6 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.parallax-intropala h4 {
 		font-size: 20px;
 		padding-top: 70%;
@@ -429,11 +408,8 @@ body {
 	}
 }
 
-
 @media screen and (max-width: 430px) {
-
 	.about_uscont {
-
 		padding-top: 30%;
 	}
 }
@@ -508,11 +484,8 @@ body {
 	}
 }
 
-
 @media screen and (max-width: 430px) {
-
 	.home-5pala {
-
 		padding-top: 60%;
 	}
 }
@@ -551,9 +524,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.home-6pala {
-
 		padding-top: 60%;
 	}
 }
@@ -592,9 +563,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.home-7pala {
-
 		padding-top: 60%;
 	}
 }
@@ -633,9 +602,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.home-8pala {
-
 		padding-top: 60%;
 	}
 }
@@ -674,9 +641,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.home-9pala {
-
 		padding-top: 60%;
 	}
 }
@@ -724,21 +689,16 @@ body {
 	padding: 1%;
 }
 
-
 .readbtn {
-	font-weight: bold; 
-	padding-top:10%;
+	font-weight: bold;
+	padding-top: 10%;
 	color: #2196f3;
-
 }
 
 .readbtn :hover {
-	
 	font-weight: 600;
-	color: aqua;
-
+	color: ;
 }
-
 
 @media screen and (max-width: 1600px) {
 	.news-h10cont {
@@ -766,9 +726,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-
 	.news-h10cont {
-
 		padding-top: 15%;
 	}
 }
@@ -963,11 +921,8 @@ h5 {
 	}
 }
 
-
 @media screen and (max-width: 430px) {
-
 	.contractcont {
-
 		padding-top: 15%;
 	}
 }

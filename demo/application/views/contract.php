@@ -1,4 +1,4 @@
-<section  class="FullScreenVerticalScroll">
+<section  class="FullScreenVerticalScroll"  id="contract">
 
 
   <div class="contractpala">
