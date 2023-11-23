@@ -9,16 +9,45 @@ body,
 } */
 
 .FullScreenVerticalScroll {
-	scroll-snap-stop: always;
-	scroll-snap-align: center none;
+	/* scroll-snap-stop: always; */
+	scroll-snap-align: center ;
 	scroll-snap-type: y mandatory;
-	scroll-behavior: smooth;
 	block-size: 100%;
+	/* overflow-y: hidden; */
+
 }
+
+
+
+
+
 
 body {
 	font-family: "GothamMedium";
+
 }
+
+
+
+#BttBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 4px;
+	z-index: 9999;
+  }
+  
+  #BttBtn:hover {
+	background-color: #555;
+  }
 
 /* Full Screen Vertical Scroll Snap end */
 
@@ -42,7 +71,7 @@ body {
 }
 .navbar3 {
 	background: transparent;
-	position: fixed;
+	/* position: fixed; */
 	top: 0;
 	left: 0;
 	right: 0;
@@ -52,7 +81,10 @@ body {
 	flex-direction: column;
 	z-index: 1000;
 	transform: translate(0%, 190%);
-	margin-top: -7%;
+	margin-top: -6%;
+	
+
+
 }
 
 .logo-container {
@@ -64,9 +96,10 @@ body {
 
 .LOGO {
 	justify-content: left;
-	padding: 5rem 0;
-	border-bottom: 1px solid #ddd;
+	/* padding: 5rem 0; */
 	justify-content: left;
+	flex: 0 0 9%;
+
 }
 
 .emsp {
@@ -182,6 +215,8 @@ body {
 @media screen and (max-width: 1600px) {
 	.navbar3 {
 		margin-top: -10%;
+		
+
 	}
 
 	.navbar3-nav > li > a {
@@ -199,15 +234,18 @@ body {
 		position: relative;
 		padding-left: 5%;
 		padding-right: 5%;
+
 	}
 	.navbar3-toggler {
 		display: none;
 	}
 
 	.LOGO {
-		flex: 0 0 6%;
+	
 		border-bottom: none;
 		padding: 0;
+
+	
 	}
 
 	.navTH {
@@ -284,8 +322,8 @@ body {
 }
 
 #video {
-	/* width: 100%;
-	height: 100%; */
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 	object-position: center;
 }

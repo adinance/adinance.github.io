@@ -88,8 +88,8 @@
 
         </div><!-- carousel-view -->
 
-        <div style="padding-top:5%;">
-          <center><a href="http://localhost/adinance.github.io/demo/index.php/News" class="explore-button">Explore more</a></center>
+        <div>
+          <center><a href="<?php echo BASE_URL;?>index.php/News" class="explore-button">Explore more</a></center>
         </div>
 
       </div>

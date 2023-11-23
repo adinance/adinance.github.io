@@ -16,10 +16,10 @@
 <script src="<?php echo BASE_URL; ?>assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
 <!-- <script src="<?php echo BASE_URL; ?>assets/theme/js/script.js"></script> -->
 
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up">
+<!-- <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
     <a style="text-align: center"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a>
 </div>
-<input name="animation" type="hidden" />
+<input name="animation" type="hidden" /> -->
 
 
 
@@ -108,6 +108,38 @@
         muteButton.style.display = 'inline-block';
         unmuteButton.style.display = 'none';
     }
+</script>
+
+<script>
+    var isDragging = false;
+var startX, startY;
+var startScrollTop, startScrollLeft;
+
+var block = document.getElementById('your-block-id'); // เปลี่ยน 'your-block-id' เป็น ID ของบล็อคหรือเอลีเมนต์ของคุณ
+
+block.addEventListener('mousedown', function(e) {
+  isDragging = true;
+  startX = e.clientX;
+  startY = e.clientY;
+  startScrollTop = block.scrollTop;
+  startScrollLeft = block.scrollLeft;
+});
+
+document.addEventListener('mousemove', function(e) {
+  if (isDragging) {
+    var deltaX = e.clientX - startX;
+    var deltaY = e.clientY - startY;
+
+    block.scrollTop = startScrollTop - deltaY;
+    block.scrollLeft = startScrollLeft - deltaX;
+  }
+});
+
+document.addEventListener('mouseup', function() {
+  isDragging = false;
+});
+
+    
 </script>
 
 </html>

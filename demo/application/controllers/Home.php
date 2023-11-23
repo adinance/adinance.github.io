@@ -7,6 +7,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('navbar3');
+		$this->load->view('bttbtn');
 		$this->load->view('video_intro');
 		$this->load->view('parallax_intro');
 		$this->load->view('about_us');

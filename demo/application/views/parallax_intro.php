@@ -1,4 +1,4 @@
-  <section  class="FullScreenVerticalScroll">
+  <section  class="FullScreenVerticalScroll ">
 
 
     <div class="parallax-intropala">
