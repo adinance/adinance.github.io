@@ -1,7 +1,7 @@
 <section>
 
 
-  <nav class="navbar-dropdown bg-color transparent  ">
+  <nav class="navbar-dropdown bg-color transparent"  style=" padding: right 5%;padding-right: 5%;">
 
 
     <div class="nav-container">
@@ -51,7 +51,7 @@
     </div>
 
 
-    <!-- <div class="icon-container" >
+    <div class="icon-container" style="text-align: end;" >
       <a href="https://www.facebook.com/CMOGroupTH/" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-FB.png"></img></a>
       <a href="https://www.instagram.com/cmogroupth/" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-IG.png"></img></a>
       <a href="https://twitter.com/CMOGroupTH" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Twitter.png"></img></a>
@@ -59,7 +59,7 @@
       <a href="https://www.threads.net/@cmogroupth" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Threads-.png"></img></a>
       <a href="https://page.line.me/798nqsnv" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Line.png"></img></a>
       <a href="https://www.youtube.com/@cmo-group" target="_blank"><img style="width: 22px;height: 22px;" src="<?php echo BASE_URL; ?>assets/images/icon/Logo-Youtube.png"></img></a>
-    </div> -->
+      &nbsp;&nbsp;&nbsp;</div>
 
 
 

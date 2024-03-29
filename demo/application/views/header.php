@@ -11,6 +11,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="shortcut icon" href="<?php echo BASE_URL;?>assets/images/cmo-white-164x62.png" type="image/x-icon" >
   <meta name="description" content="" />
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Home</title>
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/web/assets/mobirise-icons/mobirise-icons.css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/bootstrap/css/bootstrap.min.css" >
@@ -26,7 +28,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/mobirise/css/mbr-additional.css" type="text/css" >
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/slick/css/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/slick/css/slick.css">
+  
 
 </head>
 
 <body>
+
+
+
+
+
+
+  

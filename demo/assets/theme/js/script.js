@@ -728,6 +728,9 @@
         }
 
         // Script for popUp video
+
+
+        
         $(document).ready(function() {
             if (!isBuilder) {
                 var modal = function(item) {
@@ -818,6 +821,16 @@
                 }    
             }
         }
+
+
+
+
+
+
+
+
+
+
 
         // Functions from plugins for
         // compatible with old projects 

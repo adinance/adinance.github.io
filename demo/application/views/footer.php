@@ -1,3 +1,5 @@
+
+
 </body>
 
 <script src="<?php echo BASE_URL; ?>assets/web/assets/jquery/jquery.min.js"></script>
@@ -12,12 +14,12 @@
 <script src="<?php echo BASE_URL; ?>assets/touchswipe/jquery.touch-swipe.min.js"></script>
 <script src="<?php echo BASE_URL; ?>assets/parallax/jarallax.min.js"></script>
 <script src="<?php echo BASE_URL; ?>assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-<script src="<?php echo BASE_URL; ?>assets/theme/js/script.js"></script>
+<!-- <script src="<?php echo BASE_URL; ?>assets/theme/js/script.js"></script> -->
 
-<div id="scrollToTop" class="scrollToTop mbr-arrow-up">
+<!-- <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
     <a style="text-align: center"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a>
 </div>
-<input name="animation" type="hidden" />
+<input name="animation" type="hidden" /> -->
 
 
 
@@ -70,32 +72,7 @@
 
 <!-- hamburger script end -->
 
-<!-- runnumber script start  -->
-<script>
-    const number1Element = document.getElementById("number1");
-    const number2Element = document.getElementById("number2");
-    const number3Element = document.getElementById("number3");
 
-    function updateNumber(element, startValue, endValue) {
-        let currentValue = startValue;
-        const increment = startValue < endValue ? 1 : -1;
-
-        const interval = setInterval(() => {
-            if (currentValue === endValue) {
-                clearInterval(interval); // หยุด setInterval ทันที่เมื่อค่าถึงค่าสุดท้าย
-            }
-            element.textContent = currentValue;
-            currentValue += increment;
-        }, 170); // ปรับความเร็วของการเปลี่ยนค่าตรงนี้ (ค่าน้อย = เร็ว)
-
-    }
-
-    // เรียกใช้ฟังก์ชันเพื่อเริ่ม animation
-    updateNumber(number1Element, 7, 37);
-    updateNumber(number2Element, 570, 600);
-    updateNumber(number3Element, 19970, 20000);
-</script>
-<!-- runnumber script end  -->
 
 
 <!-- bg -->
@@ -131,6 +108,38 @@
         muteButton.style.display = 'inline-block';
         unmuteButton.style.display = 'none';
     }
+</script>
+
+<script>
+    var isDragging = false;
+var startX, startY;
+var startScrollTop, startScrollLeft;
+
+var block = document.getElementById('your-block-id'); // เปลี่ยน 'your-block-id' เป็น ID ของบล็อคหรือเอลีเมนต์ของคุณ
+
+block.addEventListener('mousedown', function(e) {
+  isDragging = true;
+  startX = e.clientX;
+  startY = e.clientY;
+  startScrollTop = block.scrollTop;
+  startScrollLeft = block.scrollLeft;
+});
+
+document.addEventListener('mousemove', function(e) {
+  if (isDragging) {
+    var deltaX = e.clientX - startX;
+    var deltaY = e.clientY - startY;
+
+    block.scrollTop = startScrollTop - deltaY;
+    block.scrollLeft = startScrollLeft - deltaX;
+  }
+});
+
+document.addEventListener('mouseup', function() {
+  isDragging = false;
+});
+
+    
 </script>
 
 </html>
