@@ -9,9 +9,6 @@
 		<loc>https://chumbangkok.co.th/sitemap.xml/page6.html</loc>
 	</url>
 	<url>
-		<loc>https://chumbangkok.co.th/sitemap.xml/room.html</loc>
-	</url>
-	<url>
 		<loc>https://chumbangkok.co.th/sitemap.xml/service.html</loc>
 	</url>
 	<url>
@@ -28,5 +25,23 @@
 	</url>
 	<url>
 		<loc>https://chumbangkok.co.th/sitemap.xml/page9.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/page10.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/room1.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/room2.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/room3.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/room4.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/page14.html</loc>
 	</url>
 </urlset>
