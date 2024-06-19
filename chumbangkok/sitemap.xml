@@ -12,9 +12,6 @@
 		<loc>https://chumbangkok.co.th/sitemap.xml/service.html</loc>
 	</url>
 	<url>
-		<loc>https://chumbangkok.co.th/sitemap.xml/contact.html</loc>
-	</url>
-	<url>
 		<loc>https://chumbangkok.co.th/sitemap.xml/default.html</loc>
 	</url>
 	<url>
@@ -45,6 +42,15 @@
 		<loc>https://chumbangkok.co.th/sitemap.xml/page14.html</loc>
 	</url>
 	<url>
-		<loc>https://chumbangkok.co.th/sitemap.xml/page15.html</loc>
+		<loc>https://chumbangkok.co.th/sitemap.xml/page16.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/contact.bkp.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/contact.test.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/contact.html</loc>
 	</url>
 </urlset>
