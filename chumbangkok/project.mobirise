@@ -66,7 +66,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 320,
+    "uniqCompNum": 321,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "cssOptimize": true,
@@ -10973,10 +10973,13 @@
                 "transform": "scale(1.3)",
                 "opacity": "0"
               }
+            },
+            ".mbr-section-title,.mbr-gallery-filter ul": {
+              "color": "#3f6d6b"
             }
           },
           "_name": "extGallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width Gallery\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Items Overlay Color 1\" name=\"overlayColor1\" value=\"#3f6d6b\">\n        <input type=\"checkbox\" title=\"Items Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Items Overlay Color 2\" name=\"overlayColor2\" value=\"#3f6d6b\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#3f6d6b\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem Ipsum Dolor Sit Amet</h3>\n        <h2 class=\"align-left mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-gallery-filter ul\" mbr-class=\"{'pb-4':!gallery__filter}\">สถานที่ใกล้เคียง</h2>\n    </div> \n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery\" group=\"Additional Blocks\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width Gallery\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Items Overlay Color 1\" name=\"overlayColor1\" value=\"#3f6d6b\">\n        <input type=\"checkbox\" title=\"Items Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Items Overlay Color 2\" name=\"overlayColor2\" value=\"#3f6d6b\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#3f6d6b\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem Ipsum Dolor Sit Amet</h3>\n        <h2 class=\"align-left mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-gallery-filter ul\" mbr-class=\"{'pb-4':!gallery__filter}\">สถานที่ใกล้เคียง</h2>\n    </div> \n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n</section>",
           "_cid": "ug8M7rf49J",
           "_anchor": "extGallery1-8v",
           "_protectedParams": [
@@ -10993,7 +10996,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "I'm Park",
+                "tags": "แอมพาร์ค",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -11002,102 +11005,197 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<br>📌Community Mall กลางใจเมือง",
+                "caption": "📌Community Mall กลางใจเมือง",
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "อุทายาน 100 ปี จุฬาลงกรณ์",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "image": "@PROJECT_PATH@/assets/images/n2-639x480.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/n2-639x480-639x480.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌อุทายาน 100 ปี จุฬาลงกรณ์",
+                "active": false
+              },
+              {
+                "tags": "สวนหลวง สแควร์",
+                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/n3-478x308.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/n3-478x308-410x308.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "📌สวนหลวง สแควร์ แหล่งเช็คอิน ถ่ายภาพ เก๋ๆ✨",
                 "active": true
               },
               {
-                "tags": "Creative",
+                "tags": "สามย่าน บรรทัดทอง",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "image": "@PROJECT_PATH@/assets/images/n4-769x399.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/n4-769x399-532x399.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌สามย่าน บรรทัดทอง ย่านแหล่งร้านอร่อย มองหาของกินได้ 24 ชม.",
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "ดราก้อนทาวน์",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "image": "@PROJECT_PATH@/assets/images/s-8003722-720x960.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/s-8003722-720x960-720x540.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌ดราก้อนทาวน์  แหล่งท่องเที่ยวสไตล์เมืองจีน มีทั้งที่พักผ่อน มุมและจุดถ่ายรูป มีร้านอาหารอร่อยๆเยอะเลย✨",
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "ดราก้อนทาวน์",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "image": "@PROJECT_PATH@/assets/images/s-8003724-1108x1477.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/s-8003724-1108x1477-800x600.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌ดราก้อนทาวน์  แหล่งท่องเที่ยวสไตล์เมืองจีน มีทั้งที่พักผ่อน มุมและจุดถ่ายรูป มีร้านอาหารอร่อยๆเยอะเลย✨",
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "ดราก้อนทาวน์",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery05.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery05.jpg",
+                "image": "@PROJECT_PATH@/assets/images/s-8003725-1-720x960.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/s-8003725-1-720x960-720x540.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌ดราก้อนทาวน์  แหล่งท่องเที่ยวสไตล์เมืองจีน มีทั้งที่พักผ่อน มุมและจุดถ่ายรูป มีร้านอาหารอร่อยๆเยอะเลย✨",
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "ดราก้อนทาวน์",
                 "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery06.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery06.jpg",
+                "image": "@PROJECT_PATH@/assets/images/s-8003726-1108x1477.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/s-8003726-1108x1477-800x600.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@ADDONS_PATH@/mobirise4-blocks/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "📌ดราก้อนทาวน์  แหล่งท่องเที่ยวสไตล์เมืองจีน มีทั้งที่พักผ่อน มุมและจุดถ่ายรูป มีร้านอาหารอร่อยๆเยอะเลย✨",
                 "active": false
               }
             ]
           }
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#3f6d6b",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "550px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#767676"
+            }
+          },
+          "_name": "extSlider2",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Dragon Town</h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>📌ดราก้อนทาวน์  แหล่งท่องเที่ยวสไตล์เมืองจีน มีทั้งที่พักผ่อน มุมและจุดถ่ายรูป มีร้านอาหารอร่อยๆเยอะเลย✨</b><b><br></b></h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">More</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/s-8003724-750x1000.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/s-8003725-720x960.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/s-8003722-720x960.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/s-8003726-750x1000.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div></div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "ugjzjXEZB3",
+          "_anchor": "extSlider2-8w",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
@@ -30625,7 +30723,7 @@
             }
           },
           "_name": "extForm14",
-          "_customHTML": "<section class=\"extForm\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\" checked>\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" condition=\"showForm\" checked>\n        <input type=\"checkbox\" title=\"Show Form Subtitle\" name=\"showFormSubtitle\" condition=\"showForm\">\n        <input type=\"checkbox\" title=\"Show Form Text\" name=\"showFormText\" condition=\"showForm\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#3f6d6b\" condition=\"showForm\">\n        <input type=\"color\" title=\"Input BG Color\" name=\"inputBg\" value=\"#efefef\" condition=\"showForm\">\n        <input type=\"color\" title=\"Input Text Color\" name=\"inputTextColor\" value=\"#000000\" condition=\"showForm\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15502.500393506518!2d100.5243076!3d13.7411331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299d26b8745cb%3A0x7e63587306891045!2sChum%20Bangkok!5e0!3m2!1sth!2sth!4v1714116540842!5m2!1sth!2sth&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\">\n        <input type=\"checkbox\" title=\"Show Info\" name=\"showInfo\">\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#ffffff\" condition=\"showInfo\">\n        <select title=\"Info Columns\" name=\"infoColumns\" condition=\"showInfo\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" condition=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-3833-2-2000x1333.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container mbr-white\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style align-center mbr-lighter\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n           <div class=\"line\"></div>\n        </div>\n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".main-title\">\n            Contact Us\n        </h2>\n        <div class=\"row main-row justify-content-center pt-5\">\n            <div class=\"col-md-10 col-lg-6 form-wrapper\" mbr-if=\"showForm\">            \n                <h3 class=\"mbr-section-subtitle form-subtitle mbr-fonts-style pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showFormSubtitle\" data-app-selector=\".form-subtitle\">\n                    Contact Us</h3>\n                <h2 class=\"mbr-section-title form-title mbr-fonts-style\" mbr-class=\"{'pb-3': showFormText,\n                                'pb-4': !showFormText}\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">\n                    Get In Touch\n                </h2>\n<!--                 <p class=\"mbr-text form-text mbr-fonts-style m-0 pb-4 mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"showFormText\" data-app-selector=\".form-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id officia labore sed cumque rem, praesentium iusto aliquam quia, accusantium dignissimos cupiditate accusamus cum ad dolorum corporis maxime nihil qui sunt.\n                </p> -->\n                \n              \n                <div class=\"form1\" mbr-form>\n                    <!---Formbuilder Form--->\n                    <form action=\"adinance@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-md-12 form-group \" data-for=\"firstname\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"firstname\" class=\"form-control-label mbr-fonts-style\"><b>Name</b></label>\n                                <input type=\"text\" name=\"firstname\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                            </div>\n                            <div class=\"col-md-12 form-group \" data-for=\"lastname\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"lastname\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Last Name</label>\n                                <input type=\"text\" name=\"lastname\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\"><b>Email</b></label>\n                                <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                            </div>\n                            <div data-for=\"phone\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style\"><b>Phone</b></label>\n                                <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\">\n                            </div>\n                            <div data-for=\"message\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style\"><b>Message</b></label>\n                                <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                            </div>\n                            <div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-lg btn-form btn-secondary\" data-app-placeholder=\"Type Text\">SEND NOW</a></div>\n                        </div>\n                    </form><!---Formbuilder Form--->\n                </div>\n            </div>\n\n            <div class=\"col-md-10 col-lg-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"row info-row justify-content-center pt-3\" mbr-if=\"showInfo\">\n                    <div class=\"first-column col-12 mbr-fonts-style\" mbr-class=\"{'col-md-6': infoColumns == 2}\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".first-column\">\n                        <ol>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Address:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    350 5th Ave\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    City:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    New-York US\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Check-In:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    3:00 pm\n                                </span>\n                            </li>\n                        </ol>\n                    </div>\n                    <div class=\"col-md-6 second-column mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article mbr-if=\"infoColumns == 2\" data-app-selector=\".second-column\">\n                        <ol>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Phone:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    01 234567890\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    E-mail:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    info@site.com\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Check-Out:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    11:00 am\n                                </span>\n                            </li>\n                        </ol>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n   </div>\n</section>",
+          "_customHTML": "<section class=\"extForm\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#878787\" condition=\"showUnderline&&showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\" checked>\n        <input type=\"checkbox\" title=\"Show Form Title\" name=\"showFormTitle\" condition=\"showForm\" checked>\n        <input type=\"checkbox\" title=\"Show Form Subtitle\" name=\"showFormSubtitle\" condition=\"showForm\">\n        <input type=\"checkbox\" title=\"Show Form Text\" name=\"showFormText\" condition=\"showForm\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#3f6d6b\" condition=\"showForm\">\n        <input type=\"color\" title=\"Input BG Color\" name=\"inputBg\" value=\"#efefef\" condition=\"showForm\">\n        <input type=\"color\" title=\"Input Text Color\" name=\"inputTextColor\" value=\"#000000\" condition=\"showForm\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15502.500393506518!2d100.5243076!3d13.7411331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299d26b8745cb%3A0x7e63587306891045!2sChum%20Bangkok!5e0!3m2!1sth!2sth!4v1714116540842!5m2!1sth!2sth&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Gray Filter\" name=\"grayFilter\">\n        <input type=\"checkbox\" title=\"Show Info\" name=\"showInfo\">\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#ffffff\" condition=\"showInfo\">\n        <select title=\"Info Columns\" name=\"infoColumns\" condition=\"showInfo\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\" condition=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-3833-2-2000x1333.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container mbr-white\">\n        <h3 class=\"mbr-section-subtitle main-subtitle mbr-fonts-style align-center mbr-lighter\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".main-subtitle, .underline\">\n            HOTEL LUXURY\n        </h3>\n        <div class=\"underline align-center pb-3\" mbr-if=\"showUnderline&&showSubtitle\">\n           <div class=\"line\"></div>\n        </div>\n        <h2 class=\"mbr-section-title main-title mbr-fonts-style align-center\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".main-title\">\n            Contact Us\n        </h2>\n        <div class=\"row main-row justify-content-center pt-5\">\n            <div class=\"col-md-10 col-lg-6 form-wrapper\" mbr-if=\"showForm\">            \n                <h3 class=\"mbr-section-subtitle form-subtitle mbr-fonts-style pb-3\" mbr-theme-style=\"display-1\" mbr-if=\"showFormSubtitle\" data-app-selector=\".form-subtitle\">\n                    Contact Us</h3>\n                <h2 class=\"mbr-section-title form-title mbr-fonts-style\" mbr-class=\"{'pb-3': showFormText,\n                                'pb-4': !showFormText}\" mbr-theme-style=\"display-5\" mbr-if=\"showFormTitle\" data-app-selector=\".form-title\">\n                     <a href=\"https://www.facebook.com/ChumBangkok\">\n                        <span class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(63, 109, 107); fill: rgb(63, 109, 107);\"></span>\n                    </a>\n&nbsp;&nbsp;&nbsp;\n                    <a href=\"https://www.instagram.com/chumbkk/\">\n                        <span class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\" style=\"color: rgb(63, 109, 107); fill: rgb(63, 109, 107);\"></span>\n                    </a>\n                    &nbsp;&nbsp;&nbsp;\n                    <a href=\"https://www.tiktok.com/@chum.bangkok\">\n                        <span class=\"mbr-iconfont mbr-iconfont-social socicon-tiktok socicon\" style=\"color: rgb(63, 109, 107); fill: rgb(63, 109, 107);\"></span>\n                    </a>\n                    &nbsp;&nbsp;&nbsp;\n                    <a href=\"https://page.line.me/chumbangkok\">\n                        <span class=\"mbr-iconfont mbr-iconfont-social socicon-line socicon\" style=\"color: rgb(63, 109, 107); fill: rgb(63, 109, 107);\"></span>\n                    </a>\n                </h2>\n<!--                 <p class=\"mbr-text form-text mbr-fonts-style m-0 pb-4 mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"showFormText\" data-app-selector=\".form-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id officia labore sed cumque rem, praesentium iusto aliquam quia, accusantium dignissimos cupiditate accusamus cum ad dolorum corporis maxime nihil qui sunt.\n                </p> -->\n                \n              \n                <div class=\"form1\" mbr-form>\n                    <!---Formbuilder Form--->\n                    <form action=\"adinance@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-md-12 form-group \" data-for=\"firstname\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"firstname\" class=\"form-control-label mbr-fonts-style\"><b>Name</b></label>\n                                <input type=\"text\" name=\"firstname\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                            </div>\n                            <div class=\"col-md-12 form-group \" data-for=\"lastname\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"lastname\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Last Name</label>\n                                <input type=\"text\" name=\"lastname\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\"><b>Email</b></label>\n                                <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                            </div>\n                            <div data-for=\"phone\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style\"><b>Phone</b></label>\n                                <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\">\n                            </div>\n                            <div data-for=\"message\" class=\"col-md-12 form-group \">\n                                <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style\"><b>Message</b></label>\n                                <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                            </div>\n                            <div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-lg btn-form btn-secondary\" data-app-placeholder=\"Type Text\">SEND NOW</a></div>\n                        </div>\n                    </form><!---Formbuilder Form--->\n                </div>\n            </div>\n\n            <div class=\"col-md-10 col-lg-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n                <div class=\"row info-row justify-content-center pt-3\" mbr-if=\"showInfo\">\n                    <div class=\"first-column col-12 mbr-fonts-style\" mbr-class=\"{'col-md-6': infoColumns == 2}\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".first-column\">\n                        <ol>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Address:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    350 5th Ave\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    City:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    New-York US\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Check-In:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    3:00 pm\n                                </span>\n                            </li>\n                        </ol>\n                    </div>\n                    <div class=\"col-md-6 second-column mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article mbr-if=\"infoColumns == 2\" data-app-selector=\".second-column\">\n                        <ol>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Phone:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    01 234567890\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    E-mail:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    info@site.com\n                                </span>\n                            </li>\n                            <li>\n                                <span class=\"info-title mbr-fonts-style\" data-app-selector=\".info-title\">\n                                    Check-Out:\n                                </span>\n                                <span class=\"info-value mbr-fonts-style\" data-app-selector=\".info-value\">\n                                    11:00 am\n                                </span>\n                            </li>\n                        </ol>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n   </div>\n</section>",
           "_cid": "ug2HBZRRwl",
           "_anchor": "extForm14-8q",
           "_PHPplaceholders": [],
