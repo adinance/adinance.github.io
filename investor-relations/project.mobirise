@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-06-24_1607",
-    "currentPage": "board_of_directorhtml.html",
+    "currentPage": "board_of_director.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2268,7 +2268,7 @@
         }
       ]
     },
-    "board_of_directorhtml.html": {
+    "board_of_director.html": {
       "settings": {
         "meta_descr": "",
         "title": "Board Of Director",
