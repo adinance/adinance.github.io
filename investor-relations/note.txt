@@ -1,0 +1,30 @@
+// print_r ($this->input->post());
+
+
+// var_dump($this->session->flashdata('msgerr'));
+
+
+
+ // $data['alert'] =    '<script>
+                //                         Swal.fire({
+                //                             title: "Incorect Password!",
+                //                             text: "Pls., enter again or contact technician!",
+                //                             icon: "error",
+                //                             confirmButtonText: "OK"
+                //                         })
+                //                     </script>';
+
+
+.cid-tZ4971ZJ0f .map {
+  /* padding: 0; */
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+
+@media (min-width: 768px) and (max-width: 1499px) {
+  .cid-tZ4971ZJ0f .text-content {
+    /* padding: 3rem; */
+  }
+}

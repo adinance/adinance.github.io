@@ -1,0 +1,106 @@
+body {
+	font-family: "Montserrat", "Kanit", sans-serif;
+}
+
+input {
+	font-family: "Montserrat", "Kanit", sans-serif;
+	font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+b,
+strong,
+span,
+nav,
+p{
+    
+}
+
+.bold{
+    font-weight: bold; 
+}
+
+.form{
+    height: 80px;
+}
+
+.contact-name{
+    color: #3180c2;
+    font-weight: bold;
+}
+
+.contact-position{
+    /* color: #3180c2; */
+    font-weight: bold;
+}
+
+/* text to upper caes */
+.upper {
+	text-transform: uppercase;
+}
+
+/* menu */
+.menu-top {
+    background-color: #367bba;
+    color: #ffff;
+    padding: 50px 0px 50px 0px; 
+}
+.menu-bar {
+    background-color: #293787;
+    margin-top:-10px;
+    padding: 10px 0px 20px 15px;  /* top right bottom left */
+    font-size:12px;
+    color:#ffff;
+    text-decoration:none;
+}
+.menu-right {
+    right:20px;
+    margin-top:-3px;
+    position: absolute;
+    color:#ffff;
+    text-decoration:none;
+}
+.menu-left {
+    left:20px;
+    margin-top:-3px;
+    position: absolute;
+    color:#ffff;
+    text-decoration:none;
+}
+
+
+/* form */
+.form_apps {
+    font-family: "Montserrat", "Kanit", sans-serif;
+    padding: 55px 0px 200px 0px; 
+}
+
+.input-height {
+    height: 80px; 
+}
+
+.ck-editor__editable[role="textbox"] {
+    min-height: 200px;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-bs {
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Montserrat", "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
