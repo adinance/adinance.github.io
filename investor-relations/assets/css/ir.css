@@ -7,7 +7,11 @@ input {
 	font-size: 1em;
 }
 
-h1,
+h1{
+    /* color: green; */
+}
+
+
 h2,
 h3,
 h4,
@@ -20,7 +24,7 @@ strong,
 span,
 nav,
 p{
-    
+    font-family: "Montserrat", "Kanit", sans-serif;
 }
 
 .bold{
@@ -30,6 +34,11 @@ p{
 .form{
     height: 80px;
 }
+
+/* .ir-menu{
+    color: #ffffff;
+    font-weight: bold;
+} */
 
 .contact-name{
     color: #3180c2;
@@ -49,9 +58,10 @@ p{
 /* menu */
 .menu-top {
     background-color: #367bba;
-    color: #ffff;
+    color: #ffffff;
     padding: 50px 0px 50px 0px; 
 }
+
 .menu-bar {
     background-color: #293787;
     margin-top:-10px;

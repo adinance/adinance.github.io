@@ -38,10 +38,10 @@
 
   <!-- <script src="<?php echo BASE_URL; ?>assets/js/ckeditor.js"></script> -->
 
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css">
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/footer.css" type="text/css">
+  <!-- <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css"> -->
+  <!-- <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/footer.css" type="text/css"> -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
 
   <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
@@ -55,15 +55,32 @@
     // DOMContentLoaded  end
   </script>
 
+  <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/tether/tether.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/animatecss/animate.min.css"> -->
+  <!-- <link rel="stylesheet" href="assets/theme/css/style.css"> -->
+  <!-- <link rel="stylesheet" href="assets/recaptcha.css"> -->
+  <!-- <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"> -->
+  <!-- <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css"> -->
+
+  <!-- mobirise --> 
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/tether/tether.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/theme/css/style.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/recaptcha.css">
   <link rel="preload" as="style" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/mobirise/css/mbr-additional.css">
   <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/ir/mega-menu/style.css" />
+  <!-- vin -->
+  <!-- <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/ir/mega-menu/style.css" /> -->
+   
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/footer.css" type="text/css">
 </head>
 
 </head>

@@ -90,7 +90,8 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 |--------------------------------------------------------------------------
  */
 
-define('BASE_URL','http://localhost/ir.cmo-group.com/');
+// define('BASE_URL','http://localhost/ir.cmo-group.com/');
+define('BASE_URL','http://localhost/adinance.github.io/investor-relations/');
 // define('BASE_URL','https://ir.cmo-group.com/');
 
 // PATH

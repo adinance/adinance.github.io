@@ -39,9 +39,6 @@
 		<loc>https://chumbangkok.co.th/sitemap.xml/room4.html</loc>
 	</url>
 	<url>
-		<loc>https://chumbangkok.co.th/sitemap.xml/page14.html</loc>
-	</url>
-	<url>
 		<loc>https://chumbangkok.co.th/sitemap.xml/page16.html</loc>
 	</url>
 	<url>
@@ -52,5 +49,11 @@
 	</url>
 	<url>
 		<loc>https://chumbangkok.co.th/sitemap.xml/contact.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/room5.html</loc>
+	</url>
+	<url>
+		<loc>https://chumbangkok.co.th/sitemap.xml/page18.html</loc>
 	</url>
 </urlset>

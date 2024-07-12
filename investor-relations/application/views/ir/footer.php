@@ -18,17 +18,16 @@
             </div>
         </div>
         <div class="footer-item3">
-        <a href="https://www.facebook.com/CMOGroupTH/" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-facebook.png"></img></a>
+            <a href="https://www.facebook.com/CMOGroupTH/" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-facebook.png"></img></a>
             <a href="https://www.instagram.com/cmogroupth/" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-instagram.png"></img></a>
             <a href="https://twitter.com/CMOGroupTH" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-twitter.png"></img></a>
             <a href="https://www.tiktok.com/@cmogroupth" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-tiktok.png"></img></a>
-            <a href="https://www.threads.net/@cmogroupth" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-threads.png"></img></a>
-            &nbsp;&nbsp;<a>CMOGrupTH</a>
+            <a href="https://www.threads.net/@cmogroupth" target="_blank"><img src="<?php echo BASE_URL;?>assets/img/social-threads.png"></img></a>&nbsp;&nbsp;<a>CMOGroupTH</a>
         </div>
     </div>
 </section>
 
-<script src="<?php echo BASE_URL;?>assets/js/ckeditor.js"></script>
+<!-- <script src="<?php echo BASE_URL;?>assets/js/ckeditor.js"></script> -->
 <script>
     ClassicEditor.create(document.getElementById("editor"), {
         toolbar: {
@@ -177,6 +176,29 @@
         location.reload();
     }
 </script>
+
+<!-- Mobirise -->
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/web/assets/jquery/jquery.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popper/popper.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/tether/tether.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popup-overlay-plugin/script.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/smoothscroll/smooth-scroll.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/viewportchecker/jquery.viewportchecker.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popup-plugin/script.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/mobirise-tabs/mbr-tabs.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/theme/js/script.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/formoid.min.js"></script>
+  
+<!--   
+<div id="scrollToTop" class="scrollToTop mbr-arrow-up">
+    <a style="text-align: center;">
+    <i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a>
+</div>
+<input name="animation" type="hidden"> -->
+
+<!-- Mobirise -->
+  
 
 </body>
 
