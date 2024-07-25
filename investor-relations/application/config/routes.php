@@ -104,7 +104,7 @@ $route['policy']         = 'corporate_governance/policy';
 $route['whistleblowing'] = 'corporate_governance/whistleblowing_form';
 
 /* 8. Sustainability ----- */
-$route['sustainability']    = 'sustainability';
+$route['sustainability']    = 'sustainability/index';
 $route['overview']    = '#';
 $route['economy']     = '#';
 $route['environment'] = '#';

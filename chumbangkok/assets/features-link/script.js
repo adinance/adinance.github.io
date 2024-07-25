@@ -1,2 +1,0 @@
-
-(function(a){a("section.featuresLink .card-wrapper .card-img a").length&&a("section.featuresLink .card-wrapper .card-img a").each(function(){a(this).parents(".card-wrapper").css("cursor","pointer")});a("section.featuresLink .card-wrapper").on("click",function(b){if(void 0===a(b.target)[0].href||a(b.target)[0]===a(this).find(".card-img a")[0])window.location=a(this).find(".card-img a")[0].href})})(jQuery);
