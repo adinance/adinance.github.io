@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Sustainability extends CI_Controller {
+class Home extends CI_Controller {
 
     public $menu;
 
@@ -9,12 +9,6 @@ class Sustainability extends CI_Controller {
     }
 
     public function index() {
-        $this->overview();
-
-    }
-
-
-    public function overview() {
         $data               = array();
 
         isset($this->session->sustainability) ? $data['menu'] = $this->session->sustainability : $data['menu']  = $this->utilities->method_to_menu($this->router->fetch_class());
@@ -36,34 +30,10 @@ class Sustainability extends CI_Controller {
         $this->load->view('ir/menu', $data);
         $this->load->view('ir/sustainability/overview', $data);
         $this->load->view('ir/footer', $data);
-
     }
 
 
-    public function economy() {
-        $data               = array();
-
-        isset($this->session->sustainability) ? $data['menu'] = $this->session->sustainability : $data['menu']  = $this->utilities->method_to_menu($this->router->fetch_class());
-        $data['menu_right'] = NULL;
-        $data['menu_right_url'] = NULL;
-        isset($this->session->policy) ? $data['menu_left'] = $this->session->policy : $data['menu_left']  = 'Policy'; 
-        $data['menu_left_url']  = BASE_URL . 'policy';
-
-
-        // $data['menu']           = $this->menu;
-        // $data['menu_right']     = NULL;
-        // $data['menu_right_url'] = NULL;
-        // $data['menu_left']      = NULL;
-        // $data['menu_left_url']  = NULL;
-
-        $this->load->view('ir/header', $data);
-        $this->load->view('ir/navigation', $data);
-        // $this->load->view('debugs', $data);
-        $this->load->view('ir/menu', $data);
-        $this->load->view('ir/sustainability/overview', $data);
-        $this->load->view('ir/footer', $data);
-
-    }
+    
 
 
     
