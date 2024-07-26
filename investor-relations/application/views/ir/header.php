@@ -81,6 +81,10 @@
    
   <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/footer.css" type="text/css">
+
+  <!-- <link rel="stylesheet" href="mega-menu/style.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
 </head>
 
 </head>

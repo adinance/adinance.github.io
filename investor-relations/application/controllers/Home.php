@@ -27,8 +27,8 @@ class Home extends CI_Controller {
         $this->load->view('ir/header', $data);
         $this->load->view('ir/navigation', $data);
         // $this->load->view('debugs', $data);
-        $this->load->view('ir/menu', $data);
-        $this->load->view('ir/sustainability/overview', $data);
+        // $this->load->view('ir/menu', $data);
+        $this->load->view('ir/home', $data);
         $this->load->view('ir/footer', $data);
     }
 
