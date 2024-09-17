@@ -159,7 +159,8 @@
 <script type="text/javascript">
     function language(lang) {
         // document.cookie = "ck_lang=" + lang;
-        let url = "http://localhost/ir.cmo-group.com/api/language/" + lang;
+        // let url = "http://localhost/ir.cmo-group.com/api/language/" + lang;
+        let url = "https://cmo-group.com/investor-relations/api/language/" + lang;
         console.log(url);
         $.ajax({
             url: url,
@@ -181,24 +182,40 @@
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/web/assets/jquery/jquery.min.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popper/popper.min.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/tether/tether.min.js"></script>
-<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popup-overlay-plugin/script.js"></script>
+
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/smoothscroll/smooth-scroll.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/tether/tether.min.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/viewportchecker/jquery.viewportchecker.js"></script>
+
+
+
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/dropdown/js/nav-dropdown.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/dropdown/js/navbar-dropdown.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/parallax/jarallax.min.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/tether/tether.min.js"></script>
+
+
+
+
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popup-plugin/script.js"></script>
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/popup-overlay-plugin/script.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/mobirise-tabs/mbr-tabs.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/theme/js/script.js"></script>
 <script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/formoid.min.js"></script>
+
+<script src="<?php echo BASE_URL;?>assets/3rdparty/mobirise/assets/slidervideo/script.js"></script>
   
-<!--   
+  
 <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
     <a style="text-align: center;">
     <i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a>
 </div>
-<input name="animation" type="hidden"> -->
+<input name="animation" type="hidden">
 
-<!-- Mobirise -->
-  
 
 </body>
 

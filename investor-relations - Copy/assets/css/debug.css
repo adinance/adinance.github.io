@@ -1,0 +1,17 @@
+.debugs {
+	font-family: Consolas, 'Courier New', monospace;
+	background-color: #1e1e1e;
+	text-align: left;
+	font-size: 11px;
+	padding: 20px 20px 20px 30px;
+	color: #ffffff;
+	line-height: 2em;
+	margin: -10px -10px 10px -10px;
+}
+
+.debugs-highlight {
+	padding: 0.1em 0;
+	background: #007acc;
+	color: #ffffff;
+}
+
