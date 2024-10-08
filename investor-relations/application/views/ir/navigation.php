@@ -1,307 +1,194 @@
-<section class="ir-navcontainer">
-    <nav class=" d-flex justify-content-between navbar navbar-expand-lg nav-mainpadding ">
+<section class="extMenu7 menu cid-uoJscNlwwI" once="menu" id="extMenu7-9n">
 
-        <div class="p-2"><a class="navbar-brand" href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/img/home-top-cmo-logo.png"></a></div>
+    <nav class="navbar navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <div class="menu-content-top" id="topLine">
+            <div class="menu-logo">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="https://cmo-group.com">
+                            <img src="<?php echo BASE_URL; ?>assets/img/logo-navigation.png" alt="" title=""
+                                style="height: 4rem;">
+                        </a>
+                    </span>
 
-        <div class="p-2 ms-auto gtc-lg">
-
-            <img class=" gtc-btn" src="<?php echo BASE_URL; ?>assets/img/home-top-home-icon.png"> 
-            <strong><a class="nav-l1 gtc-t" href="https://cmo-group.com"><?php echo isset($this->session->go_to_corporate) ? $this->session->go_to_corporate : 'Go to Corporate'; ?></a></strong>
-            <img class=" gtc-btn" src="<?php echo BASE_URL; ?>assets/img/home-top-home-icon.png"> 
-            <strong><a class="nav-l1 gtc-t" href="<?php echo BASE_URL;?>"><?php echo isset($this->session->go_to_corporate) ? $this->session->go_to_corporate : 'Go to Investor Relations'; ?></a></strong>
-            <a class="nav-l1" onclick="language('english')">EN</a> | <a class="nav-l1" onclick="language('thai')">TH</a>
+                </div>
+            </div>
+            <div class="menu-content-right">
+                <div class="info-widget">
+                    <span class="widget-icon mbr-iconfont mobi-mbri-home mobi-mbri"></span>
+                    <div class="widget-content display-4">
+                        <a href="https://cmo-group.com">
+                            <p class="widget-title mbr-fonts-style display-4">
+                                <?php echo isset($this->session->go_to_corporate) ? $this->session->go_to_corporate : 'Go to Corporate'; ?>
+                            </p>
+                        </a>
+                        <a href="https://cmo-group.com/ir">
+                            <p class="widget-text mbr-fonts-style display-4">
+                                <?php echo isset($this->session->go_to_investor_relations) ? $this->session->go_to_investor_relations : 'Go to Investor Relations'; ?>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="info-widget">
+                    <span class="widget-icon mbr-iconfont mbrib-growing-chart"></span>
+                    <div class="widget-content display-4">
+                        <p class="widget-title mbr-fonts-style display-4">CMO | 0.8 THB</p>
+                        <p class="widget-text mbr-fonts-style display-4">+ 0.10 (1.20%)</p>
+                    </div>
+                </div>
+                <div class="info-widget">
+                    <span class="widget-icon mbr-iconfont mdi-action-language"></span>
+                    <div class="widget-content mbr-fonts-style">
+                        <p class="widget-title display-4"><a onclick="language('english')">EN</a></p>
+                        <p class="widget-text mbr-fonts-style display-4"><strong><a
+                                    onclick="language('thai')">TH</a></strong></p>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent, #topLine" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
         </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <img class="hbg-btn" src="<?php echo BASE_URL; ?>assets/img/hbg.png">
-        </button>
-
-    </nav>
-
-    <nav class="navbar navbar2 navbar-expand-lg  border-top border-bottom nav-mainpadding ">
-
-        <div class="container-fluid">
-            <div class=" collapse navbar-collapse " id="main_nav">
-
-                <ul class="navbar-nav d-flex justify-content-between nav justify-content-center">
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown"><?php echo isset($this->session->corporate_info) ? $this->session->corporate_info : 'Corporate Info'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title"><?php echo isset($this->session->corporate_info) ? $this->session->corporate_info : 'Corporate Info'; ?></div>
-                                        </div>
-                                    </div>
+        <div class="menu-bottom">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown js-float-line nav-right" data-app-modern-menu="true">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false">
+                            <strong><?php echo isset($this->session->corporate_info) ? $this->session->corporate_info : 'Corporate Info'; ?></strong>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="mbr-black dropdown-item display-4"
+                                href="general-information"><?php echo isset($this->session->general_information) ? $this->session->general_information : 'General Information'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="vision-mission-core-value"
+                                aria-expanded="false"><?php echo isset($this->session->vision_mission_core_value) ? $this->session->vision_mission_core_value : 'Vision / Mission / Core Value'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="company-s-history"
+                                aria-expanded="false"><?php echo isset($this->session->company_s_history) ? $this->session->company_s_history : 'Company\'s History'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="business-overview"
+                                aria-expanded="false"><?php echo isset($this->session->business_overview) ? $this->session->business_overview : 'ฺBusiness Overview'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="message-from-ceo-and-coo"
+                                aria-expanded="false"><?php echo isset($this->session->message_from_ceo_and_coo) ? $this->session->message_from_ceo_and_coo : 'Message from CEO & COO'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="company-structure"
+                                aria-expanded="false"><?php echo isset($this->session->company_structure) ? $this->session->company_structure : 'Company Structure'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="organization-chart"
+                                aria-expanded="false"><?php echo isset($this->session->organization_chart) ? $this->session->organization_chart : 'Organization Chart'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="board-of-director"
+                                aria-expanded="false"><?php echo isset($this->session->board_of_director) ? $this->session->board_of_director : 'Board of Director'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="management-team"
+                                aria-expanded="false"><?php echo isset($this->session->management_team) ? $this->session->management_team : 'Management Team'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="awards"
+                                aria-expanded="false"><?php echo isset($this->session->awards) ? $this->session->awards : 'Awards'; ?></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false">
+                            <strong>
+                                <?php echo isset($this->session->financial_info) ? $this->session->financial_info : 'Financial Info'; ?></strong></a>
+                        <div class="dropdown-menu">
+                            <a class="mbr-black dropdown-item display-4"
+                                href="financial-highlight"><?php echo isset($this->session->financial_highlight) ? $this->session->financial_highlight : 'Financial Highlight'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="financial-statement">
+                                <?php echo isset($this->session->financial_statement) ? $this->session->financial_statement : 'Financial Statement'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="management-discussion-and-analysis"><?php echo isset($this->session->md_and_a) ? $this->session->md_and_a : 'MD & A'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="form-56-1"
+                                aria-expanded="false"><?php echo isset($this->session->form_56_1) ? $this->session->form_56_1 : 'Form 56-1 (thai only)'; ?></a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->stock_info) ? $this->session->stock_info : 'Stock Info'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="https://www.settrade.com/th/equities/quote/cmo/overview"><?php echo isset($this->session->stock_qoute) ? $this->session->stock_qoute : 'Stock Qoute'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="https://www.settrade.com/th/equities/quote/cmo/historical-trading"><?php echo isset($this->session->historical_price) ? $this->session->historical_price : 'Historical Price'; ?></a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->shareholder_info) ? $this->session->shareholder_info : 'Shareholder Info'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="major_shareholder"><?php echo isset($this->session->major_shareholder) ? $this->session->major_shareholder : 'Major Shareholder'; ?></a>
+                            <div class="dropdown"><a class="mbr-black dropdown-item dropdown-toggle display-4" href="#"
+                                    data-toggle="dropdown-submenu"
+                                    aria-expanded="false"><?php echo isset($this->session->shareholder_s_meeting) ? $this->session->shareholder_s_meeting : 'Shareholder\'s Meeting'; ?></a>
+                                <div class="dropdown-menu dropdown-submenu"><a class="mbr-black dropdown-item display-4"
+                                        href="invitation"><?php echo isset($this->session->invitation) ? $this->session->invitation : 'Invitation'; ?></a><a
+                                        class="mbr-black dropdown-item display-4"
+                                        href="resolutions"><?php echo isset($this->session->the_resolutions) ? $this->session->the_resolutions : 'The Resolution'; ?></a>
+                                    <a class="mbr-black dropdown-item display-4"
+                                        href="the-minutes-of-annual-general-meeting"><?php echo isset($this->session->the_minutes_of_annual_general_meeting) ? $this->session->the_minutes_of_annual_general_meeting : 'The Minutes Of Annual General Meeting'; ?></a>
                                 </div>
-                                <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="general-information"><?php echo isset($this->session->general_information) ? $this->session->general_information : 'General Information'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="vision-mission-core-value"><?php echo isset($this->session->vision_mission_core_value) ? $this->session->vision_mission_core_value : 'Vision Mission Core'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="company-s-history"><?php echo isset($this->session->company_s_history) ? $this->session->company_s_history : 'Company’s History'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="business-overview"><?php echo isset($this->session->business_overview) ? $this->session->business_overview : 'ฺBusiness Overview'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="message-from-ceo-and-coo"><?php echo isset($this->session->message_from_ceo_and_coo) ? $this->session->message_from_ceo_and_coo : 'Message from CEO & COO'; ?></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-                                            <li class="menu-list border-bottom"><a href="company-structure"><?php echo isset($this->session->company_structure) ? $this->session->company_structure : 'Company Structure'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="organization-chart"><?php echo isset($this->session->organization_chart) ? $this->session->organization_chart : 'Organization Chart'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="board-of-director"><?php echo isset($this->session->board_of_director) ? $this->session->board_of_director : 'Board of Director'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="management-team"><?php echo isset($this->session->management_team) ? $this->session->management_team : 'Management Team'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="awards"><?php echo isset($this->session->awards) ? $this->session->awards : 'Award'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
+                            </div><a class="mbr-black dropdown-item display-4" href="dividen-policy-and-payment"
+                                aria-expanded="false"><?php echo isset($this->session->dividen_policy_and_payment) ? $this->session->dividen_policy_and_payment : 'Dividen Policy & Payment'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="newly-issued-ordinary-shares"
+                                aria-expanded="false"><?php echo isset($this->session->newly_issued_ordinary_shares) ? $this->session->newly_issued_ordinary_shares : 'Newly Issued Ordinary Shares'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="ir-calendar"
+                                aria-expanded="false"><?php echo isset($this->session->ir_calendar) ? $this->session->ir_calendar : 'IR Calendar'; ?></a>
                         </div>
                     </li>
 
-                    <li class="  nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown"><?php echo isset($this->session->financial_info) ? $this->session->financial_info : 'Financial Info'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->financial_info) ? $this->session->financial_info : 'Financial Info'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom" ><a href="highlights"><?php echo isset($this->session->financial_highlighs) ? $this->session->financial_highlighs : 'Financial Highlight'; ?></a></li>
-                                            <li class="menu-list border-bottom" ><a href="statements"><?php echo isset($this->session->financial_statements) ? $this->session->financial_statements : 'Financial Statement'; ?></a></li>
-                                            <li class="menu-list border-bottom" ><a href="management_discussion"><?php echo isset($this->session->management_discussion) ? $this->session->management_analysis : 'MD & A'; ?></a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->news_room) ? $this->session->news_room : 'News Room'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="set-annoucements"><?php echo isset($this->session->set_annoucements) ? $this->session->set_annoucements : 'Set Announcenements'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="press-releases"><?php echo isset($this->session->press_releases) ? $this->session->press_releases : 'Press Releases'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="news-clipping"><?php echo isset($this->session->news_clipping) ? $this->session->news_clipping : 'News Clipping'; ?></a>
                         </div>
                     </li>
 
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="stock"><?php echo isset($this->session->stock_info) ? $this->session->stock_info : 'Stock Info'; ?></a>
-                    </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown"><?php echo isset($this->session->shareholder_info) ? $this->session->shareholder_info : 'Shareholder Info'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" id="shareholder_info"><?php echo isset($this->session->shareholder_info) ? $this->session->shareholder_info : 'Shareholder Info'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="major_shareholder"><?php echo isset($this->session->major_shareholder) ? $this->session->major_shareholder : 'Major Shareholder'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#"><?php echo isset($this->session->sharehol_invitation) ? $this->session->sharehol_invitation : 'Shareholder\'s Meeting'; ?></a>
-                                            </li>
-                                            <li class="menu-suplist"><a href="invitation" ><?php echo isset($this->session->invitations) ? $this->session->invitations : '- Invitation'; ?></a></li>
-                                            <li class="menu-suplist"><a href="resolutions" ><?php echo isset($this->session->the_resolutions) ? $this->session->the_resolutions : '- The Resolution'; ?></a></li>
-                                            <li class="menu-suplist"><a href="the-minutes-of-annaul-general-meeting" ><?php echo isset($this->session->the_minutes_of_annual_general_meeting) ? $this->session->the_minutes_of_annual_general_meeting : '- The Minutes Of Annual General Meeting'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-                                            <li class="menu-list border-bottom" ><a href="dividen_policy" ><?php echo isset($this->session->dividen_policy_and_payment) ? $this->session->dividen_policy_and_payment : 'Dividen Policy And Payment'; ?></a></li>
-                                            <li class="menu-list border-bottom" ><a href="newly_issued_ordinary_shares" ><?php echo isset($this->session->newly_issued_ordinary_shares) ? $this->session->newly_issued_ordinary_shares : 'Newly Issued Ordinary Shares'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->publications) ? $this->session->publications : 'Publications'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="annual-report"><?php echo isset($this->session->annual_report) ? $this->session->annual_report : 'Annual Report'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="presentations-and-webcasts"><?php echo isset($this->session->presentations_and_webcasts) ? $this->session->presentations_and_webcasts : 'Presentations And Webcasts'; ?></a>
                         </div>
                     </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" ><?php echo isset($this->session->news_room) ? $this->session->news_room : 'News Room'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->news_room) ? $this->session->news_room : 'News Room'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->set_annoucements) ? $this->session->set_annoucements : 'Set Announcenements'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->press_releases) ? $this->session->press_releases : 'Press Releases'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->news_clipping) ? $this->session->news_clipping : 'News Clipping'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->ir_calendar) ? $this->session->ir_calendar : 'IR Calendar'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-                                        </ul>
-                                    </div>
-                                </div> -->
-
-                            </div>
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->corporate_governance) ? $this->session->corporate_governance : 'Corporate Governance'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="policy"><?php echo isset($this->session->policy) ? $this->session->policy : 'Policy'; ?></a><a
+                                class="mbr-black dropdown-item display-4"
+                                href="whistleblowing"><?php echo isset($this->session->whistleblowing_form) ? $this->session->whistleblowing_form : 'Whistleblowing Form'; ?></a>
                         </div>
                     </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" ><?php echo isset($this->session->publications) ? $this->session->publications : 'Publications'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->publications) ? $this->session->publications : 'Publications'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="annual_report"><?php echo isset($this->session->annual_report) ? $this->session->annual_report : 'Annual Report (56-1 One Report)'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="company_factsheet" id="company_factsheet"><?php echo isset($this->session->company_factsheet) ? $this->session->company_factsheet : 'Company Factsheet'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="presentations_and_webcasts" ><?php echo isset($this->session->presentations_and_webcasts) ? $this->session->presentations_and_webcasts : 'Presentations And Webcasts'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="analyst_coverage" ><?php echo isset($this->session->analyst_coverage) ? $this->session->analyst_coverage : 'Analyst Coverage'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-                                        </ul>
-                                    </div>
-                                </div> -->
-
-                            </div>
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                        <strong><?php echo isset($this->session->sustainability) ? $this->session->sustainability : 'Sustainability'; ?></strong></a>
+                        <div class="dropdown-menu">
+                            <a class="mbr-black dropdown-item display-4" href="overview"><?php echo isset($this->session->overview) ? $this->session->overview : 'Overview'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="economy"><?php echo isset($this->session->economy) ? $this->session->economy : 'Economy'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="environment"><?php echo isset($this->session->environment) ? $this->session->environment : 'Environment'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="social"><?php echo isset($this->session->social) ? $this->session->social : 'Social'; ?></a>
                         </div>
                     </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" ><?php echo isset($this->session->corporate_governance) ? $this->session->corporate_governance : 'Corporate Governance'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->corporate_governance) ? $this->session->corporate_governance : 'Corporate Governance'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="policy" ><?php echo isset($this->session->policy) ? $this->session->policy : 'Policy'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="whistleblowing" ><?php echo isset($this->session->whistleblowing_form) ? $this->session->whistleblowing_form : 'Whistleblowing Form'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-                                        </ul>
-                                    </div>
-                                </div> -->
-
-                            </div>
+                    <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4" href="#"
+                            data-toggle="dropdown-submenu" aria-expanded="false"><strong>
+                                <?php echo isset($this->session->info_request) ? $this->session->info_request : 'Info Request'; ?></strong></a>
+                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                                href="contact"><?php echo isset($this->session->ir_contact) ? $this->session->ir_contact : 'IR Contact'; ?></a>
+                            <a class="mbr-black dropdown-item display-4"
+                                href="subscribe"><?php echo isset($this->session->email_alerts) ? $this->session->email_alerts : 'Email Alerts'; ?></a>
                         </div>
                     </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" ><?php echo isset($this->session->sustainability) ? $this->session->sustainability : 'Sustainability'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->sustainability) ? $this->session->sustainability : 'Sustainability'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="sustainability" ><?php echo isset($this->session->overview) ? $this->session->overview : 'Overview'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->economy) ? $this->session->economy : 'Economy'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->environment) ? $this->session->environment : 'Environment'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="#" ><?php echo isset($this->session->social) ? $this->session->social : 'Social'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-
-                                        </ul>
-                                    </div>
-                                </div> -->
-
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class=" nav-item has-megamenu">
-                        <a class="nav-link text-dark" href="#" data-bs-toggle="dropdown" ><?php echo isset($this->session->info_request) ? $this->session->info_request : 'Info Request'; ?></a>
-                        <div class="dropdown-menu megamenu shadow bg-white" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-12">
-                                    <div class="col-megamenu">
-                                        <div class="col">
-                                            <div class="h4 menu-title" ><?php echo isset($this->session->info_request) ? $this->session->info_request : 'Info Request'; ?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled ">
-                                            <li class="menu-list border-bottom"><a href="contact" ><?php echo isset($this->session->ir_contact) ? $this->session->ir_contact : 'IR Contact'; ?></a></li>
-                                            <li class="menu-list border-bottom"><a href="subscribe" ><?php echo isset($this->session->email_alerts) ? $this->session->email_alerts : 'Email Alerts'; ?></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-lg-4 col-12">
-                                    <div class="col-megamenu">
-                                        <ul class="list-unstyled">
-
-                                        </ul>
-                                    </div>
-                                </div> -->
-
-                            </div>
-                        </div>
-                    </li>
-
                 </ul>
-            </div> <!-- navbar-collapse.// -->
 
+            </div>
         </div>
-
-        <!-- container-fluid.// -->
     </nav>
-
-    <!-- ============= COMPONENT END// ============== -->
-
 </section>
-
-<!--jQuery-->
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="<?php echo BASE_URL; ?>assets/ir/mega-menu/script.js"></script> -->

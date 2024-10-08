@@ -1,12 +1,7 @@
 
 
-
 <!-- 
-
 <section class="cid-unWNWgnfrK" id="image2-71">
-
-    
-
     <figure class="mbr-figure container">
         <div class="image-block" style="width: 80%;">
             <img src="<?php echo BASE_URL  ; ?>assets/img/organization-chart-3000x3386.jpg" alt="" title="">
@@ -15,21 +10,18 @@
     </figure>
 </section> -->
 
-
-
 <section class="cid-unXTRtUzSq" id="image2-7a">
-
-    
-
     <figure class="mbr-figure container">
-        <div class="image-block" style="width: 71%;">
-        <img src="<?php echo BASE_URL  ; ?>assets/img/organization-chart-3000x3386.jpg" alt="" title="">
+        <div class="image-block" style="width: 100%;">
+        <img src="<?php echo BASE_URL  . PATH_MOBIRISE ; ?>assets/images/organization-chart-1920x1486.png" alt="" title="">
 
-            <!-- <a href="#" data-toggle="modal" data-bs-toggle="modal" data-target="#mbr-popup-7b" data-bs-target="#mbr-popup-7b"><img src="<?php echo BASE_URL  ; ?>assets/img/organization-chart-3000x3386.jpg" alt="" title=""></a> -->
+            <!-- <a href="#" data-toggle="modal" data-bs-toggle="modal" data-target="#mbr-popup-7b" data-bs-target="#mbr-popup-7b"><img src="<?php echo BASE_URL  . PATH_MOBIRISE ; ?>assets/images/organization-chart-1920x1486.png" alt="" title=""></a> -->
             
         </div>
     </figure>
 </section>
+
+
 <!-- 
 
 
@@ -78,7 +70,7 @@
 
                     <div>
                         <div class="card-img mbr-figure">
-                            <img src="<?php echo BASE_URL  ; ?>assets/img/organization-chart-2092x2361.jpg" alt="" title="">
+                            <img src="<?php echo BASE_URL  . PATH_MOBIRISE ; ?>assets/images/organization-chart-1920x1486.png" alt="" title="">
                         </div>
                         
 

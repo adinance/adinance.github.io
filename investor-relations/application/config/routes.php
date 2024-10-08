@@ -53,13 +53,7 @@ $route['default_controller']   = 'home';
 $route['404_override']         = '';
 $route['translate_uri_dashes'] = FALSE;
 
-// short url
-$route['home'] = 'corporate_info';
-$route['bod']  = 'corporate_info/board_of_director';
-
-// full url
 /* 1. Corporate Info ------------------- */
-
 $route['general-information']       = 'corporate_info/general_information';
 $route['vision-mission-core-value'] = 'corporate_info/vision_mission_core_value';
 $route['company-s-history']         = 'corporate_info/company_s_history';
@@ -72,44 +66,49 @@ $route['management-team']           = 'corporate_info/management_team';
 $route['awards']                    = 'corporate_info/awards';
 
 /* 2.Financial Info ---------------------------------------- */
-$route['highlights']            = 'financial/highlights';
-$route['statements']            = 'financial/statements';
-$route['management_discussion'] = 'financial/management_discussion';
+$route['financial-highlight']                = 'financial_information/financial_highlight';
+$route['financial-statement']                = 'financial_information/financial_statement';
+$route['management-discussion-and-analysis'] = 'financial_information/management_discussion_and_analysis';
+$route['form-56-1']                          = 'financial_information/form_56_1';
 
 /* 3. Stock Info ------------------ */
-$route['stock'] = 'stock_info/index'; // done.
+$route['stock-quote']      = 'https://www.settrade.com/th/equities/quote/cmo/overview'; // done.
+$route['historical-price'] = 'https://www.settrade.com/th/equities/quote/cmo/historical-trading'; // done.
 
 /* 4. Shareholder Info ------------------------------------------------ */
-$route['major_shareholder']                     = 'shareholder/major_shareholder';
-$route['invitation']                            = 'shareholder/invitation';
-$route['resolutions']                           = 'shareholder/resolutions';
-$route['the-minutes-of-annaul-general-meeting'] = 'shareholder/the_minutes_of_annaul_general_meeting';
-$route['dividen_policy']                        = 'shareholder/dividen_policy';
-$route['newly_issued_ordinary_shares']          = 'shareholder/newly_issued_ordinary_shares';
+$route['major_shareholder']                     = 'shareholder_info/major_shareholder';
+$route['shareholder-s-meeting']                 = 'shareholder_info/invitation';
+$route['invitation']                            = 'shareholder_info/invitation';
+$route['the-resolutions']                       = 'shareholder_info/the_resolutions';
+$route['the-minutes-of-annual-general-meeting'] = 'shareholder_info/the_minutes_of_annual_general_meeting';
+$route['dividen-policy-and-payment']            = 'shareholder_info/dividen_policy_and_payment';
+$route['newly-issued-ordinary-shares']          = 'shareholder_info/newly_issued_ordinary_shares';
+$route['ir-calendar']                           = 'shareholder_info/ir_calendar';
 
 /* 5. News Room --------------- */
-$route['set-annoucements'] = "#";
-$route['pr']               = '#';
-$route['news-cliping']     = '#';
-$route['calendar']         = '#';
+$route['set-annoucements'] = 'news_rooms/set_annoucements';
+$route['press-releases']   = 'news_rooms/press_releases';
+$route['news-clipping']    = 'news_rooms/news_clipping';
 
 /* 6. Publications ----------------------------------------- */
-$route['annual_report']              = 'publications/annual_report';
-$route['company_factsheet']          = 'publications/company_factsheet';
-$route['analyst_coverage']           = 'publications/analyst_coverage';
-$route['presentations_and_webcasts'] = 'publications/presentations_and_webcasts';
+$route['annual-report']              = 'publications/annual_report';
+$route['presentations-and-webcasts'] = 'publications/presentations_and_webcasts';
 
 /* 7. Corporate Governance ---------------------------------------- */
 $route['policy']         = 'corporate_governance/policy';
 $route['whistleblowing'] = 'corporate_governance/whistleblowing_form';
 
 /* 8. Sustainability ----- */
-$route['sustainability']    = 'sustainability/index';
-$route['overview']    = '#';
-$route['economy']     = '#';
-$route['environment'] = '#';
-$route['social']      = '#';
+$route['overview']    = 'sustainability/overview';
+$route['economy']     = 'sustainability/economy';
+$route['environment'] = 'sustainability/environment';
+$route['social']      = 'sustainability/social';
 
 /* 9. Info Request ---------------------------- */
 $route['contact']   = 'info_request/ir_contact';
 $route['subscribe'] = 'info_request/email_alerts';
+
+// short url
+$route['blank'] = 'corporate_info/blank';
+$route['home']  = 'home';
+$route['bod']   = 'corporate_info/board_of_director';

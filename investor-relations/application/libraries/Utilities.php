@@ -19,4 +19,9 @@ class Utilities {
         $menu = str_replace('_', ' ', $method_name);
         return ucwords($menu);
     }
+
+    public function method_to_link($method_name){
+        $menu = str_replace('_', '-', $method_name);
+        return strtolower($menu);
+    }
 }

@@ -1,10 +1,10 @@
 body {
-	font-family: "Montserrat", "Kanit", sans-serif;
+	/* font-family: "Montserrat", "Kanit", sans-serif; */
 }
 
 input {
-	font-family: "Montserrat", "Kanit", sans-serif;
-	font-size: 1em;
+	/* font-family: "Montserrat", "Kanit", sans-serif;
+	font-size: 1em; */
 }
 
 h1{
@@ -26,7 +26,7 @@ nav,
 ul,
 li,
 p{
-    font-family: "Montserrat", "Kanit", sans-serif;
+    /* font-family: "Montserrat", "Kanit", sans-serif; */
 }
 
 .bold{
@@ -35,6 +35,10 @@ p{
 
 .form{
     height: 80px;
+}
+
+.font-team-role{
+    font-size: 1em !important;
 }
 
 /* .ir-menu{
@@ -74,14 +78,14 @@ p{
 }
 .menu-right {
     right:20px;
-    margin-top:-3px;
+    /* margin-top:-3px; */
     position: absolute;
     color:#ffff;
     text-decoration:none;
 }
 .menu-left {
     left:20px;
-    margin-top:-3px;
+    /* margin-top:-3px; */
     position: absolute;
     color:#ffff;
     text-decoration:none;
@@ -115,4 +119,31 @@ p{
     font-style: normal;
   }
 
+  .shrink img {
+    transition: 1s ease;
+    }
+    
+    .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
 
+
+
+
+
+    
+
+    .fadein img{
+        opacity:0.5;
+        transition: 1s ease;
+        }
+        
+        .fadein img:hover{
+        opacity:1;
+        transition: 1s ease;
+        }
+
+  

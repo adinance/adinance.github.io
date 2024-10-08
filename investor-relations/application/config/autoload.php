@@ -137,4 +137,8 @@ $autoload['language'] = array('message');
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('Users_model' => 'users');
+$autoload['model'] = array(
+    'Apps_model' => 'apps',
+    
+    'Users_model' => 'users'
+);

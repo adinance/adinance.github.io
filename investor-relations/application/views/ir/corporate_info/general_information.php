@@ -56,7 +56,7 @@
 
 </section> -->
 
-
+<!-- 
 
 <section class="extFeatures cid-uk1luBnZ7o" id="extFeatures20-4m">
     
@@ -104,6 +104,40 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</section> -->
+
+
+
+<section class="extСontent cid-upmykgfvWC" id="extContent7-dh">
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 img-col order-2">
+                <img src="<?php echo BASE_URL . PATH_MOBIRISE ;?>assets/images/general-information-1050x1203.jpg" alt="" title="">
+                
+            </div>
+            <div class="col-lg-6 text-col align-left">
+                
+                
+                <p class="mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style display-5"><strong>Company name</strong>  :  CMO Public Company Limited 
+<br><strong>Stock code</strong>  :  CMO
+<br><strong>Registration no</strong>.  :  0107546000458 
+<br><strong>Stock market</strong>  :  mai
+<br><strong>Type of industry</strong>  :  Services
+<br><strong>Type of business</strong>  :  -
+<br><strong>Website </strong> :  www.cmo-group.com
+<br><strong>Year of establishment</strong>  :  1991
+<br><strong>First trade date</strong>  :  16 September 2004
+<br><strong>Address </strong> :  4/18-19 Soi Nuanchan 56, Nuanchan, Buengkum, Bangkok 10230
+<br><strong>Registered capital</strong>  :  434,398,577 Baht 
+<br><strong>Paid-up capital</strong>  :  280,962,733 Baht
+<br><strong>Par value</strong>  :  1.00 Baht
+<br><strong>Fiscal year</strong>  :  1 January -31 December
+<br><strong>Contact&nbsp;</strong>: Warunee Puthapornpoj (NAN) / Investor Relations / Tel. +6699 595 6423 / Email: warunee@cmo-group.com</p>
+            </div>
         </div>
     </div>
 </section>

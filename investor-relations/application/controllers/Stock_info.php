@@ -11,4 +11,5 @@ class Stock_info extends CI_Controller {
     }
 
 
+
 }

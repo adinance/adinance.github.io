@@ -90,14 +90,15 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 |--------------------------------------------------------------------------
  */
 
-// define('BASE_URL','http://localhost/ir.cmo-group.com/');
 define('BASE_URL','http://localhost/adinance.github.io/investor-relations/');
-// define('BASE_URL','https://ir.cmo-group.com/');
+define('BASE_URL_UPLOAD','https://cmo-group.com/ir/uploads/');
 
 // PATH
 define('PATH_ICON','assets/img/logo.png');
-// define('PATH_MOBIRISE','assets/3rdparty/Mobirise/');
+define('PATH_MOBIRISE','assets/3rdparty/mobirise/');
 define('PATH_IR','assets/ir/');
+
+define('PATH_UPLOAD','assets/uploads/');
 
 // EMAIL
 define('EMAIL_WISTLEBLOWING','vuttiphan@cmo-group.com');

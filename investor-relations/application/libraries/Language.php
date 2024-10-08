@@ -25,18 +25,24 @@ class Language {
         $ci->session->set_userdata('awards', $ci->lang->line('awards'));
 
         $ci->session->set_userdata('financial_info', $ci->lang->line('financial_info'));
-        $ci->session->set_userdata('financial_highlighs', $ci->lang->line('financial_highlighs'));
-        $ci->session->set_userdata('financial_statements', $ci->lang->line('financial_statements'));
+        $ci->session->set_userdata('financial_highlight', $ci->lang->line('financial_highlight'));
+        $ci->session->set_userdata('financial_statement', $ci->lang->line('financial_statement'));
+        $ci->session->set_userdata('md_and_a', $ci->lang->line('md_and_a'));
         $ci->session->set_userdata('management_discussion_and_analysis', $ci->lang->line('management_discussion_and_analysis'));
+        $ci->session->set_userdata('form_56_1', $ci->lang->line('form_56_1'));
 
         $ci->session->set_userdata('stock_info', $ci->lang->line('stock_info'));
+        $ci->session->set_userdata('stock_qoute', $ci->lang->line('stock_qoute'));
+        $ci->session->set_userdata('historical_price', $ci->lang->line('historical_price'));
+        
         $ci->session->set_userdata('shareholder_info', $ci->lang->line('shareholder_info'));
         $ci->session->set_userdata('major_shareholder', $ci->lang->line('major_shareholder'));
         $ci->session->set_userdata('shareholder_s_meeting', $ci->lang->line('shareholder_s_meeting'));
-        $ci->session->set_userdata('invitations', $ci->lang->line('invitations'));
+        $ci->session->set_userdata('invitation', $ci->lang->line('invitation'));
         $ci->session->set_userdata('the_resolutions', $ci->lang->line('the_resolutions'));
         $ci->session->set_userdata('the_minutes_of_annual_general_meeting', $ci->lang->line('the_minutes_of_annual_general_meeting'));
         $ci->session->set_userdata('dividen_policy_and_payment', $ci->lang->line('dividen_policy_and_payment'));
+        $ci->session->set_userdata('dividen_policy_and_payment_text', $ci->lang->line('dividen_policy_and_payment_text'));
         $ci->session->set_userdata('newly_issued_ordinary_shares', $ci->lang->line('newly_issued_ordinary_shares'));
 
         $ci->session->set_userdata('news_room', $ci->lang->line('news_room'));
@@ -66,6 +72,7 @@ class Language {
         $ci->session->set_userdata('email_alerts', $ci->lang->line('email_alerts'));
 
         $ci->session->set_userdata('go_to_corporate', $ci->lang->line('go_to_corporate'));
+        $ci->session->set_userdata('go_to_investor_relations', $ci->lang->line('go_to_investor_relations'));
         $ci->session->set_userdata('switch_lang', $ci->lang->line('switch_lang'));
 
         $ci->session->set_userdata('subscribe_btn', $ci->lang->line('subscribe_btn'));
@@ -75,6 +82,20 @@ class Language {
 
         $ci->session->set_userdata('policy_topic', $ci->lang->line('policy_topic'));
         $ci->session->set_userdata('policy_text', $ci->lang->line('policy_text'));
+
+        $ci->session->set_userdata('search', $ci->lang->line('search'));
+        $ci->session->set_userdata('showing', $ci->lang->line('showing'));
+        $ci->session->set_userdata('entries', $ci->lang->line('entries'));
+
+        $ci->session->set_userdata('year', $ci->lang->line('year'));
+        $ci->session->set_userdata('q1', $ci->lang->line('q1'));
+        $ci->session->set_userdata('q2', $ci->lang->line('q2'));
+        $ci->session->set_userdata('q3', $ci->lang->line('q3'));
+        $ci->session->set_userdata('q4', $ci->lang->line('q4'));
+
+        $ci->session->set_userdata('title', $ci->lang->line('title'));
+        $ci->session->set_userdata('file', $ci->lang->line('file'));
+
 
           // $lang['subscribe_text']  = $ci->lang->line('subscribe_text');
            // return $lang;

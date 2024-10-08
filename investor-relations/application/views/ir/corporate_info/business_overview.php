@@ -1,14 +1,534 @@
+<style>
+	
+.BsO-Container {
+	font-family: "Montserrat", "Kanit", sans-serif !important ;
+	overflow: hidden;
+}
+
+.Bso-SubHead div {
+	color: white;
+	height: 20rem !important;
+}
+
+.Bso-SubHeadList {
+	background-position: center;
+	filter: grayscale(0.5);
+	background-size: cover;
+	transition: 
+    /* scale 750ms ease-out, */ filter 250ms ease-in-out;
+	text-align: center;
+	font-size: 1.3rem;
+	padding: 5rem 0.5rem 0 0.5rem;
+	/* vertical-align: baseline !important; */
+}
+
+.Bso-SubHeadList:hover {
+	/* scale: 1.15; */
+	filter: grayscale(0);
+}
+
+.Bso-SubHead1 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-creative.jpg");
+}
+
+.Bso-SubHead2 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-equipment.jpg");
+}
+
+.Bso-SubHead3 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-visual.jpg");
+}
+
+.Bso-SubHead4 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-entertainment.jpg");
+}
+
+.Bso-SubHead5 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-digital.jpg");
+}
+
+.Bso-SubHead6 {
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-utility.jpg");
+}
+
+.BsO1 {
+	padding: 5% 5% 2% 5% !important;
+}
+
+.BsO1 h1 {
+	color: #4a7ab5;
+	font-size: 3rem !important;
+	font-weight: 900;
+}
+
+.BsO1 p {
+	padding: 1rem 10% 1rem 10%;
+}
+
+.BsO2 {
+	display: flex;
+	padding: 2% 5% 2% 5% !important;
+	justify-content: center;
+	gap: 5px;
+}
+
+.BsO2List {
+	justify-content: center;
+}
+
+.BsO2List img {
+	height: 20rem;
+	width: auto;
+}
+
+.BsO3 {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.BsO3 img {
+	width: 100%;
+}
+
+.BsO3 h4 {
+	color: #4a7ab5;
+	padding: 1rem 0 0 1rem;
+	text-align: left;
+}
+
+.BsO3 p {
+	padding: 1rem;
+	text-align: left;
+}
+
+.BsO4 {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.BsO4 img {
+	width: 100%;
+}
+
+.BsO4 h4 {
+	color: #4a7ab5;
+	padding: 1rem 0 0 1rem;
+	text-align: right;
+}
+
+.BsO4 p {
+	padding: 1rem;
+	text-align: right;
+}
+
+.BsO5 h2 {
+	color: #4a7ab5;
+	font-weight: 600;
+}
+.BsO5 h5 {
+	color: #4a7ab5;
+}
+
+.BsO5 p {
+	padding: 1rem 15% 1rem 15%;
+}
+
+.BsO6 {
+	padding: 5% 10% 5% 10%;
+	background-color: #e3e3e3;
+	justify-content: center;
+}
+
+.BsO6 h2 {
+	text-align: center;
+	color: #4a7ab5;
+	font-weight: 800;
+}
+
+.BsO6 p {
+	text-align: center;
+}
+
+.sub-BsO6 {
+	display: flex;
+	padding: 2% 5% 2% 5% !important;
+	justify-content: center;
+	gap: 3px;
+	text-align: center !important;
+}
+
+.sub-BsO6List {
+	justify-content: center;
+	padding: 1rem;
+	color: #4a7ab5;
+}
+
+.sub-BsO6List img {
+	height: 15rem;
+	padding: 1rem;
+}
+
+.BsO7 {
+	padding: 5% 10% 5% 10%;
+	background-color: #cad5e9;
+}
+
+.BsO7 h2 {
+	text-align: center;
+	font-weight: 800;
+	padding: 3% 15% 2% 15%;
+}
+
+.BsO7 p {
+	text-align: center;
+	padding: 0 3% 0 3%;
+}
+
+.sub-BsO7 {
+	display: flex;
+	padding: 2% 5% 2% 5% !important;
+	justify-content: center;
+	gap: 0;
+}
+
+.sub-BsO7List {
+	justify-content: center;
+}
+
+.sub-BsO7List h5 {
+	padding: 5% 5% 2% 5% !important;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.sub-BsO7List h5 {
+	padding: 5% 5% 2% 5% !important;
+}
+
+.sub-BsO7List img {
+	height: 15rem;
+}
+
+.BsO8 {
+	height: 50rem;
+	padding: 10% 5% 2% 65% !important;
+	background-image: url("http://localhost/ir.cmo-group.com/assets/img/BO-img/business overview-digital.jpg");
+	background-size: cover;
+}
+
+.BsO8 h1 {
+	color: #9bd7f3;
+	font-size: 3rem !important;
+	font-weight: 900;
+	text-align: left;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.BsO8 p {
+	color: white;
+	text-align: left;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.BsO9 {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding: 5% 5% 5% 5%;
+}
+
+.BsO9 img {
+	width: 100%;
+}
+
+.BsO9 h2 {
+	color: #4a7baa;
+	padding: 1rem 0 0 1rem;
+	text-align: right;
+	font-weight: 900;
+}
+
+.BsO9 p {
+	padding: 1rem;
+	text-align: right;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1400px) {
+	.Bso-SubHead div {
+		color: white;
+		height: 15rem !important;
+	}
+
+	.Bso-SubHeadList {
+		font-size: 0.8rem;
+		padding: 3rem 0.2rem 0 0.2rem;
+	}
+
+	.BsO1 h1 {
+		font-size: 2rem !important;
+	}
+
+	.BsO2 {
+		gap: 3px;
+	}
+
+	.BsO2List img {
+		height: 15rem;
+		width: auto;
+	}
+
+	.sub-BsO6List img {
+		height: 8rem;
+	}
+
+	.BsO7 p {
+		font-size: smaller;
+	}
+
+	.sub-BsO7List img {
+		height: 12rem;
+	}
+
+	.BsO8 {
+		height: 40rem;
+		padding: 10% 5% 2% 50% !important;
+	}
+
+	.BsO8 h1 {
+		font-size: 2rem !important;
+	}
+
+	@media only screen and (max-width: 1050px) {
+		.BsO2List img {
+			height: 10rem;
+		}
+		.sub-BsO6List img {
+			height: 5rem;
+		}
+
+		.BsO7 p {
+			font-size: smaller;
+		}
+
+		.sub-BsO7List img {
+			height: 10rem;
+		}
+
+		.BsO8-supbg {
+			backdrop-filter: blur(10px);
+			margin: 3%;
+			padding: 3%;
+			border-radius: 40px;
+		}
+	}
+
+	@media only screen and (max-width: 950px) {
+		.BsO2List img {
+			height: 10rem;
+		}
+		.sub-BsO7List img {
+			height: 7rem;
+		}
+
+		.BsO7 h5 {
+			font-size: smaller;
+		}
+
+		.BsO7 p {
+			font-size: smaller;
+		}
+
+		.BsO8 {
+			height: 40rem;
+			padding: 20% 10% 2% 10% !important;
+		}
+
+		.BsO8-supbg {
+			backdrop-filter: blur(10px);
+			margin: 3%;
+			padding: 3%;
+			border-radius: 40px;
+		}
+
+		.BsO8 h1 {
+			font-size: 2rem !important;
+			text-align: center;
+		}
+
+		.BsO8 p {
+			text-align: center;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.Bso-SubHead div {
+			color: white;
+			height: 10rem !important;
+		}
+
+		.Bso-SubHeadList {
+			font-size: 0.7rem;
+			padding: 2rem 0.1rem 0 0.1rem;
+		}
+
+		.BsO1 h1 {
+			font-size: 1.6rem !important;
+		}
+		.BsO2List img {
+			height: 8rem;
+		}
+
+		.BsO3 {
+			display: block;
+		}
+
+		.BsO3 h4 {
+			text-align: center;
+		}
+
+		.BsO3 p {
+			text-align: center;
+		}
+
+		.BsO4 {
+			display: block;
+			background-color: #e3e3e3;
+		}
+		.BsO3 h4 {
+			text-align: center;
+		}
+
+		.BsO3 p {
+			text-align: center;
+		}
+
+		.BsO4 h4 {
+			text-align: center;
+		}
+
+		.BsO4 p {
+			text-align: center;
+		}
+
+		.sub-BsO6 {
+			display: block;
+		}
+
+		.sub-BsO6List img {
+			height: 5rem;
+		}
+
+		.sub-BsO6List {
+			text-align: left;
+		}
+
+		.sub-BsO6List {
+			font-size: smaller;
+		}
+
+		.BsO7 {
+			padding: 3% 3% 3% 3%;
+			background-color: #cad5e9;
+		}
+
+		.sub-BsO7 {
+			display: block;
+			padding: 2% 5% 2% 5% !important;
+			gap: 0;
+		}
+
+		.BsO7 h5 {
+			font-size: smaller;
+			color: #4a7ab5;
+			text-align: left;
+		}
+
+		.BsO7 p {
+			font-size: smaller;
+			text-align: left;
+		}
+
+		.sub-BsO7List {
+			justify-content: center;
+			border-block: none !important;
+		}
+
+		.sub-BsO7List img {
+			height: auto;
+		}
+
+		.BsO9 {
+			display: block;
+		}
+
+		.BsO9 h2 {
+			text-align: center;
+		}
+
+		.BsO9 p {
+			text-align: center;
+		}
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.Bso-SubHead div {
+		color: white;
+		height: 7rem !important;
+	}
+
+	.Bso-SubHeadList {
+		font-size: 0.6rem;
+		padding: 1.5rem 0.1rem 0 0.1rem;
+	}
+
+	.BsO1 h1 {
+		font-size: 1.4rem !important;
+	}
+
+	.BsO2List img {
+		height: 5rem;
+	}
+	.sub-BsO6List {
+		font-size: smaller;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.BsO7 h5 {
+		font-size: smaller;
+	}
+
+	.BsO7 p {
+		font-size: smaller;
+	}
+
+	.sub-BsO7List img {
+		width: 15rem;
+	}
+}
+
+/* ir-footer end */
+
+/* Business Overview end */
+	</style>
+
+
 <section class="BsO-Container">
 
 
 
   <div class="d-flex Bso-SubHead">
-	<div class="col Bso-SubHeadList Bso-SubHead1 text-center centered"><a href="#BsO-01">CREATIVE EVENT AGENCY<a/></div>
-	<div class="col Bso-SubHeadList Bso-SubHead2 text-center centered"><a href="#BsO-02">EQUIPMENT SERVICE</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead3 text-center centered"><a href="#BsO-03">VISUAL CREATOR & PRODUCTION HOUSE</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead4 text-center centered"><a href="#BsO-04">ENTERTAINMENT AGENCY</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead5 text-center centered"><a href="#BsO-05">DIGITAL & TECHNOLOGY<BR>SOLUTION</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead6 text-center centered"><a href="#BsO-06">UTILITY SERVICE</a></div>
+	<div class="col Bso-SubHeadList Bso-SubHead1 text-center centered"><a href="#BsO-01" style="color: white;">CREATIVE EVENT AGENCY<a/></div>
+	<div class="col Bso-SubHeadList Bso-SubHead2 text-center centered"><a href="#BsO-02" style="color: white;">EQUIPMENT SERVICE</a></div>
+	<div class="col Bso-SubHeadList Bso-SubHead3 text-center centered"><a href="#BsO-03" style="color: white;">VISUAL CREATOR & PRODUCTION HOUSE</a></div>
+	<div class="col Bso-SubHeadList Bso-SubHead4 text-center centered"><a href="#BsO-04" style="color: white;">ENTERTAINMENT AGENCY</a></div>
+	<div class="col Bso-SubHeadList Bso-SubHead5 text-center centered"><a href="#BsO-05" style="color: white;">DIGITAL & TECHNOLOGY<BR>SOLUTION</a></div>
+	<div class="col Bso-SubHeadList Bso-SubHead6 text-center centered"><a href="#BsO-06" style="color: white;">UTILITY SERVICE</a></div>
 	
   </div>
 
