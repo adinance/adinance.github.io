@@ -10,7 +10,7 @@
             <div class="col-md-6"></div>
             <div class="col-md-6">
                 <div class="dataTables_filter">
-                  <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+                <label class="searchInfo mbr-fonts-style display-7"><?php echo isset($this->session->search) ? $this->session->search : 'Search'; ?> :</label>
                   <input class="form-control input-sm" disabled="">
                 </div>
             </div>
@@ -20,11 +20,11 @@
         <div class="container scroll">
           <table class="table isSearch" cellspacing="0" data-empty="No matching records found">
             <thead>
-              <tr class="table-heads " style="background: rgb(54, 123, 186); color: white;">
-              <th class="head-item mbr-fonts-style display-7">YEAR</th>
-              <th class="head-item mbr-fonts-style display-7">TITLE</th>
-              <th class="head-item mbr-fonts-style display-7">FILE</th>
-            </tr>
+                <tr class="table-heads " style="background: rgb(54, 123, 186); color: white;">
+                <th class="head-item mbr-fonts-style display-7"><?php echo isset($this->session->year) ? $this->session->year : 'YEAR'; ?></th>
+                <th class="head-item mbr-fonts-style display-7"><?php echo isset($this->session->title) ? $this->session->title : 'TITLE'; ?></th>
+                <th class="head-item mbr-fonts-style display-7"><?php echo isset($this->session->file) ? $this->session->file : 'FILE'; ?></th>
+              </tr>
             </thead>
 
             <tbody>
@@ -66,14 +66,15 @@
         <div class="container table-info-container">
           <div class="row info">
             <div class="col-md-6">
-              <div class="dataTables_info mbr-fonts-style display-7">
-                <span class="infoBefore">Showing</span>
+            <div class="dataTables_info mbr-fonts-style display-7">
+                <span class="infoBefore"><?php echo isset($this->session->showing) ? $this->session->showing : 'Showing'; ?></span>
                 <span class="inactive infoRows"></span>
-                <span class="infoAfter">entries</span>
+                <span class="infoAfter"><?php echo isset($this->session->entries) ? $this->session->entries : 'entries'; ?></span>
                 <span class="infoFilteredBefore">(filtered from</span>
                 <span class="inactive infoRows"></span>
                 <span class="infoFilteredAfter"> total entries)</span>
               </div>
+            </div>
             </div>
             <div class="col-md-6"></div>
           </div>
