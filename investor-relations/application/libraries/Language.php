@@ -10,7 +10,6 @@ class Language {
         $ci->session->set_userdata('lang', $language);
         $ss_lang = $ci->session->lang;
         $ci->lang->load('message', $ss_lang);
-      
 
         $ci->session->set_userdata('corporate_info', $ci->lang->line('corporate_info'));
         $ci->session->set_userdata('general_information', $ci->lang->line('general_information'));
@@ -34,7 +33,7 @@ class Language {
         $ci->session->set_userdata('stock_info', $ci->lang->line('stock_info'));
         $ci->session->set_userdata('stock_qoute', $ci->lang->line('stock_qoute'));
         $ci->session->set_userdata('historical_price', $ci->lang->line('historical_price'));
-        
+
         $ci->session->set_userdata('shareholder_info', $ci->lang->line('shareholder_info'));
         $ci->session->set_userdata('major_shareholder', $ci->lang->line('major_shareholder'));
         $ci->session->set_userdata('shareholder_s_meeting', $ci->lang->line('shareholder_s_meeting'));
@@ -96,10 +95,56 @@ class Language {
         $ci->session->set_userdata('title', $ci->lang->line('title'));
         $ci->session->set_userdata('file', $ci->lang->line('file'));
 
+        $ci->session->set_userdata('msg_ceo_paragragh_1', $ci->lang->line('msg_ceo_paragragh_1'));
+        $ci->session->set_userdata('msg_ceo_paragragh_2', $ci->lang->line('msg_ceo_paragragh_2'));
+        $ci->session->set_userdata('msg_ceo_paragragh_3', $ci->lang->line('msg_ceo_paragragh_3'));
+        $ci->session->set_userdata('msg_ceo_paragragh_4', $ci->lang->line('msg_ceo_paragragh_4'));
+        $ci->session->set_userdata('msg_ceo_paragragh_5', $ci->lang->line('msg_ceo_paragragh_5'));
+        $ci->session->set_userdata('msg_ceo_paragragh_6', $ci->lang->line('msg_ceo_paragragh_6'));
 
-          // $lang['subscribe_text']  = $ci->lang->line('subscribe_text');
-           // return $lang;
-     
+        $ci->session->set_userdata('msg_ceo_name_1', $ci->lang->line('msg_ceo_name_1'));
+        $ci->session->set_userdata('msg_ceo_name_2', $ci->lang->line('msg_ceo_name_2'));
+
+        $ci->session->set_userdata('msg_ceo_position_1', $ci->lang->line('msg_ceo_position_1'));
+        $ci->session->set_userdata('msg_ceo_position_2', $ci->lang->line('msg_ceo_position_2'));
+
+        $ci->session->set_userdata('company_name', $ci->lang->line('company_name'));
+
+        $ci->session->set_userdata('gi_company_name', $ci->lang->line('gi_company_name'));
+        $ci->session->set_userdata('gi_stock_code', $ci->lang->line('gi_stock_code'));
+        $ci->session->set_userdata('gi_registration_no', $ci->lang->line('gi_registration_no'));
+        $ci->session->set_userdata('gi_stock_market', $ci->lang->line('gi_stock_market'));
+        $ci->session->set_userdata('gi_type_of_industry', $ci->lang->line('gi_type_of_industry'));
+        $ci->session->set_userdata('gi_type_of_business', $ci->lang->line('gi_type_of_business'));
+        $ci->session->set_userdata('gi_website', $ci->lang->line('gi_website'));
+        $ci->session->set_userdata('gi_year_of_establishment', $ci->lang->line('gi_year_of_establishment'));
+        $ci->session->set_userdata('gi_first_trade_date', $ci->lang->line('gi_first_trade_date'));
+        $ci->session->set_userdata('gi_address', $ci->lang->line('gi_address'));
+        $ci->session->set_userdata('gi_registered_capital', $ci->lang->line('gi_registered_capital'));
+        $ci->session->set_userdata('gi_paid_up_capital', $ci->lang->line('gi_paid_up_capital'));
+        $ci->session->set_userdata('gi_par_value', $ci->lang->line('gi_par_value'));
+        $ci->session->set_userdata('gi_fiscal_year', $ci->lang->line('gi_fiscal_year'));
+        $ci->session->set_userdata('gi_contact', $ci->lang->line('gi_contact'));
+
+        $ci->session->set_userdata('vision', $ci->lang->line('vision'));
+        $ci->session->set_userdata('vision_sub', $ci->lang->line('vision_sub'));
+        $ci->session->set_userdata('vision_text', $ci->lang->line('vision_text'));
+
+        $ci->session->set_userdata('mission', $ci->lang->line('mission'));
+        $ci->session->set_userdata('mission_sub', $ci->lang->line('mission_sub'));
+        $ci->session->set_userdata('mission_text', $ci->lang->line('mission_text'));
+
+        $ci->session->set_userdata('core_vaue', $ci->lang->line('core_vaue'));
+        $ci->session->set_userdata('core_vaue_c', $ci->lang->line('core_vaue_c'));
+        $ci->session->set_userdata('core_vaue_m', $ci->lang->line('core_vaue_m'));
+        $ci->session->set_userdata('core_vaue_o', $ci->lang->line('core_vaue_o'));
+        $ci->session->set_userdata('core_vaue_r', $ci->lang->line('core_vaue_r'));
+        $ci->session->set_userdata('core_vaue_e', $ci->lang->line('core_vaue_e'));
+        
+
+        // $lang['subscribe_text']  = $ci->lang->line('subscribe_text');
+        // return $lang;
+
     }
 
 }

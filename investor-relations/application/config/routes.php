@@ -86,9 +86,9 @@ $route['newly-issued-ordinary-shares']          = 'shareholder_info/newly_issued
 $route['ir-calendar']                           = 'shareholder_info/ir_calendar';
 
 /* 5. News Room --------------- */
-$route['set-annoucements'] = 'news_rooms/set_annoucements';
-$route['press-releases']   = 'news_rooms/press_releases';
-$route['news-clipping']    = 'news_rooms/news_clipping';
+$route['set-annoucements'] = 'news_room/set_annoucements';
+$route['press-releases']   = 'news_room/press_releases';
+$route['news-clipping']    = 'news_room/news_clipping';
 
 /* 6. Publications ----------------------------------------- */
 $route['annual-report']              = 'publications/annual_report';
@@ -96,7 +96,7 @@ $route['presentations-and-webcasts'] = 'publications/presentations_and_webcasts'
 
 /* 7. Corporate Governance ---------------------------------------- */
 $route['policy']         = 'corporate_governance/policy';
-$route['whistleblowing'] = 'corporate_governance/whistleblowing_form';
+$route['whistleblowing-form'] = 'corporate_governance/whistleblowing_form';
 
 /* 8. Sustainability ----- */
 $route['overview']    = 'sustainability/overview';
@@ -105,8 +105,8 @@ $route['environment'] = 'sustainability/environment';
 $route['social']      = 'sustainability/social';
 
 /* 9. Info Request ---------------------------- */
-$route['contact']   = 'info_request/ir_contact';
-$route['subscribe'] = 'info_request/email_alerts';
+$route['ir-contact']   = 'info_request/ir_contact';
+$route['email-alerts'] = 'info_request/email_alerts';
 
 // short url
 $route['blank'] = 'corporate_info/blank';

@@ -18,16 +18,17 @@
                     <div class="container container-slide">
                         <div class="image_wrapper">
                             <div class="mbr-overlay" style="opacity: 0.2;"></div>
-                                <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/home-top-01-1920x984.jpg" alt="" title="">
+                            <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/home-top-01-1920x984.jpg"
+                                alt="" title="">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-center">
                                     <h2 class="mbr-fonts-style display-1"><strong>WELCOME TO
                                         </strong>
                                         <div><strong>INVESTOR RELATIONS</strong></div>
                                     </h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
+                                    <!-- <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
                                         Event Management Business integrated with marketing <br>communication Business
-                                        integrated with marketing communication</p>
+                                        integrated with marketing communication</p> -->
                                 </div>
                             </div>
                         </div>
@@ -38,16 +39,17 @@
                     <div class="container container-slide">
                         <div class="image_wrapper">
                             <div class="mbr-overlay" style="opacity: 0.2;"></div>
-                                <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/home-top02-1920x984.jpg" alt="" title="">
+                            <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/home-top02-1920x984.jpg"
+                                alt="" title="">
                             <div class="carousel-caption justify-content-center">
                                 <div class="col-10 align-left">
                                     <h2 class="mbr-fonts-style display-1"><strong>WELCOME TO
                                         </strong>
                                         <div><strong>INVESTOR RELATIONS</strong></div>
                                     </h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
+                                    <!-- <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
                                         Event Management Business integrated with marketing
-                                        <br>communication Business integrated with marketing communication<br></p>
+                                        <br>communication Business integrated with marketing communication<br></p> -->
                                 </div>
                             </div>
                         </div>
@@ -66,9 +68,9 @@
                                         </strong>
                                         <div><strong>INVESTOR RELATIONS</strong></div>
                                     </h2>
-                                    <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
+                                    <!-- <p class="lead mbr-text mbr-fonts-style display-5"><br>The company is a leader in
                                         Event Management Business integrated with marketing
-                                        <br>communication Business integrated with marketing communication</p>
+                                        <br>communication Business integrated with marketing communication</p> -->
                                 </div>
                             </div>
                         </div>
@@ -97,8 +99,8 @@
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-            <h2 class="align-center mbr-bold pb-3 mbr-fonts-style display-1">
-            STOCK PRICE</h2><br>
+                <h2 class="align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                    STOCK PRICE</h2><br>
                 <p style=" text-align:center; padding-top:2px;">
                     <iframe frameborder="0" scrolling="no" width="200" height="200"
                         src="https://weblink.settrade.com/IRPage/irpage.jsp?txtSymbol=CMO&amp;language=en&amp;key=21631"></iframe>

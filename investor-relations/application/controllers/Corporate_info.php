@@ -18,7 +18,7 @@ class Corporate_info extends CI_Controller {
 
         isset($this->session->corporate_info) ? $this->data['menu_main']            = $this->session->corporate_info : $this->data['menu_main']            = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->general_information) ? $this->data['menu']            = $this->session->general_information : $this->data['menu']            = $this->utilities->method_to_menu($this->router->fetch_method());
-        isset($this->session->vision_mision_core_value) ? $this->data['menu_right'] = $this->session->vision_mision_core_value : $this->data['menu_right'] = 'Vision • Mision • Core Value';
+        isset($this->session->vision_mission_core_value) ? $this->data['menu_right'] = $this->session->vision_mission_core_value : $this->data['menu_right'] = 'Vision • Mision • Core Value';
         $this->data['menu_right_url']                                               = BASE_URL . 'vision-mission-core-value';
         $this->data['menu_left']                                                    = '';
         $this->data['menu_left_url']                                                = NULL;

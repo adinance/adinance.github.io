@@ -57,6 +57,7 @@
 
   
   <!-- mobirise -->
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/simple-line-icons/simple-line-icons.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icons-mind/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icon54/style.css">
@@ -72,10 +73,14 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/formstyler/jquery.formstyler.theme.css">
 
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/tether/tether.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/dropdown/css/style.css">
+
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/datepicker/jquery.datetimepicker.min.css">
 
   <!-- data table -->
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/datatables/data-tables.bootstrap4.min.css">
@@ -104,3 +109,33 @@
 </head>
 
 <body>
+
+<?php
+
+
+
+// function th_date($date) {
+
+//     // $date = "2022-09-22";
+//     //วันภาษาไทย
+//     // $ThDay = array("อาทิตย์", "จันทร์", "อังคาร", "พุธ", "พฤหัส", "ศุกร์", "เสาร์");
+//     //เดือนภาษาไทย
+//     $ThMonth = array("มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฏาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม");
+
+//     //วันที่ ที่ต้องการเอามาเปลี่ยนฟอแมต
+//     $myDATE = ($date); //อาจมาจากฐานข้อมูล
+//     //กำหนดคุณสมบัติ
+//     $week   = date("w", strtotime($myDATE)); // ค่าวันในสัปดาห์ (0-6)
+//     $months = date("m", strtotime($myDATE)) - 1; // ค่าเดือน (1-12)
+//     $day    = date("d", strtotime($myDATE)); // ค่าวันที่(1-31)
+//     $years  = date("Y", strtotime($myDATE)) + 543; // ค่า ค.ศ.บวก 543 ทำให้เป็น ค.ศ.
+
+//     // return "วัน$ThDay[$week]
+//     //     ที่ $day
+//     //     เดือน $ThMonth[$months]
+//     //     พ.ศ. $years";
+
+//     return $day . ' ' . $ThMonth[$months] . ' ' . $years;
+// }
+
+?>

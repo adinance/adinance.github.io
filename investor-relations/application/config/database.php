@@ -10,13 +10,18 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
+	'database' => 'ir',
 
 	// 'hostname' => '147.50.136.211',
 	// 'username' => 'iradmin',
 	// 'password' => 'Ttua?587',
+	// 'database' => 'ir',
 
-
-	'database' => 'ir',
+	
+	'hostname' => '147.50.136.211',
+	'username' => 'cmogroup',
+	'password' => 'hC04ha_1',
+	'database' => 'cmogroup',
 
 
 	

@@ -142,10 +142,48 @@
                 </div>
             </div>
 
-            
+        </div>
 
-            
+        <div class="row row-content justify-content-center">
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="img-hover">
+                        </div>
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/2.jpg" title="">
+                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
+                            <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
+                    </div>
+                    <div class="content-box">
+                        
+                        <div class="card-box">
+                            
+                            
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="img-hover">
+                        </div>
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/1.jpg" title="">
+                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
+                        <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
+                    </div>
+                    <div class="content-box">
+                        
+                        <div class="card-box">
+                            
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>

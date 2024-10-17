@@ -2,32 +2,51 @@
 
 class Corporate_governance extends CI_Controller {
 
+    public $menu = array();
+    public $data = array();
+
     public function __construct() {
         parent::__construct();
+        $this->menu['id']    = 'extHeader4-hy';
+        $this->menu['class'] = 'cid-uqv7duy8kw';
     }
 
-    public function index() {
-        $this->whistleblowing_form();
+    public function policy() {
+
+        $this->data['menu_id']                                                 = $this->menu['id'];
+        $this->data['menu_class']                                              = $this->menu['class'];
+        isset($this->session->corporate_governance) ? $this->data['menu_main'] = $this->session->corporate_governance : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->policy) ? $this->data['menu']                    = $this->session->policy : $this->data['menu']                    = $this->utilities->method_to_menu('policy');
+        isset($this->session->whistleblowing_form) ? $this->data['menu_right'] = $this->session->whistleblowing_form : $this->data['menu_right'] = $this->utilities->method_to_menu('whistleblowing_form');
+        $this->data['menu_right_url']                                          = BASE_URL . $this->utilities->method_to_link('whistleblowing_form');
+        $this->data['menu_left']                                               = '';
+        $this->data['menu_left_url']                                           = NULL;
+
+        $this->load->view('ir/header', $this->data);
+        $this->load->view('ir/navigation', $this->data);
+        $this->load->view('ir/menu', $this->data);
+        $this->load->view('ir/corporate_governance/' . $this->router->fetch_method(), $this->data);
+        $this->load->view('ir/footer', $this->data);
+
     }
 
     public function whistleblowing_form() {
 
-        $data               = array();
+        $this->data['menu_id']                                                 = $this->menu['id'];
+        $this->data['menu_class']                                              = $this->menu['class'];
+        isset($this->session->corporate_governance) ? $this->data['menu_main'] = $this->session->corporate_governance : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->whistleblowing_form) ? $this->data['menu']       = $this->session->whistleblowing_form : $this->data['menu']       = $this->utilities->method_to_menu('whistleblowing_form');
+        $this->data['menu_right']                                              = NULL;
+        $this->data['menu_right_url']                                          = NULL;
+        isset($this->session->policy) ? $this->data['menu_left']               = $this->session->policy : $this->data['menu_left']               = $this->utilities->method_to_menu('policy');
+        $this->data['menu_left_url']                                           = BASE_URL . $this->utilities->method_to_link('policy');
 
-        isset($this->session->whistleblowing_form) ? $data['menu'] = $this->session->whistleblowing_form : $data['menu']  = 'Whistleblowing Form'; 
-        $data['menu_right'] = NULL;
-        $data['menu_right_url'] = NULL;
-        isset($this->session->policy) ? $data['menu_left'] = $this->session->policy : $data['menu_left']  = 'Policy'; 
-        $data['menu_left_url']  = BASE_URL . 'policy';
-
-
-
-        $this->load->view('ir/header', $data);
-        $this->load->view('ir/navigation', $data);
-        // $this->load->view('debugs', $data);
-        $this->load->view('ir/menu', $data);
-        $this->load->view('ir/corporate_governance/whistleblowing_form', $data);
-        $this->load->view('ir/footer', $data);
+        $this->load->view('ir/header', $this->data);
+        $this->load->view('ir/navigation', $this->data);
+        $this->load->view('ir/menu', $this->data);
+        // $this->load->view('ir/corporate_governance/' . $this->router->fetch_method(), $this->data);
+        $this->load->view('ir/corporate_governance/whistleblowing_form', $this->data);
+        $this->load->view('ir/footer', $this->data);
 
     }
 
@@ -41,6 +60,10 @@ class Corporate_governance extends CI_Controller {
             $subject   = $this->input->post('subject');
             $message   = $this->input->post('message');
             $res       = $this->mandrill->send(EMAIL_DEVELOPER, 'Whistleblowing', $name, $telephone, $email, $subject, $message);
+
+            // echo '<pre>';
+            // var_dump($this->input->post());
+            // var_dump($res);
 
             $value = json_decode($res);
             $type  = gettype($value);
@@ -62,29 +85,10 @@ class Corporate_governance extends CI_Controller {
                 // $this->load->view('ir/footer', $data);
             }
 
-            $this->index();
+            $this->whistleblowing_form();
+            // redirect(BASE_URL . 'whistleblowing_form', 'refresh');
+
         }
-
-    }
-
-    public function policy() {
-
-        $data               = array();
-
-        isset($this->session->policy) ? $data['menu'] = $this->session->policy : $data['menu']  = 'Policy'; 
-
-        isset($this->session->whistleblowing_form) ? $data['menu_right'] = $this->session->whistleblowing_form : $data['menu_right']  = 'Whistleblowing Form'; 
-        $data['menu_right_url'] = BASE_URL . 'whistleblowing';
-        
-        $data['menu_left']  = NULL;
-        $data['menu_left_url']  = NULL;
-
-        $this->load->view('ir/header', $data);
-        $this->load->view('ir/navigation', $data);
-        $this->load->view('ir/menu', $data);
-        $this->load->view('ir/corporate_governance/policy', $data);
-        $this->load->view('ir/footer', $data);
-
 
     }
 
