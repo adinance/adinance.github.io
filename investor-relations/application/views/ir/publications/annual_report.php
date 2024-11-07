@@ -1,7 +1,7 @@
 <section class="cid-up66jRJEZJ" id="image2-bi">
     <figure class="mbr-figure container">
         <div class="image-block" style="width: 100%;">
-            <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/annnual-report-781x503.jpg" alt="" title="">
+            <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/cover-cmo-annual-2023-1b-2000x1294.jpg" alt="" title="">
         </div>
         <br><br>
         <div>

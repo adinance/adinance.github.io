@@ -34,6 +34,12 @@ class Api extends CI_Controller {
         $this->load->view('ir/footer', $data);
     }
 
+    public function ics(){
+
+        $event = $this->calendar->ICS("2009-11-06 09:00","2009-11-06 21:00","Test Event","This is an event made by Jamie Bicknell","GU1 1AA");
+        $event->save();
+    }
+
    
 
     

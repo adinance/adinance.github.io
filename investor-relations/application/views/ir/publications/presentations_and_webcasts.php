@@ -24,6 +24,110 @@
     </div>
 </section>
 
+
+<section class="features1 cid-up6N8qkMQr" id="extContent24-bs">
+
+    
+
+    
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-img">
+                    <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/opp-day-q2-thumb-1080x608.jpg" alt="" title="" class="">
+                </div>
+                <div class="card-box pt-4">
+                    <div class="icon-box pb-3 align-center">
+                        <div class="item">
+                            <span class="mbr-iconfont imind-video-5"></span>
+                            <p class="date align-left mbr-fonts-style display-4">View webcast</p>
+                        </div>
+                        <div class="item">
+                            <span class="mbr-iconfont fa-download fa"></span>
+                            <p class="date align-left mbr-fonts-style display-4">Download Presentation</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-img">
+                    <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/c-sign-q2-thumb-1080x608.jpg" alt="" title="" class="">
+                </div>
+                <div class="card-box pt-4">
+                    <div class="icon-box pb-3 align-center">
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-clock mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">MARCH 15, 2025</p>
+                        </div>
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-image-gallery mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">Paris</p>
+                        </div>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-img">
+                    <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/03.jpg" alt="" class="">
+                </div>
+                <div class="card-box pt-4">
+                    <div class="icon-box pb-3 align-center">
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-clock mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">MARCH 23, 2025</p>
+                        </div>
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-image-gallery mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">Mexico</p>
+                        </div>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-img">
+                    <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/03.jpg" alt="" class="">
+                </div>
+                <div class="card-box pt-4">
+                    <div class="icon-box pb-3 align-center">
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-clock mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">MARCH 23, 2025</p>
+                        </div>
+                        <div class="item">
+                            <span class="mbr-iconfont mobi-mbri-image-gallery mobi-mbri"></span>
+                            <p class="date align-left mbr-fonts-style display-7">Mexico</p>
+                        </div>
+                    </div>
+
+                    
+                    
+                    
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- 
 <section class="features2 cid-up6FdSOGI8" id="features2-bq">
     
     <div class="container">
@@ -85,107 +189,4 @@
             </div>
         </div>
     </div>
-</section>
-
-
-<section class="extFeatures cid-up6NsD3on7" id="extFeatures21-bu">
-
-    
-
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                
-                
-
-            </div>
-        </div>
-        <div class="row row-content justify-content-center">
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <div class="img-hover">
-                        </div>
-                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/2.jpg" title="">
-                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
-                            <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
-                    </div>
-                    <div class="content-box">
-                        
-                        <div class="card-box">
-                            
-                            
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <div class="img-hover">
-                        </div>
-                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/1.jpg" title="">
-                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
-                        <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
-                    </div>
-                    <div class="content-box">
-                        
-                        <div class="card-box">
-                            
-                            
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row row-content justify-content-center">
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <div class="img-hover">
-                        </div>
-                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/2.jpg" title="">
-                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
-                            <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
-                    </div>
-                    <div class="content-box">
-                        
-                        <div class="card-box">
-                            
-                            
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <div class="img-hover">
-                        </div>
-                        <img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/1.jpg" title="">
-                        <div class="img-btn mbr-section-btn"><a href="https://mobiri.se" class="btn btn-primary display-4">View Webcasts</a>
-                        <a href="https://mobiri.se" class="btn btn-white-outline display-4">Download Presentations</a></div>
-                    </div>
-                    <div class="content-box">
-                        
-                        <div class="card-box">
-                            
-                            
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
+</section> -->

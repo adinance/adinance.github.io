@@ -1,0 +1,20 @@
+.ir_hideLegend {display:none;}
+.ir_legend {height:2px; width:100px; margin-left:0; text-align:left;}
+.ir_legendCandleRed {background:url(http://ir.listedcompany.com/images/legend_red.gif) no-repeat left center; width:5px; height:17px; float:left; margin-left:5px;}
+.ir_legendCandleGreen {background:url(http://ir.listedcompany.com/images/legend_green.gif) no-repeat left center; width:5px; height:17px; float:left; margin-left:5px;}
+.ir_legendVolumeRed {background:url(http://ir.listedcompany.com/images/legend_volume_red.gif) no-repeat left center; width:5px; height:14px; float:left; margin-left:5px;}
+.ir_legendVolumeGreen {background:url(http://ir.listedcompany.com/images/legend_volume_green.gif) no-repeat left center; width:5px; height:14px; float:left; margin-left:5px;}
+
+hr.red {color:#f00; background:#f00;}
+hr.green {color:#008000; background:#008000;}
+hr.blue {color:#00f; background:#00f;}
+
+.ir_textRed {color:#f00;}
+.ir_textGreen {color:#480;}
+.ir_textBlue {color:#00398e;}
+
+#ir_validBar { width: 128px; height: 15px; margin: 1em auto; }
+#ir_validBar a { height: 15px; float: left; text-indent: -1000em; }
+#ir_validHTML { background: url(http://ir.listedcompany.com/images/icon_validHTML.gif); width: 59px; }
+#ir_validXHTML { background: url(http://ir.listedcompany.com/images/icon_validXHTML.gif); width: 59px; }
+#ir_validCSS { background: url(http://ir.listedcompany.com/images/icon_validCSS.gif); width: 59px; margin-left: 10px; }

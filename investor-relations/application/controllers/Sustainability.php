@@ -20,7 +20,7 @@ class Sustainability extends CI_Controller {
         $this->data['menu_id']    = $this->menu['id'];
         $this->data['menu_class'] = $this->menu['class'];
 
-        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_method());
+        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->overview) ? $this->data['menu']            = $this->session->overview : $this->data['menu']            = 'Overview';
         isset($this->session->economy) ? $this->data['menu_right']       = $this->session->economy : $this->data['menu_right']       = 'Economy';
         $this->data['menu_right_url']                                    = BASE_URL . 'economy';
@@ -40,7 +40,7 @@ class Sustainability extends CI_Controller {
         $this->data['menu_id']    = $this->menu['id'];
         $this->data['menu_class'] = $this->menu['class'];
 
-        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_method());
+        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->economy) ? $this->data['menu']             = $this->session->economy : $this->data['menu']             = 'Economy';
         isset($this->session->overview) ? $this->data['menu_left']       = $this->session->overview : $this->data['menu_left']       = 'Overview';
         $this->data['menu_left_url']                                     = BASE_URL . 'overview';
@@ -60,8 +60,8 @@ class Sustainability extends CI_Controller {
         $this->data['menu_id']    = $this->menu['id'];
         $this->data['menu_class'] = $this->menu['class'];
 
-        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_method());
-        isset($this->session->environment) ? $this->data['menu']         = $this->session->environment : $this->data['menu']         = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->environment) ? $this->data['menu']         = $this->session->environment : $this->data['menu']         = $this->utilities->method_to_menu($this->router->fetch_method());
         isset($this->session->economy) ? $this->data['menu_left']        = $this->session->economy : $this->data['menu_left']        = 'Economy';
         $this->data['menu_left_url']                                     = BASE_URL . 'economy';
         isset($this->session->social) ? $this->data['menu_right']        = $this->session->social : $this->data['menu_right']        = 'Social';
@@ -81,8 +81,8 @@ class Sustainability extends CI_Controller {
         $this->data['menu_id']    = $this->menu['id'];
         $this->data['menu_class'] = $this->menu['class'];
 
-        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_method());
-        isset($this->session->social) ? $this->data['menu']              = $this->session->social : $this->data['menu']              = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->sustainability) ? $this->data['menu_main'] = $this->session->sustainability : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
+        isset($this->session->social) ? $this->data['menu']              = $this->session->social : $this->data['menu']              = $this->utilities->method_to_menu($this->router->fetch_method());
         $this->data['menu_right']                                        = NULL;
         $this->data['menu_right_url']                                    = NULL;
         isset($this->session->environment) ? $this->data['menu_left']    = $this->session->environment : $this->data['menu_left']    = 'Environment';

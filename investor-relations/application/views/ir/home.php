@@ -144,7 +144,7 @@
                                     alt="" title="">
                             </div>
                             <div class="card-box caption mbr-white">
-                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-7">
+                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-4">
                                     PRESS RELEASE</p>
                                 <p class="mbr-text price mbr-fonts-style mbr-lighter display-4">
                                     <a href="https://cmo-group.com/investor-relations/press-releases"
@@ -159,7 +159,7 @@
                                     alt="" title="">
                             </div>
                             <div class="card-box caption mbr-white">
-                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-7">
+                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-4">
                                     NEWS CLIPPING</p>
                                 <p class="mbr-text price mbr-fonts-style mbr-lighter display-4"><a
                                         href="https://cmo-group.com/investor-relations/news-clipping"
@@ -177,7 +177,7 @@
                                     alt="" title="">
                             </div>
                             <div class="card-box caption mbr-white">
-                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-7">
+                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-4">
                                     SET ANNONCEMENT</p>
                                 <p class="mbr-text price mbr-fonts-style mbr-lighter display-4"><a
                                         href="https://cmo-group.com/investor-relations/set-annoucements"
@@ -192,7 +192,7 @@
                                     alt="" title="">
                             </div>
                             <div class="card-box caption mbr-white">
-                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-7">
+                                <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-4">
                                     IR CALENDAR
                                 </p>
                                 <p class="mbr-text price mbr-fonts-style mbr-lighter display-4">

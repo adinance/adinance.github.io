@@ -3,3 +3,10 @@
 
 "../../../assets/
 "https://cmo-group.com/investor-relations/assets/3rdparty/mobirise/assets/
+
+
+
+cid-uoJscNlwwI .menu-bottom 
+
+.cid-uoJscNlwwI .navbar-nav .nav-item a
+

@@ -102,7 +102,7 @@ define('PATH_UPLOAD','assets/uploads/');
 
 // EMAIL
 define('EMAIL_WISTLEBLOWING','vuttiphan@cmo-group.com');
-define('EMAIL_CONTACT','warunee@cmo-group.com');
+define('EMAIL_CONTACT','ir@cmo-group.com');
 define('EMAIL_DEVELOPER','dev-it@cmo-group.com');
 
 // CONTACT
@@ -110,7 +110,6 @@ define('CONTACT_NAME','Warunee Puthapornpoj (Nan)');
 define('CONTACT_POSITION','Investor Relations');
 define('CONTACT_ADDRESS','CMO PCL. 4/18-19, Soi Nuanchan 56,<br>Nuanchan, Buengkum, Bangkok, 10230');
 define('CONTACT_PHONE','662-088-3888 Ext. 1399');
-define('CONTACT_EMAIL','warunee@cmo-group.com');
 
 // SEO
 define('SEO_TITLE','');

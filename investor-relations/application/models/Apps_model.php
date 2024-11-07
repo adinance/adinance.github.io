@@ -14,6 +14,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('*');
         // $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
 		$this->db->order_by('id', 'desc');
@@ -46,6 +47,7 @@ class Apps_model extends CI_Model {
         $this->db->from($this->docs);
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
+        $this->db->where('year >', '2013');
         $this->db->where_not_in('year', $year);
         $this->db->where_not_in('year', $previous_year);
 		$this->db->order_by('year', 'desc');
@@ -59,6 +61,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('*');
         $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
 		$this->db->order_by('create_date', 'desc');
@@ -72,6 +75,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('*');
         $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
         
@@ -86,6 +90,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('year');
         // $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
         $this->db->group_by('year'); 
@@ -100,6 +105,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('*');
         // $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('year', $year);
         $this->db->where('configuration_id', $id);
@@ -114,6 +120,7 @@ class Apps_model extends CI_Model {
 		$this->db->select('*');
         // $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
         $this->db->where('status', '1');
         $this->db->where('year', $year);
         $this->db->where('type', $quater);

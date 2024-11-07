@@ -1,0 +1,50 @@
+.si_tableBorderAll {border-collapse:collapse;}
+.si_tableBorderAll td {border:1px solid #000;}
+
+.si_floatRight {float:right;}
+.si_floatLeft {float:left;}
+.si_clearRight {clear:right;}
+.si_clearLeft {clear:left;}
+.si_clearBoth {clear:both;}
+.si_center {text-align:center;}
+.si_left {text-align:left;}
+.si_right {text-align:right;}
+.si_top {vertical-align:top; display:table-cell;}
+.si_bottom {vertical-align:bottom; display:table-cell;}
+.si_justify {text-align:justify;}
+.si_textCapitalize {text-transform:capitalize;}
+.si_textUppercase {text-transform:uppercase;}
+.si_textBold {font-weight:bold;}
+
+.si_fullWidth {width:100%; clear:both;}
+
+.si_halfWidth {width:48%; float:left;}
+
+
+.si_marginTop {margin-top:1em;}
+.si_marginBottom {margin-bottom:1em;}
+.si_marginLeft {margin-left:1em;}
+.si_marginRight {margin-right:1em;}
+
+.si_marginTop0 {margin-top:0;}
+.si_marginBottom0 {margin-bottom:0;}
+.si_marginLeft0 {margin-left:0;}
+.si_marginRight0 {margin-right:0;}
+
+.si_fixed:after{
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+	}
+.si_fixed{
+	display:block;
+	}
+/*  \*/
+.si_fixed{
+	min-height:1%;
+	}
+* html .si_fixed{
+	height:1%;
+	}

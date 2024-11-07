@@ -1,0 +1,1 @@
+<div id="img_title"><img src="../image/banner.jpg" width="850" height="150" /></div>	

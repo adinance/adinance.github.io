@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Mailchimp {
 
     protected $api_url         = 'https://mandrillapp.com/api/1.0/messages/send.json';
-    protected $api_key         = '04c073fc01dd1e5d5e1dfa43981d6b06-us11';
+    protected $api_key         = '05910ca47101ccf1e713ce8703f50838-us11';
     protected $email_from      = 'noreply@cmo-group.com';
     protected $email_from_name = 'CMO | Investor Relations';
     protected $audience_key    = '0982464fd9';
@@ -46,8 +46,6 @@ class Mailchimp {
 
         return $httpCode; // success : 200
 
-
-     
 
     }
 

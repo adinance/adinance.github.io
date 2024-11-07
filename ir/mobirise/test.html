@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: white;
+    /* color: #fff; */
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 1px 0; */
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  /* iframe {
+            position: absolute;
+            top: 10; left: 0; width: 100%; height: 100%;
+            border: none; padding-top: 32px;
+            box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+        } */
+</style>
+
+<body style="text-align:center; background: grey;">
+
+  <!-- <h2>Basic Tooltip</h2> -->
+
+  <!-- <p>Move the mouse over the text below:</p> -->
+
+  <br><br><br><br><br><br><br><br><br>
+  <div class="tooltip">Hover over me to see price
+    <span class="tooltiptext">
+      <div id="stock-info-area">
+        <!-- <div class="headtxt" style="height:20px; width:160px;background-color:#0F6D94;color:white;">INVESTOR STOCK INFO</div><br> -->
+        <!-- <p style="background-color:#ffffff; padding:0; margin:0; text-align:center;"> -->
+        <!-- <iframe frameborder="0" scrolling="no" width="200" height="260" src="https://weblink.settrade.com/banner/banner3.jsp"></iframe> -->
+        <!-- <iframe frameborder=0 scrolling=no width="210" height="240" src="https://www.settrade.com/IRPage/irpage.jsp?txtSymbol=CMO&language=en&key=21631" allowtransparency="true"  ></iframe> -->
+        <!-- </p> -->
+        <!-- <p style="background:url(image/ir/br-iframe-settrade.jpg) repeat-x; text-align:center; padding-top:2px;"> -->
+        <p style=" text-align:center; padding-top:15px;">
+
+          <iframe frameborder="0" scrolling="no" width="200" height="200"
+            src="https://weblink.settrade.com/IRPage/irpage.jsp?txtSymbol=CMO&amp;language=en&amp;key=21631"></iframe>
+          <!-- <iframe frameborder=0 scrolling=no width="200" height="206" src="https://www.settrade.com/banner/banner3.jsp" allowtransparency="true"></iframe> -->
+        </p>
+      </div>
+    </span>
+  </div>
+
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+
+  <iframe frameborder=0 scrolling=no width="210" height="189" src="https://weblink.settrade.com/IRPage/irpage.jsp?txtSymbol=CMO&language=en&key=21631"></iframe>
+
+  <!-- <p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p> -->
+
+</body>
+
+</html>

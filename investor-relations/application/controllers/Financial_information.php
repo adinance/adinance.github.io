@@ -240,26 +240,6 @@ class Financial_information extends CI_Controller {
 
     }
 
-    public function form_56_1() {
-
-        $this->data['menu_id']    = $this->menu['id'];
-        $this->data['menu_class'] = $this->menu['class'];
-
-        isset($this->session->financial_info) ? $this->data['menu_main']                = $this->session->financial_info : $this->data['menu_main']                = $this->utilities->method_to_menu($this->router->fetch_class());
-        isset($this->session->form_56_1) ? $this->data['menu'] = $this->session->form_56_1 : $this->data['menu'] = $this->utilities->method_to_menu('form_56_1');
-        $this->data['menu_right']                                  = NULL;
-        $this->data['menu_right_url']                              = NULL;
-        isset($this->session->md_and_a) ? $this->data['menu_left']           = $this->session->md_and_a : $this->data['menu_left']           = $this->utilities->method_to_menu('management_discussion_and_analysis');
-        $this->data['menu_left_url']                                                    = BASE_URL . $this->utilities->method_to_link('financial_statement');
-
-        $this->data['result'] = $this->apps->get_file_by_configuration_id(3);
-
-        $this->load->view('ir/header', $this->data);
-        $this->load->view('ir/navigation', $this->data);
-        $this->load->view('ir/menu', $this->data);
-        $this->load->view('ir/financial_info/' . $this->router->fetch_method(), $this->data);
-        $this->load->view('ir/footer', $this->data);
-
-    }
+    
 
 }

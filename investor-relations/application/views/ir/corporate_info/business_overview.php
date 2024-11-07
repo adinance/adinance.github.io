@@ -44,7 +44,7 @@
 }
 
 .Bso-SubHead5 {
-	background-image: url("https://cmo-group.com/investor-relations/assets/img/BO-img/business-overview-digital.jpg");
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/business-overview/top-museum.jpg");
 }
 
 .Bso-SubHead6 {
@@ -119,7 +119,7 @@
 }
 
 .BsO4 p {
-	padding: 1rem;
+	/* padding: 1rem; */
 	text-align: right;
 }
 
@@ -171,7 +171,7 @@
 }
 
 .BsO7 {
-	padding: 5% 10% 5% 10%;
+	padding: 0% 10% 0% 10%;
 	background-color: #cad5e9;
 }
 
@@ -214,7 +214,7 @@
 .BsO8 {
 	height: 50rem;
 	padding: 10% 5% 2% 65% !important;
-	background-image: url("http://localhost/ir.cmo-group.com/assets/img/BO-img/business overview-digital.jpg");
+	background-image: url("https://cmo-group.com/investor-relations/assets/img/business-overview/bg-digital-and-technology-solutions.jpg");
 	background-size: cover;
 }
 
@@ -251,7 +251,7 @@
 }
 
 .BsO9 p {
-	padding: 1rem;
+	/* padding: 1rem; */
 	text-align: right;
 }
 
@@ -287,6 +287,7 @@
 
 	.BsO7 p {
 		font-size: smaller;
+		/* font-weight: bold; */
 	}
 
 	.sub-BsO7List img {
@@ -520,38 +521,118 @@
 
 <section class="BsO-Container">
 
-
-
-  <div class="d-flex Bso-SubHead">
-	<div class="col Bso-SubHeadList Bso-SubHead1 text-center centered"><a href="#BsO-01" style="color: white;">CREATIVE EVENT AGENCY<a/></div>
-	<div class="col Bso-SubHeadList Bso-SubHead2 text-center centered"><a href="#BsO-02" style="color: white;">EQUIPMENT SERVICE</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead3 text-center centered"><a href="#BsO-03" style="color: white;">VISUAL CREATOR & PRODUCTION HOUSE</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead4 text-center centered"><a href="#BsO-04" style="color: white;">ENTERTAINMENT AGENCY</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead5 text-center centered"><a href="#BsO-05" style="color: white;">DIGITAL & TECHNOLOGY<BR>SOLUTION</a></div>
-	<div class="col Bso-SubHeadList Bso-SubHead6 text-center centered"><a href="#BsO-06" style="color: white;">UTILITY SERVICE</a></div>
-	
+  <div class="d-flex Bso-SubHead upper" style="color: white;">
+  	<div class="col Bso-SubHeadList Bso-SubHead1 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#content4-i9'?>';">CREATIVE EVENT AGENCY</div>
+	<div class="col Bso-SubHeadList Bso-SubHead2 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#BsO-02'?>';">EQUIPMENT SERVICE</div>
+	<div class="col Bso-SubHeadList Bso-SubHead3 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#content4-n0'?>';">Digital Content Agency</div>
+	<div class="col Bso-SubHeadList Bso-SubHead4 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#BsO-04'?>';">ENTERTAINMENT AGENCY</div>
+	<div class="col Bso-SubHeadList Bso-SubHead5 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#BsO-05'?>';">Museum Creator</div>
+	<div class="col Bso-SubHeadList Bso-SubHead6 text-center centered" onclick="window.location='<?php echo BASE_URL . 'business-overview#extHeader23-mm'?>';">UTILITY SERVICE</div>
   </div>
 
+  <section class="mbr-section content4 cid-uqHJlOnROm" id="content4-i9">
+    <div class="container" >
+        <div class="media-container-row">
+            <div class="title col-12 col-md-12">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2 upper" ><strong>Creative Event Agency</strong></h2>
+                <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+				The company is a leader in Event Management Business integrated with marketing communication for
+creative experiences (Turnkey Event Management). There are various types of events such as Corporate &amp;
+Marketing Event, Meetings Incentive Convention &amp; Exhibition: MICE, and Entertainment &amp; Lifestyle
+business. The company focuses on creativity mixed with innovation &amp; technology. Three companies work
+as Creative Event businesses, namely: CMO Public Company Limited, Muse Corporation Company Limited,
+and Momentum S Company Limited.
+                </p>
 
-  <div class=" BsO1 text-center" id="BsO-01">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="features3 cid-us6nG2L8MG" id="extFeatures68-mk">
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card col-12 col-md-8 col-lg-4 p-0">
+                <div class="card-wrapper card1">
+                    <div class="card-box">
+                        
+
+                        <h4 class="card-title align-center mbr-bold mbr-white mbr-fonts-style display-5"></h4>
+                        <p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><br><br></p>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-8 col-lg-4 p-0">
+                <div class="card-wrapper card2">
+                    <div class="card-box">
+                        
+                        <h4 class="card-title align-center mbr-bold mbr-white mbr-fonts-style display-5"></h4>
+                        <p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><br><br></p>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-8 col-lg-4 p-0">
+                <div class="card-wrapper card3">
+                    <div class="card-box">
+                        
+                        <h4 class="card-title align-center mbr-bold mbr-white mbr-fonts-style display-5"></h4>
+                        <p class="mbr-text align-center mbr-white mbr-fonts-style display-7"><br><br></p>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+
+  <!-- <div class=" BsO1 text-center" id="BsO-01">
 	<h1>Creative Event Agency</h1>
 	<p> The company is a leader in Event Management Business integrated with marketing communication for creative experiences (Turnkey Event Management). There are various types of events such as Corporate & Marketing Event, Meetings Incentive Convention & Exhibition: MICE, and Entertainment & Lifestyle business. The company focuses on creativity mixed with innovation & technology. Five companies work as Creative Event businesses, namely:  CMO Public Company Limited, Muse Corporation Co., Ltd and Momentum S Co., Ltd.,</p> 
-  </div>
+  </div> -->
 
-  <div class=" BsO2 justify-content-center">
+  <!-- <div class=" BsO2 justify-content-center">
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 01.jpg" ></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 02.jpg" ></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 03.jpg" ></div>
-  </div>
+  </div> -->
 
 
   <div class="BsO3">
     <div class="col-md-4  p-3 BsO3List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 04.jpg"></div>
-    <div class="col-md-4  p-3 BsO3List"><h4>Corporate & Marketing Event</h4><p>The Company focuses on creative and marketing promotion management to create brand awareness such as making product launch events, doing online marketing, using various social media, organizing seminar and important festival etc. All of these are marketing strategies that create experience for the customers’ target group in order to bring out positive emotion and brand recall. As the result, brand experience is establish in the customer mind in the forms of liking, preference, desire and need to possess which will finally lead to the purchase decision, increasing sales value and brand value.</p></div>
+    <div class="col-md-4  p-3 BsO3List" >
+		<h4 class="pb-3 mbr-fonts-style display-5 upper"><br><br><strong>Corporate & Marketing Event</strong></h4>
+		<!-- <h4>Corporate & Marketing Event</h4> -->
+		<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">The company is a leader in Event Management Business integrated with marketing communication for
+	creative experiences (Turnkey Event Management). There are various types of events such as Corporate &amp;
+	Marketing Event, Meetings Incentive Convention &amp; Exhibition: MICE, and Entertainment &amp; Lifestyle
+	business. The company focuses on creativity mixed with innovation &amp; technology. Three companies work
+	as Creative Event businesses, namely: CMO Public Company Limited, Muse Corporation Company Limited,
+	and Momentum S Company Limited.</p>
+	</div>
   </div>
 
   <div class="BsO4">
-	<div class="col-md-4  p-3 BsO4List"><h4>National & Public Event</h4><p>The National and Public event is set for the campaign of each customer which has special campaign in their product. This event will set in a short time period and need participation of people. Almost, the National and Public event will set for a special occasion or annually. </p></div>
+	<div class="col-md-4  p-3 BsO4List">
+		<h4 class="pb-3 mbr-fonts-style display-5 upper"><br><br><br><br><strong>Public Event</strong></h4>
+	<p  class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">The National and Public event is set for the campaign of each customer which has special
+campaign in their product. This event will set in a short time period and need participation of
+people. Almost, the National and Public event will set for a special occasion or annually such as
+countdown event or Songkran Festival. </p></div>
     <div class="col-md-4  p-3 BsO4List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 05.jpg"></div>
   </div>
 
@@ -566,108 +647,353 @@
 
 
 
-  <div class=" BsO5 text-center">
-	<h5>Meetings Incentive Convention & Exhibition: MICE</h5>
-	<p>The Meeting Incentive Convention & Exhibition industry is the one of event service that constantly expanding that MICE team’s full functional service from create and brainstorm idea till organize meeting. Moreover, the Company’s MICE team is equipped with instrument, technology and potential that is sufficient to fully accommodate the business opportunities. For the Example of MICE; welcoming party, education seminar, farewell party and public relations’ meeting.</p> 
+  <div class="BsO5 text-center">
+  <h4 class="pb-3 mbr-fonts-style display-5 upper" style="color: #4a7ab5;"><strong>Meetings Incentive Convention & Exhibition: MICE</strong></h4>
+	<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
+	The Meeting Incentive Convention &amp; Exhibition industry is the one of event service that
+constantly expanding that MICE team’s full functional service from create and brainstorm idea till
+organize meeting. Moreover, the Company’s MICE team is equipped with instrument, technology
+and potential that is sufficient to fully accommodate the business opportunities. For the Example
+of MICE; welcoming party, education seminar, farewell party and public relations’ meeting.</p> 
   </div>
 
   <div class="BsO3">
     <div class="col-md-4  p-3 BsO3List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 09.jpg"></div>
-    <div class="col-md-4  p-3 BsO3List"><h4>Corporate & Private Lifestyle Service</h4><p>Providing the Private Lifestyle Event services such as birthday parties, weddings, or private parties. The company service since giving advice, suggesting ideas, proposing interesting ideas or concepts, designing and providing equipment and organizing events to come out modern and unique. The highlight of the Private Lifestyle Event of the companies is bringing interesting fashion styles in everywhere to blend with each person’s lifestyle.</p></div>
+    <div class="col-md-4  p-3 BsO3List">
+		<h4 class="pb-3 mbr-fonts-style display-5 upper" style="color: #4a7ab5;"><br><br><strong>Private Lifestyle Service</strong></h4>
+		<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Providing the Private Lifestyle services such as birthday parties, weddings, or private parties. The
+company service since giving advice, suggesting ideas, proposing interesting ideas or concepts,
+designing and providing equipment and organizing events to come out modern and unique. The
+highlight of the Private Lifestyle Event of the companies is bringing interesting fashion styles in
+everywhere to blend with each person’s lifestyle.</p></div>
   </div>
 
-  <div class=" BsO2 justify-content-center">
+  <div class=" BsO2 ">
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 10.jpg"></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 11.jpg"></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 12.jpg"></div>
   </div>
 
   <div class=" BsO5 text-center">
-	<h5>Creative & Entertainment Production  Agency</h5>
-	<p>Creative & Entertainment Production Agency is operated in full service of Music Entertainment business including organizing concert parties, all type of showbiz. The company emphasize on different creative concepts via creating tailor-made events with identity for each client that serves clients as one-stop-service.</p> 
+	<h4 class="pb-3 mbr-fonts-style display-5 upper" style="color: #4a7ab5;">Creative &amp; Entertainment Production Agency</h4>
+	<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Creative &amp; Entertainment Production Agency is operated in full service of Music Entertainment
+business including organizing concert parties, all type of showbiz. The company emphasize on
+different creative concepts via creating tailor-made events with identity for each client that
+serves clients as one-stop-service.</p> 
   </div>
 
   <div class="BsO3">
-    <div class="col-md-4  p-3 BsO3List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 13.jpg"></div>
-    <div class="col-md-4  p-3 BsO3List"><h4>Digital & Hybrid Event</h4><p>Since 2020 the Coronavirus (COVID-19) pandemic impacted to people around the world. So the Company’s market strategy has changed by focusing on opening of 3 integrated live streaming studios of variety scales, fully with visual, lighting, sound and live streaming system to support digital event. The digital event is not only just an event which is broadcast via live streaming, it also covers the utilization of digital technology such as Augmented Reality (AR), computer graphic (CG), interactive media, online registration, lucky draw system, product purchase system, and   Virtual Museum Exhibition. The digital event has become increasingly popular in every industry.</p></div>
+    <div class="col-md-4  p-3 BsO3List "><br><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 13.jpg"></div>
+    <div class="col-md-4  p-3 BsO3List">
+		<h4 class="pb-3 mbr-fonts-style display-5 upper" style="color: #4a7ab5;"><strong>Digital Event</strong></h4>
+		<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Since 2020 the Coronavirus (COVID-19) pandemic impacted to people around the world. So the
+Company’s market strategy has changed by focusing on opening of 3 integrated live streaming
+studios of variety scales, fully with visual, lighting, sound and live streaming system to support
+digital event. The digital event is not only just an event which is broadcast via live streaming, it
+also covers the utilization of digital technology such as Augmented Reality (AR), computer graphic
+(CG), interactive media, online registration, lucky draw system, product purchase system, and
+Virtual Museum Exhibition. The digital event has become increasingly popular in every industry.</p></div>
   </div>
-
+<!-- 
   <div class="BsO3">
     <div class="col-md-4  p-3 BsO3List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 14.jpg"></div>
     <div class="col-md-4  p-3 BsO3List"><h4>Museum & Exhibition</h4><p>Exhibition fair both permanent and temporary are the marketing communication tools by convey difference purpose depends on project’s objective. Whether for education or commercial proposes, the Company has a professional team who are expert every step of the operating process as concept, theme, interior, exterior, building or maintenance. Furthermore, there is a complete range of services of unique techniques and equipment which meet museum and exhibition to be modern and digital and attract new gen people.</p></div>
-  </div>
+  </div> -->
 
 
   <div class=" BsO6" id="BsO-02">
 	
-	<h2>Equipment Service</h2>
-	<p>Event equipment rental service is operated under PM Center Company Limited (Abbreviation as PM). PM center is an all-in-one service supply that PM serves the market by providing equipment rental service along with installation and technician service, as well as production consulting service.</p> 
-	<p>Currently, PM’s service is categorized by system in 5 categories as following;</p> 
+	<h2 class="align-center pb-3 mbr-fonts-style display-2 upper">Equipment Service</h2>
+	<p  class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Event equipment rental service is operated under PM Center Company Limited (Abbreviation as PM). PM
+center is an all-in-one service supply that PM serves the market by providing equipment rental service
+along with installation and technician service, as well as production consulting service.</p> 
+	<p  class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Currently, PM’s service is categorized by system in 5 categories as following;</p> 
 	<div class=" sub-BsO6"> 
-		<div class=" sub-BsO6List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 01.png">Image or Visual System</div>
-		<div class=" sub-BsO6List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 02.png">Lighting System</div>
-		<div class=" sub-BsO6List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 03.png">Audio System</div>
-		<div class=" sub-BsO6List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 04.png">Special Effect</div>
-		<div class=" sub-BsO6List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 05.png">Rooftop & Structure System</div>
+		<div class=" sub-BsO6List mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 01.png">Image or Visual System</div>
+		<div class=" sub-BsO6List mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 02.png">Lighting System</div>
+		<div class=" sub-BsO6List mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 03.png">Audio System</div>
+		<div class=" sub-BsO6List mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 04.png">Special Effect</div>
+		<div class=" sub-BsO6List mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-equipment 05.png">Rooftop & Structure System</div>
 	  </div>
 </div>
 
+</section>
 
 
 
 
-<div class=" BsO7 text-center" id="BsO-03">
-	<h2>Visual Creator & Production House</h2>
-	<p>Visual Creator & Production House is related to virtual creation, designing, controlling, and production of VIDEO & Cinema Production, TVC, Multimedia, Interactive, CG, Virtual & Digital Content, Animation, and New Media that operate under Nerve Creative Co., Ltd.</p> 
-	<p>Our four Core Services are:</p> 
-	<div class=" sub-BsO7 justify-content-center">
-		<div class=" sub-BsO7List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-visual 01.jpg">
-			<h5>Video & Cinema Production</h5>	<p>  Video & Cinema Production: one-stop service of video production from creative & script development, shooting production, computer graphic development, sound recording and mixing and video editing. Our types of video production ranges from corporate video, promotional video, product.</p> </div>
-		<div class=" sub-BsO7List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-visual 02.jpg">
-			<h5>Virtual Experience</h5>	<p>  Using media production techniques through technology such as Live Streaming, Virtual Reality (VR), and Augmented Reality (AR).</p> </div>
-		<div class=" sub-BsO7List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-visual 03.jpg">
-			<h5>Multimedia</h5>	<p>  A presentation made by multi-media including video, images, graphic, light & sound to use for marketing event, conferences, exhibitions and museum. </p> </div>
-		<div class=" sub-BsO7List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-visual 04.jpg">
-			<h5>Interactive Media</h5>	<p>  Interactive Media: This kind of media is used to coloring the events, exhibitions or museums to draw clients or participants’ attractions as they can interact with the media to get into the details or information of the products and services by a more entertaining way. Our interactive media includes photo booth, interactive shadow, Kinect interactive program, multi-touch table, reactable, transparent display and augmented reality.</p> </div>
 
-	  </div>
-</div>
+<section class="mbr-section content4 cid-us7z6autO6" id="content4-n0">
 
+    
+
+    <div class="container-fluid">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-10">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Digital Content Agency</strong></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><div>We are a digital marketing service provider focused on comprehensive digital marketing management, brand experience design, and multimedia production, covering both online and offline marketing, operating under Nerve Creative Co., Ltd. ('Nerve').</div></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="extFeatures cid-us7O60cQOh" id="extFeatures22-n4">
+
+    
+
+    
+
+    <div class="container-fluid">
+        <!-- <h4 class="main-title pb-5 align-left mbr-regular mbr-fonts-style display-2"><strong>Digital Content Agency</strong></h4> -->
+        
+        <!-- <h3 class="main-title align-center mbr-light mbr-fonts-style display-5"><div>We are a digital marketing service provider focused on comprehensive digital marketing management, brand experience design, and multimedia production, covering both online and offline marketing, operating under Nerve Creative Co., Ltd. ('Nerve').<br></div></h3> -->
+
+        <div class="row justify-content-center">
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-video-cinema-production-506x369.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box align-left">
+                        <h4 class="card-title align-left pb-3 mbr-fonts-style display-5">Digital Marketing</h4>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">• Market Research 
+<br>• Brand Communication Strategy 
+<br>• Campaign Strategy 
+<br>• Digital Strategy Planning 
+<br>• Content Strategy Planning 
+<br>• Media Strategy &amp; Buying 
+<br>• Influencer Management 
+<br>• Graphic Design (Logo / Packaging / Online Materials) 
+<br>• Web Design, Coding and Application</p>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-interactive-media-506x369.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box align-left">
+                        <h4 class="card-title pb-3 align-left mbr-fonts-style display-5">Multimedia Production</h4>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">• Interactive Media / Display Media 
+<br>• Immersive Projection Mapping/ 
+<br>• Hologram 
+<br>• Metaverse / VR/ AR / XR 
+<br>• Hyper Realistic Ads / CGI / VFX 
+<br>• Program &amp; Application Development</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-video-film-production-506x369.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box align-left">
+                        <h4 class="card-title align-left pb-3 mbr-fonts-style display-5">Video &amp; Film<br>Production</h4>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">• Pre-Production / Production / 
+<br>Post-production 
+<br>• 2D &amp; 3D Animation / Motion Graphic
+<br>• Unreal Engine</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-multimedia-506x369.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box align-left">
+                        <h4 class="card-title align-left pb-3 mbr-fonts-style display-5">Creative Brand<br>Experience Design</h4>
+                        <p class="mbr-text align-left mbr-fonts-style display-7">• IP Event , IP Attraction 
+<br>• Event Online 
+<br>• Tourist Attraction 
+<br>• Theme Park</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- 
+<section class="mbr-section content4 cid-us7z6autO6" id="content4-n0">
+
+    
+
+    <div class="container-fluid">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-10">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Digital Content Agency</strong></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-7"><div>We are a digital marketing service provider focused on comprehensive digital marketing management, brand experience design, and multimedia production, covering both online and offline marketing, operating under Nerve Creative Co., Ltd. ('Nerve').</div></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features2 cid-us7wVTN49W" id="features2-mx">
+    <div class="container-fluid">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-video-cinema-production-872x636.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-5"><strong>Digital Marketing</strong><strong><br></strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">• Market Research
+<br>• Brand Communication Strategy
+<br>• Campaign Strategy
+<br>• Digital Strategy Planning
+<br>• Content Strategy Planning
+<br>• Media Strategy &amp; Buying
+<br>• Influencer Management
+<br>• Graphic Design (Logo / Packaging / Online Materials)
+<br>• Web Design, Coding and Application</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-interactive-media-872x636.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box ">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-5"><strong>Multimedia Production</strong><strong><br></strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">• Interactive Media/ Display Media
+<br>• Immersive Projection Mapping&nbsp;<br>• Hologram
+<br>• Metaverse / VR / AR / XR
+<br>• Hyper Realistic Ads / CGI / VFX
+<br>• Program &amp; Application Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-video-film-production-872x636.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-5"><strong>Video &amp; Film </strong><br><strong>Production</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">• Pre-Production / Production /
+Post-production
+<br>• 2D &amp; 3D Animation <br>• Motion Graphic<br>• Unreal Engine</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/-multimedia-872x636.jpg" alt="" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title pb-3 mbr-fonts-style display-5"><strong>Creative Brand </strong><br><strong>Experience Design</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">• IP Event , IP Attraction
+<br>• Event Online
+<br>• Tourist Attraction
+<br>• Theme Park</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+<section  id="BsO-04">
 
 <div class=" BsO2 justify-content-center">
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-entertainment 01.jpg"></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-entertainment 02.jpg"></div>
 	<div class=" BsO2List"><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-entertainment 03.jpg"></div>
-  </div>
+</div>
 
-  <div class=" BsO5 text-center" id="BsO-04">
-	<h2>Entertainment Agency</h2>
-	<p>Entertainment Agency operates under “CM Live Co., Ltd. (“CM Live”)” which is a Concert & Fanmeet promoter from South Korea, Thai, Europe, and USA. CM Live aims to be a leader of In-bound Live Entertainment Experience, fully stepping into the Entertainment Business. To entertain Asia and Global and bring world festivals into Thailand.</p> 
+  <div class=" BsO5 text-center">
+	<h2 class="align-center pb-3 mbr-fonts-style display-2 upper">Entertainment Agency</h2>
+	<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5" >Entertainment Agency operates under “CM Live” which is a Concert &amp; Fanmeet promoter from South
+	Korea, Thai, Europe, and USA.</p> 
+</div>
+
+</section>
+
+
+<section>
+
+<div class=" BsO8 text-center" id="BsO-05">
+	<div class="BsO8-supbg">
+	<h1  class="align-center pb-3 mbr-fonts-style display-1 upper">Museum Creator</h1>
+	<p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5" >
+	Exhibition fair both permanent and temporary are the marketing communication tools by convey
+difference purpose depends on project’s objective. Whether for education or commercial proposes, the
+Company has a professional team who are expert every step of the operating process as concept, theme,
+interior, exterior, building or maintenance. Furthermore, there is a complete range of services of unique
+techniques and equipment which meet museum and exhibition to be modern and digital and attract new
+gen people with a format that is more like a Digital Museum, whether it be using RFID Card scanning
+techniques to record data, presenting data combined with Projection Mapping, using AR technology to
+present exhibitions, and hologram techniques, etc.</p> 
+	</div>
 </div>
 
 
-  <div class=" BsO8 text-center" id="BsO-05">
-	<div class="BsO8-supbg">
-	<h1>Digital and Technology Solutions</h1>
-	<p>Digital and Technology Solutions is a new business of the company. The goal is to develop and reach the company into the technology business efficiently. As part of expanding the technology business, the company has to spend a long time learning meticulously to create full solution service for both regular and new customers. Also, helping organizations and brands to transform business in web 3.0.</p> 
-	</div>
-	</div>
-
-
-
-	<div class="BsO9" id="BsO-06">
-		<div class="col-md-4  p-3 BsO4List"><h2>Utility Service</h2><p>	Utilities Service is operated under Exposition Technology Company Limited (Abbreviation as Expo Tech) which is a subsidiary that the Company is a shareholder holding 40% of the paid registered capital.
-			Expo Tech is a provider of utility service systems such as electrical connecting system, water piping system, air duct system and signal wiring system that are essential to event organizing. Furthermore, Expo Tech is the official operator of utility service for the Challenger Hall of Muang Thong Thani.
-			</p></div>
-		<div class="col-md-4  p-3 BsO4List "><img src="<?php echo BASE_URL; ?>assets/img/BO-img/business overview-creative 05.jpg"></div>
-	  </div>
-  
-
-	  
-
-  
+</section>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="extHeader cid-us6nVjE4rq" id="extHeader23-mm">
+    <div class="animated-text-background display-5" style="color: rgb(66, 132, 223); opacity: 0.2; font-size: 13rem;">
+        <span class="animated-element" data-word="Utility Service" data-speed="50"></span>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="mbr-white py-md-0 col-md-6 pb-3">
+                <h1 class="mbr-section-title mbr-white mbr-bold mbr-fonts-style align-left display-1">Utility Service<br></h1>
+                <h2 class="mbr-section-subtitle pb-3 mbr-fonts-style mbr-white align-left mbr-regular display-5">Utilities Service is operated under Exposition Technology Company Limited (Abbreviation as Expo Tech) which is a subsidiary that the Company is a shareholder holding 40% of the paid registered capital. Expo Tech is a provider of utility service systems such as electrical connecting system, water piping system, air duct system and signal wiring system that are essential to event organizing. Furthermore, Expo Tech is the official operator of utility service for the Challenger Hall of Muang Thong Thani.</h2>
+            </div>
+            <div class="col-md-6 align-left img-block">
+                <div class="mbr-figure">
+                    <img src="<?php echo BASE_URL . PATH_MOBIRISE ;?>assets/images/business-overview-utility-1074x721.jpg" alt="" title="">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

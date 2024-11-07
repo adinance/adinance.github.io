@@ -126,6 +126,22 @@ class Language {
         $ci->session->set_userdata('gi_fiscal_year', $ci->lang->line('gi_fiscal_year'));
         $ci->session->set_userdata('gi_contact', $ci->lang->line('gi_contact'));
 
+        $ci->session->set_userdata('gi_company_name_value', $ci->lang->line('gi_company_name_value'));
+        $ci->session->set_userdata('gi_stock_code_value', $ci->lang->line('gi_stock_code_value'));
+        $ci->session->set_userdata('gi_registration_no_value', $ci->lang->line('gi_registration_no_value'));
+        $ci->session->set_userdata('gi_stock_market_value', $ci->lang->line('gi_stock_market_value'));
+        $ci->session->set_userdata('gi_type_of_industry_value', $ci->lang->line('gi_type_of_industry_value'));
+        $ci->session->set_userdata('gi_type_of_business_value', $ci->lang->line('gi_type_of_business_value'));
+        $ci->session->set_userdata('gi_website_value', $ci->lang->line('gi_website_value'));
+        $ci->session->set_userdata('gi_year_of_establishment_value', $ci->lang->line('gi_year_of_establishment_value'));
+        $ci->session->set_userdata('gi_first_trade_date_value', $ci->lang->line('gi_first_trade_date_value'));
+        $ci->session->set_userdata('gi_address_value', $ci->lang->line('gi_address_value'));
+        $ci->session->set_userdata('gi_registered_capital_value', $ci->lang->line('gi_registered_capital_value'));
+        $ci->session->set_userdata('gi_paid_up_capital_value', $ci->lang->line('gi_paid_up_capital_value'));
+        $ci->session->set_userdata('gi_par_value_value', $ci->lang->line('gi_par_value_value'));
+        $ci->session->set_userdata('gi_fiscal_year_value', $ci->lang->line('gi_fiscal_year_value'));
+        $ci->session->set_userdata('gi_contact_value', $ci->lang->line('gi_contact_value'));
+
         $ci->session->set_userdata('vision', $ci->lang->line('vision'));
         $ci->session->set_userdata('vision_sub', $ci->lang->line('vision_sub'));
         $ci->session->set_userdata('vision_text', $ci->lang->line('vision_text'));
@@ -140,6 +156,20 @@ class Language {
         $ci->session->set_userdata('core_vaue_o', $ci->lang->line('core_vaue_o'));
         $ci->session->set_userdata('core_vaue_r', $ci->lang->line('core_vaue_r'));
         $ci->session->set_userdata('core_vaue_e', $ci->lang->line('core_vaue_e'));
+
+        $ci->session->set_userdata('full_name', $ci->lang->line('full_name'));
+        $ci->session->set_userdata('subject', $ci->lang->line('subject'));
+        $ci->session->set_userdata('message', $ci->lang->line('message'));
+        $ci->session->set_userdata('the_privacy_statement', $ci->lang->line('the_privacy_statement'));
+        $ci->session->set_userdata('i_agree', $ci->lang->line('i_agree'));
+        $ci->session->set_userdata('email', $ci->lang->line('email'));
+        $ci->session->set_userdata('telephone', $ci->lang->line('telephone'));
+        $ci->session->set_userdata('location', $ci->lang->line('location'));
+        $ci->session->set_userdata('map', $ci->lang->line('map'));
+        $ci->session->set_userdata('ir_name', $ci->lang->line('ir_name'));
+        $ci->session->set_userdata('ir_title', $ci->lang->line('ir_title'));
+
+
         
 
         // $lang['subscribe_text']  = $ci->lang->line('subscribe_text');

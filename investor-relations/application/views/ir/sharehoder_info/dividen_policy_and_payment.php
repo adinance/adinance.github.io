@@ -44,15 +44,15 @@ The company\'s policy is to contribute the dividend to shareholders
 
                     <tbody>
 
-                    <tr >
+                    <tr>
 
-<td class="body-item1 mbr-fonts-style display-7" ></td>
-<td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Interim</td>
-<td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Final</td>
-<td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Total</td>
-</tr>
+                        <td class="body-item1 mbr-fonts-style display-7"></td>
+                        <td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Interim</td>
+                        <td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Final</td>
+                        <td class="body-item mbr-fonts-style display-7" style="background: #efefef; color: black !important;">Total</td>
+                    </tr>
 
-                        <tr>
+                    <tr>
 
                             <td class="body-item1 mbr-fonts-style display-7">2023</td>
                             <td class="body-item mbr-fonts-style display-7"><span class="mdi-content-remove mbr-iconfont" style="color: rgb(54, 123, 186);"></span></td>

@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 $lang['corporate_info']                        = 'Corporate Info';
-$lang['general_information']                   = 'General Information';
+$lang['general_information']                   = 'Fact Sheet';
 $lang['vision_mission_core_value']             = 'Vision • Mission • Core Value';
 $lang['company_s_history']                     = 'Company\'s History';
 $lang['business_overview']                     = 'Business Overview';
@@ -15,9 +15,9 @@ $lang['financial_highlight']                   = 'Financial Highlight';
 $lang['financial_statement']                   = 'Financial Statement';
 $lang['md_and_a']                              = 'MD & A';
 $lang['management_discussion_and_analysis']    = 'Management Discussion <br>and Analysis';
-$lang['form_56_1']                             = 'Form 56-1 (thai Only)';
+$lang['form_56_1']                             = 'Form 56-1';
 $lang['stock_info']                            = 'Stock Info';
-$lang['stock_qoute']                           = 'Stock Qoute';
+$lang['stock_qoute']                           = 'Stock Quote';
 $lang['historical_price']                      = 'Historical Price';
 $lang['shareholder_info']                      = 'Shareholder Info';
 $lang['major_shareholder']                     = 'Major Shareholder';
@@ -25,7 +25,7 @@ $lang['shareholder_s_meeting']                 = 'Shareholder\'s Meeting';
 $lang['invitation']                            = 'Invitation';
 $lang['the_resolutions']                       = 'The Resolutions';
 $lang['the_minutes_of_annual_general_meeting'] = 'The Minutes of Annual General Meeting';
-$lang['dividen_policy_and_payment']            = 'Dividen Policy & Payment';
+$lang['dividen_policy_and_payment']            = 'Dividend Policy & Payment';
 $lang['dividen_policy_and_payment_text']       = 'The company\'s policy is to contribute the dividend to shareholders<br> not less than 40 percent of the net profit (after the company\'s income tax has been cleared<br> and legally reserved). Anyhow, this completely depends on economic situation,<br> the proceedings of the company and future<br> projects of the company.';
 $lang['newly_issued_ordinary_shares']          = 'Newly Issued Ordinary Shares';
 $lang['news_room']                             = 'News Room';
@@ -34,7 +34,7 @@ $lang['press_releases']                        = 'Press Releases';
 $lang['news_clipping']                         = 'News Clipping';
 $lang['ir_calendar']                           = 'IR Calendar';
 $lang['publications']                          = 'Publications';
-$lang['annual_report']                         = '56-1 One Report';
+$lang['annual_report']                         = 'Annual Report / Form 56-1 One Report';
 $lang['company_factsheet']                     = 'Company Factsheet';
 $lang['presentations_and_webcasts']            = 'Presentations & Webcasts';
 $lang['analyst_coverage']                      = 'Analyst Coverage';
@@ -78,21 +78,51 @@ $lang['msg_ceo_name_2']                        = 'Mr. Kitti Phuathavornskul';
 $lang['msg_ceo_position_1']                    = 'Chief Executive Officer';
 $lang['msg_ceo_position_2']                    = 'Chief Operation Officer';
 $lang['company_name']                          = 'CMO Public Company Limited';
-$lang['gi_company_name']                       = '<strong>● Company name</strong> : CMO Public Company Limited';
-$lang['gi_stock_code']                         = '<strong>● Stock code</strong> : CMO';
-$lang['gi_registration_no']                    = '<strong>● Registration no.</strong> : 0107546000458';
-$lang['gi_stock_market']                       = '<strong>● Stock market</strong> : mai';
-$lang['gi_type_of_industry']                   = '<strong>● Type of industry</strong> : Services';
-$lang['gi_type_of_business']                   = '<strong>● Type of business</strong> : -';
-$lang['gi_website']                            = '<strong>● Website</strong> : www.cmo-group.com';
-$lang['gi_year_of_establishment']              = '<strong>● Year of establishment</strong> : 1991';
-$lang['gi_first_trade_date']                   = '<strong>● First trade date</strong> : 16 September 2004';
-$lang['gi_address']                            = '<strong>● Address</strong> : 4/18-19 Soi Nuanchan 56, <br>Nuanchan, Buengkum, Bangkok 10230';
-$lang['gi_registered_capital']                 = '<strong>● Registered capital</strong> : 434,398,577 Baht';
-$lang['gi_paid_up_capital']                    = '<strong>● Paid-up capital</strong> : 280,962,733 Baht';
-$lang['gi_par_value']                          = '<strong>● Par value</strong> : 1.00 Baht';
-$lang['gi_fiscal_year']                        = '<strong>● Fiscal year </strong>: 1 January -31 December';
-$lang['gi_contact']                            = '<strong>● Contact</strong> : Warunee Puthapornpoj (NAN) <br>Investor Relations <br>Tel. +6699 595 6423 <br>Email: warunee@cmo-group.com';
+
+
+$lang['gi_company_name']                       = 'Company name';
+$lang['gi_stock_code']                         = 'Stock code';
+$lang['gi_registration_no']                    = 'Registration no.';
+$lang['gi_stock_market']                       = 'Stock market';
+$lang['gi_type_of_industry']                   = 'Type of industry';
+$lang['gi_type_of_business']                   = 'Type of business';
+$lang['gi_website']                            = 'Website';
+$lang['gi_year_of_establishment']              = 'Year of establishment';
+$lang['gi_first_trade_date']                   = 'First trade date';
+$lang['gi_address']                            = 'Address';
+$lang['gi_registered_capital']                 = 'Registered capital';
+$lang['gi_paid_up_capital']                    = 'Paid-up capital';
+$lang['gi_par_value']                          = 'Par value';
+$lang['gi_fiscal_year']                        = 'Fiscal year ';
+$lang['gi_contact']                            = 'Contact';
+
+$lang['gi_company_name_value']                       = 'CMO Public Company Limited';
+$lang['gi_stock_code_value']                         = 'CMO';
+$lang['gi_registration_no_value']                    = '0107546000458';
+$lang['gi_stock_market_value']                       = 'mai';
+$lang['gi_type_of_industry_value']                   = 'Services';
+$lang['gi_type_of_business_value']                   = 'Creative Event Agency';
+$lang['gi_website_value']                            = '<a target="_blank" href="http://www.cmo-group.com">www.cmo-group.com</a>';
+$lang['gi_year_of_establishment_value']              = '1991';
+$lang['gi_first_trade_date_value']                   = '16 September 2004';
+$lang['gi_address_value']                            = '4/18-19 Soi Nuanchan 56, <br>Nuanchan, Buengkum, <br>Bangkok 10230';
+$lang['gi_registered_capital_value']                 = '501,610,698.00 Baht';
+$lang['gi_paid_up_capital_value']                    = '426,174,854.00 Baht';
+$lang['gi_par_value_value']                          = '1.00 Baht';
+$lang['gi_fiscal_year_value']                        = '1 January -31 December';
+$lang['gi_contact_value']                            = 'Warunee Puthapornpoj (NAN) <br>Tel. (662) 088-3888 #1399 <br>Email: ir@cmo-group.com';
+
+
+
+
+
+
+
+
+
+
+
+
 $lang['vision']      = 'Vision';
 $lang['vision_sub']  = 'Sustainable Creative Experience Creator';
 $lang['vision_text'] = 'CMO is a creative experience creator combined with technology to create a new experience that meets the requirements of clients and customers in the AI era for building sustainable growth';
@@ -105,4 +135,16 @@ $lang['core_vaue_m'] = 'Sharing the superior experience through creative project
 $lang['core_vaue_o'] = 'Opening to Teamwork and collaboration and sending positive energy.';
 $lang['core_vaue_r'] = 'Learning and adapt, keep up with every change';
 $lang['core_vaue_e'] = 'Increasing potential to push the limits to achieve the biggest goals.';
+
+$lang['full_name']             = 'Full Name';
+$lang['subject']               = 'Subject';
+$lang['message']               = 'Message';
+$lang['email']                 = 'Email';
+$lang['telephone']             = 'Telephone';
+$lang['the_privacy_statement'] = 'The Privacy Statement';
+$lang['i_agree']               = 'I Have Read And Accept';
+$lang['location']              = 'Location';
+$lang['map']                   = 'Map';
+$lang['ir_name']               = 'Warunee Puthapornpoj (Nan)';
+$lang['ir_title']              = 'Investor Relations';
 

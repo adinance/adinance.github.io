@@ -79,7 +79,7 @@ class Shareholder_info extends CI_Controller {
 
         isset($this->session->shareholder_info) ? $this->data['menu_main']                 = $this->session->shareholder_info : $this->data['menu_main']                 = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->the_minutes_of_annual_general_meeting) ? $this->data['menu'] = $this->session->the_minutes_of_annual_general_meeting : $this->data['menu'] = $this->utilities->method_to_menu('the_minutes_of_annual_general_meeting');
-        isset($this->session->dividen_policy_and_payment) ? $this->data['menu_right']      = $this->session->dividen_policy_and_payment : $this->data['menu_right']      = $this->utilities->method_to_menu('dividen_policy_and_payment');
+        isset($this->session->dividen_policy_and_payment) ? $this->data['menu_right']      = $this->session->dividen_policy_and_payment : $this->data['menu_right']      = 'Dividend Policy & Payment';
         $this->data['menu_right_url']                                                      = BASE_URL . $this->utilities->method_to_link('dividen_policy_and_payment');
         isset($this->session->the_resolutions) ? $this->data['menu_left']                  = $this->session->the_resolutions : $this->data['menu_left']                  = $this->utilities->method_to_menu('the_resolutions');
         $this->data['menu_left_url']                                                       = BASE_URL . $this->utilities->method_to_link('the_resolutions');
@@ -100,7 +100,7 @@ class Shareholder_info extends CI_Controller {
         $this->data['menu_class'] = $this->menu['class'];
 
         isset($this->session->shareholder_info) ? $this->data['menu_main']                      = $this->session->shareholder_info : $this->data['menu_main']                      = $this->utilities->method_to_menu($this->router->fetch_class());
-        isset($this->session->dividen_policy_and_payment) ? $this->data['menu']                 = $this->session->dividen_policy_and_payment : $this->data['menu']                 = $this->utilities->method_to_menu('dividen_policy_and_payment');
+        isset($this->session->dividen_policy_and_payment) ? $this->data['menu']                 = $this->session->dividen_policy_and_payment : $this->data['menu']                 = 'Dividend Policy & Payment';
         isset($this->session->newly_issued_ordinary_shares) ? $this->data['menu_right']         = $this->session->newly_issued_ordinary_shares : $this->data['menu_right']         = $this->utilities->method_to_menu('newly_issued_ordinary_shares');
         $this->data['menu_right_url']                                                           = BASE_URL . $this->utilities->method_to_link('newly_issued_ordinary_shares');
         isset($this->session->the_minutes_of_annual_general_meeting) ? $this->data['menu_left'] = $this->session->the_minutes_of_annual_general_meeting : $this->data['menu_left'] = $this->utilities->method_to_menu('the_resolutions');
@@ -123,7 +123,7 @@ class Shareholder_info extends CI_Controller {
         isset($this->session->newly_issued_ordinary_shares) ? $this->data['menu']    = $this->session->newly_issued_ordinary_shares : $this->data['menu']    = $this->utilities->method_to_menu('newly_issued_ordinary_shares');
         isset($this->session->ir_calendar) ? $this->data['menu_right']               = $this->session->ir_calendar : $this->data['menu_right']               = $this->utilities->method_to_menu('ir_calendar');
         $this->data['menu_right_url']                                                = BASE_URL . $this->utilities->method_to_link('ir_calendar');
-        isset($this->session->dividen_policy_and_payment) ? $this->data['menu_left'] = $this->session->dividen_policy_and_payment : $this->data['menu_left'] = $this->utilities->method_to_menu('dividen_policy_and_payment');
+        isset($this->session->dividen_policy_and_payment) ? $this->data['menu_left'] = $this->session->dividen_policy_and_payment : $this->data['menu_left'] = 'Dividend Policy & Payment';
         $this->data['menu_left_url']                                                 = BASE_URL . $this->utilities->method_to_link('dividen_policy_and_payment');
 
         $this->data['result'] = $this->apps->get_file_by_configuration_id(11);

@@ -1,261 +1,370 @@
-<section class="extFeatures cid-unYoOXeQAn" id="extSocialButtons3-82">
+<style>
+    .section.awards {
+        padding-top: 2rem;
+        padding-bottom: 7rem
+    }
 
+    @media (max-width:767.98px) {
+        .section.awards {
+            margin-top: 0;
+            padding: 3rem 0
+        }
+    }
+
+    .card-awards {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .card-awards .card {
+        flex-grow: 1;
+        flex-shrink: 0;
+        margin-left: 15px;
+        margin-right: 15px
+    }
+
+    @media (min-width:0) {
+
+        .card-awards .card,
+        .card-awards.card-awards--four .card,
+        .card-awards.card-awards--one .card,
+        .card-awards.card-awards--three .card,
+        .card-awards.card-awards--two-award .card,
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+    }
+
+    @media (min-width:576px) {
+
+        .card-awards .card,
+        .card-awards.card-awards--four .card,
+        .card-awards.card-awards--one .card,
+        .card-awards.card-awards--three .card,
+        .card-awards.card-awards--two-award .card,
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+    }
+
+    @media (min-width:768px) {
+        .card-awards .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--one .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--two-award .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--four .card,
+        .card-awards.card-awards--three .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+    }
+
+    @media (min-width:992px) {
+        .card-awards .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--one .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--two-award .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--three .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--four .card {
+            flex-basis: calc(33.33333% - 30px);
+            flex: 0 0 calc(33.33333% - 30px);
+            max-width: calc(33.33333% - 30px)
+        }
+    }
+
+    @media (min-width:1200px) {
+        .card-awards .card {
+            flex-basis: calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+            max-width: calc(25% - 30px)
+        }
+
+        .card-awards.card-awards--one .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--two-award .card,
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--three .card {
+            flex-basis: calc(33.33333% - 30px);
+            flex: 0 0 calc(33.33333% - 30px);
+            max-width: calc(33.33333% - 30px)
+        }
+
+        .card-awards.card-awards--four .card {
+            flex-basis: calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+            max-width: calc(25% - 30px)
+        }
+    }
+
+    @media (min-width:1540px) {
+        .card-awards .card {
+            flex-basis: calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+            max-width: calc(25% - 30px)
+        }
+
+        .card-awards.card-awards--one .card {
+            flex-basis: calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+            max-width: calc(100% - 30px)
+        }
+
+        .card-awards.card-awards--two-award .card,
+        .card-awards.card-awards--two .card {
+            flex-basis: calc(50% - 30px);
+            flex: 0 0 calc(50% - 30px);
+            max-width: calc(50% - 30px)
+        }
+
+        .card-awards.card-awards--three .card {
+            flex-basis: calc(33.33333% - 30px);
+            flex: 0 0 calc(33.33333% - 30px);
+            max-width: calc(33.33333% - 30px)
+        }
+
+        .card-awards.card-awards--four .card {
+            flex-basis: calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+            max-width: calc(25% - 30px)
+        }
+    }
+
+
+    html[lang=en] .card-list .card-info {
+        font-size: .875rem
+    }
+
+    html[lang=th] .card-list .card-info {
+        font-size: 1rem
+    }
+
+    .card-list .card-item {
+        display: flex;
+        flex-direction: row;
+        /* height: 100%; */
+        height: 220px;
+        background: #fff;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, .1);
+        margin-bottom: 30px
+    }
+
+    @media (max-width:767.98px) {
+        .card-list .card-item {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+            align-items: center
+        }
+    }
+
+    .card-list .card-image {
+        position: relative;
+        width: 220px;
+        height: 220px
+    }
+
+    .card-list .card-image>img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%
+    }
+
+    .card-list .card-image:after {
+        content: "";
+        position: absolute;
+        right: -14px;
+        top: 97px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #367bba
+    }
+
+    @media (max-width:767.98px) {
+        .card-list .card-image:after {
+            border: 0
+        }
+    }
+
+    .card-list .card-info {
+        padding: 15px 40px;
+        position: relative;
+        width: 100%;
+        height: 100%
+    }
+
+    @media (max-width:767.98px) {
+        .card-list .card-info {
+            padding: 15px 20px
+        }
+    }
+
+    .card-list .card-info .card-title {
+        color: #367bba;
+        border-bottom: 1px solid #367bba;
+        padding-bottom: 15px
+    }
+
+    
+</style>
+
+<section class="section awards">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
+        <div class="card-awards card-awards--two-award">
 
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
+            <div class="card card-list">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="<?php echo BASE_URL . 'assets/img/awards-set-2010.jpg';?>" alt="SET">
                     </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">SET AWARD 2010</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">Corporate Social Responsibility Award
-                            Company <br>listed on MAI EVENT AWARD 2010 <br> The Power of below the line (E.M.
-                            Governmental award)</h4>
-                    </div>
-                    <div class="card-img">
-
+                    <div class="card-info pb-3  mbr-fonts-style display-7">
+                        <h6 class="card-title pb-3 mbr-fonts-style display-5">SET AWARDS 2010</h6>
+                        <p>
+                        Corporate Social Responsibility Award Company listed on MAI
+                            <ul>
+                                <li><strong>Institution: </strong> Stock Exchange of Thailand and Money &amp;Banking Magazine</li>
+                            </ul>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-        </div>
+       
 
-    </div>
-
-</section>
-
-<section class="extFeatures cid-unYwUiVlCy" id="extSocialButtons3-85">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
+            <div class="card card-list">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="<?php echo BASE_URL . 'assets/img/awards-event-awards-e-m-governmental.jpg';?>" alt="SET">
                     </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">EVENT AWARD 2010 &nbsp;</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">The Power of below the line (E.M.
-                            Governmental award)</h4>
-                    </div>
-                    <div class="card-img">
-
+                    <div class="card-info pb-3  mbr-fonts-style display-7">
+                        <h6 class="card-title pb-3 mbr-fonts-style display-5">EVENT AWARD 2010</h6>
+                        <p>The Power of below the line
+                            <ul>
+                                <li>E.M. Governmental award</li>
+                            </ul>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-<section class="extFeatures cid-up5uvKMm6Z" id="extSocialButtons3-at">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
+            <div class="card card-list">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="<?php echo BASE_URL . 'assets/img/awards-event-awards-the-best.jpg';?>" alt="SET">
                     </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">EVENT AWARD 2010 &nbsp;</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">The Power of below the line (The best
-                            event award)</h4>
-                    </div>
-                    <div class="card-img">
-
+                    <div class="card-info pb-3  mbr-fonts-style display-7">
+                        <h6 class="card-title pb-3 mbr-fonts-style display-5">EVENT AWARD 2010</h6>
+                        <p>The Power of below the line
+                            <ul>
+                                <li>The best event award</li>
+                            </ul>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-<section class="extFeatures cid-up5uDc259G" id="extSocialButtons3-au">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
+            <div class="card card-list">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="<?php echo BASE_URL . 'assets/img/awards-boi-ptt.jpg';?>" alt="SET">
                     </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">SILVER AWARD &nbsp;</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">Category Event Marketing in ADMAN
-                            AWARDS' 07</h4>
-                    </div>
-                    <div class="card-img">
-
+                    <div class="card-info pb-3  mbr-fonts-style display-7">
+                        <h6 class="card-title pb-3 mbr-fonts-style display-5">Great Pavilion of BOI fair 2011</h6>
+                        <p>“Going Green for the Future”
+                            <ul>
+                                <li>PTT Group Pavilion</li>
+                            </ul>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-<section class="extFeatures cid-up5uRsFMYr" id="extSocialButtons3-av">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
+            <div class="card card-list">
+                <div class="card-item">
+                    <div class="card-image">
+                        <img src="<?php echo BASE_URL . 'assets/img/awards-boi-honda.jpg';?>" alt="SET">
                     </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">THAILAND CREATIVE EVENT<br>AWARDS
-                            (TCEA)</h3>
-
-                    </div>
-                    <div class="card-img">
-
+                    <div class="card-info pb-3  mbr-fonts-style display-7">
+                        <h6 class="card-title pb-3 mbr-fonts-style display-5">Great Pavilion of BOI fair 2011</h6>
+                        <p>“Going Green for the Future”
+                            <ul>
+                                <li>Honda Pavilion</li>
+                            </ul>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-
-</section>
-
-<section class="extFeatures cid-up5v5yQAwt" id="extSocialButtons3-aw">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">GREAT PAVILION OF BOI FAIR 2011</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">"Going Green for the Future"</h4>
-                    </div>
-                    <div class="card-img">
-
-                    </div>
-                </div>
-            </div>
+       
 
         </div>
-
     </div>
-
 </section>
-
-<section class="extFeatures cid-up5vj8LmQe" id="extSocialButtons3-ax">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-
-            </div>
-
-            <div class="card cardcolor p-3 col-12 col-md-6">
-                <div class="card-wrapper">
-                    <div class="card-img">
-                        <span class="mbr-iconfont ico1 fa-star fa"
-                            style="color: rgb(210, 170, 69); fill: rgb(210, 170, 69);"></span>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title align-left mbr-fonts-style display-5">MAI COMPANY CEO OF THE YEAR</h3>
-                        <h4 class="mbr-text align-left mbr-fonts-style display-7">in Bloomberg Businessweek Thailand
-                            Awards No. 1</h4>
-                    </div>
-                    <div class="card-img">
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- 
-<section class="ir-corp09-section">
-
-
-
-
-<div class="ir-corp09-con">
-
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-    <div class="ir-corp09-list">
-    <img src="<?php echo BASE_URL; ?>assets/img/ir-corp/star icon.png" alt=""><div class="ir-corp09-text-list"><h3>SET AWARD 2010</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat iure nisi exercitationem dolorem rerum minima commodi quia quibusdam perferendis nostrum, nam esse qui ut repudiandae quae. Fugiat, quas temporibus.</p></div>
-    </div>
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-</section> -->

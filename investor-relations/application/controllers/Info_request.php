@@ -97,6 +97,9 @@ class Info_request extends CI_Controller {
 
             $res = $this->mailchimp->subscribe($subcribe);
 
+            // var_dump($res);
+            // exit;
+
             if ($res == 200) {
                 $data['swal'] = $this->swal->sent('success', 'Subscribed Successfull', 'false', 3500);
                 $this->load->view('ir/header', $data);

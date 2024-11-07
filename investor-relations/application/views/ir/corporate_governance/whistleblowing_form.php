@@ -40,6 +40,15 @@
                         <label for="message" class="form-control-label mbr-fonts-style display-7">Message</label>
                         <textarea name="message" data-form-field="Message" required class="form-control display-7" id="message"></textarea>
                     </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="checkbox">
+                        <div class="form-control-label">
+                            <label for="checkbox" class="mbr-fonts-style display-7">The Privacy Statement</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" value="Yes" name="I Have Read And Accept" data-form-field="I Have Read And Accept" class="form-check-input display-7" required="required" id="I Have Read And Accept-form1-ic">
+                            <label class="form-check-label display-7">I Have Read And Accept</label>
+                        </div>
+                    </div>
                     <div class="col-md-12 input-group-btn align-center">
                         <button type="submit" class="btn btn-primary btn-form display-4">SEND</button>
                     </div>

@@ -1,0 +1,170 @@
+/* fading image when hover */
+.fadein_thumnail img {
+	opacity: 1;
+	transition: 1s ease;
+}
+.fadein_thumnail img:hover {
+	opacity: 0.8;
+	transition: 1s ease;
+}
+.fadein img {
+	opacity: 0.92;
+	transition: 1s ease;
+}
+.fadein img:hover {
+	opacity: 1;
+	transition: 1s ease;
+}
+.fadein_50 img {
+	opacity: 0.8;
+	transition: 1s ease;
+}
+.fadein_50 img:hover {
+	opacity: 1;
+	transition: 1s ease;
+}
+
+/* growing image when hover */
+.grow img {
+	transition: 1s ease;
+}
+.grow img:hover {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+	transition: 0.2s ease;
+}
+
+/* gray image when hover */
+.grey img {
+	filter: grayscale(0%);
+	filter: grey;
+	-webkit-filter: grayscale(0%);
+	filter: none;
+	transition: 1s ease;
+}
+.grey img:hover {
+	filter: grayscale(0.2);
+	-webkit-filter: grayscale(0.2);
+	-webkit-transition: all 1s ease;
+}
+
+/* text to upper */
+.upper {
+	text-transform: uppercase;
+}
+
+/* flashing image when hover */
+.flashing figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* shining image when hover */
+.shining figure {
+	position: relative;
+}
+.shining figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: "";
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(
+		left,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.3) 100%
+	);
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.3) 100%
+	);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.shining figure:hover::before {
+	-webkit-animation: shine 1.75s;
+	animation: shine 1.75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+/* opacity image when hover */
+.opacity figure img {
+	opacity: 1;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.opacity figure:hover img {
+	opacity: 0.5;
+}
+.opacity_color figure {
+	background: #000000;
+}
+.opacity_color figure img {
+	opacity: 1;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.opacity_color figure:hover img {
+	opacity: 0.5;
+}
+
+/* bounce */
+
+
+.bounce {
+	/* display: inline-block; */
+	/* width: 200px; */
+  /* height: 150px; */
+	opacity: 0;
+	transform: scale(.3);
+	/* background: lightblue; */
+	animation: bouncein 1s .5s cubic-bezier(0, 2.5, 1, -.25) forwards; 
+}
+@keyframes bouncein { 
+	from { opacity: 0; transform: scale(.3); }
+	to { opacity: 1; transform: scale(1); }
+}
+
+.bounceout {
+	animation: bounceout 1s cubic-bezier(0, 2.5, 1, -.25) forwards;
+}
+@keyframes bounceout {
+	from { opacity: 1; transform: scale(1); } 
+	to { opacity: 0; transform: scale(.1); }
+}
+
+/* .bounce img {
+	width: 200px;
+  height: 150px;
+} */

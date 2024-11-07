@@ -62,7 +62,7 @@ $autoload['libraries'] = array(
     // system
     'database', 'session', 'user_agent', 'email',
     // additional 
-    'mailchimp', 'mandrill', 'utilities', 'swal', 'language'
+    'calendar', 'mailchimp', 'mandrill', 'utilities', 'swal', 'language'
 );
 
 /*

@@ -53,7 +53,7 @@ class Corporate_info extends CI_Controller {
         $this->data['menu_class'] = $this->menu['class'];
 
         isset($this->session->corporate_info) ? $this->data['menu_main']       = $this->session->corporate_info : $this->data['menu_main']       = $this->utilities->method_to_menu($this->router->fetch_class());
-        isset($this->session->vision_mission_core_value) ? $this->data['menu'] = $this->session->vision_mission_core_value : $this->data['menu'] = $this->utilities->method_to_menu($this->router->fetch_method());
+        isset($this->session->vision_mission_core_value) ? $this->data['menu'] = $this->session->vision_mission_core_value : $this->data['menu'] = 'Vision • Mision • Core Value';
         isset($this->session->company_s_history) ? $this->data['menu_right']   = $this->session->company_s_history : $this->data['menu_right']   = 'Company \'s History';
         $this->data['menu_right_url']                                          = BASE_URL . 'company-s-history';
         isset($this->session->general_information) ? $this->data['menu_left']  = $this->session->general_information : $this->data['menu_left']  = 'General Information';
@@ -94,7 +94,7 @@ class Corporate_info extends CI_Controller {
 
         isset($this->session->corporate_info) ? $this->data['menu_main']            = $this->session->corporate_info : $this->data['menu_main']            = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->business_overview) ? $this->data['menu']              = $this->session->business_overview : $this->data['menu']              = $this->utilities->method_to_menu('business_overview');
-        isset($this->session->message_from_ceo_and_coo) ? $this->data['menu_right'] = $this->session->message_from_ceo_and_coo : $this->data['menu_right'] = $this->utilities->method_to_menu('message_from_ceo_and_coo');
+        isset($this->session->message_from_ceo_and_coo) ? $this->data['menu_right'] = $this->session->message_from_ceo_and_coo : $this->data['menu_right'] = 'Message from CEO & COO';
         $this->data['menu_right_url']                                               = BASE_URL . $this->utilities->method_to_link('message_from_ceo_and_coo');
         isset($this->session->company_s_history) ? $this->data['menu_left']         = $this->session->company_s_history : $this->data['menu_left']         = 'Company \'s History';
         $this->data['menu_left_url']                                                = BASE_URL . $this->utilities->method_to_link('company_s_history');
@@ -113,7 +113,7 @@ class Corporate_info extends CI_Controller {
         $this->data['menu_class'] = $this->menu['class'];
 
         isset($this->session->corporate_info) ? $this->data['menu_main']      = $this->session->corporate_info : $this->data['menu_main']      = $this->utilities->method_to_menu($this->router->fetch_class());
-        isset($this->session->message_from_ceo_and_coo) ? $this->data['menu'] = $this->session->message_from_ceo_and_coo : $this->data['menu'] = $this->utilities->method_to_menu('message_from_ceo_and_coo');
+        isset($this->session->message_from_ceo_and_coo) ? $this->data['menu'] = $this->session->message_from_ceo_and_coo : $this->data['menu'] = 'Message from CEO & COO';
         isset($this->session->company_structure) ? $this->data['menu_right']  = $this->session->company_structure : $this->data['menu_right']  = $this->utilities->method_to_menu('company_structure');
         $this->data['menu_right_url']                                         = BASE_URL . $this->utilities->method_to_link('company_structure');
         isset($this->session->business_overview) ? $this->data['menu_left']   = $this->session->business_overview : $this->data['menu_left']   = $this->utilities->method_to_menu('business_overview');

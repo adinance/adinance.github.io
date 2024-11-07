@@ -77,14 +77,14 @@ p {
 }
 .menu-right {
 	right: 20px;
-	/* margin-top:-3px; */
+	margin-top:-3px;
 	position: absolute;
 	color: #ffff;
 	text-decoration: none;
 }
 .menu-left {
 	left: 20px;
-	/* margin-top:-3px; */
+	margin-top:-3px;
 	position: absolute;
 	color: #ffff;
 	text-decoration: none;

@@ -29,19 +29,18 @@
                         </a>
                     </div>
                 </div>
-                <div class="info-widget">
+                <!-- <div class="info-widget">
                     <span class="widget-icon mbr-iconfont mbrib-growing-chart"></span>
                     <div class="widget-content display-4">
                         <p class="widget-title mbr-fonts-style display-4">CMO | 0.8 THB</p>
                         <p class="widget-text mbr-fonts-style display-4">+ 0.10 (1.20%)</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="info-widget">
                     <span class="widget-icon mbr-iconfont mdi-action-language"></span>
                     <div class="widget-content mbr-fonts-style">
                         <p class="widget-title display-4"><a onclick="language('english')">EN</a></p>
-                        <p class="widget-text mbr-fonts-style display-4"><strong><a
-                                    onclick="language('thai')">TH</a></strong></p>
+                        <p class="widget-text mbr-fonts-style display-4"><strong><a onclick="language('thai')">TH</a></strong></p>
                     </div>
                 </div>
             </div>
@@ -56,7 +55,7 @@
                 </div>
             </button>
         </div>
-        <div class="menu-bottom">
+        <div class="menu-bottom" style="padding: 0 0rem important!;">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown js-float-line nav-right" data-app-modern-menu="true">
                     <li class="nav-item dropdown">
@@ -65,11 +64,10 @@
                             <strong><?php echo isset($this->session->corporate_info) ? $this->session->corporate_info : 'Corporate Info'; ?></strong>
                         </a>
                         <div class="dropdown-menu">
-                            <a class="mbr-black dropdown-item display-4"
-                                href="<?php echo BASE_URL; ?>general-information"><?php echo isset($this->session->general_information) ? $this->session->general_information : 'General Information'; ?></a>
+                            
                             <a class="mbr-black dropdown-item display-4"
                                 href="<?php echo BASE_URL; ?>vision-mission-core-value"
-                                aria-expanded="false"><?php echo isset($this->session->vision_mission_core_value) ? $this->session->vision_mission_core_value : 'Vision / Mission / Core Value'; ?></a>
+                                aria-expanded="false"><?php echo isset($this->session->vision_mission_core_value) ? $this->session->vision_mission_core_value : 'Vision • Mision • Core Value'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>company-s-history"
                                 aria-expanded="false"><?php echo isset($this->session->company_s_history) ? $this->session->company_s_history : 'Company\'s History'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>business-overview"
@@ -111,16 +109,19 @@
                             data-toggle="dropdown-submenu" aria-expanded="false"><strong>
                                 <?php echo isset($this->session->stock_info) ? $this->session->stock_info : 'Stock Info'; ?></strong></a>
                         <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
-                                href="<?php echo BASE_URL; ?>https://www.settrade.com/th/equities/quote/cmo/overview"><?php echo isset($this->session->stock_qoute) ? $this->session->stock_qoute : 'Stock Qoute'; ?></a>
+                                href="https://www.settrade.com/th/equities/quote/cmo/overview"><?php echo isset($this->session->stock_qoute) ? $this->session->stock_qoute : 'Stock Quote'; ?></a>
                             <a class="mbr-black dropdown-item display-4"
-                                href="<?php echo BASE_URL; ?>https://www.settrade.com/th/equities/quote/cmo/historical-trading"><?php echo isset($this->session->historical_price) ? $this->session->historical_price : 'Historical Price'; ?></a>
+                                href="https://www.settrade.com/th/equities/quote/cmo/historical-trading"><?php echo isset($this->session->historical_price) ? $this->session->historical_price : 'Historical Price'; ?></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown"><a class="nav-link link mbr-black dropdown-toggle display-4"
                             href="<?php echo BASE_URL; ?>#" data-toggle="dropdown-submenu"
                             aria-expanded="false"><strong>
                                 <?php echo isset($this->session->shareholder_info) ? $this->session->shareholder_info : 'Shareholder Info'; ?></strong></a>
-                        <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
+                        <div class="dropdown-menu">
+                        <a class="mbr-black dropdown-item display-4"
+                                href="<?php echo BASE_URL; ?>general-information"><?php echo isset($this->session->general_information) ? $this->session->general_information : 'Fact Sheet'; ?></a>    
+                        <a class="mbr-black dropdown-item display-4"
                                 href="<?php echo BASE_URL; ?>major_shareholder"><?php echo isset($this->session->major_shareholder) ? $this->session->major_shareholder : 'Major Shareholder'; ?></a>
                             <div class="dropdown"><a class="mbr-black dropdown-item dropdown-toggle display-4"
                                     href="<?php echo BASE_URL; ?>#" data-toggle="dropdown-submenu"
@@ -134,7 +135,7 @@
                                 </div>
                             </div><a class="mbr-black dropdown-item display-4"
                                 href="<?php echo BASE_URL; ?>dividen-policy-and-payment"
-                                aria-expanded="false"><?php echo isset($this->session->dividen_policy_and_payment) ? $this->session->dividen_policy_and_payment : 'Dividen Policy & Payment'; ?></a>
+                                aria-expanded="false"><?php echo isset($this->session->dividen_policy_and_payment) ? $this->session->dividen_policy_and_payment : 'Dividend Policy & Payment'; ?></a>
                             <a class="mbr-black dropdown-item display-4"
                                 href="<?php echo BASE_URL; ?>newly-issued-ordinary-shares"
                                 aria-expanded="false"><?php echo isset($this->session->newly_issued_ordinary_shares) ? $this->session->newly_issued_ordinary_shares : 'Newly Issued Ordinary Shares'; ?></a>
@@ -161,9 +162,9 @@
                             aria-expanded="false"><strong>
                                 <?php echo isset($this->session->publications) ? $this->session->publications : 'Publications'; ?></strong></a>
                         <div class="dropdown-menu"><a class="mbr-black dropdown-item display-4"
-                                href="<?php echo BASE_URL; ?>annual-report"><?php echo isset($this->session->annual_report) ? $this->session->annual_report : '56-1 One Report'; ?></a>
+                                href="<?php echo BASE_URL; ?>annual-report"><?php echo isset($this->session->annual_report) ? $this->session->annual_report : 'Annual Report / Form 56-1 One Report'; ?></a>
                                 <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>form-56-1"
-                                aria-expanded="false"><?php echo isset($this->session->form_56_1) ? $this->session->form_56_1 : 'Form 56-1 (2010-2020)'; ?></a>
+                                aria-expanded="false"><?php echo isset($this->session->form_56_1) ? $this->session->form_56_1 : 'Form 56-1'; ?></a>
                             <a class="mbr-black dropdown-item display-4"
                                 href="<?php echo BASE_URL; ?>presentations-and-webcasts"><?php echo isset($this->session->presentations_and_webcasts) ? $this->session->presentations_and_webcasts : 'Presentations And Webcasts'; ?></a>
                                

@@ -1,84 +1,60 @@
-<section>
+<section class="mbr-section extForm cid-uqTBwnrtSm" id="extForm6-j7">
 
-  <div class="container form_apps">
+  <div class="container">
+    <div class="media-container-row">
+      <div class="col-md-12 col-lg-12 block-content">
+        <h4 class="mb-4 mbr-fonts-style align-center display-2">Please fill up your details below to receive
+          <strong>Email Alerts.</strong></h4>
+        <p class="mbr-fonts-style mb-5 align-center display-7">Our systems will automatically send you company
+          annoucements and
+          <br>set announcements on CMO public company limited.</p>
+        <div class="form-block">
+          <div data-form-type="formoid">
+            <!-- <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler"
+              data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true"
+                value="Pvzwk4ek++Zj3RzW8YD91bo2Mlds2hrU850BGwlsHU0guwQC9I3B/3eT9oKOMelSF0Ha4UA5AhNvpIUFkX/KNNcMoVcl9sWJ7Rht9EMVnzER/u0G97GX6OrFD0+h77Ak.U06iM3HFl5Z0Q67sZ9fLa2cOTRqEgUbiB6iaMNRxyBbBb/fgNEf5VOW53HHFTYWYX+PfdKqXHham1WVQ02l4hyBoeYVJd94pHG9k0lnmDtp4DvigkQkS67LfDfN4B3VR"> -->
+              
+                <?php 
+                $form_attributes = array('class' => 'mbr-form form-with-styler', 'id' => 'email_alerts');
+                echo form_open(BASE_URL . 'info_request/subscribe', $form_attributes); 
+                ?>
 
-    <!-- <section class="py-5 text-center container"> -->
-    <div class="row py-lg-5 ">
-      <div class="col-lg-12 col-md-12 mx-auto">
-        <p class="lead text-body-secondary text-nowrap text-center">
-          Please fill up your details below to receive email alerts.<br>
-          Our systems will automatically send you company annoucements and <br>
-          set announcements on CMO public company limited.
-        </p>
-      </div>
-    </div>
-    <!-- </section> -->
+              <!-- <div class="row">
+                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the
+                  form!</div>
+                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> </div>
+              </div> -->
+              <div class="dragArea row">
+                <div class="col-lg-12 col-md-12 col-sm-12 mb-4 form-group" data-for="name">
+                  <input type="text" name="name" placeholder="Your Name" data-form-field="name" required
+                    class="form-control input display-7" value="" id="name">
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 mb-4 form-group" data-for="email">
+                  <input type="text" name="email" placeholder="Email" data-form-field="email" required
+                    class="form-control input display-7" value="" id="email">
+                </div>
+                <div data-for="I Have Read And Accrept" class="col form-group">
+                  <div class="form-control-label">
+                     
+                    <label for="I Have Read And Accrept-extForm6-j7" class="mbr-fonts-style display-7"><a href="">The Privacy Statement</a></label>
+                      
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" value="Yes" name="I Have Read And Accrept"
+                      data-form-field="I Have Read And Accrept" class="form-check-input display-7"
+                      id="I Have Read And Accrept-extForm6-j7" required>
+                    <label class="form-check-label display-7">I Have Read And Accrept</label>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mbr-section-btn mb-4">
+                  <button type="submit" class="btn btn-primary btn-bgr btn-form display-4">SEND MESSAGE</button>
+                </div>
+              </div>
 
-    <?php 
-    $form_attributes = array('class' => 'email_alerts', 'id' => 'email_alerts');
-    echo form_open(BASE_URL . 'info_request/subscribe', $form_attributes); 
-    ?>
-
-    <div class="row">
-      <div class="col-md-1 ">
-      </div>
-      <div class="col-md-10 col-xs-11">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" name="name" required>
-      </div>
-    </div>
-
-    <div class="row align-items-center">
-      <div class="col-md-1 ">
-      </div>
-      <div class="col-md-7 col-xs-11 ">
-        <label for="email">Email</label>
-        <input type="email" class="form-control text-lowercase" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}" required>
-      </div>
-
-      <div class="col-auto">
-        <label for="agree">&nbsp;</label>
-        <div class="form-check align-middle">
-          <input class="form-check-input" type="checkbox" id="gridCheck" required>
-          <label class="form-check-label" for="gridCheck">
-            I Have Read And Accrept
-          </label>
-        </div>
-        <span class="form-text" style="padding:0px 0px 0px 24px;">
-          <a href="">The Privacy Statement</a>
-        </span>
-      </div>
-    </div>
-    <!--     
-    <div class="row g-10">
-      <div class="col-md-8 col-sm-12">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" name="email" required
-          pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}" style="text-transform: lowercase">
-      </div>
-      <div class="col-md-4 col-sm-12 ">
-        <label for="agree"></label>
-        <div class="form-check align-middle">
-          <input class="form-check-input" type="checkbox" id="gridCheck" required>
-          <label class="form-check-label" for="gridCheck">
-            I Have Read And Accrept
-          </label>
-          <div id="gridCheck" class="form-text">
-            The Privacy Statement
+              <?php echo form_close(); ?>
           </div>
         </div>
       </div>
-    </div> -->
-
-    <div class="row">
-      <div class="col-md-1 ">
-      </div>
-      <div class="col-md-11" style="padding:15px 0px 0px 11px;">
-        <button type="submit" class="btn btn-primary text-uppercase">Subscribe</button>
-      </div>
-
     </div>
-
-    <?php echo form_close(); ?>
-
+  </div>
 </section>

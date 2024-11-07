@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Modal Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .modal-content {
+            background-color: transparent; /* Makes the background fully transparent */
+            padding: 0; /* Removes all padding from the modal content */
+            border: none;
+            box-shadow: none; /* Removes shadow for a cleaner look */
+        }
+
+        .modal-body img {
+            /* max-width: 100%; 
+            height: auto; */
+
+            max-width: 70%; /* Limits image width to 70% of the modal */
+            height: auto;
+            display: block; /* Allows centering with margin auto */
+            margin: 0 auto; /* Centers the image horizontally */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Modal Structure -->
+<div class="modal fade bd-example-modal-sm" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="Closed-for-renovation.jpg" alt="" title="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+<!-- jQuery Script to Open Modal on Page Load -->
+<script>
+    $(document).ready(function() {
+        // Open the modal automatically on page load
+        $('#exampleModal').modal('show');
+    });
+</script>
+</body>
+</html>
+
+<!-- 
+<div class="modal fade bd-example-modal-sm" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Welcome</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="Closed-for-renovation.jpg" alt="" title="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div> -->

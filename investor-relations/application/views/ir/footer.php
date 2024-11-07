@@ -6,15 +6,17 @@
             <?php echo isset($this->session->address) ? $this->session->address : CONTACT_ADDRESS; ?>
             
             <ul>
-                <li><img src="<?php echo BASE_URL;?>assets/img/contact-telephone.png"></img>&nbsp;<a href="tel:6620883888">(662)088-3888</a></li>
-                <li><img src="<?php echo BASE_URL;?>assets/img/contact-mail.png"></img>&nbsp;<a href="mailto:cmo@cmo-group.com"><?php echo CONTACT_EMAIL; ?></a></li>
+                <li><img src="<?php echo BASE_URL;?>assets/img/contact-telephone.png"></img>&nbsp;<a href="tel:6620883888">(+662) 088 3888 Ext.1399</a></li>
+                <li><img src="<?php echo BASE_URL;?>assets/img/contact-mail.png"></img>&nbsp;<a href="mailto:<?php echo EMAIL_CONTACT; ?>"><?php echo EMAIL_CONTACT; ?></a></li>
             </ul>
         </div>
         <div class="footer-item2">
             <h4 class="text-uppercase"><?php echo isset($this->session->email_alerts) ? $this->session->email_alerts : 'Email Alerts'; ?></h4>
                 <?php echo isset($this->session->subscribe_text) ? $this->session->subscribe_text : 'Keep yourself up to date with all the latest announcement from us.'; ?>
-            <div class="Sub-btn">
-                <button>Subscribe</button>
+
+            <div class="Sub-btn ">
+                <button><a href="email-alerts" style="color: #656565;">Subscribe</a></button>
+                <!-- <button type="submit" class=" input-group-btn btn btn-form btn-primary display-4">SEND</button> -->
             </div>
         </div>
         <div class="footer-item3">
@@ -183,6 +185,8 @@
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/web/assets/jquery/jquery.min.js"></script>
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/popper/popper.min.js"></script>
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/mbr-animated-bg-text/mbr-animated-bg-text.js"></script>
+
 
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/datatables/jquery.data-tables.min.js"></script>
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/datatables/data-tables.bootstrap4.min.js"></script>
@@ -210,6 +214,11 @@
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/formoid.min.js"></script>
 
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/slidervideo/script.js"></script>
+
+
+
+
+  
   
   
 <div id="scrollToTop" class="scrollToTop mbr-arrow-up">

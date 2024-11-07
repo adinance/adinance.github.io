@@ -93,9 +93,10 @@ $route['news-clipping']    = 'news_room/news_clipping';
 /* 6. Publications ----------------------------------------- */
 $route['annual-report']              = 'publications/annual_report';
 $route['presentations-and-webcasts'] = 'publications/presentations_and_webcasts';
+$route['form-56-1']                  = 'publications/form_56_1';
 
 /* 7. Corporate Governance ---------------------------------------- */
-$route['policy']         = 'corporate_governance/policy';
+$route['policy']              = 'corporate_governance/policy';
 $route['whistleblowing-form'] = 'corporate_governance/whistleblowing_form';
 
 /* 8. Sustainability ----- */

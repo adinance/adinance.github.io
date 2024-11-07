@@ -1,0 +1,13 @@
+html {
+    touch-action: manipulation;
+}
+
+.social {
+    color: rgb(101, 101, 101); fill: rgb(101, 101, 101);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-display: swap;
+}
