@@ -30,7 +30,7 @@
 </section>
 
 <!-- <script src="<?php echo BASE_URL;?>assets/js/ckeditor.js"></script> -->
-<script>
+<!-- <script>
     ClassicEditor.create(document.getElementById("editor"), {
         toolbar: {
             items: [
@@ -156,7 +156,7 @@
             'CaseChange'
         ]
     });
-</script>
+</script> -->
 
 <script type="text/javascript">
     function language(lang) {
@@ -227,6 +227,25 @@
 </div>
 <input name="animation" type="hidden">
 
+
+<!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6X7LPNX3J4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6X7LPNX3J4');
+</script> -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6X7LPNX3J4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6X7LPNX3J4');
+</script>
 
 </body>
 

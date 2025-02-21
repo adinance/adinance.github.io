@@ -101,9 +101,10 @@ define('PATH_IR','assets/ir/');
 define('PATH_UPLOAD','assets/uploads/');
 
 // EMAIL
-define('EMAIL_WISTLEBLOWING','vuttiphan@cmo-group.com');
+define('EMAIL_WISTLEBLOWING','whistleblowing@cmo-group.com');
 define('EMAIL_CONTACT','ir@cmo-group.com');
 define('EMAIL_DEVELOPER','dev-it@cmo-group.com');
+define('EMAIL_ADINAN','adinan.h@cmo-group.com');
 
 // CONTACT
 define('CONTACT_NAME','Warunee Puthapornpoj (Nan)');

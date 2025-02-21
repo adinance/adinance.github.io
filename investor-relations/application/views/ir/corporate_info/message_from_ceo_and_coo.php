@@ -65,7 +65,7 @@
 
 <section class="ir-corp05-section">
 
-    <div class="ir-corp05-con">
+    <div class="ir-corp05-con ">
 
         <!-- <div class="ir-corp05-img"><img src="<?php echo BASE_URL; ?>assets/img/ir-corp/message from the board bg.jpg" alt=""></div> -->
         <div class="ir-corp05-text" style="text-align: justify; ">

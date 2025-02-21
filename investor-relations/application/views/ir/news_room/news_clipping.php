@@ -11,7 +11,7 @@
                     <a target="_blank" href="<?php echo $result[$i]->url_th; ?>">
                         <div class="table-wrap">
                             <div class="table-icon">
-                                <span class="mbr-iconfont fa-file-pdf-o fa"></span>
+                                <span class="mbr-iconfont li_news"></span>
                             </div>
                             <div class="table-heading">
                                 <h1 class="table-pricing mbr-fonts-style display-4 pt-3">
@@ -32,7 +32,7 @@
                     <a target="_blank" href="<?php echo $result[$i]->url_en; ?>">
                         <div class="table-wrap">
                             <div class="table-icon">
-                                <span class="mbr-iconfont fa-file-pdf-o fa"></span>
+                                <span class="mbr-iconfont li_news"></span>
                             </div>
                             <div class="table-heading">
                                 <h1 class="table-pricing mbr-fonts-style display-4 pt-3">

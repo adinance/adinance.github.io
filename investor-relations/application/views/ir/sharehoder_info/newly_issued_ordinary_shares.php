@@ -40,7 +40,7 @@
                     <td class="body-item mbr-fonts-style display-7"><?php echo $result[$i]->year + 543; ?></td>
                     <td class="body-item mbr-fonts-style display-7" align="left"><?php echo $result[$i]->title_th; ?></td>
                     <td class="body-item mbr-fonts-style display-7">
-                        <a target="_blank" href="<?php echo 'https://cmo-group.com/ir/uploads/resolutions/' . $result[$i]->file_th; ?>">
+                        <a target="_blank" href="<?php echo 'https://cmo-group.com/ir/uploads/sustainable-development/' . $result[$i]->file_th; ?>">
                             <span class="fa fa-download mbr-iconfont" style="color: rgb(54, 123, 186);"></span>
                         </a>
                     </td>
@@ -52,7 +52,7 @@
                     <td class="body-item mbr-fonts-style display-7"><?php echo $result[$i]->year; ?></td>
                     <td class="body-item mbr-fonts-style display-7" align="left"><?php echo $result[$i]->title_en; ?></td>
                     <td class="body-item mbr-fonts-style display-7">
-                        <a target="_blank" href="<?php echo 'https://cmo-group.com/ir/uploads/resolutions/' . $result[$i]->file_en; ?>">
+                        <a target="_blank" href="<?php echo 'https://cmo-group.com/ir/uploads/sustainable-development/' . $result[$i]->file_en; ?>">
                             <span class="fa fa-download mbr-iconfont" style="color: rgb(54, 123, 186);"></span>
                         </a>
                     </td>

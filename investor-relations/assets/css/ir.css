@@ -28,6 +28,13 @@ p {
 	/* font-family: "Montserrat", "Kanit", sans-serif; */
 }
 
+/* div{
+	text-align: justify !important;
+} */
+.txt-blue{
+	color : #4a7ab5 !important;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -56,8 +63,22 @@ p {
 }
 
 /* text to upper caes */
+.lower {			
+    text-transform:lowercase;
+}
+.capital {			
+    text-transform:capitalize;
+}
 .upper {
 	text-transform: uppercase;
+}
+
+.calendar-blue {
+	color: #367bba !important;
+}
+
+.calendar-green {
+	color: #93dd88 !important;
 }
 
 /* menu */
@@ -157,3 +178,36 @@ p {
     /* font-size: 0.9rem !important; */
     font-family: "Montserrat", "Kanit", sans-serif;
   }
+
+  /* Shine */
+.hovershine figure {
+	position: relative;
+}
+.hovershine figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hovershine figure:hover::before {
+	-webkit-animation: shine 3s;
+	animation: shine 3s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}

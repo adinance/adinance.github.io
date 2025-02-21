@@ -19,6 +19,15 @@ class Home extends CI_Controller {
         $this->load->view('ir/footer', $data);
     }
 
+    public function test(){
+        $data               = array();
+        $this->load->view('ir/header', $data);
+        // $this->load->view('ir/navigation', $data);
+        $this->load->view('ir/test');
+        $this->load->view('ir/footer', $data);
+
+    }
+
 
     
 

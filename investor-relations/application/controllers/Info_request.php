@@ -7,20 +7,21 @@ class Info_request extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->menu['id']    = 'extHeader4-i0';
-        $this->menu['class'] = 'cid-uqv7eKTXxO';
+        $this->data['menu_id']    = 'extHeader4-i0';
+        $this->data['menu_class'] = 'cid-uqv7eKTXxO';
+
+        isset($this->session->info_request) ? $this->data['menu_main']  = $this->session->info_request : $this->data['menu_main']  = $this->utilities->method_to_menu($this->router->fetch_class());
+        $this->data['menu_right'] = NULL;
+        $this->data['menu_right_url'] = NULL;
+        $this->data['menu_left']      = NULL;
+        $this->data['menu_left_url']  = NULL;
     }
 
     public function ir_contact() {
-
-        $this->data['menu_id']                                          = $this->menu['id'];
-        $this->data['menu_class']                                       = $this->menu['class'];
-        isset($this->session->info_request) ? $this->data['menu_main']  = $this->session->info_request : $this->data['menu_main']  = $this->utilities->method_to_menu($this->router->fetch_class());
+        
         isset($this->session->ir_contact) ? $this->data['menu']         = $this->session->ir_contact : $this->data['menu']         = $this->utilities->method_to_menu('ir_contact');
         isset($this->session->email_alerts) ? $this->data['menu_right'] = $this->session->email_alerts : $this->data['menu_right'] = $this->utilities->method_to_menu('email_alerts');
         $this->data['menu_right_url']                                   = BASE_URL . $this->utilities->method_to_link('email_alerts');
-        $this->data['menu_left']                                        = '';
-        $this->data['menu_left_url']                                    = NULL;
 
         $this->load->view('ir/header', $this->data);
         $this->load->view('ir/navigation', $this->data);
@@ -32,12 +33,9 @@ class Info_request extends CI_Controller {
 
     public function email_alerts() {
 
-        $this->data['menu_id']                                         = $this->menu['id'];
-        $this->data['menu_class']                                      = $this->menu['class'];
-        isset($this->session->info_request) ? $this->data['menu_main'] = $this->session->info_request : $this->data['menu_main'] = $this->utilities->method_to_menu($this->router->fetch_class());
         isset($this->session->email_alerts) ? $this->data['menu']      = $this->session->email_alerts : $this->data['menu']      = $this->utilities->method_to_menu('email_alerts');
-        $this->data['menu_right']                                      = NULL;
-        $this->data['menu_right_url']                                  = NULL;
+        isset($this->session->faq) ? $this->data['menu_right'] = $this->session->faq : $this->data['menu_right'] = $this->utilities->method_to_menu('faq');
+        $this->data['menu_right_url']                                   = BASE_URL . $this->utilities->method_to_link('faq');
         isset($this->session->ir_contact) ? $this->data['menu_left']       = $this->session->ir_contact : $this->data['menu_left']       = $this->utilities->method_to_menu('ir_contact');
         $this->data['menu_left_url']                                   = BASE_URL . $this->utilities->method_to_link('ir_contact');
 
@@ -45,6 +43,20 @@ class Info_request extends CI_Controller {
         $this->load->view('ir/navigation', $this->data);
         $this->load->view('ir/menu', $this->data);
         $this->load->view('ir/info_request/email_alerts', $this->data);
+        $this->load->view('ir/footer', $this->data);
+
+    }
+
+    public function faq() {
+
+        isset($this->session->faq) ? $this->data['menu']      = $this->session->faq : $this->data['menu']      = $this->utilities->method_to_menu('faq');
+        isset($this->session->email_alerts) ? $this->data['menu_left']       = $this->session->email_alerts : $this->data['menu_left']       = $this->utilities->method_to_menu('email_alerts');
+        $this->data['menu_left_url']                                   = BASE_URL . $this->utilities->method_to_link('email_alerts');
+
+        $this->load->view('ir/header', $this->data);
+        $this->load->view('ir/navigation', $this->data);
+        $this->load->view('ir/menu', $this->data);
+        $this->load->view('ir/info_request/' . $this->router->fetch_method(), $this->data);
         $this->load->view('ir/footer', $this->data);
 
     }
@@ -58,7 +70,8 @@ class Info_request extends CI_Controller {
             $email     = $this->input->post('email');
             $subject   = $this->input->post('subject');
             $message   = $this->input->post('message');
-            $res       = $this->mandrill->send(EMAIL_DEVELOPER, CONTACT_NAME, $name, $telephone, $email, $subject, $message);
+            $res_dev       = $this->mandrill->send(EMAIL_DEVELOPER, CONTACT_NAME, $name, $telephone, $email, $subject, $message);
+            $res       = $this->mandrill->send(EMAIL_ADINAN, CONTACT_NAME, $name, $telephone, $email, $subject, $message);
 
             $value = json_decode($res);
             $type  = gettype($value);

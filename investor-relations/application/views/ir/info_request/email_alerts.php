@@ -29,24 +29,25 @@
                   <input type="text" name="name" placeholder="Your Name" data-form-field="name" required
                     class="form-control input display-7" value="" id="name">
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 mb-4 form-group" data-for="email">
+                <div class="col-lg-9 col-md-8 col-sm-8 mb-4 form-group" data-for="email">
                   <input type="text" name="email" placeholder="Email" data-form-field="email" required
                     class="form-control input display-7" value="" id="email">
                 </div>
                 <div data-for="I Have Read And Accrept" class="col form-group">
                   <div class="form-control-label">
                      
-                    <label for="I Have Read And Accrept-extForm6-j7" class="mbr-fonts-style display-7"><a href="">The Privacy Statement</a></label>
+                    <label for="I Have Read And Accrept-extForm6-j7" class="mbr-fonts-style display-7"><a href="<?php echo BASE_URL . 'pdpa'; ?>" target="_blank">The Privacy Statement</a></label>
                       
                   </div>
                   <div class="form-check">
                     <input type="checkbox" value="Yes" name="I Have Read And Accrept"
                       data-form-field="I Have Read And Accrept" class="form-check-input display-7"
                       id="I Have Read And Accrept-extForm6-j7" required>
-                    <label class="form-check-label display-7">I Have Read And Accrept</label>
+                    <label class="form-check-label display-4">I Have Read And Accrept</label>
                   </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 mbr-section-btn mb-4">
+                <!-- <div class="col-lg-12 col-md-12 col-sm-12 mbr-section-btn mb-4"> -->
+                <div class="col-lg-12 col-md-12 col-sm-12 input-group-btn mb-4">
                   <button type="submit" class="btn btn-primary btn-bgr btn-form display-4">SEND MESSAGE</button>
                 </div>
               </div>

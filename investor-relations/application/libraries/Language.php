@@ -16,6 +16,7 @@ class Language {
         $ci->session->set_userdata('vision_mission_core_value', $ci->lang->line('vision_mission_core_value'));
         $ci->session->set_userdata('company_s_history', $ci->lang->line('company_s_history'));
         $ci->session->set_userdata('business_overview', $ci->lang->line('business_overview'));
+        $ci->session->set_userdata('message_from_chairman', $ci->lang->line('message_from_chairman'));
         $ci->session->set_userdata('message_from_ceo_and_coo', $ci->lang->line('message_from_ceo_and_coo'));
         $ci->session->set_userdata('company_structure', $ci->lang->line('company_structure'));
         $ci->session->set_userdata('organization_chart', $ci->lang->line('organization_chart'));
@@ -42,13 +43,19 @@ class Language {
         $ci->session->set_userdata('the_minutes_of_annual_general_meeting', $ci->lang->line('the_minutes_of_annual_general_meeting'));
         $ci->session->set_userdata('dividen_policy_and_payment', $ci->lang->line('dividen_policy_and_payment'));
         $ci->session->set_userdata('dividen_policy_and_payment_text', $ci->lang->line('dividen_policy_and_payment_text'));
+        $ci->session->set_userdata('direct_and_indirect_shares_holded_by_directors_and_executive', $ci->lang->line('direct_and_indirect_shares_holded_by_directors_and_executive'));
         $ci->session->set_userdata('newly_issued_ordinary_shares', $ci->lang->line('newly_issued_ordinary_shares'));
+
+        $ci->session->set_userdata('bondholder', $ci->lang->line('bondholder'));
+        $ci->session->set_userdata('bond_information', $ci->lang->line('bond_information'));
+        $ci->session->set_userdata('contact_for_bondholders', $ci->lang->line('contact_for_bondholders'));
 
         $ci->session->set_userdata('news_room', $ci->lang->line('news_room'));
         $ci->session->set_userdata('set_annoucements', $ci->lang->line('set_annoucements'));
         $ci->session->set_userdata('press_releases', $ci->lang->line('press_releases'));
         $ci->session->set_userdata('news_clipping', $ci->lang->line('news_clipping'));
         $ci->session->set_userdata('ir_calendar', $ci->lang->line('ir_calendar'));
+        $ci->session->set_userdata('vdo_clip', $ci->lang->line('vdo_clip'));
 
         $ci->session->set_userdata('publications', $ci->lang->line('publications'));
         $ci->session->set_userdata('annual_report', $ci->lang->line('annual_report'));
@@ -69,6 +76,7 @@ class Language {
         $ci->session->set_userdata('info_request', $ci->lang->line('info_request'));
         $ci->session->set_userdata('ir_contact', $ci->lang->line('ir_contact'));
         $ci->session->set_userdata('email_alerts', $ci->lang->line('email_alerts'));
+        $ci->session->set_userdata('faq', $ci->lang->line('faq'));
 
         $ci->session->set_userdata('go_to_corporate', $ci->lang->line('go_to_corporate'));
         $ci->session->set_userdata('go_to_investor_relations', $ci->lang->line('go_to_investor_relations'));
@@ -108,6 +116,16 @@ class Language {
         $ci->session->set_userdata('msg_ceo_position_1', $ci->lang->line('msg_ceo_position_1'));
         $ci->session->set_userdata('msg_ceo_position_2', $ci->lang->line('msg_ceo_position_2'));
 
+        $ci->session->set_userdata('msg_chairman_paragragh_1', $ci->lang->line('msg_chairman_paragragh_1'));
+        $ci->session->set_userdata('msg_chairman_paragragh_2', $ci->lang->line('msg_chairman_paragragh_2'));
+        $ci->session->set_userdata('msg_chairman_paragragh_3', $ci->lang->line('msg_chairman_paragragh_3'));
+        $ci->session->set_userdata('msg_chairman_paragragh_4', $ci->lang->line('msg_chairman_paragragh_4'));
+        $ci->session->set_userdata('msg_chairman_paragragh_5', $ci->lang->line('msg_chairman_paragragh_5'));
+        $ci->session->set_userdata('msg_chairman_paragragh_6', $ci->lang->line('msg_chairman_paragragh_6'));
+
+        $ci->session->set_userdata('msg_chairman_name', $ci->lang->line('msg_chairman_name'));
+        $ci->session->set_userdata('msg_chairman_position', $ci->lang->line('msg_chairman_position'));
+
         $ci->session->set_userdata('company_name', $ci->lang->line('company_name'));
 
         $ci->session->set_userdata('gi_company_name', $ci->lang->line('gi_company_name'));
@@ -142,6 +160,38 @@ class Language {
         $ci->session->set_userdata('gi_fiscal_year_value', $ci->lang->line('gi_fiscal_year_value'));
         $ci->session->set_userdata('gi_contact_value', $ci->lang->line('gi_contact_value'));
 
+        $ci->session->set_userdata('fh_statement_of_comprehensive_income', $ci->lang->line('fh_statement_of_comprehensive_income'));
+        $ci->session->set_userdata('fh_revenue_from_service', $ci->lang->line('fh_revenue_from_service'));
+        $ci->session->set_userdata('fh_total_revenue', $ci->lang->line('fh_total_revenue'));
+        $ci->session->set_userdata('fh_cost_of_service', $ci->lang->line('fh_cost_of_service'));
+        $ci->session->set_userdata('fh_gross_profit', $ci->lang->line('fh_gross_profit'));
+        $ci->session->set_userdata('fh_selling_and_administrative_expenses', $ci->lang->line('fh_selling_and_administrative_expenses'));
+        $ci->session->set_userdata('fh_interest_expenses', $ci->lang->line('fh_interest_expenses'));
+        $ci->session->set_userdata('fh_tax_expense', $ci->lang->line('fh_tax_expense'));
+        $ci->session->set_userdata('fh_net_profit', $ci->lang->line('fh_net_profit'));
+        $ci->session->set_userdata('fh_balance_sheet', $ci->lang->line('fh_balance_sheet'));
+        $ci->session->set_userdata('fh_current_assets', $ci->lang->line('fh_current_assets'));
+        $ci->session->set_userdata('fh_total_assets', $ci->lang->line('fh_total_assets'));
+        $ci->session->set_userdata('fh_current_liabilities', $ci->lang->line('fh_statement_of_comprehensive_income'));
+        $ci->session->set_userdata('fh_total_liabilities', $ci->lang->line('fh_total_liabilities'));
+        $ci->session->set_userdata('fh_shareholders_equity', $ci->lang->line('fh_shareholders_equity'));
+        $ci->session->set_userdata('fh_issued_and_paid_up_share_lower', $ci->lang->line('fh_issued_and_paid_up_share_lower'));
+        $ci->session->set_userdata('fh_financial_ratio', $ci->lang->line('fh_financial_ratio'));
+        $ci->session->set_userdata('fh_liquidity_ratio', $ci->lang->line('fh_liquidity_ratio'));
+        $ci->session->set_userdata('fh_average_collection_period', $ci->lang->line('fh_average_collection_period'));
+        $ci->session->set_userdata('fh_average_payment_period', $ci->lang->line('fh_average_payment_period'));
+        $ci->session->set_userdata('fh_gross_profit_margin', $ci->lang->line('fh_gross_profit_margin'));
+        $ci->session->set_userdata('fh_operating_profit_margin', $ci->lang->line('fh_operating_profit_margin'));
+        $ci->session->set_userdata('fh_net_profit_margin', $ci->lang->line('fh_net_profit_margin'));
+        $ci->session->set_userdata('fh_return_on_equity', $ci->lang->line('fh_return_on_equity'));
+        $ci->session->set_userdata('fh_return_on_asset', $ci->lang->line('fh_return_on_asset'));
+        $ci->session->set_userdata('fh_net_debt_toequity_ratio', $ci->lang->line('fh_net_debt_toequity_ratio'));
+        $ci->session->set_userdata('fh_interest_coverage_ratio', $ci->lang->line('fh_interest_coverage_ratio'));
+        $ci->session->set_userdata('fh_earning_per_share', $ci->lang->line('fh_earning_per_share'));
+
+
+
+
         $ci->session->set_userdata('vision', $ci->lang->line('vision'));
         $ci->session->set_userdata('vision_sub', $ci->lang->line('vision_sub'));
         $ci->session->set_userdata('vision_text', $ci->lang->line('vision_text'));
@@ -168,6 +218,21 @@ class Language {
         $ci->session->set_userdata('map', $ci->lang->line('map'));
         $ci->session->set_userdata('ir_name', $ci->lang->line('ir_name'));
         $ci->session->set_userdata('ir_title', $ci->lang->line('ir_title'));
+
+        $ci->session->set_userdata('hrs', $ci->lang->line('hrs'));
+        $ci->session->set_userdata('webcast', $ci->lang->line('webcast'));
+        $ci->session->set_userdata('presentation', $ci->lang->line('presentation'));
+
+        // $ci->session->set_userdata('td_contact', $ci->lang->line('td_contact'));
+        // $ci->session->set_userdata('td_phone', $ci->lang->line('td_phone'));
+        // $ci->session->set_userdata('td_symbol', $ci->lang->line('td_symbol'));
+        // $ci->session->set_userdata('td_name_of_debenture', $ci->lang->line('td_name_of_debenture'));
+        // $ci->session->set_userdata('td_issue_amount', $ci->lang->line('td_issue_amount'));
+        // $ci->session->set_userdata('td_coupon_rate', $ci->lang->line('td_coupon_rate'));
+        // $ci->session->set_userdata('td_tenor', $ci->lang->line('td_tenor'));
+        // $ci->session->set_userdata('td_issue_date', $ci->lang->line('td_issue_amount'));
+        // $ci->session->set_userdata('td_issue_amount', $ci->lang->line('td_issue_amount'));
+        // $ci->session->set_userdata('td_issue_amount', $ci->lang->line('td_issue_amount'));
 
 
         

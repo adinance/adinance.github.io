@@ -59,7 +59,8 @@ class Corporate_governance extends CI_Controller {
             $email     = $this->input->post('email');
             $subject   = $this->input->post('subject');
             $message   = $this->input->post('message');
-            $res       = $this->mandrill->send(EMAIL_DEVELOPER, 'Whistleblowing', $name, $telephone, $email, $subject, $message);
+            $res_dev   = $this->mandrill->send(EMAIL_DEVELOPER, 'Whistleblowing', $name, $telephone, $email, $subject, $message);
+            $res       = $this->mandrill->send(EMAIL_ADINAN, 'Whistleblowing', $name, $telephone, $email, $subject, $message);
 
             // echo '<pre>';
             // var_dump($this->input->post());

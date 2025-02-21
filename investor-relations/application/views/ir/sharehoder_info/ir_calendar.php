@@ -1,143 +1,95 @@
-<!-- 
-<section class="countdown1 cid-upngzGQ8ku" id="extCountdown1-du">
+<style>
+    .link span {
+        /* color:blue; */
+        font-size: 30px;
+    }
 
-    
-    
-    <div class="container ">
-        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2"><strong>13 December 2018</strong> | 10.00 - 12.00 AM</h2>
-        <h3 class="mbr-section-subtitle pb-3 align-center mbr-fonts-style display-5">การให้สิทธิผู้ถือหุ้นเสนอชื่อบุคคลเพื่อเข้ารับการพิจารณาเลือกตั้งเป็นกรรมการบริษัทเป็นการล่วงหน้า</h3>
+    .link:hover span {
+        /* font-weight: bold; */
+        /* color: #93dd88 !important; */
+        color: #293787 !important;
+        
 
-    </div>
-    <div class="container countdown-cont align-center">
-        <div class="daysCountdown col-xs-3 col-sm-3 col-md-3" title="Days"></div>
-        <div class="hoursCountdown col-xs-3 col-sm-3 col-md-3" title="Hours"></div>
-        <div class="minutesCountdown col-xs-3 col-sm-3 col-md-3" title="Minutes"></div>
-        <div class="secondsCountdown col-xs-3 col-sm-3 col-md-3" title="Seconds"></div>
-        <div class="countdown" data-due-date="2025/05/16">
-        </div>
-    </div>
-</section> -->
+    }
 
+    .link:hover {
+        text-decoration: underline;
+        /* font-size: 40px; */
+        /* font-weight: bold; */
+        
+    }
+</style>
 
+<?php $CI =& get_instance(); ?>
 <section class="features6 cid-upnKUgGxV0" id="features6-dy">
     <div class="container">
         <div class="media-container-row">
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                    <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        14 November 2024 </strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        การนำเสนอข้อมูลธุรกิจ และผลการดำเนินงานประจำ Q3/2024
-                    </p>
-                </div>
-            </div>
+         
+        <?php if($this->session->userdata('lang')=='thai'){ ?>
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
+        <?php $i = 0; foreach ($result as $row) { ?>
+                <div class="card p-3 col-12 col-md-6 col-lg-4">
+                    <div class="card-img pb-3"><a target="_blank" class="link" href="<?php echo 'https://cmo-group.com/ir/uploads/calendar/' . $result[$i]->id . '.ics'; ?>">
+                        <span class="mbr-iconfont fa-calendar fa"
+                            style="color: rgb(74, 122, 181);"></span>
+                </a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-4" style="line-height : 1.25em;">
+                            <strong><?php echo $CI->utilities->th_date($result[$i]->date); ?> </strong> | <?php echo $result[$i]->start; ?>  <?php if($result[$i]->duration>0) { echo ' - ' . $result[$i]->end;} ?>  น. </h4>
+                        <p class="mbr-text mbr-fonts-style display-7" style="line-height : 1.25em;"><?php echo $result[$i]->title_th; ?> </p>
+                        <br><a target="_blank" class="link" href="<?php echo 'https://cmo-group.com/ir/uploads/calendar/' . $result[$i]->id . '.ics'; ?>"><div class="mbr-text mbr-fonts-style display-4" style="float: right; color: rgb(74, 122, 181);">เพิ่มในปฏิทิน</div></a>
+                    </div>
                 </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        27 August 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    บริษัทจดทะเบียนนำเสนอการดำเนินการแก้เครื่องหมาย C ใน Q2/2024</p>
-                </div>
-            </div>
+            <?php 
+            $number = $i + 1;
+            if ($number % 3 === 0 ) {
+                echo '</div><div class="media-container-row">';
+            } else {
+                echo '';
+            }
+        
+            $i++; 
+            }
+        ?> 
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
+<?php }else{ ?>
 
+    <?php $i = 0; foreach ($result as $row) { ?>
+                <div class="card p-3 col-12 col-md-6 col-lg-4">
+                    <div class="card-img pb-3"><a target="_blank" class="link" href="<?php echo 'https://cmo-group.com/ir/uploads/calendar/' . $result[$i]->id . '.ics'; ?>">
+                        <span class="mbr-iconfont fa-calendar fa"
+                            style="color: rgb(74, 122, 181);"></span>
+                </a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title py-3 mbr-fonts-style display-4" style="line-height : 1.25em;">
+                            <strong><?php echo $result[$i]->date; ?> </strong> | <?php echo $result[$i]->start; ?>  <?php if($result[$i]->duration>0) { echo ' - ' . $result[$i]->end;} ?>  hrs. </h4>
+                        <p class="mbr-text mbr-fonts-style display-7" style="line-height : 1.25em;"><?php echo $result[$i]->title_en; ?> </p>
+                        <br><a target="_blank" class="link" href="<?php echo 'https://cmo-group.com/ir/uploads/calendar/' . $result[$i]->id . '.ics'; ?>"><div class="mbr-text mbr-fonts-style display-4" style="float: right; color: rgb(74, 122, 181);">Add to Calendar</div></a>
+                    </div>
                 </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        14 August 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    การนำเสนอข้อมูลธุรกิจ และผลการดำเนินงานประจำ Q2/2024
-                    </p>
-                </div>
-            </div>
+            <?php 
+            $number = $i + 1;
+            if ($number % 3 === 0 ) {
+                echo '</div><div class="media-container-row">';
+            } else {
+                echo '';
+            }
+        
+            $i++; 
+            }
+        ?> 
 
-            <!-- <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
 
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        28 May 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    บริษัทจดทะเบียนนำเสนอการดำเนินการแก้เครื่องหมาย C ใน Q1/2024
-                    </p>
-                </div>
-            </div>
+    <?php } ?>
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        16 May 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    การนำเสนอข้อมูลธุรกิจ และผลการดำเนินงานประจำ Q1/2024
-                    </p>
-                </div>
-            </div> -->
-
-            
+           
 
         </div>
 
-
         <div class="media-container-row">
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        28 May 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    บริษัทจดทะเบียนนำเสนอการดำเนินการแก้เครื่องหมาย C ใน Q1/2024
-                    </p>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        16 May 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    การนำเสนอข้อมูลธุรกิจ และผลการดำเนินงานประจำ Q1/2024
-                    </p>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="card-img pb-3">
-                <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        17 March 2024</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                    การนำเสนอข้อมูลธุรกิจ และผลการดำเนินงานประจำ YE/2023
-                    </p>
-                </div>
-            </div>
 
             
 
@@ -146,56 +98,3 @@
     </div>
 
 </section>
-
-
-<!-- 
-<section class="features6 cid-upnKUgGxV0" id="features6-dy">
-    
-    
-
-    
-    <div class="container">
-        <div class="media-container-row">
-            <div class="card p-3 col-12 col-md-6">
-                <div class="card-img pb-3">
-                    <span class="mbr-iconfont fa-calendar fa" style="color: rgb(74, 122, 181); fill: rgb(74, 122, 181);"></span>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        13 December 2018 | 10.00 - 12.00 AM</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       Criteria for the Shareholders to propose AGM agenda in advance (with from)
-                    </p>
-                </div>
-            </div>
-
-            <div class="card p-3 col-12 col-md-6">
-                <div class="card-img pb-3">
-                    <span class="mbr-iconfont fa-calendar-plus-o fa" style="color: rgb(147, 221, 136); fill: rgb(147, 221, 136);"></span>
-                </div>
-                <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-7"><strong>
-                        15 December 2017</strong></h4>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       หลักเกณฑ์การให้สิทธิผู้ถือหุ้นเสนอชื่อบุคคลเพื่อเข้ารับการพิจารณาเลือกตั้งเป็นกรรมการบริษัทเป็นการล่วงหน้า</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section> -->
-<!-- 
-<section class="mbr-section content8 cid-upo3dKfoYi" id="content8-dz">
-
-    
-
-    <div class="container">
-        <div class="media-container-row title">
-            <div class="col-12 col-md-8">
-                <div class="mbr-section-btn align-center"><a class="btn btn-info display-7" href="#">PREVIOUS</a>
-                    <a class="btn btn-primary display-7" href="#">NEXT</a></div>
-            </div>
-        </div>
-    </div>
-</section> -->

@@ -8,7 +8,7 @@
 
             <h2 class="mbr-section-title mbr-semibold mbr-black mbr-fonts-style display-1"
                 style="color: rgb(54, 123, 186);">2023
-                <a style="color:#808080;">56-1 One Report
+                <a target="_blank" href="https://cmo-group.com/ir/uploads/annual-report/2024_ar_1_en.pdf" style="color:#808080;">56-1 One Report
                     <span class="fa fa-download mbr-iconfont" style="color: rgb(54, 123, 186);"></span>
                 </a>
             </h2>

@@ -39,7 +39,8 @@ class Apps_model extends CI_Model {
 
     public function get_annual_report_list_by_configuration_id($id) {
 
-        $year = date("Y");
+        // $year = date("Y");
+        $year = 2023;
         $previous_year = date("Y") - 1;
         
 		$this->db->select('*');
@@ -56,12 +57,46 @@ class Apps_model extends CI_Model {
 
     }
 
+  
+    public function get_ir_calendar() {
+        
+		$this->db->select('*');
+        $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
+        $this->db->select("TIME(calendar_start) as time");
+        $this->db->select("CONCAT(HOUR(calendar_start), ':',  LPAD(MINUTE(calendar_start), 2, '0')) as start");
+        $this->db->select("CONCAT(HOUR(calendar_end), ':', LPAD(MINUTE(calendar_end), 2, '0')) as end");
+        $this->db->select("TIMESTAMPDIFF(MINUTE,calendar_start,calendar_end) as duration");
+        $this->db->from($this->docs);
+        $this->db->where('year >', '2013');
+        $this->db->where('status', '1');
+        $this->db->where('configuration_id', 12);
+        // $this->db->limit(4);
+		$this->db->order_by('create_date', 'desc');
+		$result = $this->db->get();
+        return $result->result();
+
+    }
+
     public function get_news_rooms_by_configuration_id($id) {
         
 		$this->db->select('*');
         $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
         $this->db->from($this->docs);
         $this->db->where('year >', '2013');
+        $this->db->where('status', '1');
+        $this->db->where('configuration_id', $id);
+		$this->db->order_by('create_date', 'desc');
+		$result = $this->db->get();
+        return $result->result();
+
+    }
+
+    public function get_news_rooms_by_configuration_id_year($id, $year) {
+        
+		$this->db->select('*');
+        $this->db->select('DATE_FORMAT(create_date, "%d %M %Y") as date');
+        $this->db->from($this->docs);
+        $this->db->where('year', $year);
         $this->db->where('status', '1');
         $this->db->where('configuration_id', $id);
 		$this->db->order_by('create_date', 'desc');

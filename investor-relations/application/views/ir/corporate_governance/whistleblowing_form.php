@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="checkbox">
                         <div class="form-control-label">
-                            <label for="checkbox" class="mbr-fonts-style display-7">The Privacy Statement</label>
+                            <label for="checkbox" class="mbr-fonts-style display-7"><a href="<?php echo BASE_URL . 'pdpa'; ?>" target="_blank">The Privacy Statement</a></label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input type="checkbox" value="Yes" name="I Have Read And Accept" data-form-field="I Have Read And Accept" class="form-check-input display-7" required="required" id="I Have Read And Accept-form1-ic">

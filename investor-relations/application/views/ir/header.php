@@ -7,6 +7,7 @@
 
   <meta charset="utf-8">
   <meta name="description" content="<?php echo SEO_DESCRIPTION; ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:url" content="<?php echo SEO_OG_URL; ?>" />
   <meta property="og:type" content="<?php echo SEO_OG_TYPE; ?>" />
   <meta property="og:title" content="<?php echo SEO_OG_TITLE; ?>" />
@@ -57,12 +58,15 @@
 
   
   <!-- mobirise -->
+   
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/simple-line-icons/simple-line-icons.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icons-mind/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icon54/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icon54-v2/style.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icon54-v3/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/icon54/style.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/linecons/style.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">

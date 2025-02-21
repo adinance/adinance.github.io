@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Mandrill {
 
     protected $api_url = 'https://mandrillapp.com/api/1.0/messages/send.json';
-    protected $api_key = "md-9peYlpIdZMnYPdYkXSm7xQ";
+    protected $api_key = "md-YsClQgtVxDurQO9yXzRc6Q";
     protected $email_from = 'noreply@cmo-group.com';
     protected $email_from_name = 'CMO | Investor Relations';
 
