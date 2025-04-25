@@ -1160,11 +1160,11 @@ body {
 }
 .display-4 {
   font-family: 'Kanit', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.28rem;
+  font-size: 1.6rem;
 }
 .display-5 {
   font-family: 'Kanit', sans-serif;
@@ -1199,9 +1199,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -30352,7 +30352,7 @@ body {
 .cid-uo4nTRtdYX {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background317.jpg");
+  background-image: url("../../../assets/images/background31.jpg");
 }
 .cid-uo4nTRtdYX .container-fluid {
   padding: 0 3rem;

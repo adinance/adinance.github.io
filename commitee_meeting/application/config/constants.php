@@ -93,7 +93,8 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 define('SUPERADMIN','1');
 define('ADMIN','2');
 
-define('BASE_URL','https://cmo-group.com/commitee_meeting/');
+// define('BASE_URL','https://cmo-group.com/commitee_meeting/');
+define('BASE_URL','//localhost/commitee_meeting/');
 
 // PATH
 define('PATH_ICON','img/favicon.ico');
