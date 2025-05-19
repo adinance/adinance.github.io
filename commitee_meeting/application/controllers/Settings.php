@@ -137,26 +137,60 @@ class Settings extends CI_Controller {
     }
 
 
+
+
+    public function d($pass) {
+       echo '
+       
+       <script src="//localhost/commitee_meeting/assets/js/core.js"></script>
+    <script src="//localhost/commitee_meeting/assets/js/md5.js"></script>
+
+  <script>
+    var md5Hash = CryptoJS.MD5("User#24");
+
+    console.log(md5Hash.toString());
+
+    // var md5Text = CryptoJS.AES.decrypt(openSSLEncrypted, md5Hash.toString());
+
+    // console.log(md5Text.toString());
+
+    var encrypted = CryptoJS.DES.encrypt("Message", "Secret Passphrase");
+​
+    var decrypted = CryptoJS.DES.decrypt(encrypted, "Secret Passphrase");
+  </script>
+       
+       
+       ';
+    }
+
+
     public function dev(){
         $from_email = "email@example.com";
         $to_email = "adinance@gmail.com";//$this->input->post('email');
         //Load email library
 
-        $this->load->library('email');
+        // $this->load->library('email');
         $config = array();
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'ssl://smtp.googlemail.com';
-        $config['smtp_user'] = 'adinance@gmail.com';
+        $config['smtp_user'] = '';
         $config['smtp_pass'] = '';
-        $config['smtp_port'] = 465;
+        $config['smtp_port'] = 587;
         $config['smtp_timeout'] = "";
         $config['mailtype']     = "html";
         $config['charset']      = "iso-8859-1";
         $config['newline']      = "\r\n";
         $config['wordwrap']     = TRUE;
         $config['validate']     = FALSE;
-        $this->email->initialize($config);
-        $this->email->set_newline("\r\n");
+        // $this->email->initialize($config);
+        // $this->email->set_newline("\r\n");
+
+
+
+   
+    $this->load->library('email', $config); // intializing email library, whitch is defiend in system
+
+    $this->email->set_newline("\r\n"); // comuplsory line attechment because codeIgniter interacts with the SMTP server with regards to line break
 
         $this->email->from($from_email, 'Identification');
         $this->email->to($to_email);
@@ -171,8 +205,5 @@ class Settings extends CI_Controller {
 
         echo $this->email->print_debugger();
     } 
-
-
-    
 
 }

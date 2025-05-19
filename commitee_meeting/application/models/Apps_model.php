@@ -82,7 +82,14 @@ class Apps_model extends CI_Model {
 	public function get_active_documents_by_category($category_id = 0) {
 
 		$where = '';
-		if($category_id != 0) $where = ' and cm_documents.category_id = ' . $category_id ; 
+		if($category_id == 1 || $category_id == 2) {
+			$where = ' and (cm_documents.category_id = ' . $category_id . ' or cm_documents.category_id = 3)'; 
+		}
+
+		if($category_id == 3) {
+			$where = '';
+		}
+
 
         $result = $this->db->query('
 		SELECT

@@ -1,13 +1,12 @@
-<br><br><br><br>
 <!-- <br><h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">Documents</h2>  -->
+<br><br><br><br>
+
 <?php if($user['permission']==1 || $user['permission']==3 || $user['permission']==5){ ?>
-<section class="mbr-section content8 cid-ucm90b58Ze" id="content8-2d">
+<!-- <section class="mbr-section content8 cid-ucm90b58Ze" id="content8-2d">
     <div class="container">
         <div class="media-container-row title">
             <div class="col-12 col-md-12">
                 <div class="mbr-section-btn align-center">
-
-                
                         <?php 
                         if ($this->uri->segment(2) == 1 || $this->uri->segment(2) == 0){
                             echo '<a class="btn btn-primary display-7" href="' . BASE_URL . 'category/1">';
@@ -15,7 +14,7 @@
                             echo '<a class="btn btn-black-outline display-7" href="' . BASE_URL . 'category/1">';
                         }
                         ?>
-                            <span class="mobi-mbri mobi-mbri-browse mbr-iconfont mbr-iconfont-btn"></span>เอกสารสำหรับการประชุมวิสามัญผู้ถือหุ้น ครั้งที่ 1/2567
+                            <span class="mobi-mbri mobi-mbri-browse mbr-iconfont mbr-iconfont-btn"></span>เอกสารสำหรับคณะกรรมการบริษัท
                         </a>
                         
                         <?php 
@@ -25,13 +24,13 @@
                             echo '<a class="btn btn-black-outline display-7" href="' . BASE_URL . 'category/2">';
                         }
                         ?>
-                            <span class="mobi-mbri mobi-mbri-briefcase mbr-iconfont mbr-iconfont-btn"></span>เอกสารสำหรับคณะกรรมการบริหาร
+                            <span class="mobi-mbri mobi-mbri-briefcase mbr-iconfont mbr-iconfont-btn"></span>เอกสารสำหรับคณะกรรมการตรวจสอบ
                         </a>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <?php } ?>
 
 <br><br>
@@ -66,8 +65,8 @@
     $('#example').DataTable({
         // pageLength: 10,
         lengthMenu: [
-            [50, 100, -1],
-            [50, 100, 'All']
+            [25, 50, -1],
+            [25, 50, 'All']
         ],
         ordering : false,
         // order: [

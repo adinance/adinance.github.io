@@ -30,14 +30,32 @@ class Apps extends CI_Controller {
 
         $this->load->view('apps/header', $this->data);
         $this->load->view('apps/menu', $this->data);
-        
-        if($this->user['permission']==2){ // bod, excom
-            $this->data['result'] = $this->apps->get_active_documents_by_category(1);
-            $this->load->view('apps/documentation/index', $this->data);
-        }else{ // admin,audit commitees, auditor
-            $this->data['result'] = $this->apps->get_active_documents_by_category($category_id);
-            $this->load->view('apps/documentation/index', $this->data);
+
+        switch ($this->user['permission']) {
+            case 1:
+                $category_id = 3;
+                break;
+            case 2: // BOD
+                $category_id = 2;
+                break;
+            case 3: // AC
+                $category_id = 1;
+                break;
+            case 4:
+                $category_id = 3;
+                break;
+            case 5:
+                $category_id = 3;
+                break;
+            default:
+                //code block
         }
+
+      
+        $this->data['result'] = $this->apps->get_active_documents_by_category($category_id);
+
+        $this->load->view('apps/documentation/index', $this->data);
+
         $this->load->view('apps/footer', $this->data);
     }
 

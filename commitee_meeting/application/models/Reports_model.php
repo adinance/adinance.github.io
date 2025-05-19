@@ -38,8 +38,10 @@ from (
                     cm_users.name as users,
 										cm_users.last_ip as ip,
                     cm_permissions.permission,
-                    cm_users.last_login,
-                    cm_users.last_logout
+                --    cm_users.last_login,
+                --    cm_users.last_logout
+                    DATE_FORMAT(cm_users.last_login, \'%Y-%m-%d %H:%i\') AS last_login,
+                    DATE_FORMAT(cm_users.last_logout, \'%Y-%m-%d %H:%i\') AS last_logout
 
             from cm_users 
             inner join cm_logs on cm_users.username = cm_logs.username
@@ -65,7 +67,8 @@ left join cm_logs on a.username = cm_logs.username
         $result = $this->db->query('
 
              select 
-                    cm_logs.time,
+                    -- cm_logs.time,
+                    DATE_FORMAT(cm_logs.time, \'%Y-%m-%d %H:%i\') AS time,
                     cm_users.id,
                     cm_logs.source_ip as source,
                     cm_logs.destination_ip as destination,

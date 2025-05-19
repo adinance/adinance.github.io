@@ -83,8 +83,6 @@ class Auth extends CI_Controller {
                 );
                 $this->auth->set_last_login($this->session->id);
 
-                // $user_agent = $this->get_user_agent();
-
                 $logs = array(
                     'time'           => date('Y-m-d H:i:s'),
                     'source_ip'      => $_SERVER['REMOTE_ADDR'],
@@ -100,11 +98,11 @@ class Auth extends CI_Controller {
                 case 1:
                     $data['swal'] = $this->swal->login_success(BASE_URL . 'documents');
                     break;
-                case 2:
-                    $data['swal'] = $this->swal->login_success(BASE_URL . 'category/1');
-                    break;
-                case 3:
+                case 2: // BOD
                     $data['swal'] = $this->swal->login_success(BASE_URL . 'category/2');
+                    break;
+                case 3: // AC
+                    $data['swal'] = $this->swal->login_success(BASE_URL . 'category/1');
                     break;
                 case 4:
                     $data['swal'] = $this->swal->login_success(BASE_URL . 'documents');

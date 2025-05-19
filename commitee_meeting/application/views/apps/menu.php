@@ -75,7 +75,12 @@
             </div> -->
             <?php if($user['permission'] !=4 ) {?>
             <div class="navbar-buttons mbr-section-btn">
-                <a class="btn btn-sm btn-warning display-7" target="_blank" href=" https://varpevent.zoom.us/j/81874231094?pwd=fl51slvqAAHb1Cvd9remULdIM5u4BR.1"><span class="mbrib-video-play mbr-iconfont mbr-iconfont-btn"></span>การประชุมวิสามัญผู้ถือหุ้นครั้งที่ 1/2657</a>
+                <!-- <a class="btn btn-sm btn-warning display-7" target="_blank" href="http://meet.google.com/map-meib-jrz">
+                    <span class="mbrib-video-play mbr-iconfont mbr-iconfont-btn"></span>14.00-18.00 ประชุมคณะกรรมการตรวจสอบ และคณะกรรมการบริษัท
+                </a> -->
+                <!-- <a class="btn btn-sm btn-warning display-7" target="_blank" href="http://meet.google.com/bru-tryr-zae">
+                    <span class="mbrib-video-play mbr-iconfont mbr-iconfont-btn"></span>16.00-18.00 คณะกรรมการบริษัท
+                </a> -->
                 <!-- <a class="btn btn-sm btn-warning display-7" target="_blank" href="https://meet.google.com/gkv-fude-yma"><span class="mbrib-video-play mbr-iconfont mbr-iconfont-btn"></span>16:00 | คณะกรรมการบริษัท</a> -->
             </div>
             <?php } ?>
