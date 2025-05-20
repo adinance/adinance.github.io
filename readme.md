@@ -10,12 +10,6 @@
 - [ ] Development | 2024-05-30
 - [ ] Debugs | 2024-06-01
 
-## Demo URL
 
-http://localhost/ir.cmo-group.com/
-
-## Production URL
-
-https://ir.cmo-group.com
 
 
