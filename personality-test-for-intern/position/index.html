@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Test for Intern | Position</title>
+  <style>
+    /* รีเซ็ตขอบจอ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    img.fullscreen-image {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body oncontextmenu="return false">
+  <img 
+    class="fullscreen-image" 
+    src="https://apps.cmo-group.com/ptfi/assets/images/detail-sample-1920x1958.jpg" 
+    alt="CMO Fullscreen">
+
+    <script>
+  // เพิ่มสถานะใหม่ใน history
+  history.pushState(null, '', location.href);
+
+  // ดักจับเมื่อผู้ใช้พยายามกด back
+  window.onpopstate = function () {
+    history.pushState(null, '', location.href);
+  };
+</script>
+
+  <script>
+    // ป้องกันการคลิกขวา
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+
+    // ป้องกันการเลือกข้อความ
+    document.addEventListener('selectstart', function (e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+</html>
