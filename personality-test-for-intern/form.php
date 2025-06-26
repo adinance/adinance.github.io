@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <meta name="description" content="">
 
+  <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -184,7 +185,7 @@ button:hover {
 
   
  <!-- <div class="container"> -->
-  <div class="container" style="max-width: 1000px; margin: 40px auto; background: rgba(255, 255, 255, 0.25); padding: 30px; border-radius: 15px;">
+  <div class="container" style="max-width: 1100px; margin: 40px auto; background: rgba(255, 255, 255, 0.25); padding: 30px; border-radius: 15px;">
 
   <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style mbr-bold align-center display-2">Personality Test for Intern</h2>
   <h5 class="mbr-section-title pb-3 align-center mbr-fonts-style  align-center display-5">ในแต่ละข้อให้เลือกเพียงตัวเลือก "ใช่" หรือ "ไม่ใช่" เพียงตัวเลือกเดียวที่สอดคล้องกับตัวท่านมากที่สุด</h5><br>
@@ -292,7 +293,7 @@ button:hover {
         { name: "Assistant Producer / Event Coordinator", value: project },
         { name: "Account Executive / Project Coordinator", value: ae },
         { name: "Creative", value: creative },
-        { name: "Light/Sound/Runshow", value: production }
+        { name: "Lighting, Audio & Image / Runshow", value: production }
       ];
 
       // const roles = rolesRaw.filter(role => role.value >= 3);
@@ -337,7 +338,7 @@ button:hover {
             confirmButton: 'my-confirm-button-class'
           }
         }).then(() => {
-          window.location.href = "position/index.html"; 
+          window.location.href = "position.php"; 
         }); // document.getElementById("result").innerHTML = `<p>ส่งข้อมูลสำเร็จ: ${resultText}</p>`;
         
       } catch (error) {

@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <meta name="description" content="">
-
-    <title>Personality Test for Intern | Position</title>
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Position</title>
     <link rel="stylesheet" href="assets/tether/tether.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -19,31 +18,171 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <style>
 
+    /* body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  } */
+    #floating-message {
+        font-family: "Kanit", sans-serif;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      z-index: 9999;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
 </head>
 
 <body>
 
-    <section class="extHeader cid-uOEGfrpXhs mbr-fullscreen" id="extHeader29-w">
+ <div id="floating-message">
+    ผู้ที่ตอบว่า 'ใช่' ในข้อ 1 / 3 / 4 / 7 / 8
+  </div>
+
+
+    <section class="extHeader cid-uP0Fl1H4VL mbr-fullscreen mbr-parallax-background" id="extHeader20-13">
+
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 align-center mbr-white">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-10 align-center">
+                    <h1 class="mbr-section-title mbr-regular pb-2 mbr-fonts-style display-1"><strong>Assistant Producer
+                            / <br>Event Coordinate</strong><br></h1>
+                    <h3 class="mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style display-2">หน้าที่ความรับผิดชอบ
+                    </h3>
+                    <p class="mbr-text pb-2 mbr-regular mbr-fonts-style display-4">ประสานงานและสนับสนุนงานด้าน
+                        Pre-Production, Production
+                        และ Post-Production เพื่อให้เป็นไปตามมาตรฐาน
+                        และแผนงานที่กำหนด</p>
+
                 </div>
+
+                <div class="pt-4 align-center" style="width: 30%;">
+                    <img src="assets/images/project-298x291.png" alt="" title="">
+                </div>
+
             </div>
         </div>
 
     </section>
+
+    <section class="extHeader cid-uP0In8XIwr mbr-fullscreen mbr-parallax-background" id="extHeader20-14">
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-10 align-center">
+                    <h1 class="mbr-section-title mbr-regular pb-2 mbr-fonts-style display-1"><strong>Account Executive /<br>
+                        Project Coordinator</strong>
+                    </h1>
+                    <h3 class="mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style display-2">หน้าที่ความรับผิดชอบ</h3>
+                    <p class="mbr-text pb-2 mbr-regular mbr-fonts-style display-4">ประสานงานกับหน่วยงาน ทั้งภายใน และภายนอกองค์กร เพื่อให้การดำเนินงานเป็นไปอย่างราบรื่น และมีประสิทธิภาพ</p>
+
+                </div>
+
+                <div class="pt-4 align-center" style="width: 30%;">
+                    <img src="assets/images/ae-308x286.png" alt="" title="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="extHeader cid-uP0IRaWJv6 mbr-fullscreen mbr-parallax-background" id="extHeader20-15">
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-10 align-center">
+                    <h1 class="mbr-section-title mbr-regular pb-2 mbr-fonts-style display-1"><strong>Creative</strong>
+                    </h1>
+                    <h3 class="mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style display-2">หน้าที่ความรับผิดชอบ</h3>
+                    <p class="mbr-text pb-2 mbr-regular mbr-fonts-style display-4">คิดหาไอเดีย สร้างสรรค์ผลงาน ให้ตอบโจทย์กับสิ่งที่ลูกค้าต้องการ</p>
+
+                </div>
+
+                <div class="pt-4 align-center" style="width: 30%;">
+                    <img src="assets/images/creative-284x291.png" alt="" title="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="extHeader cid-uP0IS4vleG mbr-fullscreen mbr-parallax-background" id="extHeader20-16">
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-10 align-center">
+                    <h1 class="mbr-section-title mbr-regular pb-2 mbr-fonts-style display-1"><strong>Lighting, Audio &amp; Image / Runshow</strong></h1>
+                    <h3 class="mbr-section-subtitle mbr-regular pb-2 mbr-fonts-style display-2">หน้าที่ความรับผิดชอบ</h3>
+                    <p class="mbr-text pb-2 mbr-regular mbr-fonts-style display-4"><strong>Technician </strong>: (Lighting, Audio &amp; Image) : ควบคุมและติดตั้งระบบแสงและเสียง
+เพื่อให้การแสดงหรือกิจกรรมดำเนินไปอย่างสมบูรณ์
+                        <br>
+                        <strong>Runshow </strong>: ออกแบบและควบคุมระบบฯ ให้เป็นไปตามแผนงานและความต้องการของลูกค้า</p>
+
+                </div>
+
+                <div class="pt-4 align-center" style="width: 30%;">
+                    <img src="assets/images/production-286x309.png" alt="" title="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+    const message = document.getElementById('floating-message');
+
+    window.addEventListener('scroll', () => {
+
+      const scrollY = window.scrollY;
+      const totalScrollable = document.body.scrollHeight - window.innerHeight;
+
+      const sectionHeight = totalScrollable / 4;
+
+      if (window.scrollY < sectionHeight) { 
+        message.textContent = "ผู้ที่ตอบว่า 'ใช่' ในข้อ 1 / 3 / 4 / 7 / 8";
+      } else if (window.scrollY < sectionHeight * 2){
+        message.textContent = "ผู้ที่ตอบว่า 'ใช่' ในข้อ 2 / 3 / 4 / 5 / 9";
+      } else if (window.scrollY < sectionHeight * 3){
+        message.textContent = "ผู้ที่ตอบว่า 'ใช่' ในข้อ 3 / 6 / 7 / 8 / 9";      
+      }else {
+        message.textContent = "ผู้ที่ตอบว่า 'ใช่' ในข้อ 1 / 5 / 7 / 8 / 10"; 
+      }
+    });
+  </script>
+
+  
 
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/parallax/jarallax.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
 
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i
                 class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
 
+
+                <?php  require_once 'script.php'; ?>
 </body>
 
 </html>
