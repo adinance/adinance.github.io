@@ -18,7 +18,7 @@ $db['default'] = array(
 	// 'database' => 'ir',
 
 	
-	'hostname' => '147.50.136.211',
+	'hostname' => '163.44.197.234',
 	'username' => 'cmogroup',
 	'password' => 'hC04ha_1',
 	'database' => 'cmogroup',

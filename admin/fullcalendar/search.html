@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FullCalendar — ตัวอย่าง</title>
+  <!-- FullCalendar CSS ใช้จาก bundle เดียว -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/main.min.css" rel="stylesheet" />
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Helvetica Neue', Arial; margin:0; padding:16px; }
+    #calendar { max-width: 1000px; margin: 20px auto; }
+    .fc-event { cursor: pointer; }
+    .filter-bar { max-width: 1000px; margin: 20px auto; display: flex; gap: 10px; align-items: center; }
+  </style>
+</head>
+<body>
+  <h2>ปฏิทินตัวอย่าง (FullCalendar)</h2>
+
+  <!-- แถบค้นหาเดือนและปี -->
+  <div class="filter-bar">
+    <label>เดือน: 
+      <select id="monthPicker">
+        <option value="01">ม.ค.</option>
+        <option value="02">ก.พ.</option>
+        <option value="03">มี.ค.</option>
+        <option value="04">เม.ย.</option>
+        <option value="05">พ.ค.</option>
+        <option value="06">มิ.ย.</option>
+        <option value="07">ก.ค.</option>
+        <option value="08">ส.ค.</option>
+        <option value="09">ก.ย.</option>
+        <option value="10">ต.ค.</option>
+        <option value="11">พ.ย.</option>
+        <option value="12">ธ.ค.</option>
+      </select>
+    </label>
+    <label>ปี:
+      <input type="number" id="yearPicker" min="2000" max="2100" value="" + new Date().getFullYear() + "">
+    </label>
+    <button id="filterBtn">ค้นหา</button>
+    <button id="resetBtn">รีเซ็ต</button>
+  </div>
+
+  <div id="calendar"></div>
+
+  <!-- FullCalendar UMD bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.18/index.global.min.js"></script>
+  <script>
+    const calendarEl = document.getElementById('calendar');
+
+    const initialEvents = [
+      { id: '1', title: 'งานประชุม', start: new Date().toISOString().slice(0,10) },
+      { id: '2', title: 'นัดหมาย', start: new Date(new Date().getTime()+86400000).toISOString().slice(0,10) }
+    ];
+
+    const calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,listWeek'
+      },
+      height: 'auto',
+      selectable: true,
+      editable: true,
+      businessHours: true,
+      locale: 'th',
+      events: initialEvents,
+
+      dateClick: function(info) {
+        const title = prompt('ชื่อตารางเหตุการณ์ สำหรับวันที่ ' + info.dateStr + ':');
+        if (title) {
+          calendar.addEvent({ title, start: info.dateStr, allDay: info.allDay });
+        }
+      },
+
+      select: function(selectionInfo) {
+        const title = prompt('ชื่องานสำหรับช่วงนี้:');
+        if (title) {
+          calendar.addEvent({ title, start: selectionInfo.startStr, end: selectionInfo.endStr, allDay: selectionInfo.allDay });
+        }
+        calendar.unselect();
+      },
+
+      eventClick: function(info) {
+        if (confirm('ต้องการลบเหตุการณ์ "' + info.event.title + '" ?')) {
+          info.event.remove();
+        }
+      }
+    });
+
+    calendar.render();
+
+    document.getElementById('filterBtn').addEventListener('click', function() {
+      const month = document.getElementById('monthPicker').value;
+      const year = document.getElementById('yearPicker').value;
+      if (month && year) {
+        const prefix = year + '-' + month;
+        const filtered = initialEvents.filter(ev => ev.start.startsWith(prefix));
+        calendar.removeAllEvents();
+        calendar.addEventSource(filtered);
+        calendar.gotoDate(new Date(year, parseInt(month) - 1, 1));
+      }
+    });
+
+    document.getElementById('resetBtn').addEventListener('click', function() {
+      calendar.removeAllEvents();
+      calendar.addEventSource(initialEvents);
+    });
+  </script>
+</body>
+</html>

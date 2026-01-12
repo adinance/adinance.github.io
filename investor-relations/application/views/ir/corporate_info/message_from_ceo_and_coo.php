@@ -71,19 +71,44 @@
         <div class="ir-corp05-text" style="text-align: justify; ">
             <p><?php echo isset($this->session->msg_ceo_paragragh_1) ? $this->session->msg_ceo_paragragh_1 : '<strong>Dear Shareholders,</strong>'; ?></p><br>
             <p> 
-                <?php echo isset($this->session->msg_ceo_paragragh_2) ? $this->session->msg_ceo_paragragh_2 : 'For the year 2023, the event and entertainment business overall has rebounded vibrantly, with the event market valued at approximately 14,000 - 15,000 million baht, equivalent to the period before the COVID-19 outbreak. The Company has managed events of all forms, including marketing activities, exhibitions, museums, conferences, seminars, concerts, and festivals, as well as providing equipment installation and controlling image, light, and sound systems, along with producing promotional media, digital content, and multimedia under the concept “THE CREATIVE EXPERIENCE CREATOR,” reinforcing our identity as a creative business that creates experiences for people. Furthermore, the event business plays a vital role in contributing to the country’s economic value. Examples of CMO’s work include the spectacular “GUNDAM Docks at THAILAND” exhibition, the “Siam Square Countdown 2024,” which was held for the first time in Siam Square, the opening and closing ceremonies of the 48th National Sports Competition “Kanchanaburi Games,” and contributions to various industry exhibitions, including the automotive sector and financial institutions, such as the Motor Show, Money Expo. This is just a part of the Company’s continuous growth, not including the supply of production equipment for concerts.';?>
+                <?php echo isset($this->session->msg_ceo_paragragh_2) ? $this->session->msg_ceo_paragragh_2 : 'In 2024, the event and entertainment industry has rebounded with great momentum, bringing
+heightened competition in the market. Currently, there are over 5,000 event management companies in
+the industry. However, when considering those with an annual revenue exceeding 1 billion THB, there are
+only about five major players, including CMO, which remains among the Top 5 in the industry.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_ceo_paragragh_3) ? $this->session->msg_ceo_paragragh_3 : 'Moreover, the Company also engages in the design, construction, and creation of exhibitions for museums and learning centers, which stands as another prominent segment of CMO, generating consistent revenue. Last year, we won a bid worth 143.6 million baht for a project to renovate exhibition buildings and educational services for the Department of Cultural Promotion. This project developed an area of 5,900 square meters into an exhibition space for the knowledge and heritage of national culture, aiming to create a suitable and creative space that meets the need for sustainable cultural learning. A distinctive feature of museum development that sets CMO apart from competitors is our comprehensive approach, blending technology with content, including various image, light, sound, and multimedia systems, adding vibrancy. This approach transforms museums developed with CMO into tourist destinations that not only educate but also create enjoyable experiences for visitors.';?>
+                <?php echo isset($this->session->msg_ceo_paragragh_3) ? $this->session->msg_ceo_paragragh_3 : 'To maintain our competitive edge and achieve our business objectives, CMO has implemented a
+strategic plan with the following key focus areas:<br>
+<br>• The company aims to solidify its position as the No.1 event agency in Thailand, excelling in both
+event management and comprehensive audiovisual services. Our strategy involves retaining our
+existing customer base while developing new business models that align with emerging trends
+and modern lifestyles.
+<br>• The company is committed to integrating cutting-edge digital technologies to create new
+dimensions in event management, ensuring innovative and immersive experiences for all event
+types.
+<br>• The company plans to expand into international markets by focusing on event marketing
+activities, selecting target countries based on economic potential and growth opportunities.
+<br>• The company is fully committed to supporting the government’s Soft Power initiatives by helping
+promote Thai festivals on the global stage, positioning Thailand as a leading Festival Destination.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_ceo_paragragh_4) ? $this->session->msg_ceo_paragragh_4 : 'The Company remains dedicated to maintaining its leadership in the &quot;Creative Event&quot; business, with over 38 years of professional experience, having created more than 30,000 national-level creative projects. We offer comprehensive services with innovative and fresh ideas to our clients, integrating cutting-edge technologies such as Gen AI, AR, VR into our business, along with developing production systems for visuals, lighting, and sound. We have a group of companies with the largest Production Warehouse, equipped with over 50,000 items, capable of supporting up to 12 events simultaneously each day. We have also been behind the magnificent productions at concerts and Music Festivals, both domestically and internationally.';?>
+                <?php echo isset($this->session->msg_ceo_paragragh_4) ? $this->session->msg_ceo_paragragh_4 : 'Looking ahead to 2025, the event industry is poised for significant growth, driven by the
+collaborative efforts of both the public and private sectors to establish Thailand as a World Festival
+Destination—a global hub for hosting world-class events. CMO is closely monitoring these policy
+developments to seize opportunities in shaping major milestone events in the country. A key factor
+behind CMO’s success lies in our creative vision. We believe that creativity is the foundation of our
+business, and every step of our work is driven by boundless innovation. To nurture this creative spirit, we
+emphasize a dynamic and inspiring workplace culture, setting us apart from other organizations.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_ceo_paragragh_5) ? $this->session->msg_ceo_paragragh_5 : 'However, in 2024, beyond our commitment to strengthen our business operations, we also prioritize sustainable business development practices. It is clear that our successes would not be possible without our employees, who are the driving force of CMO. Therefore, we focus on fostering a culture and work environment that is conducive to creativity, believing that creative thinking flourishes in fun and enjoyable settings, which not only increases employee happiness but also enhances work efficiency.';?>
+                <?php echo isset($this->session->msg_ceo_paragragh_5) ? $this->session->msg_ceo_paragragh_5 : 'Lastly, on behalf of the executive team and all employees, I would like to extend my sincere
+gratitude to our clients, business partners, and shareholders for their continued support and trust in CMO.
+I also want to express my deep appreciation for the dedication and hard work of our employees. Rest
+assured that my team and I are fully committed to driving sustainable growth, transparency, and industry
+leadership, ensuring CMO’s long-standing success.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_ceo_paragragh_6) ? $this->session->msg_ceo_paragragh_6 : 'Lastly, on behalf of the management team and all employees, I would like to express our gratitude to our customers, business partners, and shareholders for their continued support and trust in our company. I also thank every member of our staff for their dedication and hard work. Please rest assured that together with the management team, we are committed to leading the Company towards sustainable, transparent growth and maintaining our market leadership.'?>
+                <?php echo isset($this->session->msg_ceo_paragragh_6) ? $this->session->msg_ceo_paragragh_6 : ''?>
             </p>
         </div>
 
@@ -91,7 +116,7 @@
 
             <div class="ir-corp05-name-con row">
 
-                <div class="ir-corp05-name1 col-4">
+                <div class="ir-corp05-name1 col-5">
                     <li class="text-center bold">
                         <?php echo isset($this->session->msg_ceo_name_1) ? $this->session->msg_ceo_name_1 : 'Kitisak Jampathipphong';?>
                     </li><br>
@@ -101,7 +126,7 @@
                     </p>
                 </div>
 
-                <div class="ir-corp05-name2 col-4">
+                <div class="ir-corp05-name2 col-3">
                     <li class="text-center bold">
                         <?php echo isset($this->session->msg_ceo_name_2) ? $this->session->msg_ceo_name_2 : 'Kitti Phuathavornskul';?>
                     </li><br>

@@ -63,6 +63,30 @@
     </div>
 </section> -->
 
+
+<section class="header4 cid-uoCbpTq9ww mbr-parallax-background" id="header4-9i">
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+
+                <div class="mbr-text align-center mbr-white pb-3">
+
+                </div>
+
+            </div>
+            <div class="mbr-figure pt-5">
+                <?php $img = 'chairman-en-1292x543.png';
+                if($this->session->lang == 'thai'){
+                    $img = 'chairman-th-1292x543.png';
+                }
+                ?>
+                <img src="<?php echo BASE_URL . 'assets/img/' . $img; ?>" alt="" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="ir-corp05-section">
 
     <div class="ir-corp05-con">
@@ -70,21 +94,40 @@
         <!-- <div class="ir-corp05-img"><img src="<?php echo BASE_URL; ?>assets/img/ir-corp/message from the board bg.jpg" alt=""></div> -->
         <div class="ir-corp05-text " style="text-align: justify; ">
         <!-- <div class="ir-corp05-text  mbr-fonts-style display-7"> -->
-            <p><?php echo isset($this->session->msg_chairman_paragragh_1) ? $this->session->msg_chairman_paragragh_1 : '<strong>Message from Chairman of the Board of Directors</strong>'; ?></p><br>
+            <p><?php echo isset($this->session->msg_chairman_paragragh_1) ? $this->session->msg_chairman_paragragh_1 : '<strong>Message from Chairman of the Board of Directors<br>CMO Public Company Limited</strong>'; ?></p><br>
             <p> 
-                <?php echo isset($this->session->msg_chairman_paragragh_2) ? $this->session->msg_chairman_paragragh_2 : '“The pessimist sees the difficulty in every opportunity. The optimist sees the opportunity in every difficulty”, said WINSTON CHURCHILL, Former UK Prime Minister. Nowadays, people across the world use this idea as inspiration in their lives or even running their business. I am one of those who see the opportunity rather than the difficulty. That is why I decided to take on the role of Chairman of the Board of Directors of CMO Public Company Limited';?>
+                <?php echo isset($this->session->msg_chairman_paragragh_2) ? $this->session->msg_chairman_paragragh_2 : 'Dear Shareholders,<br><br>In 2024, the event industry has made a significant recovery, in line with the overall economic rebound.
+The market value of the event industry this year is estimated at THB 14-15 billion, amidst an increasingly
+competitive landscape with a continuous influx of new players.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_chairman_paragragh_3) ? $this->session->msg_chairman_paragragh_3 : 'Though I recently assumed the role of the Chairman, due to various situations that need to be addressed and solved, I and the Board of Directors together with the management team have worked closely and held a meeting to formulate strategies aiming at developing CMO and its affiliates to achieve sustainable growth, which is consistent with the targeted strategic plans and business plans.';?>
+                <?php echo isset($this->session->msg_chairman_paragragh_3) ? $this->session->msg_chairman_paragragh_3 : 'Despite the intense competition, CMO continues to uphold its leadership in the Creative Event industry,
+leveraging over 39 years of experience in comprehensive event management. Our expertise spans all dimensions
+of the event industry, including event management, exhibitions, museums, conferences, seminars, concerts, and
+festivals, as well as audiovisual installation and control services, media production, digital content, and
+multimedia. All of these operations are driven by our core concept, &quot;The Creative Experience Creator,&quot; which
+prioritizes quality, innovation, and cutting-edge technology to deliver unique and immersive experiences. This
+commitment has earned CMO recognition as a leading Creative Business both domestically and internationally.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_chairman_paragragh_4) ? $this->session->msg_chairman_paragragh_4 : 'In recent years, we have accepted that the trend of “sustainability” is popular, and every business is unable to remain silent. Every organization must take it and drive it seriously. CMO is aware of the importance of sustainable development under good corporate governance and risk management to enhance the three-dimensional balance, namely, economy, society, and environment. The Company has established the policy on sustainability that comprehensively covers all dimensions as a guideline for sustainability practices.';?>
+                <?php echo isset($this->session->msg_chairman_paragragh_4) ? $this->session->msg_chairman_paragragh_4 : 'Beyond business growth, CMO remains deeply committed to sustainable development, adhering to good
+corporate governance and robust risk management practices to ensure the company’s long-term stability. A key
+driver of sustainable growth is human capital development. We actively enhance and upskill our workforce in
+creativity, finance, and marketing, while fostering an innovative and inspiring work environment that supports
+creative excellence.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_chairman_paragragh_5) ? $this->session->msg_chairman_paragragh_5 : 'CMO sets several goals for improving its business sustainability. One of them is personnel development, promoting skills in creativity, finance, marketing, and creating working environment to ensure employees have creativity because we believe that creativity is the origin of our business. Every step of working is scrutinized from a boundless creative process. It can be said that CMO is the business leader in “Creative Events”, with fully integrated business management, creativity and technology to deliver new experiences in response to consumers in the Gen AI era.';?>
+                <?php echo isset($this->session->msg_chairman_paragragh_5) ? $this->session->msg_chairman_paragragh_5 : 'Looking ahead to 2025, CMO will continue to expand its business scope, with a strong emphasis on
+domestic market growth to reinforce its industry leadership. At the same time, we remain dedicated to building
+strategic business partnerships to support sustainable expansion. Additionally, 2025 will mark a significant
+milestone in CMO’s international market expansion, as we take a more proactive approach to global business
+opportunities.';?>
             </p>
             <p> 
-                <?php echo isset($this->session->msg_chairman_paragragh_6) ? $this->session->msg_chairman_paragragh_6 : 'On behalf of the Board of Directors, I would like to thank all shareholders, investors, customers, trade partners, allies, and supports of the Company, executives, employees, and all stakeholders who always give good cooperation and are a part of our success. In this regard, the Board of Directors has performed its duties attentively, carefully, concisely, adhered to ethical principles and continuously developed the quality for the maximum benefits of all related parties.'?>
+                <?php echo isset($this->session->msg_chairman_paragragh_6) ? $this->session->msg_chairman_paragragh_6 : 'On behalf of the Board of Directors, I would like to express my sincere gratitude to our shareholders,
+investors, clients, partners, and all stakeholders for your unwavering support and invaluable contributions to our
+success. The Board remains committed to exercising due diligence, upholding the highest ethical standards, and
+continuously advancing the organization to maximize value for all stakeholders.'?>
             </p>
         </div>
 

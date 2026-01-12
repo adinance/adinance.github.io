@@ -71,7 +71,9 @@
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>company-structure" aria-expanded="false"><?php echo isset($this->session->company_structure) ? $this->session->company_structure : 'Company Structure'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>organization-chart" aria-expanded="false"><?php echo isset($this->session->organization_chart) ? $this->session->organization_chart : 'Organization Chart'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>board-of-director" aria-expanded="false"><?php echo isset($this->session->board_of_director) ? $this->session->board_of_director : 'Board of Director'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="#" aria-expanded="false"><?php echo isset($this->session->board_of_director) ? $this->session->board_of_director : 'Board of Director'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>management-team" aria-expanded="false"><?php echo isset($this->session->management_team) ? $this->session->management_team : 'Management Team'; ?></a>
+                            <a class="mbr-black dropdown-item display-4" href="#" aria-expanded="false"><?php echo isset($this->session->management_team) ? $this->session->management_team : 'Management Team'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>awards" aria-expanded="false"><?php echo isset($this->session->awards) ? $this->session->awards : 'Awards'; ?></a>
                         </div>
                     </li>
@@ -107,6 +109,8 @@
                                     <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>invitation"><?php echo isset($this->session->invitation) ? $this->session->invitation : 'Invitation'; ?></a>
                                     <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>the-resolutions"><?php echo isset($this->session->the_resolutions) ? $this->session->the_resolutions : 'The Resolution'; ?></a>
                                     <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>the-minutes-of-annual-general-meeting"><?php echo isset($this->session->the_minutes_of_annual_general_meeting) ? $this->session->the_minutes_of_annual_general_meeting : 'The Minutes Of Annual General Meeting'; ?></a>
+                                    <a class="mbr-black dropdown-item display-4" href="<?php echo "https://cmo-group.com/ir/uploads/";?><?php echo isset($this->session->criteria_for_shareholders_to_propose_agenda_items_for_the_meeting) ? $this->session->criteria_for_shareholders_to_propose_agenda_items_for_the_meeting : 'Criteria for Granting Shareholders the Right to Propose Meeting Agenda Items' ; ?><?php echo ".pdf";?>">
+                                        <?php echo isset($this->session->criteria_for_shareholders_to_propose_agenda_items_for_the_meeting) ? $this->session->criteria_for_shareholders_to_propose_agenda_items_for_the_meeting : 'Criteria for Granting Shareholders the Right to Propose Meeting Agenda Items'; ?></a>
                                 </div>
                             </div>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>dividen-policy-and-payment" aria-expanded="false"><?php echo isset($this->session->dividen_policy_and_payment) ? $this->session->dividen_policy_and_payment : 'Dividend Policy & Payment'; ?></a>
@@ -179,7 +183,7 @@
                         <div class="dropdown-menu">
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>ir-contact"><?php echo isset($this->session->ir_contact) ? $this->session->ir_contact : 'IR Contact'; ?></a>
                             <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>email-alerts"><?php echo isset($this->session->email_alerts) ? $this->session->email_alerts : 'Email Alerts'; ?></a>
-                            <!-- <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>faq"><?php echo isset($this->session->faq) ? $this->session->faq : 'FAQ'; ?></a> -->
+                         <!--   <a class="mbr-black dropdown-item display-4" href="<?php echo BASE_URL; ?>faq"><?php echo isset($this->session->faq) ? $this->session->faq : 'FAQ'; ?></a> -->
                         </div>
                     </li>
                 </ul>
