@@ -97,7 +97,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="team-item col-lg-3 col-md-6">
+			<!-- <div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="trairong">
 					<a href="#board-of-director-trairong"><img
 							src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-k-yingrak-510x565.jpg"
@@ -116,7 +116,10 @@
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
+
+			
+
 			<div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="mongkol">
 					<a href="#board-of-director-mongkol"><img
@@ -154,15 +157,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
 
-
-<section class="team1 cid-upzN10L5ye" id="team1-gs">
-    <div class="container align-center">
-        <div class="row media-row">
-        <div class="team-item col-lg-3 col-md-6">
+			<div class="team-item col-lg-3 col-md-6">
                 <div class="item-image">
                     <a href="#board-of-director-vuttiphan"><img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-k-vuttiphan-2-510x565.jpg" ></a>
                 </div>
@@ -180,9 +176,37 @@
 						</p>
 					</div>
                 </div>
-            </div></div>    
-    </div>
+            </div>
+		</div>
+	</div>
 </section>
+
+<!-- 
+<section class="team1 cid-upzN10L5ye" id="team1-gs">
+    <div class="container align-center">
+        <div class="row media-row">
+        	<div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <a href="#board-of-director-vuttiphan"><img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-k-vuttiphan-2-510x565.jpg" ></a>
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-7"><strong>
+                           นายวุฒิพันธ์ ธนะเมธานนท์ </strong></p>
+                    </div>
+                    <div class="item-role px-2 display-4">
+						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
+						• ประธานเจ้าหน้าที่ฝ่ายกลยุทธ์ และพัฒนาภายใน
+						<br>• กรรมการความยั่งยืน
+						<br>• กรรมการบริหารความเสี่ยง
+						<br>• กรรมการบริษัท
+						</p>
+					</div>
+                </div>
+            </div>
+		</div>    
+    </div>
+</section> -->
 
 <section class="cid-upzQ2Lw11N" id="board-of-director-manas">
 	<div class="hovershine">
@@ -234,7 +258,7 @@
 		</figure>
 	</div>
 </section>
-<section class="cid-upzYy89jmz" id="board-of-director-trairong">
+<!-- <section class="cid-upzYy89jmz" id="board-of-director-trairong">
 	<div class="hovershine">
 		<figure class="mbr-figure">
 			<div class="image-block fadein" style="width: 66%;">
@@ -243,7 +267,7 @@
 			</div>
 		</figure>
 	</div>
-</section>
+</section> -->
 <section class="cid-upzYEiNkXX" id="board-of-director-mongkol">
 	<div class="hovershine">
 		<figure class="mbr-figure">
@@ -258,7 +282,7 @@
 	<div class="hovershine">
 		<figure class="mbr-figure">
 			<div class="image-block fadein" style="width: 66%;">
-				<img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-info-k-naphamat-th-1920x2139.jpg"
+				<img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/naphamat-th-1920x2139.jpg"
 					width="1400" alt="" title="">
 			</div>
 		</figure>

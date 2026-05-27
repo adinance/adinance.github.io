@@ -15,12 +15,12 @@
         <div class="image-block" style="width: 100%;">
 
         <?php 
-        $img = 'organization-chart-1920x1486.png';
+        $img = 'organization-chart-en-2026.jpg';
         if($this->session->lang == 'thai'){
-            $img = 'organization-chart-thai-2220x1719.jpg';
+            $img = 'organization-chart-thai-2026.jpg';
         }
         ?>
-        <img src="<?php echo BASE_URL  . PATH_MOBIRISE . 'assets/images/' . $img ; ?>" alt="" title="">
+        <img src="<?php echo BASE_URL . 'assets/img/' . $img ; ?>" alt="" title="">
 
             <!-- <a href="#" data-toggle="modal" data-bs-toggle="modal" data-target="#mbr-popup-7b" data-bs-target="#mbr-popup-7b"><img src="<?php echo BASE_URL  . PATH_MOBIRISE ; ?>assets/images/organization-chart-1920x1486.png" alt="" title=""></a> -->
             

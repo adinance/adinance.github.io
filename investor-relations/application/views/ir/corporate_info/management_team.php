@@ -122,7 +122,7 @@
 <div class="hovershine">
     <figure class="mbr-figure">
         <div class="image-block " >
-        <a href="#mongkol"><img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/board-of-director-info-k-naphamat-1920x2210.jpg"  alt="" title=""></a>
+        <a href="#mongkol"><img src="<?php echo BASE_URL . PATH_MOBIRISE; ?>assets/images/naphamat-1920x2210.jpg"  alt="" title=""></a>
         </div>
     </figure>
 </div>
