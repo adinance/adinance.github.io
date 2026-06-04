@@ -479,21 +479,19 @@
 
 <?php if($current_url=='index'){ ?>
 
-    <div id="imagePopup" class="popup-image" aria-hidden="true">
+    <!-- <div id="imagePopup" class="popup-image" aria-hidden="true">
 
-    <div class="popup-body" role="dialog" aria-modal="true">
+    <div class="popup-body" role="dialog" aria-modal="true"> -->
 
         <!-- <button class="popup-close" id="closeBtn" aria-label="ปิด">×</button> -->
 
 
 
-        <!-- <img id="popupImage" src="https://cmo-group.com/assets/images/queen.jpg" alt="รูปภาพขยาย" width="20%"> -->
-
-        <img id="popupImage" src="https://cmo-group.com/investor-relations/assets/img/pop-up-agm26.jpg" alt="รูปภาพขยาย" width="20%">
+        <!-- <img id="popupImage" src="https://cmo-group.com/assets/images/queen.jpg" alt="รูปภาพขยาย" width="20%">
 
     </div>
 
-    </div>
+    </div> -->
 
 
 <?php } ?>
@@ -555,7 +553,7 @@
 
     window.addEventListener('load', () => {
 
-        //openPopup();
+        openPopup();
 
     });
 

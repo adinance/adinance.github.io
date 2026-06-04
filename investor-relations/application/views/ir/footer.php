@@ -159,7 +159,32 @@
 </script> -->
 
 <script type="text/javascript">
+    // function language(lang) {
+    //     let url = "<?php echo BASE_URL; ?>" + "api/language/" + lang;
+    //     console.log(url);
+    //     $.ajax({
+    //         url: url,
+    //         type: "GET",
+    //         success: function(response) {
+    //             console.log(response);
+    //         },
+    //         error: function(response) {
+    //             console.log(response);
+    //         }
+    //     });
+    //     location.reload();
+    // }
+
+    let isLanguageSwitching = false;
+
     function language(lang) {
+        if (isLanguageSwitching) {
+            return;
+        }
+        isLanguageSwitching = true;
+
+        $(".lang-flag").css("pointer-events", "none").css("opacity", "0.6");
+
         // document.cookie = "ck_lang=" + lang;
         // let url = "https://cmo-group.com/investor-relations/api/language/" + lang;
         let url = "<?php echo BASE_URL; ?>" + "api/language/" + lang;
@@ -167,16 +192,19 @@
         $.ajax({
             url: url,
             type: "GET",
+            cache: false,
             success: function(response) {
                 console.log(response);
                 // $("#go_to_corporate").text(response.go_to_corporate);
                 // $("#switch_lang").text(response.switch_lang);
+                location.reload();
             },
             error: function(response) {
                 console.log(response);
+                $(".lang-flag").css("pointer-events", "").css("opacity", "");
+                isLanguageSwitching = false;
             }
         });
-        location.reload();
     }
 </script>
 
@@ -214,6 +242,23 @@
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/formoid.min.js"></script>
 
 <script src="<?php echo BASE_URL . PATH_MOBIRISE;?>assets/slidervideo/script.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    // $("#myModal").modal('show');
+});
+</script>
+
+<div id="myModal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <!-- <img src="assets/images/gisda-popup.jpg" alt="" title=""> -->
+            <img src="https://cmo-group.com/assets/images/queen.jpg" alt="" title="">
+
+        </div>
+    </div>
+</div>
 
 
 

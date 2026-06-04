@@ -55,26 +55,14 @@
         }
         .document-item img {
             margin-top: -30px;
-            width:82px;
+            width:70px;
             /* height: 30px; */
             margin-right: 20px;
         }
-        .document-info {
-            /* color: #073b5d; */
-            /* color: #4A90E2; */
+        .document-info a {
+            color: #4A90E2;
             text-decoration: none;
             font-weight: bold;
-            
-            
-        }
-        .document-info a {
-            /* color: #073b5d; */
-            /* color: #4A90E2; */
-            /* text-decoration: none; */
-            font-weight: bold;
-            font-size: 0.75em;
-            
-            
         }
     </style>
 <!-- </head> -->
@@ -86,7 +74,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <!-- Stock Price Section -->
-            <div class="col-md-6 stock-section mb-4" style="background-color: #DBE4E9; ">
+            <div class="col-md-6 stock-section mb-4" style="background-color: #DBE4E9;">
                 <img src="<?php echo BASE_URL ?>assets/img/stock-chart.jpg" alt="Stock Chart">
                 <h1 class="text-center mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1" style="padding-top:20px; color: #497AB5;">STOCK PRICE</h1>
                 <div class="stock-details text-center">
@@ -104,38 +92,39 @@
 
             <!-- Latest Documents Section -->
             <div class="col-md-6 documents-section" >
-                <div class="mbr-text pb-3 mbr-fonts-style display-2" style="color: #497AB5; padding-left:20px; margin-bottom: 20px; font-size: 45px;"><strong>LATEST DOCUMENT</strong></div>
+                <div class="mbr-text pb-3 mbr-fonts-style display-2" style="color: #497AB5; padding-left:20px;"><strong>LATEST DOCUMENT</strong></div>
                 <div class="mt-3">
-                    <!-- Repeat for more items -->
+                    <!-- Document Item -->
                     <div class="document-item">
                         <img src="<?php echo BASE_URL ?>assets/img/icon1.png" alt="Document Icon">
                         <div class="document-info">
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d;"><strong>Financial Statement Q3/2024</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/financial-statement/2024_q3_0_en.pdf">Download</a>
-                            </h4>
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Financial Statement Q3/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style display-4" href="#">Download</a>
+                            </p>
                         </div>
                     </div>
+                    <!-- Repeat for more items -->
                     <div class="document-item">
                         <img src="<?php echo BASE_URL ?>assets/img/icon2.png" alt="Document Icon">
                         <div class="document-info">
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d;"><strong>Management Discussion And Analysis Q2/2024</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/operating-result/2024_op_q2_0_en.pdf">Download</a>
-                            </h4>
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Financial Statement Q3/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style display-4" href="#">Download</a>
+                            </p>
                         </div>
                     </div>
                     <div class="document-item">
                         <img src="<?php echo BASE_URL ?>assets/img/icon3.png" alt="Document Icon">
                         <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d;"><strong>Minutes of the EGM of Shareholders No. 1/2024</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/report/2024_rslt_585_en.pdf">Download</a>
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Financial Statement Q3/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style display-4" href="#">Download</a>
                             </p>
                         </div>
                     </div>
                     <div class="document-item">
                         <img src="<?php echo BASE_URL ?>assets/img/icon4.png" alt="Document Icon">
                         <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d;"><strong>56-1 One Report 2023</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/annual-report/2024_ar_1_en.pdf">Download</a>
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7"><strong>Financial Statement Q3/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style display-4" href="#">Download</a>
                             </p>
                         </div>
                     </div>

@@ -334,41 +334,38 @@
                 <div class="mbr-text pb-3 mbr-fonts-style display-2" style="line-height : 1.25em; color: #497AB5; padding-left:20px; margin-bottom: 50px; font-size: 45px;"><strong>LATEST DOCUMENT</strong></div>
                 <div class="mt-3">
                     <!-- Repeat for more items -->
-                    <div class="document-item" style="margin-bottom: 45px;">
-                        <img src="<?php echo BASE_URL ?>assets/img/icon3.png" alt="Document Icon">
-                        <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>The minutes of the Annual General Meeting of Shareholders 2026</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/report/AGM-2026-EN.pdf">Download</a>
-                            </p>
-                        </div>
-                    </div>
-
-                     <div class="document-item " style="margin-bottom: 45px;">
-                    <img src="<?php echo BASE_URL ?>assets/img/icon4.png" alt="Document Icon">
-                        <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Form 56-1 One Report 2025</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper " href="https://cmo-group.com/ir/uploads/annual-report/2025_ar_en.pdf">Download</a>
-                            </p>
-                        </div>
-                    </div>
                     <div class="  document-item" style="margin-bottom: 45px;">
                         <img src="<?php echo BASE_URL ?>assets/img/icon1.png" alt="Document Icon">
                         <div class="document-info">
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;  "><strong>Interim Financial Statements 2026 Q1</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/financial-statement/2026_q1_en.pdf">Download</a>
+                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;  "><strong>Financial Statement Year End 2025</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/financial-statement/2025.pdf">Download</a>
                             </h4>
                         </div>
                     </div>
                     <div class="document-item" style="margin-bottom: 45px;">
                         <img src="<?php echo BASE_URL ?>assets/img/icon2.png" alt="Document Icon">
                         <div class="document-info" >
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Management Discussion and Analysis Quarter 1/2026</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/operating-result/EN_MD&A%20_CMO%20Q1_2026.pdf">Download</a>
+                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Management Discussion And Analysis 2025</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/operating-result/2025_op_q4_0_en.pdf">Download</a>
                             </h4>
                         </div>
                     </div>
-                   
-                   
+                    <div class="document-item" style="margin-bottom: 45px;">
+                        <img src="<?php echo BASE_URL ?>assets/img/icon3.png" alt="Document Icon">
+                        <div class="document-info">
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>The minutes of the Annual General Meeting of Shareholders 2025</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/report/2025_rslt_561_en.pdf">Download</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="document-item " style="margin-bottom: 45px;">
+                    <img src="<?php echo BASE_URL ?>assets/img/icon4.png" alt="Document Icon">
+                        <div class="document-info">
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>56-1 One Report 2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper " href="https://cmo-group.com/ir/uploads/annual-report/2024_ar_en.pdf">Download</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

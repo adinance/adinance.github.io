@@ -1,18 +1,3 @@
-
-
-<div id="imagePopup" class="popup-image" aria-hidden="true">
-
-    <div class="popup-body" role="dialog" aria-modal="true">
-
-        <!-- <button class="popup-close" id="closeBtn" aria-label="ปิด">×</button> -->
-
-
-
-        <img id="popupImage" src="https://cmo-group.com/assets/images/queen.jpg" alt="รูปภาพขยาย" width="20%">
-
-    </div>
-
-    </div>
 <section class="mbr-section content4 cid-uoJufSB28W" id="content4-9p">
     <div class="container">
         <div class="media-container-row">
@@ -334,41 +319,38 @@
                 <div class="mbr-text pb-3 mbr-fonts-style display-2" style="line-height : 1.25em; color: #497AB5; padding-left:20px; margin-bottom: 50px; font-size: 45px;"><strong>LATEST DOCUMENT</strong></div>
                 <div class="mt-3">
                     <!-- Repeat for more items -->
-                    <div class="document-item" style="margin-bottom: 45px;">
-                        <img src="<?php echo BASE_URL ?>assets/img/icon3.png" alt="Document Icon">
-                        <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>The minutes of the Annual General Meeting of Shareholders 2026</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/report/AGM-2026-EN.pdf">Download</a>
-                            </p>
-                        </div>
-                    </div>
-
-                     <div class="document-item " style="margin-bottom: 45px;">
-                    <img src="<?php echo BASE_URL ?>assets/img/icon4.png" alt="Document Icon">
-                        <div class="document-info">
-                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Form 56-1 One Report 2025</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper " href="https://cmo-group.com/ir/uploads/annual-report/2025_ar_en.pdf">Download</a>
-                            </p>
-                        </div>
-                    </div>
                     <div class="  document-item" style="margin-bottom: 45px;">
                         <img src="<?php echo BASE_URL ?>assets/img/icon1.png" alt="Document Icon">
                         <div class="document-info">
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;  "><strong>Interim Financial Statements 2026 Q1</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/financial-statement/2026_q1_en.pdf">Download</a>
+                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;  "><strong>Financial Statement Q3/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/financial-statement/2024_q3_0_en.pdf">Download</a>
                             </h4>
                         </div>
                     </div>
                     <div class="document-item" style="margin-bottom: 45px;">
                         <img src="<?php echo BASE_URL ?>assets/img/icon2.png" alt="Document Icon">
                         <div class="document-info" >
-                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Management Discussion and Analysis Quarter 1/2026</strong><br>
-                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/operating-result/EN_MD&A%20_CMO%20Q1_2026.pdf">Download</a>
+                            <h4 class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Management Discussion And Analysis Q2/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/operating-result/2024_op_q2_0_en.pdf">Download</a>
                             </h4>
                         </div>
                     </div>
-                   
-                   
+                    <div class="document-item" style="margin-bottom: 45px;">
+                        <img src="<?php echo BASE_URL ?>assets/img/icon3.png" alt="Document Icon">
+                        <div class="document-info">
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>Minutes of the EGM of Shareholders No. 1/2024</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper" href="https://cmo-group.com/ir/uploads/report/2024_rslt_585_en.pdf">Download</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="document-item " style="margin-bottom: 45px;">
+                    <img src="<?php echo BASE_URL ?>assets/img/icon4.png" alt="Document Icon">
+                        <div class="document-info">
+                            <p class="mbr-text pb-3 mbr-fonts-style display-7" style= "line-height : 1.2em; color: #073b5d; padding-left:30px;"><strong>56-1 One Report 2023</strong><br>
+                            <a class="mbr-text pb-3 mbr-fonts-style upper " href="https://cmo-group.com/ir/uploads/annual-report/2024_ar_1_en.pdf">Download</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -430,12 +412,9 @@
                         </div>
                         <div class="card-box caption mbr-white">
                             <p class="mbr-text card-title mbr-fonts-style mbr-lighter display-4">
-                                VDO Clip</p>
-                            <!-- <p class="mbr-text price mbr-fonts-style mbr-lighter display-4"><a
+                                NEWS CLIPPING</p>
+                            <p class="mbr-text price mbr-fonts-style mbr-lighter display-4"><a
                                     href="https://cmo-group.com/investor-relations/news-clipping"
-                                    class="text-white">More</a></p> -->
-                                     <p class="mbr-text price mbr-fonts-style mbr-lighter display-4"><a
-                                    href="https://cmo-group.com/investor-relations/vdo-clip"
                                     class="text-white">More</a></p>
                         </div>
                     </div>

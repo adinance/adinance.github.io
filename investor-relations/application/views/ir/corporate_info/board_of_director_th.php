@@ -19,6 +19,16 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="team1 cid-upzN10L5ye" id="team1">
+	<div class="container align-center">
+		<div class="row media-row">
+			
+			
 			<div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="kitisak">
 					<a href="#board-of-director-kitisak"><img
@@ -30,8 +40,10 @@
 						<p class="mbr-fonts-style display-4"><strong>นายสุจริต อิศรางกูร ณ อยุธยา</strong></p>
 					</div>
 					<div class="item-role px-2 display-4">
-						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">• ประธานคณะกรรมการตรวจสอบ
+						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
+							• ประธานคณะกรรมการตรวจสอบ
 							<br>• กรรมการอิสระ
+						</p>
 					</div>
 				</div>
 			</div>
@@ -48,10 +60,11 @@
 					<div class="item-role px-2 display-4">
 						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
 							• รองประธานคณะกรรมการ
-							<br>• ประธานกรรมการบริหารความเสี่ยง
+							<!-- <br>• ประธานกรรมการบริหารความเสี่ยง -->
 							<br>• กรรมการตรวจสอบ
 							<br>• กรรมการสรรหาและกำหนดค่าตอบแทน
 							<br>• กรรมการอิสระ
+						</p>
 					</div>
 				</div>
 			</div>
@@ -69,16 +82,12 @@
 						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
 							• กรรมการสรรหา และกำหนดค่าตอบแทน<br>
 							• กรรมการตรวจสอบ<br>
-							• กรรมการอิสระ</p>
+							• กรรมการอิสระ
+						</p>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<section class="team1 cid-upzN10L5ye" id="team1-gs">
-	<div class="container align-center">
-		<div class="row media-row">
+
 			<div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="rubporn">
 					<a href="#board-of-director-rubporn"><img
@@ -91,12 +100,20 @@
 					</div>
 					<div class="item-role px-2 display-4">
 						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
+							• ประธานกรรมการบริหารความเสี่ยง<br>
 							• กรรมการตรวจสอบ<br>
 							• กรรมการอิสระ
 						</p>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+<section class="team1 cid-upzN10L5ye" id="team1-gs">
+	<div class="container align-center">
+		<div class="row media-row">
+			
 			<!-- <div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="trairong">
 					<a href="#board-of-director-trairong"><img
@@ -132,13 +149,36 @@
 					</div>
 					<div class="item-role px-2 display-4">
 						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
-							• ประธานเจ้าหน้าที่บริหาร
+							• กรรมการผู้จัดการใหญ่ 
+							<br>• ประธานเจ้าหน้าที่บริหาร
 							<br>• ประธานกรรมการความยั่งยืน
 							<br>• กรรมการบริหารความเสี่ยง
-							<br>• กรรมการบริษัท</p>
+							<br>• กรรมการบริษัท
+						</p>
 					</div>
 				</div>
 			</div>
+
+			<div class="team-item col-lg-3 col-md-6">
+				<div class="item-image" id="trairong">
+					<a href="#board-of-director-nvin"><img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-k-nvin-420x466.jpg"></a>
+				</div>
+				<div class="item-caption py-3">
+					<div class="item-name px-2">
+						<p class="mbr-fonts-style display-4"><strong>นายนวิน เหมรัชตานันต์</strong></p>
+					</div>
+					<div class="item-role px-2 display-4">
+						<p class="display-4" style="font-size: 0.9em !important; padding-top:10px;">
+							• รองกรรมการผู้จัดการใหญ่ 
+							<br>• กรรมการความยั่งยืน
+							<br>• กรรมการสรรหาและกำหนดค่าตอบแทน
+							<br>• กรรมการบริษัท
+							<br>• ผู้อำนวยการด้านกลยุทธ์คอนเทนต์ 
+						</p>
+					</div>
+				</div>
+			</div>
+
 			<div class="team-item col-lg-3 col-md-6">
 				<div class="item-image" id="pichet">
 					<a href="#board-of-director-pichet"><img
@@ -268,6 +308,16 @@
 		</figure>
 	</div>
 </section> -->
+
+<section class="cid-upzYy89jmz" id="board-of-director-nvin">
+	<div class="hovershine">
+		<figure class="mbr-figure">
+			<div class="image-block fadein" style="width: 66%;">
+				<img src="<?php echo BASE_URL . PATH_MOBIRISE ; ?>assets/images/board-of-director-info-k-nvin-th-1920x1902.jpg" width="1400">
+			</div>
+		</figure>
+	</div>
+</section>
 <section class="cid-upzYEiNkXX" id="board-of-director-mongkol">
 	<div class="hovershine">
 		<figure class="mbr-figure">
